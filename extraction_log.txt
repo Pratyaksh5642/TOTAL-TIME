@@ -1,0 +1,195 @@
+
+---> [RUNNING LOGGED & FILTERED VERSION] <---
+Log file being generated at: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+
+=========================================
+Checking Release ID: 6932046...
+✔️ Resolution is 'Solved'. Processing Hierarchy...
+  → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 6932048 | Dept: 'services/csw'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7062630 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.05 hrs | ID: 7062631 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7111459 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 6.00 hrs | ID: 7111454 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 6.00 hrs | ID: 7111461 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 7111455 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 5.00 hrs | ID: 7111456 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 14.00 hrs | ID: 7111457 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7111458 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 7111473 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 7111474 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 7111470 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 7111471 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 7111464 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 7111465 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 7111463 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7062606 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.20 hrs | ID: 7062607 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 7086683 | Dept: '
+test_exe'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7062549 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.25 hrs | ID: 7062539 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 7062544 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 7062548 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7062545 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7062541 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 7062546 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 7062540 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 7062543 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 7062542 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 7062547 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 7101314 | Dept: '
+test_exe'
+      → [NET TOTAL ] Added 0.50 hrs | ID: 7101311 | Type: task | Dept: services/var
+        → [NET TOTAL ] Added 0.02 hrs | ID: 7101312 | Type: review | Dept: services/var
+
+--- Final Hours for Release 6932046 ---
+  NET_Total: 0.52 hrs
+=========================================
+Checking Release ID: 6701983...
+✔️ Resolution is 'Solved'. Processing Hierarchy...
+      → [IGNORED CATEGORY] Skipped 0.75 hrs | ID: 6707186 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.25 hrs | ID: 6707185 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6775911 | Dept: '
+test_exe'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6775916 | Dept: '
+test_exe'
+      → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 6707728 | Dept: 'asw/asw_cluster_1'
+        → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6707724 | Dept: 'asw/asw_cluster_1'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 6707188 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 20.00 hrs | ID: 6720090 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 6720099 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 6.00 hrs | ID: 6720098 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 6.00 hrs | ID: 6720094 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6720095 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 6720085 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6720083 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 6720087 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 14.00 hrs | ID: 6720084 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6720086 | Dept: 'test_exe_(ipb2)'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6720088 | Dept: 'test_exe_(ipb2)'
+  → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 6701984 | Dept: 'services/csw'
+
+--- Final Hours for Release 6701983 ---
+=========================================
+Checking Release ID: 6133802...
+❌ SKIPPING 6133802: Resolution is 'Invalid'
+=========================================
+
+=========================================
+Checking Release ID: 6133800...
+❌ SKIPPING 6133800: Resolution is 'Invalid'
+=========================================
+
+=========================================
+Checking Release ID: 6133798...
+❌ SKIPPING 6133798: Resolution is 'Invalid'
+=========================================
+
+=========================================
+Checking Release ID: 6044588...
+✔️ Resolution is 'Solved'. Processing Hierarchy...
+      → [DEM TOTAL ] Added 1.00 hrs | ID: 6796763 | Type: task | Dept: project management/ipb2.0_dem_team
+      → [IGNORED CATEGORY] Skipped 6.50 hrs | ID: 6769246 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 6769247 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 11.00 hrs | ID: 6809578 | Dept: 'project management/ipb2.0_asw1'
+    → [IGNORED CATEGORY] Skipped 19.00 hrs | ID: 6809592 | Dept: 'project management/ipb2.0_integration_release_team'
+    → [IGNORED CATEGORY] Skipped 4.50 hrs | ID: 6611848 | Dept: '
+test_exe'
+    → [NET REWORK] Added 1.00 hrs | ID: 6790774 | Type: review | Dept: project management/ipb2.0_net_team
+    → [NET REWORK] Added 6.75 hrs | ID: 6680563 | Type: task | Dept: project management/ipb2.0_net_team
+    → [NET REWORK] Added 9.00 hrs | ID: 6790745 | Type: task | Dept: project management/ipb2.0_net_team
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 6601030 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 6699458 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6632622 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [IGNORED CATEGORY] Skipped 7.00 hrs | ID: 6637126 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [IGNORED CATEGORY] Skipped 186.00 hrs | ID: 6601032 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [IGNORED CATEGORY] Skipped 19.00 hrs | ID: 6601036 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [IGNORED CATEGORY] Skipped 10.00 hrs | ID: 6754849 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+    → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 6787990 | Dept: 'project management/ipb2.0_integration_release_team/test_exe'
+      → [DEM REWORK] Added 8.00 hrs | ID: 6668510 | Type: task | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 1.50 hrs | ID: 6668518 | Type: review | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 1.00 hrs | ID: 6668519 | Type: review | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 4.00 hrs | ID: 6668513 | Type: task | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 2.00 hrs | ID: 6668511 | Type: task | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 1.00 hrs | ID: 6668521 | Type: review | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 3.00 hrs | ID: 6668512 | Type: task | Dept: project management/ipb2.0_dem_team
+      → [DEM REWORK] Added 1.00 hrs | ID: 6668520 | Type: review | Dept: project management/ipb2.0_dem_team
+      → [IGNORED CATEGORY] Skipped 8.50 hrs | ID: 6824388 | Dept: 'project management/ipb2.0_asw1'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 6809374 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 42.50 hrs | ID: 6556973 | Dept: 'team_specific/ipb_sim_misc'
+      → [IGNORED CATEGORY] Skipped 51.00 hrs | ID: 6576685 | Dept: 'team_specific/ipb_sim_misc'
+      → [IGNORED CATEGORY] Skipped 24.00 hrs | ID: 6675871 | Dept: 'project management/ipb2.0_misc_team'
+      → [IGNORED CATEGORY] Skipped 37.00 hrs | ID: 6824451 | Dept: '
+test_exe'
+      → [DEM REWORK] Added 8.50 hrs | ID: 6796745 | Type: task | Dept: team_specific/test_dem
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 6720963 | Dept: '
+test_exe'
+      → [DEM REWORK] Added 8.50 hrs | ID: 6832909 | Type: task | Dept: team_specific/test_dem
+      → [IGNORED CATEGORY] Skipped 22.50 hrs | ID: 6756494 | Dept: 'customer_specific/part2spec'
+      → [IGNORED CATEGORY] Skipped 10.00 hrs | ID: 6730971 | Dept: 'customer_specific/part2spec'
+      → [IGNORED CATEGORY] Skipped 0.25 hrs | ID: 6695707 | Dept: 'project management/ipb2.0_integration_release_team'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6688798 | Dept: 'project management/ipb2.0_integration_release_team'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6688808 | Dept: 'ipb_app'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6688807 | Dept: 'ipb_app'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683870 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683871 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 16.00 hrs | ID: 6689041 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 10.00 hrs | ID: 6689040 | Dept: 'int & rel'
+  → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 6044589 | Dept: 'project management/ipb2.0_integration_release_team'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683873 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 45.00 hrs | ID: 6683866 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683868 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 9.00 hrs | ID: 6683872 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683869 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683867 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683901 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683899 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 16.00 hrs | ID: 6683898 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683902 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683900 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 6683876 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683883 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 6683875 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 18.00 hrs | ID: 6764168 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683890 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 6764167 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683880 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 9.50 hrs | ID: 6764170 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6683892 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6683887 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683877 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683888 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6683886 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 6683878 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 6764171 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683882 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683879 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683895 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6764166 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 2.00 hrs | ID: 6792142 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683896 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6683891 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6683893 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 8.00 hrs | ID: 6683889 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 4.00 hrs | ID: 6683881 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.50 hrs | ID: 6683884 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 3.00 hrs | ID: 6683894 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 5.50 hrs | ID: 6683885 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 36.50 hrs | ID: 6683859 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 1.00 hrs | ID: 6683861 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 6683860 | Dept: 'int & rel'
+      → [IGNORED CATEGORY] Skipped 0.50 hrs | ID: 6484795 | Dept: 'project management/ipb2.0_asw1'
+      → [IGNORED CATEGORY] Skipped 5.00 hrs | ID: 6484765 | Dept: 'project management/ipb2.0_asw1'
+      → [IGNORED CATEGORY] Skipped 0.10 hrs | ID: 6768446 | Dept: '
+test_exe'
+      → [NET TOTAL ] Added 4.00 hrs | ID: 6692608 | Type: task | Dept: services/var
+      → [NET TOTAL ] Added 0.50 hrs | ID: 6692627 | Type: review | Dept: services/var
+      → [NET TOTAL ] Added 2.00 hrs | ID: 6692458 | Type: task | Dept: services/var
+
+--- Final Hours for Release 6044588 ---
+  NET_Total: 6.50 hrs
+  DEM_Total: 1.00 hrs
+  NET_Rework: 16.75 hrs
+  DEM_Rework: 38.50 hrs
+
+✅ Success! Filtered & Categorized data saved to 'c:\Users\LOP2COB\Desktop\TOTAL TIME\output_Solved_Invalid.csv'.

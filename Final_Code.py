@@ -14,7 +14,7 @@ PASSWORD = "shreyansh4991Ab#"
 # Get the script's directory to load files relative to it
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "input(1).csv")
-OUTPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "output(1).csv")
+OUTPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "output.csv")
 
 # --- SETUP SESSION ---
 session = requests.Session()

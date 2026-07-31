@@ -11,12 +11,10 @@ ALM_BASE_URL = "https://rb-alm-06-p.de.bosch.com/ccm"
 USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
-# Get the script's directory to load files relative to it
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "input(1).csv")
-OUTPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "output(1).csv")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "input.csv")
+OUTPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "output_categorized.csv")
 
-# --- SETUP SESSION ---
 session = requests.Session()
 session.auth = (USERNAME, PASSWORD)
 headers = {
@@ -24,8 +22,10 @@ headers = {
     "OSLC-Core-Version": "2.0"
 }
 
+# Remembers URL-to-Department-Name mappings so ALM doesn't lock us out for spamming
+KNOWN_DEPARTMENT_URLS = {}
+
 def get_workitem_json(url):
-    """Fetches the JSON data for a specific work item."""
     try:
         response = session.get(url, headers=headers, verify=False)
         if response.status_code == 200:
@@ -34,42 +34,65 @@ def get_workitem_json(url):
         print(f"Error fetching {url}: {e}")
     return None
 
-# Notice the added parameters: depth and is_rework_branch
+def get_department_name(department_url):
+    """Fetches the exact department/category name for a specific task's URL"""
+    if not department_url:
+        return ""
+    
+    if department_url in KNOWN_DEPARTMENT_URLS:
+        return KNOWN_DEPARTMENT_URLS[department_url]
+    
+    cat_data = get_workitem_json(department_url)
+    title = ""
+    if cat_data:
+        title = cat_data.get("dc:title") or cat_data.get("rtc_cm:hierarchicalName") or ""
+    
+    title_lower = title.lower()
+    KNOWN_DEPARTMENT_URLS[department_url] = title_lower 
+    return title_lower
+
+def get_bucket_for_category(category_name):
+    """Sorts the department into your specific buckets. Returns None if it doesn't match."""
+    name = category_name.lower()
+    
+    if any(kw in name for kw in ["net", "fota", "var", "dpe", "hmi"]):
+        return "NET"
+    elif any(kw in name for kw in ["diag", "dcom", "sar"]):
+        return "DCOM"
+    elif any(kw in name for kw in ["obd", "dem", "dsm", "dws"]):
+        return "DEM"
+    
+    return None # Ignored if it belongs to other departments
+
 def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=False):
-    """
-    Recursively crawls down the work item tree.
-    Returns: (total_effort_ms, rework_effort_ms)
-    """
     if visited is None:
         visited = set()
 
-    # Prevent infinite loops if ALM has cyclical links
+    efforts = {
+        "NET_Total": 0, "DCOM_Total": 0, "DEM_Total": 0,
+        "NET_Rework": 0, "DCOM_Rework": 0, "DEM_Rework": 0
+    }
+
     if work_item_url in visited:
-        return 0, 0
+        return efforts
     visited.add(work_item_url)
 
     data = get_workitem_json(work_item_url)
     if not data:
-        return 0, 0
-
-    total_effort_ms = 0
-    rework_effort_ms = 0
+        return efforts
 
     # --- BULLETPROOF ID EXTRACTION ---
     item_id = data.get("dcterms:identifier") or data.get("dc:identifier") or data.get("identifier")
     if not item_id:
-        # Fallback: Just slice the number off the end of the URL!
         item_id = str(work_item_url).rstrip('/').split('/')[-1]
 
     # --- BULLETPROOF TYPE EXTRACTION ---
     item_type_str = ""
-    # Check all possible JSON keys ALM might use for "Type"
     dc_type = data.get("dcterms:type") or data.get("dc:type") or data.get("type") or data.get("rtc_cm:type")
     
     if isinstance(dc_type, dict):
         item_type_str = dc_type.get("rdf:resource", "").lower()
     elif isinstance(dc_type, list) and len(dc_type) > 0:
-        # Sometimes ALM returns a list of types
         first_type = dc_type[0]
         item_type_str = first_type.get("rdf:resource", "").lower() if isinstance(first_type, dict) else str(first_type).lower()
     elif isinstance(dc_type, str):
@@ -79,29 +102,38 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
     if not type_name_short:
         type_name_short = "unknown_type"
 
-    # --- BULLETPROOF TIME EXTRACTION ---
     time_spent_raw = data.get("rtc_cm:timeSpent")
     time_spent_ms = int(time_spent_raw) if time_spent_raw else 0
 
-    # --- THE INHERITANCE FIX ---
-    # If the parent was a defect, OR this current item is a defect, the whole branch is rework
     current_is_rework = is_rework_branch or ("defect" in item_type_str)
 
-    # --- Calculation & Debugging ---
+    # --- ONLY CHECK CATEGORY ON TASKS WITH TIME ---
     if time_spent_ms > 0:
         hours_logged = time_spent_ms / 3600000
         indent = "  " * depth
         
-        if current_is_rework:
-            rework_effort_ms += time_spent_ms
-            print(f"{indent}→ [REWORK] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short}")
+        # Grab the specific Task's department URL
+        filed_against_data = data.get("rtc_cm:filedAgainst", {})
+        task_category_url = ""
+        if isinstance(filed_against_data, dict):
+            task_category_url = filed_against_data.get("rdf:resource", "")
+        elif isinstance(filed_against_data, str):
+            task_category_url = filed_against_data
+            
+        task_department_name = get_department_name(task_category_url)
+        bucket = get_bucket_for_category(task_department_name)
+        
+        if bucket:
+            bucket_key = f"{bucket}_Rework" if current_is_rework else f"{bucket}_Total"
+            efforts[bucket_key] += time_spent_ms
+            
+            rework_str = "REWORK" if current_is_rework else "TOTAL "
+            print(f"{indent}→ [{bucket} {rework_str}] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: {task_department_name}")
         else:
-            total_effort_ms += time_spent_ms
-            print(f"{indent}→ [TOTAL]  Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short}")
+            print(f"{indent}→ [IGNORED] Skipped {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}'")
 
-    # 3. Find and recursively crawl Child Links
+    # --- PROCESS CHILDREN ---
     children_data = data.get("rtc_cm:com.ibm.team.workitem.linktype.parentworkitem.children")
-    
     if not children_data:
         children_data = []
     elif isinstance(children_data, dict):
@@ -111,23 +143,20 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
         if isinstance(child, dict) and "rdf:resource" in child:
             child_url = child["rdf:resource"]
             
-            # Recursive drill-down: PASS THE current_is_rework FLAG DOWN
-            child_total, child_rework = process_hierarchy(child_url, visited, depth + 1, current_is_rework)
+            child_efforts = process_hierarchy(child_url, visited, depth + 1, current_is_rework)
             
-            total_effort_ms += child_total
-            rework_effort_ms += child_rework
+            for key in efforts.keys():
+                efforts[key] += child_efforts[key]
 
-    return total_effort_ms, rework_effort_ms
-
+    return efforts
 
 if __name__ == "__main__":
-    print("Starting ALM Effort Extraction (DEBUG MODE)...\n")
+    print("\n---> [RUNNING FULLY FIXED CATEGORIZED VERSION] <---")
+    print("Starting ALM Effort Extraction...\n")
     
-    # Prepare the output CSV data
     processed_rows = []
     
     try:
-        # Open your input CSV (Using your exact utf-16 / tab delimiter logic)
         with open(INPUT_CSV_FILE, mode="r", encoding="utf-16") as infile:
             reader = csv.DictReader(infile, delimiter="\t")
             
@@ -143,34 +172,29 @@ if __name__ == "__main__":
                 print(f"=========================================")
                 root_url = f"{ALM_BASE_URL}/resource/itemName/com.ibm.team.workitem.WorkItem/{release_id}"
                 
-                # Do the recursive calculation
-                total_ms, rework_ms = process_hierarchy(root_url)
+                efforts_ms = process_hierarchy(root_url)
                 
-                # Convert milliseconds to readable hours
-                total_hours = total_ms / 3600000
-                rework_hours = rework_ms / 3600000
+                print(f"\n--- Final Hours for Release {release_id} ---")
                 
-                print(f"\n--- Final for Release {release_id} ---")
-                print(f"Total Effort: {total_hours:.2f} | Rework: {rework_hours:.2f}\n")
+                for key, ms_val in efforts_ms.items():
+                    hours = ms_val / 3600000
+                    row[f"{key} (Hours)"] = round(hours, 2)
+                    
+                    if hours > 0:
+                        print(f"  {key}: {hours:.2f} hrs")
                 
-                # Append to our new row data
-                row["Total Effort (Hours)"] = round(total_hours, 2)
-                row["Rework Effort (Hours)"] = round(rework_hours, 2)
                 processed_rows.append(row)
                 
-        # Save the results to the output CSV
         if processed_rows:
-            # We grab the column headers from the first processed row
             fieldnames = list(processed_rows[0].keys())
-            
             with open(OUTPUT_CSV_FILE, mode="w", newline="", encoding="utf-8") as outfile:
                 writer = csv.DictWriter(outfile, fieldnames=fieldnames)
                 writer.writeheader()
                 writer.writerows(processed_rows)
                 
-            print(f"✅ Success! All data processed and saved to '{OUTPUT_CSV_FILE}'.")
+            print(f"\n✅ Success! Categorized data saved to '{OUTPUT_CSV_FILE}'.")
         else:
-            print("\n⚠️ No rows were processed. Please check your input CSV format.")
+            print("\n⚠️ No rows were processed.")
 
     except FileNotFoundError:
-        print(f"Error: Could not find '{INPUT_CSV_FILE}'. Please ensure the file is in the same folder as this script.")
+        print(f"Error: Could not find '{INPUT_CSV_FILE}'.")
