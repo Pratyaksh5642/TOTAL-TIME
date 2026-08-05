@@ -1,0 +1,341 @@
+FiledAgainst,Component_Revised
+_CoC/DSM (DEM),DSM
+_CoC/Innovation activities/Inno - Democar,NA
+_CoC/ISW/DCOM,DCOM
+_CoC/ISW/DCOM/DCOM_Cob,DCOM
+_CoC/ISW/DCOM/DCOM_Dy,DCOM
+_CoC/ISW/DSM (DEM),DSM
+_CoC/ISW/DSM [FNID0079],DSM
+_CoC/ISW/DSM [FNID0079]/DSM_BGSV,DSM
+_CoC/ISW/DSM [FNID0079]/DSM_Cob,DSM
+_CoC/ISW/HMI - Human Machine Interface,NET
+_CoC/ISW/HMI - Human Machine Interface/HMI_Ban,NET
+_CoC/ISW/HMI - Human Machine Interface/HMI_Cob,NET
+_CoC/ISW/NET [FNID0027],NET
+_CoC/ISW/NET [FNID0027]/NET_Cob,NET
+_CoC/ISW/NET [FNID0027]/NET_Dy,NET
+_CoC/ISW/OBD,DSM
+_CoC/ISW/VAR_archived,NET
+_CoC/ISW/VAR_REN,NET
+_CoC/ISW/VAR_STLA,NET
+Any Product/System Services/DCOM,DCOM
+Any Product/System Services/DSM - System Modes,DSM
+Any Product/System Services/HMI - Human Machine Interface,NET
+Any Product/System Services/NET - Network Communication,NET
+Any Product/System Services/NM - Network Management,NET
+Any Product/System Services/VAR - Variant Coding and Variant Handling,NET
+Application/Application fASW Body Control and Pedal HMI,NA
+Application/Application pASW Pedal HMI,NA
+BSW Diag And Network Comm,NA
+BSW Diag And Network Comm/CBDS,DSM
+BSW Diag And Network Comm/CUS,NA
+BSW Diag And Network Comm/DCOM,DCOM
+BSW Diag And Network Comm/DSM,DSM
+BSW Diag And Network Comm/HMI,DSM
+BSW Diag And Network Comm/NET,NET
+BSW Diag And Network Comm/OBD,DSM
+BSW Diag And Network Comm/RTE,NET
+BSW Diag And Network Comm/Test - Basetech -1,NA
+BSW Diag And Network Comm/Test Execution BSW -1,NA
+BSW Diag And Network Comm/VAR,NET
+BWA/BWA DCOM,DCOM
+BWA/BWA DEM,DSM
+BWA/BWA NET,NET
+BWA/BWA_BSW/BWA_DCOM,DCOM
+BWA/BWA_BSW/BWA_DSM,DSM
+BWA/BWA_BSW/BWA_HMI - VAR,NET
+BWA/BWA_BSW/BWA_NET,NET
+BWA/BWA_BSW/BWA_OBD,DSM
+BWA/BWA_CSW_DEMOCAR,NA
+Capa/PM - Project Management_capa/PM - FC DSM_capa,DSM
+CM-Config management/DEM,DSM
+CMP2.0/CMP2.0-DEM,DSM
+CMP3.0_BSW_DCOM,DCOM
+CMP3.0_BSW_DEM,DSM
+CMP3.0_BSW_NET,NET
+CMP3.1_BSW_NET,NET
+Customer_Specific/FOTA,NET
+DCOM,DCOM
+DCOM_ESP10,DCOM
+DCOM_LA,DCOM
+DEM,DSM
+DEM - System Modes,DSM
+DEM_ESP10_LA,DSM
+DPB/DPB NET,NET
+DSM,DSM
+Env/CompSIM/DCOMSIM,DCOM
+Env/CompSIM/DSMSIM,DSM
+Env/CompSIM/NETSIM,NET
+ES1 CMP/DCOM,DCOM
+ES1 CMP/NET,NET
+ES1 CMP/VAR,NET
+ESP/ESP_ASW_DEMOCAR,NA
+ESP/ESP_BSW/ESP_DCOM,DCOM
+ESP/ESP_BSW/ESP_DSM,DSM
+ESP/ESP_BSW/ESP_HMI - VAR,NET
+ESP/ESP_BSW/ESP_NET,NET
+ESP/ESP_BSW/ESP_OBD,DSM
+ESP/ESP_BSW_DEMOCAR,NA
+ESP/ESP_CSW_DEMOCAR,NA
+ESP10/ESP10 DCOM,DCOM
+ESP10/ESP10 DEM,DSM
+ESP10/ESP10 NET,NET
+ESP10/PSW/DCOM - Customer Diagnosis,DCOM
+ESP10/PSW/DSM - Diagnostics System Management,DSM
+ESP10/PSW/HMI - Human Machine Interface,NET
+ESP10/PSW/NET - Network Communication,NET
+ESP10/PSW/NM - Network Management,NET
+ESP10/PSW/SFD - Protected Vehicle Diagnosis,NA
+ESP10/PSW/VAR - Variant Management,NET
+ESP9.3/ESP93 DCOM,DCOM
+ESP9.3/ESP93 DEM,DSM
+ESP9.3/ESP93 DWS,DSM
+ESP9.3/ESP93 NET,NET
+fASW/Pedal HMI (fASW),NA
+FHI_iBooster_CMP/DCOM,DCOM
+FHI_iBooster_CMP/DEM,DSM
+FHI_iBooster_CMP/NET,NET
+Functions And Services/DCOM,DCOM
+Functions And Services/DCOM/DCOM_BGSV,DCOM
+Functions And Services/DSM (DEM) - Diagnosis and System Management,DSM
+Functions And Services/DSM (DEM) - Diagnosis and System Management/DSM_BGSV,DSM
+Functions And Services/NET,NET
+Functions And Services/NET/NET_BGSV,NET
+Generic_Topics/FT1_G9.3_ESP/FT1_G9.3_ESP_DCOM,DCOM
+Generic_Topics/FT1_G9.3_ESP/FT1_G9.3_ESP_DEM,DSM
+Generic_Topics/FT1_G9.3_ESP/FT1_G9.3_ESP_NET,NET
+Generic_Topics/FT2_G9.3_iB/FT2_G9.3_iB_DCOM,DCOM
+Generic_Topics/FT2_G9.3_iB/FT2_G9.3_iB_DEM,DSM
+Generic_Topics/FT2_G9.3_iB/FT2_G9.3_iB_NET,NET
+Generic_Topics/FT3_G10_EU_ESP/FT3_G10_EU_ESP_DCOM,DCOM
+Generic_Topics/FT3_G10_EU_ESP/FT3_G10_EU_ESP_DEM,DSM
+Generic_Topics/FT3_G10_EU_ESP/FT3_G10_EU_ESP_NET,NET
+Generic_Topics/FT4_G10_EU_iB/FT4_G10_EU_iB_DCOM,DCOM
+Generic_Topics/FT4_G10_EU_iB/FT4_G10_EU_iB_DEM,DSM
+Generic_Topics/FT4_G10_EU_iB/FT4_G10_EU_iB_NET,NET
+Generic_Topics/FT5_G10_FE_ESP/FT5_G10_FE_ESP_DCOM,DCOM
+Generic_Topics/FT5_G10_FE_ESP/FT5_G10_FE_ESP_DEM,DSM
+Generic_Topics/FT5_G10_FE_ESP/FT5_G10_FE_ESP_NET,NET
+Generic_Topics/FT6_G10_FE_DPB/FT6_G10_FE_DPB_DCOM,DCOM
+Generic_Topics/FT6_G10_FE_DPB/FT6_G10_FE_DPB_DEM,DSM
+Generic_Topics/FT6_G10_FE_DPB/FT6_G10_FE_DPB_NET,NET
+Generic_Topics/Team_01_NET,NET
+Generic_Topics/Team_03_DEM,DSM
+Generic_Topics/Team_09_DCOM,DCOM
+Generic_Topics/Team_09_DCOM/Team_09_DCOM_1,DCOM
+Generic_Topics/Team_15_OBDonUDS,DSM
+GM/GM_ASW/GM_HMI,NET
+GM/GM_BSW/GM_DCOM,DCOM
+GM/GM_BSW/GM_DCOM/GM_DCOM_Common,DCOM
+GM/GM_BSW/GM_DEM,DSM
+GM/GM_BSW/GM_DEM/GM_DEM_Common,DSM
+GM/GM_BSW/GM_DEM/GM_DEM_FC,DSM
+GM/GM_BSW/GM_NET,NET
+GM/GM_BSW/GM_NET/GM_NET_COMMON,NET
+GM/GM_BSW/GM_NET/GM_NET_FC,NET
+GM/GM_BSW/GM_VAR,NET
+GM/GM_OBD,DSM
+GPA ASW Core and Veh Dynamics - Core Functions/Core-Net,NET
+HMI,NET
+HSW & ISW/DCOM,DCOM
+HSW & ISW/DEM,DSM
+HSW & ISW/DPE,NET
+HSW & ISW/Fota,NET
+HSW & ISW/HMI,NET
+HSW & ISW/NET,NET
+HSW & ISW/OBD,DSM
+HSW & ISW/SAR,DCOM
+HSW & ISW/VAR,NET
+iB2/iB2 DCOM,DCOM
+iB2/iB2 DEM,DSM
+iB2/iB2 NET,NET
+IPB/BSW/DCOM,DCOM
+IPB/BSW/DSM,DSM
+IPB/BSW/NET,NET
+IPB/BSW/VAR,NET
+IPB/IPB_SW/IPB_BSW/IPB_DCOM,DCOM
+IPB/IPB_SW/IPB_BSW/IPB_DSM,DSM
+"IPB/IPB_SW/IPB_BSW/IPB_EMM - CL1 [NET, EMM, MES, SOK]",NET
+IPB/IPB_SW/IPB_BSW/IPB_FOTA,NET
+IPB/IPB_SW/IPB_BSW/IPB_HMI - VAR - RTE,NET
+"IPB/IPB_SW/IPB_BSW/IPB_MES - CL1 [NET, EMM, MES, SOK]",NET
+IPB/IPB_SW/IPB_BSW/IPB_NET,NET
+"IPB/IPB_SW/IPB_BSW/IPB_NET - CL1 [NET, EMM, MES, SOK]",NET
+IPB/IPB_SW/IPB_BSW/IPB_OBD,DSM
+IPB/IPB_SW/IPB_BSW/IPB_OBD_TEST,NA
+"IPB/IPB_SW/IPB_BSW/IPB_SOK - CL1 [NET, EMM, MES, SOK]",NET
+"IPB/IPB_TEST/IPB_TEST - BSW Team/IPB_TEST - CL1 [NET, HMI, VAR, RTE, EMM, MES, SOK]",NET
+"IPB/IPB_TEST/IPB_TEST - BSW Team/IPB_TEST - CL3 [OBD, HSW, BOOT]",NA
+"IPB/IPB_TEST/IPB_TEST - BSW Team/IPB_TEST - CL4 [DCOM, DSM, SFD, FOTA]",NA
+IPB2.0_DCOM_Team,DCOM
+IPB2.0_DCOM_Team (to archive),DCOM
+IPB2.0_DEM_Team,DSM
+IPB2.0_NET_Team,NET
+IPB2.0_NET_Team (to archive),NET
+IVECO_ESP10_CMP2.1/DCOM,DCOM
+IVECO_ESP10_CMP2.1/DEM,DSM
+IVECO_ESP10_CMP2.1/NET,NET
+IVECO_ESP10_CMP2.1/VAR,NET
+Mainstream/Software Configuration/APP/DCOM,DCOM
+Mainstream/Software Configuration/APP/DSM,DSM
+Mainstream/Software Configuration/APP/NET,NET
+Mainstream/Software Development/APP/DCOM,DCOM
+Mainstream/Software Development/APP/DSM,DSM
+Mainstream/Software Development/APP/NET,NET
+"Mainstream/Software Development/HWP/CUBAS/Diagnosis/DEM, STM",DSM
+NET,NET
+NET - Network Communication,NET
+NET_ESP10,NET
+NET_ESP10_LA,NET
+NET-CAN,NET
+Nissan/PSW/DCOM,DCOM
+Nissan/PSW/DCOM/BGSV_MS_EAS_DCOM,DCOM
+Nissan/PSW/DEM,DSM
+Nissan/PSW/DEM/BGSV_MS_EAS_DEM,DSM
+Nissan/PSW/DEM/RBEI_ESJ_ESJ22_DEM,DSM
+Nissan/PSW/NET,NET
+Nissan/PSW/NET/BGSV_MS_EAS_NET,NET
+Nissan/PSW/NET/RBEI_ESJ_ESJ12_HMI,NET
+Nissan/PSW/NET/RBEI_ESJ_ESJ12_NET,NET
+Nissan/PSW/VAR_HMI,NET
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DCOM,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DCOM/DPB DCOM_BGSV,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DCOM/DPB DCOM_BGSW,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DSM (DEM) - Diagnosis and System Management,DSM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DSM (DEM) - Diagnosis and System Management/DPB DSM_BGSV,DSM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DSM (DEM) - Diagnosis and System Management/DPB DSM_BGSW,DSM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB DSM (DEM) - Diagnosis and System Management/DPB DSM_Yh,DSM
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB HMI,NET
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB HMI/DPB HMI_BGSV,NET
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB HMI/DPB HMI_BGSW,NET
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB NET/DPB NET_BGSV,NET
+Nissan-MMC/Functions and Services/Functions and Services - DPB/DPB NET/DPB NET_BGSW,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DCOM,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DCOM/DCOM_Ban,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DCOM/DCOM_BGSV,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DCOM/DCOM_Yh,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DSM (DEM) - Diagnosis and System Management,DSM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DSM (DEM) - Diagnosis and System Management/DSM_BGSV,DSM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DSM (DEM) - Diagnosis and System Management/DSM_BGSW,DSM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/DSM (DEM) - Diagnosis and System Management/DSM_Yh,DSM
+Nissan-MMC/Functions and Services/Functions and Services - ESP/HMI - Human Machine Interface/HMI_BGSV,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/HMI - Human Machine Interface/HMI_BGSW,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/HMI - Human Machine Interface/HMI_Yh,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/NET,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/NET/NET_BGSV,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/NET/NET_BGSW,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/NET/NET_Yh,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/VAR - Variant Handling/VAR_BGSV,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/VAR - Variant Handling/VAR_BGSW,NET
+Nissan-MMC/Functions and Services/Functions and Services - ESP/VAR - Variant Handling/VAR_Yh,NET
+Nissan-MMC/Functions and Services/Functions and Services - iBooster/iB2 DCOM/iB2 DCOM_BGSV,DCOM
+Nissan-MMC/Functions and Services/Functions and Services - iBooster/iB2 DEM,DSM
+Nissan-MMC/Functions and Services/Functions and Services - iBooster/iB2 DEM/iB2 DEM_BGSV,DSM
+Nissan-MMC/Functions and Services/Functions and Services - iBooster/iB2 NET,NET
+Nissan-MMC/Functions and Services/Functions and Services - iBooster/iB2 NET/iB2 NET_BGSV,NET
+Nissan-MMC/Functions and Services/Functions and Services - iBooster/iB2 NET/iB2 NET_Yh,NET
+pASW/Pedal HMI (pASW),NA
+PM - Project Management/PM DCOM,DCOM
+PM - Project Management/PM_Pool_OBD-Boot-Sec,DSM
+PM - Project Management/PM_Pool_SysArchAndSafety,NA
+PM_Pool_OBD-Boot-Sec,DSM
+Project Management/IPB2.0_DCOM_Team,DCOM
+Project Management/IPB2.0_DEM_Team,DSM
+Project Management/IPB2.0_NET_Team,NET
+Project Management/PM fASW DevSTREAM/PM fASW Body Control and Pedal HMI,NA
+Project Management/PM pASW DevSTREAM/PM pASW Pedal HMI,NA
+RBU/RBU_SW/RBU_BSW/RBU_DCOM,DCOM
+RBU/RBU_SW/RBU_BSW/RBU_DSM,DSM
+"RBU/RBU_SW/RBU_BSW/RBU_MES - CL1 [NET, EMM, MES, SOK]",NET
+"RBU/RBU_SW/RBU_BSW/RBU_NET - CL1 [NET, EMM, MES, SOK]",NET
+"RBU/RBU_SW/RBU_BSW/RBU_SOK - CL1 [NET, EMM, MES, SOK]",NET
+"RBU/RBU_TEST/RBU_TEST - BSW Team/RBU_TEST - CL1 [NET, EMM, MES, SOK]",NET
+"RBU/RBU_TEST/RBU_TEST - BSW Team/RBU_TEST - CL4 [DCOM, DSM, SFD, FOTA]",NA
+ResourceTrial/DCOM,DCOM
+SBR DPB2.0/DCOM [FNID: 216],DCOM
+SBR DPB2.0/DEM [FNID: 79],DSM
+SBR DPB2.0/NET [FNID: 27],NET
+SBR ESP10/ISW/DCOM[FNID 0216],DCOM
+SBR ESP10/ISW/DSM[FNID 0079],DSM
+SBR ESP10/ISW/NET,NET
+SBR ESP10/ISW/NET/EMM[FNID 2005],NET
+SBR ESP10/ISW/NET/HMI[FNID 0518],NET
+SBR ESP10/ISW/VAR[FNID 0477],NET
+Sensors/SSP-NET,NA
+Services/DCOM,DCOM
+Services/DCOM - Customer Diagnosis,DCOM
+Services/DCOM - Customer Diagnosis/DSM - System Modes,DSM
+Services/DCOM - Customer Diagnosis/DSM - System Modes/DSM - System Modes,DSM
+Services/DCOM - Customer Diagnosis/DSM - System Modes/FC3 DSM,DSM
+Services/DCOM - Customer Diagnosis/DSM - System Modes/FC6 DSM,DSM
+Services/DCOM - Customer Diagnosis/FC3 DCOM,DCOM
+Services/DCOM - Customer Diagnosis/OBD - On Board Diagnosis,DCOM
+Services/DCOM - Customer Diagnosis/PBL - Primary Boot Loader,DCOM
+Services/DCOM - Customer Diagnosis/SOTA- Software over the air,DCOM
+Services/DCOM - Customer Diagnosis/Test DCOM,NA
+Services/DEM,DSM
+Services/HMI,NET
+Services/HMI - Human Machine Interface,NET
+Services/NET,NET
+Services/NET - Network Communication,NET
+Services/NET - Network Communication/FC1 NET Signals,NET
+Services/NET - Network Communication/FC2 NET Signals,NET
+Services/NET - Network Communication/FC3 NET Signals,NET
+Services/NET - Network Communication/FC4 NET Signals,NET
+Services/NET - Network Communication/FC5 NET Signals,NET
+Services/NET - Network Communication/FC6 NET Signals,NET
+Services/NET - Network Communication/SEC - Security,NET
+Services/NM - Network Management,NET
+Services/OBD,DSM
+Services/OBD - On Board Diagnosis,DSM
+Services/VAR,NET
+Services/VAR - Variant Coding and Variant Handling,NET
+SMC_EBJ_Team/SMC_DEM,DSM
+SMC_EBJ_Team/SMC_DIAG,DCOM
+SMC_EBJ_Team/SMC_NET,NET
+SMC_NET,NET
+Software/Application Algorithms/iBooster Gen2/iB2_DTC - DriveTrainControl/iB2_PSC - PermanentMagnetSynchronousMotor,NA
+Software/BSW/DCOM,DCOM
+Software/BSW/DSM - Diagnostic & System Management,DSM
+Software/BSW/NET,NET
+Software/System Functions/DCOM - Customer Diagnosis,DCOM
+Software/System Functions/DCOM - Customer Diagnosis/CDD Documentation,DCOM
+Software/System Functions/DPE - Driver Program Evaluation,NET
+Software/System Functions/DSM - Diagnosis and System Management,DSM
+Software/System Functions/HMI - Human Machine Interface,NET
+Software/System Functions/NET - Network Communication,NET
+Software/System Functions/OBD PCO - On Board Diagnosis Project Coordination,DSM
+Software/System Functions/OBDonUDS SW - On Board Diagnosis on UDS SW,DSM
+Software/System Functions/Plant Diagnosis,NA
+Software/System Functions/SAR - System Data Analysis Recorder,DCOM
+Software/System Functions/VAR - Variant Coding and Variant Handling,NET
+SSP31_PJM/PJM_DEMO_CAR,NA
+STLA_IVECO_Project_CATEGORY/BSW_DCOM,DCOM
+STLA_IVECO_Project_CATEGORY/BSW_DEM,DSM
+STLA_IVECO_Project_CATEGORY/BSW_NET,NET
+Team_01_NET,NET
+Team_09_DCOM,DCOM
+Team_Specific/DEM_ISW,DSM
+Team_Specific/NET_ISW,NET
+Team_Specific/Test_DCOM,NA
+Team_Specific/Test_DEM,NA
+Team_Specific/Test_NET,NA
+Test Development/Test Development fASW Body Control and Pedal HMI,NA
+Test/Test MBG/Test MBG BSW DCOM,NA
+Test/Test MBG/Test MBG BSW DPE,NA
+Test/Test MBG/Test MBG BSW DSM,NA
+Test/Test MBG/Test MBG BSW HMI,NA
+Test/Test MBG/Test MBG BSW NET,NA
+Test/Test MBG/Test MBG BSW OBD,NA
+Test/Test MBG/Test MBG BSW SAR,NA
+Test/Test MBG/Test MBG BSW VAR,NA
+Test_diag (archive),NA
+VaFs and ADAS/VAFs-Net,NA
+VAR,NET
+Z_Demo,NA
+FOTA,NET
+DPE,NET
+DIAG,DCOM
+SAR,DCOM
+OBD,DSM
+DWS,DSM
