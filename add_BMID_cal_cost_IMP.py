@@ -39,6 +39,9 @@ def process_duplicates(filename):
     df_grouped = df_grouped[original_columns]
     df = df[original_columns] 
 
+    # --- Rename Column for Aggregated Data Only ---
+    df_grouped = df_grouped.rename(columns={'PM Interface Element ID': 'BM_ID'})
+
     # ==========================================
     # --- NEW CALCULATION LOGIC ---
     # ==========================================
@@ -74,15 +77,15 @@ def process_duplicates(filename):
     df_grouped['DCOM_DSM_Contrib'] = dcom_dsm_contrib_pct.astype(str) + '%'
 
     # 7. Sort the data so identical PM IDs (BM IDs) are clustered together visually
-    # [FIXED: Using the original column names here since the _clean ones were dropped]
-    df_grouped = df_grouped.sort_values(by=['PM Interface Element ID', 'Country']).reset_index(drop=True)
+    # Now using the updated column name 'BM_ID'
+    df_grouped = df_grouped.sort_values(by=['BM_ID', 'Country']).reset_index(drop=True)
 
     # 8. Calculate "Region Contribution (ALM)" Percentages (Window-wise per ID)
-    # Find the grand total for each PM ID
-    total_net_per_id = df_grouped.groupby('PM Interface Element ID')['NET_Actual'].transform('sum')
-    total_dcom_per_id = df_grouped.groupby('PM Interface Element ID')['DCOM_DSM_Actual'].transform('sum')
+    # Find the grand total for each BM_ID
+    total_net_per_id = df_grouped.groupby('BM_ID')['NET_Actual'].transform('sum')
+    total_dcom_per_id = df_grouped.groupby('BM_ID')['DCOM_DSM_Actual'].transform('sum')
     
-    # Calculate % contribution of this region against the PM ID's grand total
+    # Calculate % contribution of this region against the BM_ID's grand total
     region_net_pct = (df_grouped['NET_Actual'] / total_net_per_id * 100).replace([float('inf'), -float('inf')], 0).fillna(0).round(2)
     region_dcom_pct = (df_grouped['DCOM_DSM_Actual'] / total_dcom_per_id * 100).replace([float('inf'), -float('inf')], 0).fillna(0).round(2)
     
