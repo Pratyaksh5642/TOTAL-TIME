@@ -1,0 +1,11 @@
+
+---> [NEW RUN STARTING: DUAL LOG FILES RESTORED] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_new.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 44 rows from input file...
+Sorting complete: 44 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7135341 [PM ID: BM-00105824]...

@@ -17,7 +17,8 @@ PASSWORD = "shreyansh4991Ab#"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "MB Release WI.csv")
 OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "output_categorized.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log.txt")
+LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_new.txt")         # Master log (Everything)
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log.txt")    # Clean log (Added time only)
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
 
 # --- SETUP LOGGING ---
@@ -25,11 +26,19 @@ logger = logging.getLogger("alm_extractor")
 logger.setLevel(logging.DEBUG) 
 formatter = logging.Formatter('%(message)s')
 
-file_handler = logging.FileHandler(LOG_FILE, mode='a', encoding='utf-8')
-file_handler.setLevel(logging.DEBUG)
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
+# 1. Master File Handler (Captures EVERYTHING, including Ignored tasks)
+master_file_handler = logging.FileHandler(LOG_FILE, mode='a', encoding='utf-8')
+master_file_handler.setLevel(logging.DEBUG)
+master_file_handler.setFormatter(formatter)
+logger.addHandler(master_file_handler)
 
+# 2. Added Time File Handler (Captures ONLY Info level - skips Ignored tasks)
+added_file_handler = logging.FileHandler(ADDED_LOG_FILE, mode='a', encoding='utf-8')
+added_file_handler.setLevel(logging.INFO)
+added_file_handler.setFormatter(formatter)
+logger.addHandler(added_file_handler)
+
+# 3. Console Handler (Keeps terminal clean, skips Ignored tasks)
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
 console_handler.setFormatter(formatter)
@@ -192,18 +201,15 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
     if visited is None:
         visited = set()
 
-    efforts = {
-        "NET_DEV": 0, "DCOM_DEV": 0, "DSM_DEV": 0,
-        "NET_Rework": 0, "DCOM_Rework": 0, "DSM_Rework": 0
-    }
+    country_efforts = {}
 
     if work_item_url in visited:
-        return efforts
+        return country_efforts
     visited.add(work_item_url)
 
     data = get_workitem_json(work_item_url)
     if not data:
-        return efforts
+        return country_efforts
 
     item_id = data.get("dcterms:identifier") or data.get("dc:identifier") or data.get("identifier")
     if not item_id:
@@ -224,6 +230,11 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
     if not type_name_short:
         type_name_short = "unknown_type"
 
+    if depth > 0 and "release" in type_name_short.lower():
+        indent = "  " * depth
+        logger.info(f"{indent}→ [SKIPPED SUB-RELEASE] ID: {item_id} (Preventing double-counting)")
+        return country_efforts 
+
     time_spent_raw = data.get("rtc_cm:timeSpent")
     time_spent_ms = int(time_spent_raw) if time_spent_raw else 0
 
@@ -232,6 +243,11 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
     if time_spent_ms > 0:
         hours_logged = time_spent_ms / 3600000
         indent = "  " * depth
+        
+        # --- Extract Task Title and Creation Date ---
+        task_title = data.get("dc:title") or data.get("dcterms:title") or data.get("title") or "Unknown Title"
+        task_created_raw = data.get("dc:created") or data.get("dcterms:created") or data.get("created")
+        task_created_formatted = format_date(task_created_raw)
         
         filed_against_data = data.get("rtc_cm:filedAgainst", {})
         task_category_url = ""
@@ -244,12 +260,31 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
         bucket = get_bucket_for_category(task_department_name)
         
         if bucket:
+            task_owner_info = data.get("rtc_cm:ownedBy") or data.get("dc:creator") or data.get("dcterms:creator") or data.get("ownedBy")
+            task_owner_url = ""
+            if isinstance(task_owner_info, dict):
+                task_owner_url = task_owner_info.get("rdf:resource", "")
+            elif isinstance(task_owner_info, str):
+                task_owner_url = task_owner_info
+            
+            task_owner_string = get_owner_details(task_owner_url)
+            task_country, task_rate = get_country_and_rate(task_owner_string)
+            
+            if task_country not in country_efforts:
+                country_efforts[task_country] = {
+                    "NET_DEV": 0, "DCOM_DEV": 0, "DSM_DEV": 0,
+                    "NET_Rework": 0, "DCOM_Rework": 0, "DSM_Rework": 0,
+                    "owner_string": task_owner_string, 
+                    "rate": task_rate
+                }
+                
             bucket_key = f"{bucket}_Rework" if current_is_rework else f"{bucket}_DEV"
-            efforts[bucket_key] += time_spent_ms
+            country_efforts[task_country][bucket_key] += time_spent_ms
             rework_str = "REWORK" if current_is_rework else "DEV "
-            logger.info(f"{indent}→ [{bucket} {rework_str}] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: {task_department_name}")
+            
+            logger.info(f"{indent}→ [{bucket} {rework_str}] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}' | Country: {task_country} | Title: {task_title} | Created: {task_created_formatted}")
         else:
-            logger.debug(f"{indent}→ [IGNORED CATEGORY] Skipped {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}'")
+            logger.debug(f"{indent}→ [IGNORED CATEGORY] Skipped {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}' | Title: {task_title} | Created: {task_created_formatted}")
 
     children_data = data.get("rtc_cm:com.ibm.team.workitem.linktype.parentworkitem.children")
     if not children_data:
@@ -262,14 +297,23 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
             child_url = child["rdf:resource"]
             child_efforts = process_hierarchy(child_url, visited, depth + 1, current_is_rework)
             
-            for key in efforts.keys():
-                efforts[key] += child_efforts[key]
+            for c_name, c_data in child_efforts.items():
+                if c_name not in country_efforts:
+                    country_efforts[c_name] = {
+                        "NET_DEV": 0, "DCOM_DEV": 0, "DSM_DEV": 0,
+                        "NET_Rework": 0, "DCOM_Rework": 0, "DSM_Rework": 0,
+                        "owner_string": c_data["owner_string"],
+                        "rate": c_data["rate"]
+                    }
+                for k in ["NET_DEV", "DCOM_DEV", "DSM_DEV", "NET_Rework", "DCOM_Rework", "DSM_Rework"]:
+                    country_efforts[c_name][k] += c_data[k]
 
-    return efforts
+    return country_efforts
 
 if __name__ == "__main__":
-    logger.info("\n---> [NEW RUN STARTING: BULLETPROOF REGEX DATE FIX] <---")
-    logger.info(f"Log file appending to: {LOG_FILE}\n")
+    logger.info("\n---> [NEW RUN STARTING: DUAL LOG FILES RESTORED] <---")
+    logger.info(f"Master Log: {LOG_FILE}")
+    logger.info(f"Clean Log (Added Only): {ADDED_LOG_FILE}\n")
     
     load_category_mapping()
     
@@ -311,15 +355,11 @@ if __name__ == "__main__":
                 logger.info(f"Checking Release ID: {release_id} [PM ID: {pm_id}]...")
                 root_url = f"{ALM_BASE_URL}/resource/itemName/com.ibm.team.workitem.WorkItem/{release_id}"
                 
-                # Fetching the root Release item
-                # NOTE: the OSLC-Core-Version header must NOT be sent here, otherwise RTC
-                # returns a reduced representation without 'rtc_cm:resolved' (resolution date).
                 response = session.get(root_url, headers={"Accept": "application/json"}, verify=False)
                 if response and response.status_code == 200:
                     release_data = response.json()
-                    raw_text = response.text # <--- GRABBING RAW TEXT FOR REGEX
+                    raw_text = response.text 
                     
-                    # 1. Check Resolution
                     res_info = release_data.get("rtc_cm:resolution")
                     res_url = ""
                     if isinstance(res_info, dict):
@@ -338,25 +378,15 @@ if __name__ == "__main__":
                     else:
                         logger.info(f"✔️ Resolution is '{res_status.title()}'.")
 
-                    # 2. Extract Owner
-                    owner_info = release_data.get("rtc_cm:ownedBy") or release_data.get("dc:creator") or release_data.get("dcterms:creator") or release_data.get("ownedBy")
-                    owner_url = ""
-                    if isinstance(owner_info, dict):
-                        owner_url = owner_info.get("rdf:resource", "")
-                    elif isinstance(owner_info, str):
-                        owner_url = owner_info
+                    rel_owner_info = release_data.get("rtc_cm:ownedBy") or release_data.get("dc:creator")
+                    rel_owner_url = rel_owner_info.get("rdf:resource", "") if isinstance(rel_owner_info, dict) else (rel_owner_info or "")
+                    release_owner_string = get_owner_details(rel_owner_url)
                     
-                    full_owner_string = get_owner_details(owner_url)
-                    country, rate = get_country_and_rate(full_owner_string)
-                    
-                    # 3. EXACT REGEX DATE EXTRACTION (BULLETPROOF)
-                    # For Created
                     created_raw = release_data.get("dc:created") or release_data.get("dcterms:created")
                     if not created_raw or not isinstance(created_raw, str):
                         match = re.search(r'"(?:dc|dcterms):created"\s*:\s*"([^"]+)"', raw_text, re.IGNORECASE)
                         created_raw = match.group(1) if match else None
 
-                    # For Resolved (No modified fallback)
                     resolved_raw = release_data.get("rtc_cm:resolved") or release_data.get("resolved")
                     if not resolved_raw or not isinstance(resolved_raw, str):
                         match = re.search(r'"(?:rtc_cm:)?resolved"\s*:\s*"([^"]+)"', raw_text, re.IGNORECASE)
@@ -365,56 +395,75 @@ if __name__ == "__main__":
                     created_formatted = format_date(created_raw)
                     resolved_formatted = format_date(resolved_raw)
                     
-                    logger.info(f"👤 Owned By: {full_owner_string}")
-                    logger.info(f"🌍 Country: {country} | Rate: € {rate}")
+                    logger.info(f"👤 Release Owned By: {release_owner_string} (Tasks may be owned by others)")
                     logger.info(f"📅 Created: {created_formatted} | Resolved: {resolved_formatted}")
-                    
-                    row["Owner Details"] = full_owner_string
-                    row["Country"] = country
-                    row["Rate Card (€)"] = rate
-                    row["Creation Date"] = created_formatted
-                    row["Resolution Date"] = resolved_formatted
 
                 logger.info(f"Processing Hierarchy for {release_id}...")
-                efforts_ms = process_hierarchy(root_url)
                 
+                efforts_by_country = process_hierarchy(root_url)
+                
+                if not efforts_by_country:
+                    fallback_country, fallback_rate = get_country_and_rate(release_owner_string)
+                    efforts_by_country = {
+                        fallback_country: {
+                            "NET_DEV": 0, "DCOM_DEV": 0, "DSM_DEV": 0,
+                            "NET_Rework": 0, "DCOM_Rework": 0, "DSM_Rework": 0,
+                            "owner_string": release_owner_string,
+                            "rate": fallback_rate
+                        }
+                    }
+
                 logger.info(f"\n--- Final Hours for Release {release_id} ---")
                 
-                net_dev = efforts_ms["NET_DEV"] / 3600000
-                dcom_dev = efforts_ms["DCOM_DEV"] / 3600000
-                dsm_dev = efforts_ms["DSM_DEV"] / 3600000
-                
-                net_rew = efforts_ms["NET_Rework"] / 3600000
-                dcom_rew = efforts_ms["DCOM_Rework"] / 3600000
-                dsm_rew = efforts_ms["DSM_Rework"] / 3600000
-                
-                if net_dev > 0: logger.info(f"  NET_DEV: {net_dev:.2f} hrs")
-                if dcom_dev > 0: logger.info(f"  DCOM_DEV: {dcom_dev:.2f} hrs")
-                if dsm_dev > 0: logger.info(f"  DSM_DEV: {dsm_dev:.2f} hrs")
-                if net_rew > 0: logger.info(f"  NET_Rework: {net_rew:.2f} hrs")
-                if dcom_rew > 0: logger.info(f"  DCOM_Rework: {dcom_rew:.2f} hrs")
-                if dsm_rew > 0: logger.info(f"  DSM_Rework: {dsm_rew:.2f} hrs")
+                for country, data in efforts_by_country.items():
+                    logger.info(f"  [🌍 {country}]")
+                    
+                    net_dev = data["NET_DEV"] / 3600000
+                    dcom_dev = data["DCOM_DEV"] / 3600000
+                    dsm_dev = data["DSM_DEV"] / 3600000
+                    
+                    net_rew = data["NET_Rework"] / 3600000
+                    dcom_rew = data["DCOM_Rework"] / 3600000
+                    dsm_rew = data["DSM_Rework"] / 3600000
+                    
+                    if net_dev > 0: logger.info(f"    NET_DEV: {net_dev:.2f} hrs")
+                    if dcom_dev > 0: logger.info(f"    DCOM_DEV: {dcom_dev:.2f} hrs")
+                    if dsm_dev > 0: logger.info(f"    DSM_DEV: {dsm_dev:.2f} hrs")
+                    if net_rew > 0: logger.info(f"    NET_Rework: {net_rew:.2f} hrs")
+                    if dcom_rew > 0: logger.info(f"    DCOM_Rework: {dcom_rew:.2f} hrs")
+                    if dsm_rew > 0: logger.info(f"    DSM_Rework: {dsm_rew:.2f} hrs")
+                    
+                    if (net_dev + dcom_dev + dsm_dev + net_rew + dcom_rew + dsm_rew) == 0:
+                        logger.info(f"    No Valid Hours Logged (0.00 hrs)")
 
-                net_final = net_dev + net_rew
-                dcom_dsm_dev = dcom_dev + dsm_dev
-                dcom_dsm_rew = dcom_rew + dsm_rew
-                dcom_dsm_final = dcom_dsm_dev + dcom_dsm_rew
+                    net_final = net_dev + net_rew
+                    dcom_dsm_dev = dcom_dev + dsm_dev
+                    dcom_dsm_rew = dcom_rew + dsm_rew
+                    dcom_dsm_final = dcom_dsm_dev + dcom_dsm_rew
 
-                row["NET_DEV (Hours)"] = round(net_dev, 2)
-                row["DCOM_DEV (Hours)"] = round(dcom_dev, 2)
-                row["DSM_DEV (Hours)"] = round(dsm_dev, 2)
-                
-                row["NET_FINAL (Hours)"] = round(net_final, 2)
-                row["DCOM_DSM_DEV (Hours)"] = round(dcom_dsm_dev, 2)
-                
-                row["NET_Rework (Hours)"] = round(net_rew, 2)
-                row["DCOM_Rework (Hours)"] = round(dcom_rew, 2)
-                row["DSM_Rework (Hours)"] = round(dsm_rew, 2)
-                
-                row["DCOM_DSM_REWORK_TOTAL (Hours)"] = round(dcom_dsm_rew, 2)
-                row["DCOM_DSM_FINAL (Hours)"] = round(dcom_dsm_final, 2)
-                
-                processed_rows.append(row)
+                    country_row = row.copy() 
+                    
+                    country_row["Owner Details"] = data["owner_string"]
+                    country_row["Country"] = country
+                    country_row["Rate Card (€)"] = data["rate"]
+                    country_row["Creation Date"] = created_formatted
+                    country_row["Resolution Date"] = resolved_formatted
+
+                    country_row["NET_DEV (Hours)"] = round(net_dev, 2)
+                    country_row["DCOM_DEV (Hours)"] = round(dcom_dev, 2)
+                    country_row["DSM_DEV (Hours)"] = round(dsm_dev, 2)
+                    
+                    country_row["NET_FINAL (Hours)"] = round(net_final, 2)
+                    country_row["DCOM_DSM_DEV (Hours)"] = round(dcom_dsm_dev, 2)
+                    
+                    country_row["NET_Rework (Hours)"] = round(net_rew, 2)
+                    country_row["DCOM_Rework (Hours)"] = round(dcom_rew, 2)
+                    country_row["DSM_Rework (Hours)"] = round(dsm_rew, 2)
+                    
+                    country_row["DCOM_DSM_REWORK_TOTAL (Hours)"] = round(dcom_dsm_rew, 2)
+                    country_row["DCOM_DSM_FINAL (Hours)"] = round(dcom_dsm_final, 2)
+                    
+                    processed_rows.append(country_row)
                 
         if processed_rows:
             df = pd.DataFrame(processed_rows)
