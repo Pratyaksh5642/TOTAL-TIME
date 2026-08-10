@@ -46548,3 +46548,398 @@ test_exe' | Title: [Test Execution][TestExec]Fix for Defect: [FORD IPB2.0][P703_
     No Valid Hours Logged (0.00 hrs)
 
 ✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\output_categorized.xlsx'.
+
+---> [NEW RUN STARTING: USER EXTRACTION FIX & OWNER LOGGING] <---
+Log file appending to: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 1 rows from input file...
+Sorting complete: 1 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: QRB1COB (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'hsw & isw/obd' | Owner: HII2ABT | Country: Others | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 Others]
+    DSM_DEV: 13.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: NO CREATOR FALLBACK] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 1 rows from input file...
+Sorting complete: 1 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'hsw & isw/obd' | Owner: Unassigned | Country: Others | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 Others]
+    DSM_DEV: 13.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: GLOBAL HEADER FIX & XML MAGIC] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 1 rows from input file...
+Sorting complete: 1 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'obd' | Owner: Rukhsana Tabassum (MS/EBV5-SWC) | Country: India | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 India]
+    DSM_DEV: 13.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: GLOBAL HEADER FIX & XML MAGIC] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 5 rows from input file...
+Sorting complete: 5 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'obd' | Owner: Rukhsana Tabassum (MS/EBV5-SWC) | Country: India | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 India]
+    DSM_DEV: 13.00 hrs
+=========================================
+Checking Release ID: 6988136 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 08-05-2026 | Resolved: 22-05-2026
+Processing Hierarchy for 6988136...
+→ [DSM DEV ] Added 0.25 hrs | ID: 6988136 | Type: task | Dept: 'obd' | Owner: Mohamed Arsath B (MS/PJ-CISW1-VM) | Country: India | Title: OBDSW - Workload Estimation Placeholder | Created: 08-05-2026
+
+--- Final Hours for Release 6988136 ---
+  [🌍 India]
+    DSM_DEV: 0.25 hrs
+=========================================
+Checking Release ID: 7040751 [PM ID: ]...
+✔️ Resolution is 'Passed'.
+👤 Release Owned By: Heid Dimitrij (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040751...
+→ [DSM DEV ] Added 1.00 hrs | ID: 7040751 | Type: com.bosch.rtc.configuration.workitemtype.type.review | Dept: 'obd' | Owner: Heid Dimitrij (VM/ESB4) | Country: Germany | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD][SWFS Rev] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040751 ---
+  [🌍 Germany]
+    DSM_DEV: 1.00 hrs
+=========================================
+Checking Release ID: 7040712 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040712...
+→ [DSM DEV ] Added 48.50 hrs | ID: 7040712 | Type: task | Dept: 'obd' | Owner: Mohamed Arsath B (MS/PJ-CISW1-VM) | Country: India | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040712 ---
+  [🌍 India]
+    DSM_DEV: 48.50 hrs
+=========================================
+Checking Release ID: 6649716 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Ben Khelifa Hichem (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 05-02-2026 | Resolved: 07-04-2026
+Processing Hierarchy for 6649716...
+→ [NET DEV ] Added 4.00 hrs | ID: 6649716 | Type: task | Dept: 'fota' | Owner: Ben Khelifa Hichem (VM/ESB4) | Country: Germany | Title: [FOTA] [ESP][DPB] integration of the Fota stack | Created: 05-02-2026
+
+--- Final Hours for Release 6649716 ---
+  [🌍 Germany]
+    NET_DEV: 4.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: 2025+ DATE FILTER ACTIVE] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 5 rows from input file...
+Sorting complete: 5 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'obd' | Country: India | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 India]
+    DSM_DEV: 13.00 hrs
+=========================================
+Checking Release ID: 6988136 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 08-05-2026 | Resolved: 22-05-2026
+Processing Hierarchy for 6988136...
+→ [DSM DEV ] Added 0.25 hrs | ID: 6988136 | Type: task | Dept: 'obd' | Country: India | Title: OBDSW - Workload Estimation Placeholder | Created: 08-05-2026
+
+--- Final Hours for Release 6988136 ---
+  [🌍 India]
+    DSM_DEV: 0.25 hrs
+=========================================
+Checking Release ID: 7040751 [PM ID: ]...
+✔️ Resolution is 'Passed'.
+👤 Release Owned By: Heid Dimitrij (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040751...
+→ [DSM DEV ] Added 1.00 hrs | ID: 7040751 | Type: com.bosch.rtc.configuration.workitemtype.type.review | Dept: 'obd' | Country: Germany | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD][SWFS Rev] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040751 ---
+  [🌍 Germany]
+    DSM_DEV: 1.00 hrs
+=========================================
+Checking Release ID: 7040712 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040712...
+→ [DSM DEV ] Added 48.50 hrs | ID: 7040712 | Type: task | Dept: 'obd' | Country: India | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040712 ---
+  [🌍 India]
+    DSM_DEV: 48.50 hrs
+=========================================
+Checking Release ID: 6649716 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Ben Khelifa Hichem (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 05-02-2026 | Resolved: 07-04-2026
+Processing Hierarchy for 6649716...
+→ [NET DEV ] Added 4.00 hrs | ID: 6649716 | Type: task | Dept: 'fota' | Country: Germany | Title: [FOTA] [ESP][DPB] integration of the Fota stack | Created: 05-02-2026
+
+--- Final Hours for Release 6649716 ---
+  [🌍 Germany]
+    NET_DEV: 4.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: 2025+ DATE FILTER ACTIVE] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 5 rows from input file...
+Sorting complete: 5 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'obd' | Country: India | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 India]
+    DSM_DEV: 13.00 hrs
+=========================================
+Checking Release ID: 6988136 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 08-05-2026 | Resolved: 22-05-2026
+Processing Hierarchy for 6988136...
+→ [DSM DEV ] Added 0.25 hrs | ID: 6988136 | Type: task | Dept: 'obd' | Country: India | Title: OBDSW - Workload Estimation Placeholder | Created: 08-05-2026
+
+--- Final Hours for Release 6988136 ---
+  [🌍 India]
+    DSM_DEV: 0.25 hrs
+=========================================
+Checking Release ID: 7040751 [PM ID: ]...
+✔️ Resolution is 'Passed'.
+👤 Release Owned By: Heid Dimitrij (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040751...
+→ [DSM DEV ] Added 1.00 hrs | ID: 7040751 | Type: com.bosch.rtc.configuration.workitemtype.type.review | Dept: 'obd' | Country: Germany | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD][SWFS Rev] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040751 ---
+  [🌍 Germany]
+    DSM_DEV: 1.00 hrs
+=========================================
+Checking Release ID: 7040712 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040712...
+→ [DSM DEV ] Added 48.50 hrs | ID: 7040712 | Type: task | Dept: 'obd' | Country: India | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040712 ---
+  [🌍 India]
+    DSM_DEV: 48.50 hrs
+=========================================
+Checking Release ID: 6649716 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Ben Khelifa Hichem (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 05-02-2026 | Resolved: 07-04-2026
+Processing Hierarchy for 6649716...
+→ [NET DEV ] Added 4.00 hrs | ID: 6649716 | Type: task | Dept: 'fota' | Country: Germany | Title: [FOTA] [ESP][DPB] integration of the Fota stack | Created: 05-02-2026
+
+--- Final Hours for Release 6649716 ---
+  [🌍 Germany]
+    NET_DEV: 4.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: LOGGING TASK OWNER RESTORED] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 5 rows from input file...
+Sorting complete: 5 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'obd' | Owner: Rukhsana Tabassum (MS/EBV5-SWC) | Country: India | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 India]
+    DSM_DEV: 13.00 hrs
+=========================================
+Checking Release ID: 6988136 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 08-05-2026 | Resolved: 22-05-2026
+Processing Hierarchy for 6988136...
+→ [DSM DEV ] Added 0.25 hrs | ID: 6988136 | Type: task | Dept: 'obd' | Owner: Mohamed Arsath B (MS/PJ-CISW1-VM) | Country: India | Title: OBDSW - Workload Estimation Placeholder | Created: 08-05-2026
+
+--- Final Hours for Release 6988136 ---
+  [🌍 India]
+    DSM_DEV: 0.25 hrs
+=========================================
+Checking Release ID: 7040751 [PM ID: ]...
+✔️ Resolution is 'Passed'.
+👤 Release Owned By: Heid Dimitrij (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040751...
+→ [DSM DEV ] Added 1.00 hrs | ID: 7040751 | Type: com.bosch.rtc.configuration.workitemtype.type.review | Dept: 'obd' | Owner: Heid Dimitrij (VM/ESB4) | Country: Germany | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD][SWFS Rev] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040751 ---
+  [🌍 Germany]
+    DSM_DEV: 1.00 hrs
+=========================================
+Checking Release ID: 7040712 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040712...
+→ [DSM DEV ] Added 48.50 hrs | ID: 7040712 | Type: task | Dept: 'obd' | Owner: Mohamed Arsath B (MS/PJ-CISW1-VM) | Country: India | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040712 ---
+  [🌍 India]
+    DSM_DEV: 48.50 hrs
+=========================================
+Checking Release ID: 6649716 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Ben Khelifa Hichem (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 05-02-2026 | Resolved: 07-04-2026
+Processing Hierarchy for 6649716...
+→ [NET DEV ] Added 4.00 hrs | ID: 6649716 | Type: task | Dept: 'fota' | Owner: Ben Khelifa Hichem (VM/ESB4) | Country: Germany | Title: [FOTA] [ESP][DPB] integration of the Fota stack | Created: 05-02-2026
+
+--- Final Hours for Release 6649716 ---
+  [🌍 Germany]
+    NET_DEV: 4.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
+
+---> [NEW RUN STARTING: EXACT COUNTRY MAPPING UPDATES] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+Reading and cleaning 5 rows from input file...
+Sorting complete: 5 standard rows, 0 delayed rows.
+
+=========================================
+Checking Release ID: 7040622 [PM ID: BM-00105824]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Rukhsana Tabassum (MS/EBV5-SWC) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 17-06-2026
+Processing Hierarchy for 7040622...
+→ [DSM DEV ] Added 13.00 hrs | ID: 7040622 | Type: task | Dept: 'obd' | Owner: Rukhsana Tabassum (MS/EBV5-SWC) | Country: India | Title: [DCOM-OBDSW][Constr] [MB.EA-L][ESP/DBP][OBD][SW CT] OBDSW_Switchable_and_Reflash_ResetData | Created: 22-05-2026
+
+--- Final Hours for Release 7040622 ---
+  [🌍 India]
+    DSM_DEV: 13.00 hrs
+=========================================
+Checking Release ID: 6988136 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 08-05-2026 | Resolved: 22-05-2026
+Processing Hierarchy for 6988136...
+→ [DSM DEV ] Added 0.25 hrs | ID: 6988136 | Type: task | Dept: 'obd' | Owner: Mohamed Arsath B (MS/PJ-CISW1-VM) | Country: India | Title: OBDSW - Workload Estimation Placeholder | Created: 08-05-2026
+
+--- Final Hours for Release 6988136 ---
+  [🌍 India]
+    DSM_DEV: 0.25 hrs
+=========================================
+Checking Release ID: 7040751 [PM ID: ]...
+✔️ Resolution is 'Passed'.
+👤 Release Owned By: Heid Dimitrij (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040751...
+→ [DSM DEV ] Added 1.00 hrs | ID: 7040751 | Type: com.bosch.rtc.configuration.workitemtype.type.review | Dept: 'obd' | Owner: Heid Dimitrij (VM/ESB4) | Country: Germany | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD][SWFS Rev] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040751 ---
+  [🌍 Germany]
+    DSM_DEV: 1.00 hrs
+=========================================
+Checking Release ID: 7040712 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Mohamed Arsath B (MS/PJ-CISW1-VM) (Tasks may be owned by others)
+📅 Created: 22-05-2026 | Resolved: 25-06-2026
+Processing Hierarchy for 7040712...
+→ [DSM DEV ] Added 48.50 hrs | ID: 7040712 | Type: task | Dept: 'obd' | Owner: Mohamed Arsath B (MS/PJ-CISW1-VM) | Country: India | Title: [DCOM-OBDSW][ReqEng] [MB.EA-L][ESP/DBP][OBD] OBDSW_SMAD_RatioCalculation_MoreDetails | Created: 22-05-2026
+
+--- Final Hours for Release 7040712 ---
+  [🌍 India]
+    DSM_DEV: 48.50 hrs
+=========================================
+Checking Release ID: 6649716 [PM ID: ]...
+✔️ Resolution is 'Solved'.
+👤 Release Owned By: Ben Khelifa Hichem (VM/ESB4) (Tasks may be owned by others)
+📅 Created: 05-02-2026 | Resolved: 07-04-2026
+Processing Hierarchy for 6649716...
+→ [NET DEV ] Added 4.00 hrs | ID: 6649716 | Type: task | Dept: 'fota' | Owner: Ben Khelifa Hichem (VM/ESB4) | Country: Germany | Title: [FOTA] [ESP][DPB] integration of the Fota stack | Created: 05-02-2026
+
+--- Final Hours for Release 6649716 ---
+  [🌍 Germany]
+    NET_DEV: 4.00 hrs
+
+✅ Success! Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\check.xlsx'.
