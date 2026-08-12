@@ -48,17 +48,17 @@ def process_duplicates(filename):
     # 1. Ensure Rate Card is treated as a number
     rate_card = pd.to_numeric(df_grouped['Rate Card (€)'], errors='coerce').fillna(0)
     
-    # 2. Calculate "Actual (ALM)" costs
-    df_grouped['NET_Actual'] = (df_grouped['NET_FINAL (Hours)'] / 156) * rate_card
-    df_grouped['DCOM_DSM_Actual'] = (df_grouped['DCOM_DSM_FINAL (Hours)'] / 156) * rate_card
+    # 2. Calculate "Actual (ALM)" costs (Directly multiplying Hours * Rate)
+    df_grouped['NET_Actual'] = df_grouped['NET_FINAL (Hours)'] * rate_card
+    df_grouped['DCOM_DSM_Actual'] = df_grouped['DCOM_DSM_FINAL (Hours)'] * rate_card
     
     # 3. Calculate "Development Cost (ALM)" costs
-    df_grouped['NET_Dev'] = (df_grouped['NET_DEV (Hours)'] / 156) * rate_card
-    df_grouped['DCOM_DSM_Dev'] = (df_grouped['DCOM_DSM_DEV (Hours)'] / 156) * rate_card
+    df_grouped['NET_Dev'] = df_grouped['NET_DEV (Hours)'] * rate_card
+    df_grouped['DCOM_DSM_Dev'] = df_grouped['DCOM_DSM_DEV (Hours)'] * rate_card
 
     # 4. Calculate "Rework Cost (ALM)" costs
-    df_grouped['NET_Rework_Cost'] = (df_grouped['NET_Rework (Hours)'] / 156) * rate_card
-    df_grouped['DCOM_DSM_Rework_Cost'] = (df_grouped['DCOM_DSM_REWORK_TOTAL (Hours)'] / 156) * rate_card
+    df_grouped['NET_Rework_Cost'] = df_grouped['NET_Rework (Hours)'] * rate_card
+    df_grouped['DCOM_DSM_Rework_Cost'] = df_grouped['DCOM_DSM_REWORK_TOTAL (Hours)'] * rate_card
     
     # 5. Round monetary values to 2 decimal places
     df_grouped['NET_Actual'] = df_grouped['NET_Actual'].round(2)
@@ -77,7 +77,6 @@ def process_duplicates(filename):
     df_grouped['DCOM_DSM_Contrib'] = dcom_dsm_contrib_pct.astype(str) + '%'
 
     # 7. Sort the data so identical PM IDs (BM IDs) are clustered together visually
-    # Now using the updated column name 'BM_ID'
     df_grouped = df_grouped.sort_values(by=['BM_ID', 'Country']).reset_index(drop=True)
 
     # 8. Calculate "Region Contribution (ALM)" Percentages (Window-wise per ID)

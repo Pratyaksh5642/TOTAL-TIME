@@ -1,4 +1,4 @@
-#Added owner Name and better country mapping and added new date filter for 2025 and later
+#Added owner Name and better country mapping and added new date filter for 2025 and later and updated rate card
 
 import csv
 import requests
@@ -18,7 +18,7 @@ PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "MB Release WI.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "output_final_new.xlsx") 
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "output_categorized.xlsx") 
 LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
 ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log.txt")
@@ -161,11 +161,22 @@ def get_country_and_rate(owner_string):
     elif "MS/" in owner_string: country = "India"
     else: country = "Others"
         
+    # --- CORRECTED HOURLY RATES ---
     rate_card = {
-        "India": 50000, "Mexico": 72727, "Vietnam": 42545,
-        "China": 80000, "Germany": 175000, "Hungary": 80000,
-        "Japan": 80000, "North America": 175000, "Romania": 80000,
-        "Portugal": 80000, "Austria": 80000, "Australia": 175000,
+        "India": 26.71,
+        "Mexico": 38.85,
+        "Vietnam": 22.73,
+        "China": 42.74,
+        "Japan": 42.74,
+        "Hungary": 42.74,
+        "Romania": 42.74,
+        "Portugal": 42.74,
+        "Austria": 42.74,
+        "France": 93.48,
+        "Germany": 93.48,
+        "USA": 93.48,
+        "North America": 93.48, # Mapped USA to North America as per existing logic
+        "Australia": 93.48,
         "Others": 0
     }
     return country, rate_card.get(country, 0)
@@ -254,7 +265,6 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
         task_created_raw = data.get("dc:created") or data.get("dcterms:created") or data.get("created")
         task_created_formatted = format_date(task_created_raw)
         
-        # --- NEW DATE FILTER (>= 2025) ---
         is_valid_date = False
         if task_created_raw and isinstance(task_created_raw, str) and len(task_created_raw) >= 4:
             try:
@@ -328,7 +338,7 @@ def process_hierarchy(work_item_url, visited=None, depth=0, is_rework_branch=Fal
     return country_efforts
 
 if __name__ == "__main__":
-    logger.info("\n---> [NEW RUN STARTING: EXACT COUNTRY MAPPING UPDATES] <---")
+    logger.info("\n---> [NEW RUN STARTING: CORRECTED HOURLY RATES] <---")
     logger.info(f"Master Log: {LOG_FILE}")
     logger.info(f"Clean Log (Added Only): {ADDED_LOG_FILE}\n")
     
