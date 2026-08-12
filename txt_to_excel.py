@@ -4,8 +4,41 @@ import pandas as pd
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-INPUT_FILE = os.path.join(SCRIPT_DIR, "added_time_log.txt")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "release_hours.xlsx")
+INPUT_FILE = os.path.join(SCRIPT_DIR, "Add_time.txt")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "release_hours_with test.xlsx")
+
+# ====================================================
+# PATTERNS
+# ====================================================
+
+release_pattern = re.compile(
+    r"Checking Release ID:\s*(\d+)\s*\[PM ID:\s*([^\]]+)\]"
+)
+
+owner_pattern = re.compile(
+    r"👤 Release Owned By:\s*(.+?)\s*"
+    r"\(Tasks may be owned by others\)"
+)
+
+date_pattern = re.compile(
+    r"📅 Created:\s*(\d{2}-\d{2}-\d{4})\s*\|\s*"
+    r"Resolved:\s*(\d{2}-\d{2}-\d{4})"
+)
+
+task_pattern = re.compile(
+    r"\[(.*?)\]\s*Added\s*([\d.]+)\s*hrs\s*\|\s*"
+    r"ID:\s*(\d+)\s*\|\s*"
+    r"Type:\s*(.*?)\s*\|\s*"
+    r"Dept:\s*'(.*?)'\s*\|\s*"
+    r"Owner:\s*(.*?)\s*\|\s*"
+    r"Country:\s*(.*?)\s*\|\s*"
+    r"Title:\s*(.*?)\s*\|\s*"
+    r"Created:\s*(\d{2}-\d{2}-\d{4})"
+)
+
+# ====================================================
+# READ FILE
+# ====================================================
 
 rows = []
 
@@ -15,202 +48,107 @@ current_release_owner = ""
 current_release_created = ""
 current_release_resolved = ""
 
-# ==================================================
-# RELEASE PATTERNS
-# ==================================================
-
-release_pattern = re.compile(
-    r"Checking Release ID:\s*(\d+)\s*\[PM ID:\s*([^\]]+)\]"
-)
-
-owner_pattern = re.compile(
-    r"👤 Release Owned By:\s*(.*?)\s*\(Tasks may be owned by others\)"
-)
-
-date_pattern = re.compile(
-    r"📅 Created:\s*(\d{2}-\d{2}-\d{4})\s*\|\s*Resolved:\s*(\d{2}-\d{2}-\d{4})"
-)
-
-# ==================================================
-# READ FILE
-# ==================================================
-
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
 
     for line in f:
 
         line = (
             line.replace("<br>", "")
-                .replace("&nbsp;", " ")
-                .strip()
+            .replace("&lt;br&gt;", "")
+            .replace("&nbsp;", " ")
+            .strip()
         )
 
         if not line:
             continue
 
-        # ==========================================
-        # RELEASE
-        # ==========================================
+        # --------------------------------------------
+        # RELEASE ID
+        # --------------------------------------------
 
-        m = release_pattern.search(line)
+        match = release_pattern.search(line)
 
-        if m:
-            current_release = m.group(1)
-            current_pm = m.group(2)
+        if match:
+            current_release = match.group(1)
+            current_pm = match.group(2)
             continue
 
-        # ==========================================
+        # --------------------------------------------
         # RELEASE OWNER
-        # ==========================================
+        # --------------------------------------------
 
-        m = owner_pattern.search(line)
+        match = owner_pattern.search(line)
 
-        if m:
-            current_release_owner = m.group(1)
+        if match:
+            current_release_owner = match.group(1)
             continue
 
-        # ==========================================
+        # --------------------------------------------
         # RELEASE DATES
-        # ==========================================
+        # --------------------------------------------
 
-        m = date_pattern.search(line)
+        match = date_pattern.search(line)
 
-        if m:
-            current_release_created = m.group(1)
-            current_release_resolved = m.group(2)
+        if match:
+            current_release_created = match.group(1)
+            current_release_resolved = match.group(2)
             continue
 
-        # ==========================================
-        # TASK RECORD
-        # ==========================================
+        # --------------------------------------------
+        # TASKS
+        # --------------------------------------------
 
-        if (
-            "Added" in line
-            and "ID:" in line
-            and "Title:" in line
-        ):
+        match = task_pattern.search(line)
 
-            try:
+        if match:
+            rows.append({
+                "Release ID": current_release,
+                "PM ID": current_pm,
+                "Release Owner": current_release_owner,
+                "Release Created": current_release_created,
+                "Release Resolved": current_release_resolved,
+                "Category": match.group(1).strip(),
+                "Hours": float(match.group(2)),
+                "Task ID": match.group(3),
+                "Type": match.group(4).strip(),
+                "Department": match.group(5).strip(),
+                "Task Owner": match.group(6).strip(),
+                "Country": match.group(7).strip(),
+                "Title": match.group(8).strip(),
+                "Task Created": match.group(9)
+            })
 
-                category = re.search(
-                    r"\[(.*?)\]\s*Added",
-                    line
-                ).group(1).strip()
-
-                hours = float(
-                    re.search(
-                        r"Added\s*([\d.]+)\s*hrs",
-                        line
-                    ).group(1)
-                )
-
-                task_id = re.search(
-                    r"ID:\s*(\d+)",
-                    line
-                ).group(1)
-
-                task_type = re.search(
-                    r"Type:\s*(.*?)\s*\|\s*Dept:",
-                    line
-                ).group(1)
-
-                department = re.search(
-                    r"Dept:\s*'(.*?)'",
-                    line
-                ).group(1)
-
-                task_owner = re.search(
-                    r"Owner:\s*(.*?)\s*\|\s*Country:",
-                    line
-                ).group(1)
-
-                country = re.search(
-                    r"Country:\s*(.*?)\s*\|\s*Title:",
-                    line
-                ).group(1)
-
-                title = re.search(
-                    r"Title:\s*(.*?)\s*\|\s*Created:",
-                    line
-                ).group(1)
-
-                task_created = re.search(
-                    r"Created:\s*(\d{2}-\d{2}-\d{4})",
-                    line
-                ).group(1)
-
-                rows.append({
-                    "Release ID": current_release,
-                    "PM ID": current_pm,
-                    "Release Owner": current_release_owner,
-                    "Release Created": current_release_created,
-                    "Release Resolved": current_release_resolved,
-
-                    "Category": category,
-                    "Hours": hours,
-
-                    "Task ID": task_id,
-                    "Type": task_type,
-
-                    "Department": department,
-                    "Task Owner": task_owner,
-
-                    "Country": country,
-                    "Title": title,
-
-                    "Task Created": task_created
-                })
-
-            except Exception as e:
-
-                print("\nFAILED TO PARSE:")
-                print(line)
-                print(e)
-
-# ==================================================
+# ====================================================
 # DATAFRAME
-# ==================================================
+# ====================================================
 
 detail_df = pd.DataFrame(rows)
 
 if detail_df.empty:
-    print("No task records found.")
+    print("No data found.")
     raise SystemExit
 
-# ==================================================
-# DATE CONVERSIONS
-# ==================================================
+# ====================================================
+# TASK CREATED DATE
+# ====================================================
 
-for col in [
-    "Release Created",
-    "Release Resolved",
-    "Task Created"
-]:
-    detail_df[col] = pd.to_datetime(
-        detail_df[col],
-        format="%d-%m-%Y",
-        errors="coerce"
-    )
+task_created_date = pd.to_datetime(
+    detail_df["Task Created"],
+    format="%d-%m-%Y",
+    errors="coerce"
+)
 
-# ==================================================
-# RELEASE DATE SPLITS
-# ==================================================
+# Day, month and year are taken from Task Created
+detail_df["Created_Day"] = task_created_date.dt.day.astype("Int64")
+detail_df["Created_Month"] = task_created_date.dt.month.astype("Int64")
+detail_df["Created_Year"] = task_created_date.dt.year.astype("Int64")
 
-detail_df["Release Day"] = detail_df["Release Created"].dt.day
-detail_df["Release Month"] = detail_df["Release Created"].dt.month
-detail_df["Release Year"] = detail_df["Release Created"].dt.year
+# Keep Task Created as DD-MM-YYYY without 00:00:00
+detail_df["Task Created"] = task_created_date.dt.strftime("%d-%m-%Y")
 
-# ==================================================
-# TASK DATE SPLITS
-# ==================================================
-
-detail_df["Task Day"] = detail_df["Task Created"].dt.day
-detail_df["Task Month"] = detail_df["Task Created"].dt.month
-detail_df["Task Year"] = detail_df["Task Created"].dt.year
-
-# ==================================================
+# ====================================================
 # SUMMARY
-# ==================================================
+# ====================================================
 
 summary_df = (
     detail_df
@@ -224,18 +162,17 @@ summary_df = (
     .reset_index()
 )
 
-hour_cols = [
-    c for c in summary_df.columns
-    if c != "Release ID"
-]
+numeric_cols = summary_df.select_dtypes(
+    include="number"
+).columns
 
 summary_df["Total Hours"] = summary_df[
-    hour_cols
+    numeric_cols
 ].sum(axis=1)
 
-# ==================================================
-# WRITE OUTPUT
-# ==================================================
+# ====================================================
+# WRITE EXCEL
+# ====================================================
 
 with pd.ExcelWriter(
     OUTPUT_FILE,
@@ -254,6 +191,7 @@ with pd.ExcelWriter(
         index=False
     )
 
-print("\nDone!")
-print(f"Records Parsed : {len(detail_df)}")
-print(f"Output File    : {OUTPUT_FILE}")
+print()
+print("Excel created successfully")
+print(f"Rows exported: {len(detail_df)}")
+print(OUTPUT_FILE)
