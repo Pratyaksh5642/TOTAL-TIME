@@ -17,11 +17,11 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "input.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "check.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_threading.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Open_release_ID_MB.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "open_Daimler_Data.xlsx") 
+LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_threading_NEW.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log_threading.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "open_added_time_log_threading.txt")
 
 # --- SETUP LOGGING ---
 logger = logging.getLogger("alm_extractor")
@@ -307,10 +307,15 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
         
         is_valid_type = type_name_short in ["task", "review", "defect"]
 
+        # --- UPDATED 2025 DATE FILTER (RESOLUTION THEN CREATION) ---
         is_valid_date = False
-        if task_created_raw and isinstance(task_created_raw, str) and len(task_created_raw) >= 4:
+        
+        # Determine which date string to use for the check
+        date_to_check = task_resolved_raw if (task_resolved_raw and isinstance(task_resolved_raw, str) and "T" in task_resolved_raw) else task_created_raw
+        
+        if date_to_check and isinstance(date_to_check, str) and len(date_to_check) >= 4:
             try:
-                task_year = int(task_created_raw[:4]) 
+                task_year = int(date_to_check[:4]) 
                 if task_year >= 2025:
                     is_valid_date = True
             except ValueError:
@@ -329,7 +334,8 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
         if not is_valid_type:
             blog.debug(f"[Rel {release_id}] {indent}→ [IGNORED TYPE] Skipped {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Title: {task_title}")
         elif not is_valid_date:
-            blog.debug(f"[Rel {release_id}] {indent}→ [IGNORED OLD DATE] Skipped {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Created: {task_created_formatted}")
+            # Modified this log to be clear about why it failed the date check
+            blog.debug(f"[Rel {release_id}] {indent}→ [IGNORED OLD DATE] Skipped {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Created: {task_created_formatted} | Resolved: {task_resolved_formatted} (Failed 2025 filter)")
         elif bucket and is_valid_date:
             task_owner_info = data.get("rtc_cm:ownedBy") or data.get("ownedBy")
             task_owner_url = ""
@@ -411,7 +417,7 @@ def process_single_release(row):
             
         if "invalid" in res_status.lower():
             blog.warning(f"[Rel {release_id}] ❌ SKIPPING: Resolution is '{res_status.title()}'")
-            blog.info("") # Adds a blank line for spacing
+            blog.info("") 
             blog.flush() 
             return []
         else:
@@ -505,12 +511,12 @@ def process_single_release(row):
         
         country_rows_to_return.append(country_row)
         
-    blog.info("") # Adds a blank line for spacing between releases
+    blog.info("") 
     blog.flush() 
     return country_rows_to_return
 
 if __name__ == "__main__":
-    logger.info("\n---> [NEW RUN STARTING: VISUAL SPACING BETWEEN RELEASES] <---")
+    logger.info("\n---> [NEW RUN STARTING: 15 THREADS CONCURRENT & RESOLUTION DATE FILTER] <---")
     logger.info(f"Master Log: {LOG_FILE}")
     logger.info(f"Clean Log (Added Only): {ADDED_LOG_FILE}\n")
     
@@ -533,6 +539,7 @@ if __name__ == "__main__":
                     continue
                     
                 pm_id = row.get("PM Interface Element ID", "").strip()
+                
                 if pm_id.startswith("BM"):
                     pm_id = pm_id.split('_')[0]
                     row["PM Interface Element ID"] = pm_id 
@@ -543,9 +550,9 @@ if __name__ == "__main__":
                     normal_rows.append(row)
             
             ordered_rows = normal_rows + delayed_rows
-            logger.info(f"Sorting complete. Starting ThreadPoolExecutor with 10 threads...\n")
+            logger.info(f"Sorting complete. Starting ThreadPoolExecutor with 15 threads...\n")
             
-            with ThreadPoolExecutor(max_workers=10) as executor:
+            with ThreadPoolExecutor(max_workers=15) as executor:
                 future_to_row = {executor.submit(process_single_release, row): row for row in ordered_rows}
                 
                 for future in as_completed(future_to_row):
