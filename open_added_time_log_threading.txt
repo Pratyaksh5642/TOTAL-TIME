@@ -3026,3 +3026,2197 @@ Sorting complete. Starting ThreadPoolExecutor with 15 threads...
 
 
 ✅ Success! All threads finished. Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\open_Daimler_Data.xlsx'.
+
+---> [NEW RUN STARTING: SEARCHING FOR MISCATEGORIZED WIs BASED ON ROSTER] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_threading_.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\open_added_time_log_threading.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+⚠️ Column 'Names' not found in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\team_roster.xlsx'.
+Reading and cleaning 127 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 15 threads...
+
+[Rel 7124359] =========================================
+[Rel 7124359] Checking Release ID: 7124359 [PM ID: BM-00105824]...
+[Rel 7124359] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124359] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124359] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124359] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124359] --- Final MISCATEGORIZED Hours for Release 7124359 ---
+[Rel 7124359]   [🌍 Others]
+[Rel 7124359]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119935] =========================================
+[Rel 7119935] Checking Release ID: 7119935 [PM ID: BM-00105824]...
+[Rel 7119935] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119935] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119935] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119935] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119935] --- Final MISCATEGORIZED Hours for Release 7119935 ---
+[Rel 7119935]   [🌍 Others]
+[Rel 7119935]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119917] =========================================
+[Rel 7119917] Checking Release ID: 7119917 [PM ID: BM-00105824]...
+[Rel 7119917] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119917] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119917] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119917] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119917] --- Final MISCATEGORIZED Hours for Release 7119917 ---
+[Rel 7119917]   [🌍 Others]
+[Rel 7119917]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124219] =========================================
+[Rel 7124219] Checking Release ID: 7124219 [PM ID: BM-00105824]...
+[Rel 7124219] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124219] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124219] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124219] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124219] --- Final MISCATEGORIZED Hours for Release 7124219 ---
+[Rel 7124219]   [🌍 Others]
+[Rel 7124219]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119933] =========================================
+[Rel 7119933] Checking Release ID: 7119933 [PM ID: BM-00105824]...
+[Rel 7119933] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119933] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119933] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119933] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119933] --- Final MISCATEGORIZED Hours for Release 7119933 ---
+[Rel 7119933]   [🌍 Others]
+[Rel 7119933]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124316] =========================================
+[Rel 7124316] Checking Release ID: 7124316 [PM ID: BM-00105824]...
+[Rel 7124316] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124316] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124316] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124316] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124316] --- Final MISCATEGORIZED Hours for Release 7124316 ---
+[Rel 7124316]   [🌍 Others]
+[Rel 7124316]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962734] =========================================
+[Rel 6962734] Checking Release ID: 6962734 [PM ID: BM-00105824]...
+[Rel 6962734] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962734] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962734] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962734] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962734] --- Final MISCATEGORIZED Hours for Release 6962734 ---
+[Rel 6962734]   [🌍 Others]
+[Rel 6962734]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962727] =========================================
+[Rel 6962727] Checking Release ID: 6962727 [PM ID: BM-00105824]...
+[Rel 6962727] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962727] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962727] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962727] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962727] --- Final MISCATEGORIZED Hours for Release 6962727 ---
+[Rel 6962727]   [🌍 Others]
+[Rel 6962727]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119929] =========================================
+[Rel 7119929] Checking Release ID: 7119929 [PM ID: BM-00105824]...
+[Rel 7119929] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119929] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119929] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119929] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945887 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945884 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945842 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945855 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6468876 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 7124359 (Preventing double-counting)
+
+[Rel 7119929] --- Final MISCATEGORIZED Hours for Release 7119929 ---
+[Rel 7119929]   [🌍 Others]
+[Rel 7119929]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6946009] =========================================
+[Rel 6946009] Checking Release ID: 6946009 [PM ID: BM-00105824]...
+[Rel 6946009] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6946009] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6946009] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6946009] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6946009] --- Final MISCATEGORIZED Hours for Release 6946009 ---
+[Rel 6946009]   [🌍 Others]
+[Rel 6946009]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119931] =========================================
+[Rel 7119931] Checking Release ID: 7119931 [PM ID: BM-00105824]...
+[Rel 7119931] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119931] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119931] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119931] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945972 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6946009 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945989 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 5698286 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945959 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945929 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945922 (Preventing double-counting)
+
+[Rel 7119931] --- Final MISCATEGORIZED Hours for Release 7119931 ---
+[Rel 7119931]   [🌍 Others]
+[Rel 7119931]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962685] =========================================
+[Rel 6962685] Checking Release ID: 6962685 [PM ID: BM-00105824]...
+[Rel 6962685] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962685] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962685] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962685] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962685] --- Final MISCATEGORIZED Hours for Release 6962685 ---
+[Rel 6962685]   [🌍 Others]
+[Rel 6962685]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945989] =========================================
+[Rel 6945989] Checking Release ID: 6945989 [PM ID: BM-00105824]...
+[Rel 6945989] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945989] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945989] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945989] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945989] --- Final MISCATEGORIZED Hours for Release 6945989 ---
+[Rel 6945989]   [🌍 Others]
+[Rel 6945989]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945972] =========================================
+[Rel 6945972] Checking Release ID: 6945972 [PM ID: BM-00105824]...
+[Rel 6945972] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945972] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945972] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945972] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945972] --- Final MISCATEGORIZED Hours for Release 6945972 ---
+[Rel 6945972]   [🌍 Others]
+[Rel 6945972]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945959] =========================================
+[Rel 6945959] Checking Release ID: 6945959 [PM ID: BM-00105824]...
+[Rel 6945959] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945959] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945959] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945959] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945959] --- Final MISCATEGORIZED Hours for Release 6945959 ---
+[Rel 6945959]   [🌍 Others]
+[Rel 6945959]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945929] =========================================
+[Rel 6945929] Checking Release ID: 6945929 [PM ID: BM-00105824]...
+[Rel 6945929] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945929] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945929] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945929] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945929] --- Final MISCATEGORIZED Hours for Release 6945929 ---
+[Rel 6945929]   [🌍 Others]
+[Rel 6945929]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945922] =========================================
+[Rel 6945922] Checking Release ID: 6945922 [PM ID: BM-00105824]...
+[Rel 6945922] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945922] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945922] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945922] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945922] --- Final MISCATEGORIZED Hours for Release 6945922 ---
+[Rel 6945922]   [🌍 Others]
+[Rel 6945922]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962675] =========================================
+[Rel 6962675] Checking Release ID: 6962675 [PM ID: BM-00105824]...
+[Rel 6962675] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962675] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962675] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962675] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962675] --- Final MISCATEGORIZED Hours for Release 6962675 ---
+[Rel 6962675]   [🌍 Others]
+[Rel 6962675]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945884] =========================================
+[Rel 6945884] Checking Release ID: 6945884 [PM ID: BM-00105824]...
+[Rel 6945884] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945884] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945884] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945884] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945884] --- Final MISCATEGORIZED Hours for Release 6945884 ---
+[Rel 6945884]   [🌍 Others]
+[Rel 6945884]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945887] =========================================
+[Rel 6945887] Checking Release ID: 6945887 [PM ID: BM-00105824]...
+[Rel 6945887] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945887] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945887] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945887] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945887] --- Final MISCATEGORIZED Hours for Release 6945887 ---
+[Rel 6945887]   [🌍 Others]
+[Rel 6945887]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945855] =========================================
+[Rel 6945855] Checking Release ID: 6945855 [PM ID: BM-00105824]...
+[Rel 6945855] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945855] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945855] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945855] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945855] --- Final MISCATEGORIZED Hours for Release 6945855 ---
+[Rel 6945855]   [🌍 Others]
+[Rel 6945855]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945842] =========================================
+[Rel 6945842] Checking Release ID: 6945842 [PM ID: BM-00105824]...
+[Rel 6945842] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945842] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945842] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945842] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945842] --- Final MISCATEGORIZED Hours for Release 6945842 ---
+[Rel 6945842]   [🌍 Others]
+[Rel 6945842]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945828] =========================================
+[Rel 6945828] Checking Release ID: 6945828 [PM ID: BM-00105824]...
+[Rel 6945828] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945828] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945828] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945828] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945828] --- Final MISCATEGORIZED Hours for Release 6945828 ---
+[Rel 6945828]   [🌍 Others]
+[Rel 6945828]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6944709] =========================================
+[Rel 6944709] Checking Release ID: 6944709 [PM ID: BM-00105824]...
+[Rel 6944709] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6944709] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6944709] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6944709] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6944709] --- Final MISCATEGORIZED Hours for Release 6944709 ---
+[Rel 6944709]   [🌍 Others]
+[Rel 6944709]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962670] =========================================
+[Rel 6962670] Checking Release ID: 6962670 [PM ID: BM-00105824]...
+[Rel 6962670] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962670] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962670] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962670] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962670] --- Final MISCATEGORIZED Hours for Release 6962670 ---
+[Rel 6962670]   [🌍 Others]
+[Rel 6962670]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6944639] =========================================
+[Rel 6944639] Checking Release ID: 6944639 [PM ID: BM-00105824]...
+[Rel 6944639] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6944639] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6944639] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6944639] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6944639] --- Final MISCATEGORIZED Hours for Release 6944639 ---
+[Rel 6944639]   [🌍 Others]
+[Rel 6944639]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119939] =========================================
+[Rel 7119939] Checking Release ID: 7119939 [PM ID: BM-00105824]...
+[Rel 7119939] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119939] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119939] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119939] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119939] --- Final MISCATEGORIZED Hours for Release 7119939 ---
+[Rel 7119939]   [🌍 Others]
+[Rel 7119939]     No Miscategorized Hours Found (0.00 hrs)
+
+
+---> [NEW RUN STARTING: SEARCHING FOR MISCATEGORIZED WIs BASED ON ROSTER] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_threading_.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\open_added_time_log_threading.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+⚠️ Column 'Names' not found in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\team_roster.xlsx'.
+Reading and cleaning 127 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 15 threads...
+
+[Rel 7124219] =========================================
+[Rel 7124219] Checking Release ID: 7124219 [PM ID: BM-00105824]...
+[Rel 7124219] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124219] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124219] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124219] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124219] --- Final MISCATEGORIZED Hours for Release 7124219 ---
+[Rel 7124219]   [🌍 Others]
+[Rel 7124219]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119917] =========================================
+[Rel 7119917] Checking Release ID: 7119917 [PM ID: BM-00105824]...
+[Rel 7119917] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119917] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119917] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119917] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119917] --- Final MISCATEGORIZED Hours for Release 7119917 ---
+[Rel 7119917]   [🌍 Others]
+[Rel 7119917]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119935] =========================================
+[Rel 7119935] Checking Release ID: 7119935 [PM ID: BM-00105824]...
+[Rel 7119935] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119935] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119935] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119935] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119935] --- Final MISCATEGORIZED Hours for Release 7119935 ---
+[Rel 7119935]   [🌍 Others]
+[Rel 7119935]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124359] =========================================
+[Rel 7124359] Checking Release ID: 7124359 [PM ID: BM-00105824]...
+[Rel 7124359] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124359] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124359] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124359] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124359] --- Final MISCATEGORIZED Hours for Release 7124359 ---
+[Rel 7124359]   [🌍 Others]
+[Rel 7124359]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119933] =========================================
+[Rel 7119933] Checking Release ID: 7119933 [PM ID: BM-00105824]...
+[Rel 7119933] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119933] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119933] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119933] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119933] --- Final MISCATEGORIZED Hours for Release 7119933 ---
+[Rel 7119933]   [🌍 Others]
+[Rel 7119933]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124316] =========================================
+[Rel 7124316] Checking Release ID: 7124316 [PM ID: BM-00105824]...
+[Rel 7124316] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124316] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124316] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124316] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124316] --- Final MISCATEGORIZED Hours for Release 7124316 ---
+[Rel 7124316]   [🌍 Others]
+[Rel 7124316]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962734] =========================================
+[Rel 6962734] Checking Release ID: 6962734 [PM ID: BM-00105824]...
+[Rel 6962734] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962734] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962734] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962734] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962734] --- Final MISCATEGORIZED Hours for Release 6962734 ---
+[Rel 6962734]   [🌍 Others]
+[Rel 6962734]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962727] =========================================
+[Rel 6962727] Checking Release ID: 6962727 [PM ID: BM-00105824]...
+[Rel 6962727] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962727] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962727] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962727] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962727] --- Final MISCATEGORIZED Hours for Release 6962727 ---
+[Rel 6962727]   [🌍 Others]
+[Rel 6962727]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119929] =========================================
+[Rel 7119929] Checking Release ID: 7119929 [PM ID: BM-00105824]...
+[Rel 7119929] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119929] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119929] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119929] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945887 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945884 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945842 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945855 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6468876 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 7124359 (Preventing double-counting)
+
+[Rel 7119929] --- Final MISCATEGORIZED Hours for Release 7119929 ---
+[Rel 7119929]   [🌍 Others]
+[Rel 7119929]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6946009] =========================================
+[Rel 6946009] Checking Release ID: 6946009 [PM ID: BM-00105824]...
+[Rel 6946009] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6946009] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6946009] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6946009] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6946009] --- Final MISCATEGORIZED Hours for Release 6946009 ---
+[Rel 6946009]   [🌍 Others]
+[Rel 6946009]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119931] =========================================
+[Rel 7119931] Checking Release ID: 7119931 [PM ID: BM-00105824]...
+[Rel 7119931] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119931] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119931] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119931] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945972 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6946009 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945989 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 5698286 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945959 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945929 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945922 (Preventing double-counting)
+
+[Rel 7119931] --- Final MISCATEGORIZED Hours for Release 7119931 ---
+[Rel 7119931]   [🌍 Others]
+[Rel 7119931]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962685] =========================================
+[Rel 6962685] Checking Release ID: 6962685 [PM ID: BM-00105824]...
+[Rel 6962685] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962685] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962685] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962685] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962685] --- Final MISCATEGORIZED Hours for Release 6962685 ---
+[Rel 6962685]   [🌍 Others]
+[Rel 6962685]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945989] =========================================
+[Rel 6945989] Checking Release ID: 6945989 [PM ID: BM-00105824]...
+[Rel 6945989] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945989] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945989] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945989] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945989] --- Final MISCATEGORIZED Hours for Release 6945989 ---
+[Rel 6945989]   [🌍 Others]
+[Rel 6945989]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945972] =========================================
+[Rel 6945972] Checking Release ID: 6945972 [PM ID: BM-00105824]...
+[Rel 6945972] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945972] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945972] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945972] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945972] --- Final MISCATEGORIZED Hours for Release 6945972 ---
+[Rel 6945972]   [🌍 Others]
+[Rel 6945972]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945959] =========================================
+[Rel 6945959] Checking Release ID: 6945959 [PM ID: BM-00105824]...
+[Rel 6945959] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945959] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945959] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945959] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945959] --- Final MISCATEGORIZED Hours for Release 6945959 ---
+[Rel 6945959]   [🌍 Others]
+[Rel 6945959]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945929] =========================================
+[Rel 6945929] Checking Release ID: 6945929 [PM ID: BM-00105824]...
+[Rel 6945929] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945929] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945929] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945929] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945929] --- Final MISCATEGORIZED Hours for Release 6945929 ---
+[Rel 6945929]   [🌍 Others]
+[Rel 6945929]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945922] =========================================
+[Rel 6945922] Checking Release ID: 6945922 [PM ID: BM-00105824]...
+[Rel 6945922] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945922] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945922] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945922] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945922] --- Final MISCATEGORIZED Hours for Release 6945922 ---
+[Rel 6945922]   [🌍 Others]
+[Rel 6945922]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962675] =========================================
+[Rel 6962675] Checking Release ID: 6962675 [PM ID: BM-00105824]...
+[Rel 6962675] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962675] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962675] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962675] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962675] --- Final MISCATEGORIZED Hours for Release 6962675 ---
+[Rel 6962675]   [🌍 Others]
+[Rel 6962675]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945887] =========================================
+[Rel 6945887] Checking Release ID: 6945887 [PM ID: BM-00105824]...
+[Rel 6945887] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945887] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945887] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945887] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945887] --- Final MISCATEGORIZED Hours for Release 6945887 ---
+[Rel 6945887]   [🌍 Others]
+[Rel 6945887]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945884] =========================================
+[Rel 6945884] Checking Release ID: 6945884 [PM ID: BM-00105824]...
+[Rel 6945884] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945884] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945884] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945884] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945884] --- Final MISCATEGORIZED Hours for Release 6945884 ---
+[Rel 6945884]   [🌍 Others]
+[Rel 6945884]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945855] =========================================
+[Rel 6945855] Checking Release ID: 6945855 [PM ID: BM-00105824]...
+[Rel 6945855] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945855] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945855] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945855] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945855] --- Final MISCATEGORIZED Hours for Release 6945855 ---
+[Rel 6945855]   [🌍 Others]
+[Rel 6945855]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945842] =========================================
+[Rel 6945842] Checking Release ID: 6945842 [PM ID: BM-00105824]...
+[Rel 6945842] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945842] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945842] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945842] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945842] --- Final MISCATEGORIZED Hours for Release 6945842 ---
+[Rel 6945842]   [🌍 Others]
+[Rel 6945842]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6944709] =========================================
+[Rel 6944709] Checking Release ID: 6944709 [PM ID: BM-00105824]...
+[Rel 6944709] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6944709] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6944709] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6944709] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6944709] --- Final MISCATEGORIZED Hours for Release 6944709 ---
+[Rel 6944709]   [🌍 Others]
+[Rel 6944709]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6944639] =========================================
+[Rel 6944639] Checking Release ID: 6944639 [PM ID: BM-00105824]...
+[Rel 6944639] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6944639] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6944639] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6944639] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6944639] --- Final MISCATEGORIZED Hours for Release 6944639 ---
+[Rel 6944639]   [🌍 Others]
+[Rel 6944639]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945828] =========================================
+[Rel 6945828] Checking Release ID: 6945828 [PM ID: BM-00105824]...
+[Rel 6945828] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945828] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945828] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945828] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945828] --- Final MISCATEGORIZED Hours for Release 6945828 ---
+[Rel 6945828]   [🌍 Others]
+[Rel 6945828]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962670] =========================================
+[Rel 6962670] Checking Release ID: 6962670 [PM ID: BM-00105824]...
+[Rel 6962670] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962670] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962670] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962670] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962670] --- Final MISCATEGORIZED Hours for Release 6962670 ---
+[Rel 6962670]   [🌍 Others]
+[Rel 6962670]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7135341] =========================================
+[Rel 7135341] Checking Release ID: 7135341 [PM ID: BM-00105824]...
+[Rel 7135341] ✔️ Resolution is 'Solved'.
+[Rel 7135341] 👤 Release Owned By: Febin Sheron P S (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 7135341] 📅 Created: 17-06-2026 | Resolved: 05-08-2026
+[Rel 7135341] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7135341] --- Final MISCATEGORIZED Hours for Release 7135341 ---
+[Rel 7135341]   [🌍 India]
+[Rel 7135341]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119939] =========================================
+[Rel 7119939] Checking Release ID: 7119939 [PM ID: BM-00105824]...
+[Rel 7119939] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119939] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119939] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119939] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119939] --- Final MISCATEGORIZED Hours for Release 7119939 ---
+[Rel 7119939]   [🌍 Others]
+[Rel 7119939]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468876] =========================================
+[Rel 6468876] Checking Release ID: 6468876 [PM ID: BM-00105824]...
+[Rel 6468876] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468876] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468876] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468876] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468876] --- Final MISCATEGORIZED Hours for Release 6468876 ---
+[Rel 6468876]   [🌍 Others]
+[Rel 6468876]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962720] =========================================
+[Rel 6962720] Checking Release ID: 6962720 [PM ID: BM-00105824]...
+[Rel 6962720] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962720] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962720] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962720] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962720] --- Final MISCATEGORIZED Hours for Release 6962720 ---
+[Rel 6962720]   [🌍 Others]
+[Rel 6962720]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119927] =========================================
+[Rel 7119927] Checking Release ID: 7119927 [PM ID: BM-00105824]...
+[Rel 7119927] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119927] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119927] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119927] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6468858 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6468852 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 7124316 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 5694682 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 5694693 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6944639 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6944709 (Preventing double-counting)
+
+[Rel 7119927] --- Final MISCATEGORIZED Hours for Release 7119927 ---
+[Rel 7119927]   [🌍 Others]
+[Rel 7119927]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468858] =========================================
+[Rel 6468858] Checking Release ID: 6468858 [PM ID: BM-00105824]...
+[Rel 6468858] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468858] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468858] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468858] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468858] --- Final MISCATEGORIZED Hours for Release 6468858 ---
+[Rel 6468858]   [🌍 Others]
+[Rel 6468858]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468852] =========================================
+[Rel 6468852] Checking Release ID: 6468852 [PM ID: BM-00105824]...
+[Rel 6468852] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468852] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468852] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468852] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468852] --- Final MISCATEGORIZED Hours for Release 6468852 ---
+[Rel 6468852]   [🌍 Others]
+[Rel 6468852]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962680] =========================================
+[Rel 6962680] Checking Release ID: 6962680 [PM ID: BM-00105824]...
+[Rel 6962680] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962680] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962680] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962680] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962680] --- Final MISCATEGORIZED Hours for Release 6962680 ---
+[Rel 6962680]   [🌍 Others]
+[Rel 6962680]     No Miscategorized Hours Found (0.00 hrs)
+
+
+---> [NEW RUN STARTING: SEARCHING FOR MISCATEGORIZED WIs BASED ON ROSTER] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_threading_.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\open_added_time_log_threading.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 134 target names from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\team_roster.xlsx'.
+Reading and cleaning 127 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 15 threads...
+
+[Rel 7119935] =========================================
+[Rel 7119935] Checking Release ID: 7119935 [PM ID: BM-00105824]...
+[Rel 7119935] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119935] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119935] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119935] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119935] --- Final MISCATEGORIZED Hours for Release 7119935 ---
+[Rel 7119935]   [🌍 Others]
+[Rel 7119935]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124219] =========================================
+[Rel 7124219] Checking Release ID: 7124219 [PM ID: BM-00105824]...
+[Rel 7124219] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124219] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124219] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124219] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124219] --- Final MISCATEGORIZED Hours for Release 7124219 ---
+[Rel 7124219]   [🌍 Others]
+[Rel 7124219]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119917] =========================================
+[Rel 7119917] Checking Release ID: 7119917 [PM ID: BM-00105824]...
+[Rel 7119917] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119917] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119917] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119917] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119917] --- Final MISCATEGORIZED Hours for Release 7119917 ---
+[Rel 7119917]   [🌍 Others]
+[Rel 7119917]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119933] =========================================
+[Rel 7119933] Checking Release ID: 7119933 [PM ID: BM-00105824]...
+[Rel 7119933] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119933] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119933] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119933] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119933] --- Final MISCATEGORIZED Hours for Release 7119933 ---
+[Rel 7119933]   [🌍 Others]
+[Rel 7119933]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124359] =========================================
+[Rel 7124359] Checking Release ID: 7124359 [PM ID: BM-00105824]...
+[Rel 7124359] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124359] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124359] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124359] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124359] --- Final MISCATEGORIZED Hours for Release 7124359 ---
+[Rel 7124359]   [🌍 Others]
+[Rel 7124359]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7124316] =========================================
+[Rel 7124316] Checking Release ID: 7124316 [PM ID: BM-00105824]...
+[Rel 7124316] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7124316] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7124316] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7124316] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7124316] --- Final MISCATEGORIZED Hours for Release 7124316 ---
+[Rel 7124316]   [🌍 Others]
+[Rel 7124316]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962734] =========================================
+[Rel 6962734] Checking Release ID: 6962734 [PM ID: BM-00105824]...
+[Rel 6962734] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962734] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962734] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962734] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962734] --- Final MISCATEGORIZED Hours for Release 6962734 ---
+[Rel 6962734]   [🌍 Others]
+[Rel 6962734]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962727] =========================================
+[Rel 6962727] Checking Release ID: 6962727 [PM ID: BM-00105824]...
+[Rel 6962727] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962727] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962727] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962727] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962727] --- Final MISCATEGORIZED Hours for Release 6962727 ---
+[Rel 6962727]   [🌍 Others]
+[Rel 6962727]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119929] =========================================
+[Rel 7119929] Checking Release ID: 7119929 [PM ID: BM-00105824]...
+[Rel 7119929] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119929] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119929] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119929] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945887 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945884 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945842 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6945855 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 6468876 (Preventing double-counting)
+[Rel 7119929]   → [SKIPPED SUB-RELEASE] ID: 7124359 (Preventing double-counting)
+
+[Rel 7119929] --- Final MISCATEGORIZED Hours for Release 7119929 ---
+[Rel 7119929]   [🌍 Others]
+[Rel 7119929]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6946009] =========================================
+[Rel 6946009] Checking Release ID: 6946009 [PM ID: BM-00105824]...
+[Rel 6946009] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6946009] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6946009] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6946009] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6946009] --- Final MISCATEGORIZED Hours for Release 6946009 ---
+[Rel 6946009]   [🌍 Others]
+[Rel 6946009]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119931] =========================================
+[Rel 7119931] Checking Release ID: 7119931 [PM ID: BM-00105824]...
+[Rel 7119931] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119931] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119931] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119931] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945972 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6946009 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945989 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 5698286 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945959 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945929 (Preventing double-counting)
+[Rel 7119931]   → [SKIPPED SUB-RELEASE] ID: 6945922 (Preventing double-counting)
+
+[Rel 7119931] --- Final MISCATEGORIZED Hours for Release 7119931 ---
+[Rel 7119931]   [🌍 Others]
+[Rel 7119931]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962685] =========================================
+[Rel 6962685] Checking Release ID: 6962685 [PM ID: BM-00105824]...
+[Rel 6962685] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962685] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962685] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962685] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962685] --- Final MISCATEGORIZED Hours for Release 6962685 ---
+[Rel 6962685]   [🌍 Others]
+[Rel 6962685]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945972] =========================================
+[Rel 6945972] Checking Release ID: 6945972 [PM ID: BM-00105824]...
+[Rel 6945972] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945972] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945972] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945972] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945972] --- Final MISCATEGORIZED Hours for Release 6945972 ---
+[Rel 6945972]   [🌍 Others]
+[Rel 6945972]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945989] =========================================
+[Rel 6945989] Checking Release ID: 6945989 [PM ID: BM-00105824]...
+[Rel 6945989] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945989] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945989] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945989] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945989] --- Final MISCATEGORIZED Hours for Release 6945989 ---
+[Rel 6945989]   [🌍 Others]
+[Rel 6945989]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945959] =========================================
+[Rel 6945959] Checking Release ID: 6945959 [PM ID: BM-00105824]...
+[Rel 6945959] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945959] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945959] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945959] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945959] --- Final MISCATEGORIZED Hours for Release 6945959 ---
+[Rel 6945959]   [🌍 Others]
+[Rel 6945959]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945929] =========================================
+[Rel 6945929] Checking Release ID: 6945929 [PM ID: BM-00105824]...
+[Rel 6945929] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945929] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945929] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945929] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945929] --- Final MISCATEGORIZED Hours for Release 6945929 ---
+[Rel 6945929]   [🌍 Others]
+[Rel 6945929]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945922] =========================================
+[Rel 6945922] Checking Release ID: 6945922 [PM ID: BM-00105824]...
+[Rel 6945922] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945922] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945922] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945922] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945922] --- Final MISCATEGORIZED Hours for Release 6945922 ---
+[Rel 6945922]   [🌍 Others]
+[Rel 6945922]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945887] =========================================
+[Rel 6945887] Checking Release ID: 6945887 [PM ID: BM-00105824]...
+[Rel 6945887] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945887] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945887] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945887] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945887] --- Final MISCATEGORIZED Hours for Release 6945887 ---
+[Rel 6945887]   [🌍 Others]
+[Rel 6945887]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962675] =========================================
+[Rel 6962675] Checking Release ID: 6962675 [PM ID: BM-00105824]...
+[Rel 6962675] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962675] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962675] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962675] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962675] --- Final MISCATEGORIZED Hours for Release 6962675 ---
+[Rel 6962675]   [🌍 Others]
+[Rel 6962675]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945855] =========================================
+[Rel 6945855] Checking Release ID: 6945855 [PM ID: BM-00105824]...
+[Rel 6945855] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945855] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945855] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945855] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945855] --- Final MISCATEGORIZED Hours for Release 6945855 ---
+[Rel 6945855]   [🌍 Others]
+[Rel 6945855]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945884] =========================================
+[Rel 6945884] Checking Release ID: 6945884 [PM ID: BM-00105824]...
+[Rel 6945884] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945884] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945884] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945884] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945884] --- Final MISCATEGORIZED Hours for Release 6945884 ---
+[Rel 6945884]   [🌍 Others]
+[Rel 6945884]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962670] =========================================
+[Rel 6962670] Checking Release ID: 6962670 [PM ID: BM-00105824]...
+[Rel 6962670] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962670] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962670] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962670] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962670] --- Final MISCATEGORIZED Hours for Release 6962670 ---
+[Rel 6962670]   [🌍 Others]
+[Rel 6962670]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945828] =========================================
+[Rel 6945828] Checking Release ID: 6945828 [PM ID: BM-00105824]...
+[Rel 6945828] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945828] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945828] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945828] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945828] --- Final MISCATEGORIZED Hours for Release 6945828 ---
+[Rel 6945828]   [🌍 Others]
+[Rel 6945828]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6945842] =========================================
+[Rel 6945842] Checking Release ID: 6945842 [PM ID: BM-00105824]...
+[Rel 6945842] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6945842] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6945842] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6945842] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6945842] --- Final MISCATEGORIZED Hours for Release 6945842 ---
+[Rel 6945842]   [🌍 Others]
+[Rel 6945842]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6944709] =========================================
+[Rel 6944709] Checking Release ID: 6944709 [PM ID: BM-00105824]...
+[Rel 6944709] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6944709] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6944709] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6944709] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6944709] --- Final MISCATEGORIZED Hours for Release 6944709 ---
+[Rel 6944709]   [🌍 Others]
+[Rel 6944709]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7135341] =========================================
+[Rel 7135341] Checking Release ID: 7135341 [PM ID: BM-00105824]...
+[Rel 7135341] ✔️ Resolution is 'Solved'.
+[Rel 7135341] 👤 Release Owned By: Febin Sheron P S (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 7135341] 📅 Created: 17-06-2026 | Resolved: 05-08-2026
+[Rel 7135341] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7135341] --- Final MISCATEGORIZED Hours for Release 7135341 ---
+[Rel 7135341]   [🌍 India]
+[Rel 7135341]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6944639] =========================================
+[Rel 6944639] Checking Release ID: 6944639 [PM ID: BM-00105824]...
+[Rel 6944639] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6944639] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6944639] 📅 Created: 27-04-2026 | Resolved: No Date
+[Rel 6944639] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6944639] --- Final MISCATEGORIZED Hours for Release 6944639 ---
+[Rel 6944639]   [🌍 Others]
+[Rel 6944639]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119939] =========================================
+[Rel 7119939] Checking Release ID: 7119939 [PM ID: BM-00105824]...
+[Rel 7119939] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119939] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119939] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119939] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7119939] --- Final MISCATEGORIZED Hours for Release 7119939 ---
+[Rel 7119939]   [🌍 Others]
+[Rel 7119939]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468876] =========================================
+[Rel 6468876] Checking Release ID: 6468876 [PM ID: BM-00105824]...
+[Rel 6468876] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468876] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468876] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468876] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468876] --- Final MISCATEGORIZED Hours for Release 6468876 ---
+[Rel 6468876]   [🌍 Others]
+[Rel 6468876]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962720] =========================================
+[Rel 6962720] Checking Release ID: 6962720 [PM ID: BM-00105824]...
+[Rel 6962720] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962720] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962720] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962720] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962720] --- Final MISCATEGORIZED Hours for Release 6962720 ---
+[Rel 6962720]   [🌍 Others]
+[Rel 6962720]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468858] =========================================
+[Rel 6468858] Checking Release ID: 6468858 [PM ID: BM-00105824]...
+[Rel 6468858] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468858] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468858] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468858] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468858] --- Final MISCATEGORIZED Hours for Release 6468858 ---
+[Rel 6468858]   [🌍 Others]
+[Rel 6468858]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119927] =========================================
+[Rel 7119927] Checking Release ID: 7119927 [PM ID: BM-00105824]...
+[Rel 7119927] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119927] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119927] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119927] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6468858 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6468852 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 7124316 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 5694682 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 5694693 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6944639 (Preventing double-counting)
+[Rel 7119927]   → [SKIPPED SUB-RELEASE] ID: 6944709 (Preventing double-counting)
+
+[Rel 7119927] --- Final MISCATEGORIZED Hours for Release 7119927 ---
+[Rel 7119927]   [🌍 Others]
+[Rel 7119927]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468852] =========================================
+[Rel 6468852] Checking Release ID: 6468852 [PM ID: BM-00105824]...
+[Rel 6468852] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468852] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468852] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468852] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468852] --- Final MISCATEGORIZED Hours for Release 6468852 ---
+[Rel 6468852]   [🌍 Others]
+[Rel 6468852]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6962680] =========================================
+[Rel 6962680] Checking Release ID: 6962680 [PM ID: BM-00105824]...
+[Rel 6962680] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6962680] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6962680] 📅 Created: 30-04-2026 | Resolved: No Date
+[Rel 6962680] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6962680] --- Final MISCATEGORIZED Hours for Release 6962680 ---
+[Rel 6962680]   [🌍 Others]
+[Rel 6962680]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119921] =========================================
+[Rel 7119921] Checking Release ID: 7119921 [PM ID: BM-00105824]...
+[Rel 7119921] ✔️ Resolution is 'Solved'.
+[Rel 7119921] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119921] 📅 Created: 14-06-2026 | Resolved: 29-06-2026
+[Rel 7119921] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119921]   → [SKIPPED SUB-RELEASE] ID: 6394454 (Preventing double-counting)
+[Rel 7119921]   → [SKIPPED SUB-RELEASE] ID: 6259964 (Preventing double-counting)
+[Rel 7119921]   → [SKIPPED SUB-RELEASE] ID: 5680812 (Preventing double-counting)
+[Rel 7119921]   → [SKIPPED SUB-RELEASE] ID: 5680821 (Preventing double-counting)
+[Rel 7119921]   → [SKIPPED SUB-RELEASE] ID: 6394456 (Preventing double-counting)
+[Rel 7119921]   → [SKIPPED SUB-RELEASE] ID: 6394452 (Preventing double-counting)
+
+[Rel 7119921] --- Final MISCATEGORIZED Hours for Release 7119921 ---
+[Rel 7119921]   [🌍 Others]
+[Rel 7119921]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7121903] =========================================
+[Rel 7121903] Checking Release ID: 7121903 [PM ID: BM-00105824]...
+[Rel 7121903] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7121903] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7121903] 📅 Created: 15-06-2026 | Resolved: No Date
+[Rel 7121903] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7121903] --- Final MISCATEGORIZED Hours for Release 7121903 ---
+[Rel 7121903]   [🌍 Others]
+[Rel 7121903]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6375664] =========================================
+[Rel 6375664] Checking Release ID: 6375664 [PM ID: BM-00105824]...
+[Rel 6375664] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6354209] =========================================
+[Rel 6354209] Checking Release ID: 6354209 [PM ID: BM-00105824]...
+[Rel 6354209] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7119923] =========================================
+[Rel 7119923] Checking Release ID: 7119923 [PM ID: BM-00105824]...
+[Rel 7119923] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119923] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119923] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119923] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 6806289 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 6806310 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 6806300 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 6806296 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 6806283 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 6394459 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 5680836 (Preventing double-counting)
+[Rel 7119923]   → [SKIPPED SUB-RELEASE] ID: 7135341 (Preventing double-counting)
+
+[Rel 7119923] --- Final MISCATEGORIZED Hours for Release 7119923 ---
+[Rel 7119923]   [🌍 Others]
+[Rel 7119923]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7119925] =========================================
+[Rel 7119925] Checking Release ID: 7119925 [PM ID: BM-00105824]...
+[Rel 7119925] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7119925] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 7119925] 📅 Created: 14-06-2026 | Resolved: No Date
+[Rel 7119925] Processing Hierarchy for Miscategorized WIs...
+[Rel 7119925]   → [SKIPPED SUB-RELEASE] ID: 5694676 (Preventing double-counting)
+[Rel 7119925]   → [SKIPPED SUB-RELEASE] ID: 6929882 (Preventing double-counting)
+[Rel 7119925]   → [SKIPPED SUB-RELEASE] ID: 6929886 (Preventing double-counting)
+[Rel 7119925]   → [SKIPPED SUB-RELEASE] ID: 7121903 (Preventing double-counting)
+[Rel 7119925]   → [SKIPPED SUB-RELEASE] ID: 6468829 (Preventing double-counting)
+
+[Rel 7119925] --- Final MISCATEGORIZED Hours for Release 7119925 ---
+[Rel 7119925]   [🌍 Others]
+[Rel 7119925]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6229262] =========================================
+[Rel 6229262] Checking Release ID: 6229262 [PM ID: BM-00105824]...
+[Rel 6229262] ✔️ Resolution is 'Solved'.
+[Rel 6229262] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6229262] 📅 Created: 14-10-2025 | Resolved: 18-12-2025
+[Rel 6229262] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6229262] --- Final MISCATEGORIZED Hours for Release 6229262 ---
+[Rel 6229262]   [🌍 Others]
+[Rel 6229262]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5937937] =========================================
+[Rel 5937937] Checking Release ID: 5937937 [PM ID: ]...
+[Rel 5937937] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6394459] =========================================
+[Rel 6394459] Checking Release ID: 6394459 [PM ID: BM-00105824]...
+[Rel 6394459] ✔️ Resolution is 'Solved'.
+[Rel 6394459] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6394459] 📅 Created: 19-11-2025 | Resolved: 19-05-2026
+[Rel 6394459] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6394459] --- Final MISCATEGORIZED Hours for Release 6394459 ---
+[Rel 6394459]   [🌍 Others]
+[Rel 6394459]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6229251] =========================================
+[Rel 6229251] Checking Release ID: 6229251 [PM ID: BM-00105824]...
+[Rel 6229251] ✔️ Resolution is 'Solved'.
+[Rel 6229251] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6229251] 📅 Created: 14-10-2025 | Resolved: 09-12-2025
+[Rel 6229251] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6229251] --- Final MISCATEGORIZED Hours for Release 6229251 ---
+[Rel 6229251]   [🌍 Others]
+[Rel 6229251]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5936942] =========================================
+[Rel 5936942] Checking Release ID: 5936942 [PM ID: BM-00105824]...
+[Rel 5936942] ✔️ Resolution is 'Solved'.
+[Rel 5936942] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5936942] 📅 Created: 14-07-2025 | Resolved: 22-10-2025
+[Rel 5936942] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5936942] --- Final MISCATEGORIZED Hours for Release 5936942 ---
+[Rel 5936942]   [🌍 Others]
+[Rel 5936942]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5936937] =========================================
+[Rel 5936937] Checking Release ID: 5936937 [PM ID: BM-00105824]...
+[Rel 5936937] ✔️ Resolution is 'Solved'.
+[Rel 5936937] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5936937] 📅 Created: 14-07-2025 | Resolved: 22-10-2025
+[Rel 5936937] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5936937] --- Final MISCATEGORIZED Hours for Release 5936937 ---
+[Rel 5936937]   [🌍 Others]
+[Rel 5936937]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5832846] =========================================
+[Rel 5832846] Checking Release ID: 5832846 [PM ID: ]...
+[Rel 5832846] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5832846] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5832846] 📅 Created: 17-06-2025 | Resolved: No Date
+[Rel 5832846] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5832846] --- Final MISCATEGORIZED Hours for Release 5832846 ---
+[Rel 5832846]   [🌍 Others]
+[Rel 5832846]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6394454] =========================================
+[Rel 6394454] Checking Release ID: 6394454 [PM ID: BM-00105824]...
+[Rel 6394454] ✔️ Resolution is 'Solved'.
+[Rel 6394454] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6394454] 📅 Created: 19-11-2025 | Resolved: 23-03-2026
+[Rel 6394454] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6394454] --- Final MISCATEGORIZED Hours for Release 6394454 ---
+[Rel 6394454]   [🌍 Others]
+[Rel 6394454]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5800850] =========================================
+[Rel 5800850] Checking Release ID: 5800850 [PM ID: ]...
+[Rel 5800850] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5800850] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5800850] 📅 Created: 06-06-2025 | Resolved: No Date
+[Rel 5800850] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5800850] --- Final MISCATEGORIZED Hours for Release 5800850 ---
+[Rel 5800850]   [🌍 Others]
+[Rel 5800850]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698297] =========================================
+[Rel 5698297] Checking Release ID: 5698297 [PM ID: ]...
+[Rel 5698297] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698297] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698297] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698297] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698297] --- Final MISCATEGORIZED Hours for Release 5698297 ---
+[Rel 5698297]   [🌍 Others]
+[Rel 5698297]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698295] =========================================
+[Rel 5698295] Checking Release ID: 5698295 [PM ID: ]...
+[Rel 5698295] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698295] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698295] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698295] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698295] --- Final MISCATEGORIZED Hours for Release 5698295 ---
+[Rel 5698295]   [🌍 Others]
+[Rel 5698295]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698296] =========================================
+[Rel 5698296] Checking Release ID: 5698296 [PM ID: ]...
+[Rel 5698296] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698296] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698296] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698296] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698296] --- Final MISCATEGORIZED Hours for Release 5698296 ---
+[Rel 5698296]   [🌍 Others]
+[Rel 5698296]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698294] =========================================
+[Rel 5698294] Checking Release ID: 5698294 [PM ID: ]...
+[Rel 5698294] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698294] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698294] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698294] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698294] --- Final MISCATEGORIZED Hours for Release 5698294 ---
+[Rel 5698294]   [🌍 Others]
+[Rel 5698294]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698292] =========================================
+[Rel 5698292] Checking Release ID: 5698292 [PM ID: ]...
+[Rel 5698292] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698292] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698292] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698292] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698292] --- Final MISCATEGORIZED Hours for Release 5698292 ---
+[Rel 5698292]   [🌍 Others]
+[Rel 5698292]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698293] =========================================
+[Rel 5698293] Checking Release ID: 5698293 [PM ID: ]...
+[Rel 5698293] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698293] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698293] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698293] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698293] --- Final MISCATEGORIZED Hours for Release 5698293 ---
+[Rel 5698293]   [🌍 Others]
+[Rel 5698293]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698291] =========================================
+[Rel 5698291] Checking Release ID: 5698291 [PM ID: ]...
+[Rel 5698291] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698291] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698291] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698291] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698291] --- Final MISCATEGORIZED Hours for Release 5698291 ---
+[Rel 5698291]   [🌍 Others]
+[Rel 5698291]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698289] =========================================
+[Rel 5698289] Checking Release ID: 5698289 [PM ID: BM-00105824]...
+[Rel 5698289] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698289] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698289] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698289] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698289] --- Final MISCATEGORIZED Hours for Release 5698289 ---
+[Rel 5698289]   [🌍 Others]
+[Rel 5698289]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698290] =========================================
+[Rel 5698290] Checking Release ID: 5698290 [PM ID: BM-00105824]...
+[Rel 5698290] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698290] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698290] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698290] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698290] --- Final MISCATEGORIZED Hours for Release 5698290 ---
+[Rel 5698290]   [🌍 Others]
+[Rel 5698290]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698287] =========================================
+[Rel 5698287] Checking Release ID: 5698287 [PM ID: BM-00105824]...
+[Rel 5698287] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698287] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698287] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698287] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698287] --- Final MISCATEGORIZED Hours for Release 5698287 ---
+[Rel 5698287]   [🌍 Others]
+[Rel 5698287]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698288] =========================================
+[Rel 5698288] Checking Release ID: 5698288 [PM ID: BM-00105824]...
+[Rel 5698288] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698288] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698288] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698288] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698288] --- Final MISCATEGORIZED Hours for Release 5698288 ---
+[Rel 5698288]   [🌍 Others]
+[Rel 5698288]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698286] =========================================
+[Rel 5698286] Checking Release ID: 5698286 [PM ID: BM-00105824]...
+[Rel 5698286] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698286] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698286] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698286] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698286] --- Final MISCATEGORIZED Hours for Release 5698286 ---
+[Rel 5698286]   [🌍 Others]
+[Rel 5698286]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5936933] =========================================
+[Rel 5936933] Checking Release ID: 5936933 [PM ID: BM-00105824]...
+[Rel 5936933] ✔️ Resolution is 'Solved'.
+[Rel 5936933] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5936933] 📅 Created: 14-07-2025 | Resolved: 05-10-2025
+[Rel 5936933] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5936933] --- Final MISCATEGORIZED Hours for Release 5936933 ---
+[Rel 5936933]   [🌍 Others]
+[Rel 5936933]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5698285] =========================================
+[Rel 5698285] Checking Release ID: 5698285 [PM ID: BM-00105824]...
+[Rel 5698285] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5698285] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5698285] 📅 Created: 07-05-2025 | Resolved: No Date
+[Rel 5698285] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5698285] --- Final MISCATEGORIZED Hours for Release 5698285 ---
+[Rel 5698285]   [🌍 Others]
+[Rel 5698285]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5936930] =========================================
+[Rel 5936930] Checking Release ID: 5936930 [PM ID: BM-00105824]...
+[Rel 5936930] ✔️ Resolution is 'Solved'.
+[Rel 5936930] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5936930] 📅 Created: 14-07-2025 | Resolved: 15-09-2025
+[Rel 5936930] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5936930] --- Final MISCATEGORIZED Hours for Release 5936930 ---
+[Rel 5936930]   [🌍 Others]
+[Rel 5936930]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5694695] =========================================
+[Rel 5694695] Checking Release ID: 5694695 [PM ID: BM-00105824]...
+[Rel 5694695] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5694695] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5694695] 📅 Created: 06-05-2025 | Resolved: No Date
+[Rel 5694695] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5694695] --- Final MISCATEGORIZED Hours for Release 5694695 ---
+[Rel 5694695]   [🌍 Others]
+[Rel 5694695]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5694672] =========================================
+[Rel 5694672] Checking Release ID: 5694672 [PM ID: ]...
+[Rel 5694672] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5694672] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5694672] 📅 Created: 06-05-2025 | Resolved: No Date
+[Rel 5694672] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5694672] --- Final MISCATEGORIZED Hours for Release 5694672 ---
+[Rel 5694672]   [🌍 Others]
+[Rel 5694672]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6468829] =========================================
+[Rel 6468829] Checking Release ID: 6468829 [PM ID: BM-00105824]...
+[Rel 6468829] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6468829] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6468829] 📅 Created: 10-12-2025 | Resolved: No Date
+[Rel 6468829] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6468829] --- Final MISCATEGORIZED Hours for Release 6468829 ---
+[Rel 6468829]   [🌍 Others]
+[Rel 6468829]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5694693] =========================================
+[Rel 5694693] Checking Release ID: 5694693 [PM ID: BM-00105824]...
+[Rel 5694693] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5694693] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5694693] 📅 Created: 06-05-2025 | Resolved: No Date
+[Rel 5694693] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5694693] --- Final MISCATEGORIZED Hours for Release 5694693 ---
+[Rel 5694693]   [🌍 Others]
+[Rel 5694693]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6394452] =========================================
+[Rel 6394452] Checking Release ID: 6394452 [PM ID: BM-00105824]...
+[Rel 6394452] ✔️ Resolution is 'Solved'.
+[Rel 6394452] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6394452] 📅 Created: 19-11-2025 | Resolved: 10-03-2026
+[Rel 6394452] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6394452] --- Final MISCATEGORIZED Hours for Release 6394452 ---
+[Rel 6394452]   [🌍 Others]
+[Rel 6394452]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6806296] =========================================
+[Rel 6806296] Checking Release ID: 6806296 [PM ID: BM-00105824]...
+[Rel 6806296] ✔️ Resolution is 'Solved'.
+[Rel 6806296] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6806296] 📅 Created: 23-03-2026 | Resolved: 01-07-2026
+[Rel 6806296] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6806296] --- Final MISCATEGORIZED Hours for Release 6806296 ---
+[Rel 6806296]   [🌍 Others]
+[Rel 6806296]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6259964] =========================================
+[Rel 6259964] Checking Release ID: 6259964 [PM ID: BM-00105824]...
+[Rel 6259964] ✔️ Resolution is 'Solved'.
+[Rel 6259964] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6259964] 📅 Created: 20-10-2025 | Resolved: 12-02-2026
+[Rel 6259964] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6259964] --- Final MISCATEGORIZED Hours for Release 6259964 ---
+[Rel 6259964]   [🌍 Others]
+[Rel 6259964]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6806300] =========================================
+[Rel 6806300] Checking Release ID: 6806300 [PM ID: BM-00105824]...
+[Rel 6806300] ✔️ Resolution is 'Solved'.
+[Rel 6806300] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6806300] 📅 Created: 23-03-2026 | Resolved: 10-07-2026
+[Rel 6806300] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6806300] --- Final MISCATEGORIZED Hours for Release 6806300 ---
+[Rel 6806300]   [🌍 Others]
+[Rel 6806300]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5694682] =========================================
+[Rel 5694682] Checking Release ID: 5694682 [PM ID: BM-00105824]...
+[Rel 5694682] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5694682] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5694682] 📅 Created: 06-05-2025 | Resolved: No Date
+[Rel 5694682] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5694682] --- Final MISCATEGORIZED Hours for Release 5694682 ---
+[Rel 5694682]   [🌍 Others]
+[Rel 5694682]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6394456] =========================================
+[Rel 6394456] Checking Release ID: 6394456 [PM ID: BM-00105824]...
+[Rel 6394456] ✔️ Resolution is 'Solved'.
+[Rel 6394456] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6394456] 📅 Created: 19-11-2025 | Resolved: 02-04-2026
+[Rel 6394456] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6394456] --- Final MISCATEGORIZED Hours for Release 6394456 ---
+[Rel 6394456]   [🌍 Others]
+[Rel 6394456]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6806283] =========================================
+[Rel 6806283] Checking Release ID: 6806283 [PM ID: BM-00105824]...
+[Rel 6806283] ✔️ Resolution is 'Solved'.
+[Rel 6806283] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6806283] 📅 Created: 23-03-2026 | Resolved: 01-07-2026
+[Rel 6806283] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6806283] --- Final MISCATEGORIZED Hours for Release 6806283 ---
+[Rel 6806283]   [🌍 Others]
+[Rel 6806283]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5644927] =========================================
+[Rel 5644927] Checking Release ID: 5644927 [PM ID: ]...
+[Rel 5644927] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6806310] =========================================
+[Rel 6806310] Checking Release ID: 6806310 [PM ID: BM-00105824]...
+[Rel 6806310] ✔️ Resolution is 'Solved'.
+[Rel 6806310] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6806310] 📅 Created: 23-03-2026 | Resolved: 24-07-2026
+[Rel 6806310] Processing Hierarchy for Miscategorized WIs...
+[Rel 6806310]       → [GENERAL DEV ] Added 5.50 hrs | ID: 6425444 | Dept: 'test and simulation' | Owner: Gokul Ramachandran (MS/EHE2-VM) | Title: [Build issue fix] RBFS_HSWSimulation&nbsp; - SoftECU build addition
+[Rel 6806310]       → [GENERAL DEV ] Added 0.10 hrs | ID: 6546826 | Dept: 'test and simulation' | Owner: Gokul Ramachandran (MS/EHE2-VM) | Title: [MB.EA-L][Common- ESP + DPB][Simulation] SoftECU Topics - Step 7 - DCOM compilation error
+
+[Rel 6806310] --- Final MISCATEGORIZED Hours for Release 6806310 ---
+[Rel 6806310]   [🌍 India]
+[Rel 6806310]     General_DEV: 5.60 hrs
+
+[Rel 5680751] =========================================
+[Rel 5680751] Checking Release ID: 5680751 [PM ID: BM-00105824]...
+[Rel 5680751] ✔️ Resolution is 'Solved'.
+[Rel 5680751] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680751] 📅 Created: 29-04-2025 | Resolved: 22-10-2025
+[Rel 5680751] Processing Hierarchy for Miscategorized WIs...
+[Rel 5680751]   → [SKIPPED SUB-RELEASE] ID: 5937937 (Preventing double-counting)
+
+[Rel 5680751] --- Final MISCATEGORIZED Hours for Release 5680751 ---
+[Rel 5680751]   [🌍 Others]
+[Rel 5680751]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680769] =========================================
+[Rel 5680769] Checking Release ID: 5680769 [PM ID: BM-00105824]...
+[Rel 5680769] ✔️ Resolution is 'Solved'.
+[Rel 5680769] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680769] 📅 Created: 29-04-2025 | Resolved: 24-11-2025
+[Rel 5680769] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680769] --- Final MISCATEGORIZED Hours for Release 5680769 ---
+[Rel 5680769]   [🌍 Others]
+[Rel 5680769]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7083721] =========================================
+[Rel 7083721] Checking Release ID: 7083721 [PM ID: BM-00068408]...
+[Rel 7083721] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7083721] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 7083721] 📅 Created: 03-06-2026 | Resolved: No Date
+[Rel 7083721] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7083721] --- Final MISCATEGORIZED Hours for Release 7083721 ---
+[Rel 7083721]   [🌍 India]
+[Rel 7083721]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7083665] =========================================
+[Rel 7083665] Checking Release ID: 7083665 [PM ID: ]...
+[Rel 7083665] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6929882] =========================================
+[Rel 6929882] Checking Release ID: 6929882 [PM ID: BM-00105824]...
+[Rel 6929882] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6929882] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6929882] 📅 Created: 22-04-2026 | Resolved: No Date
+[Rel 6929882] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6929882] --- Final MISCATEGORIZED Hours for Release 6929882 ---
+[Rel 6929882]   [🌍 Others]
+[Rel 6929882]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7085299] =========================================
+[Rel 7085299] Checking Release ID: 7085299 [PM ID: BM-00068408]...
+[Rel 7085299] ✔️ Resolution is 'Solved'.
+[Rel 7085299] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 7085299] 📅 Created: 03-06-2026 | Resolved: 13-07-2026
+[Rel 7085299] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 7085299] --- Final MISCATEGORIZED Hours for Release 7085299 ---
+[Rel 7085299]   [🌍 India]
+[Rel 7085299]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680783] =========================================
+[Rel 5680783] Checking Release ID: 5680783 [PM ID: BM-00105824]...
+[Rel 5680783] ✔️ Resolution is 'Solved'.
+[Rel 5680783] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680783] 📅 Created: 29-04-2025 | Resolved: 06-02-2026
+[Rel 5680783] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680783] --- Final MISCATEGORIZED Hours for Release 5680783 ---
+[Rel 5680783]   [🌍 Others]
+[Rel 5680783]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6835034] =========================================
+[Rel 6835034] Checking Release ID: 6835034 [PM ID: ]...
+[Rel 6835034] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6835034] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6835034] 📅 Created: 27-03-2026 | Resolved: No Date
+[Rel 6835034] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6835034] --- Final MISCATEGORIZED Hours for Release 6835034 ---
+[Rel 6835034]   [🌍 India]
+[Rel 6835034]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6835016] =========================================
+[Rel 6835016] Checking Release ID: 6835016 [PM ID: ]...
+[Rel 6835016] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6835016] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6835016] 📅 Created: 27-03-2026 | Resolved: No Date
+[Rel 6835016] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6835016] --- Final MISCATEGORIZED Hours for Release 6835016 ---
+[Rel 6835016]   [🌍 India]
+[Rel 6835016]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6834999] =========================================
+[Rel 6834999] Checking Release ID: 6834999 [PM ID: ]...
+[Rel 6834999] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6834999] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6834999] 📅 Created: 27-03-2026 | Resolved: No Date
+[Rel 6834999] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6834999] --- Final MISCATEGORIZED Hours for Release 6834999 ---
+[Rel 6834999]   [🌍 India]
+[Rel 6834999]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6834940] =========================================
+[Rel 6834940] Checking Release ID: 6834940 [PM ID: ]...
+[Rel 6834940] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6834940] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6834940] 📅 Created: 27-03-2026 | Resolved: No Date
+[Rel 6834940] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6834940] --- Final MISCATEGORIZED Hours for Release 6834940 ---
+[Rel 6834940]   [🌍 India]
+[Rel 6834940]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6956566] =========================================
+[Rel 6956566] Checking Release ID: 6956566 [PM ID: BM-00068408]...
+[Rel 6956566] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6956566] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6956566] 📅 Created: 28-04-2026 | Resolved: No Date
+[Rel 6956566] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6956566] --- Final MISCATEGORIZED Hours for Release 6956566 ---
+[Rel 6956566]   [🌍 India]
+[Rel 6956566]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6920251] =========================================
+[Rel 6920251] Checking Release ID: 6920251 [PM ID: ]...
+[Rel 6920251] ✔️ Resolution is 'Solved'.
+[Rel 6920251] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6920251] 📅 Created: 21-04-2026 | Resolved: 22-05-2026
+[Rel 6920251] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6920251] --- Final MISCATEGORIZED Hours for Release 6920251 ---
+[Rel 6920251]   [🌍 India]
+[Rel 6920251]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6770334] =========================================
+[Rel 6770334] Checking Release ID: 6770334 [PM ID: BM-00076075]...
+[Rel 6770334] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6770334] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6770334] 📅 Created: 13-03-2026 | Resolved: No Date
+[Rel 6770334] Processing Hierarchy for Miscategorized WIs...
+[Rel 6770334]   → [SKIPPED SUB-RELEASE] ID: 6834999 (Preventing double-counting)
+[Rel 6770334]   → [SKIPPED SUB-RELEASE] ID: 6834940 (Preventing double-counting)
+[Rel 6770334]   → [SKIPPED SUB-RELEASE] ID: 6835034 (Preventing double-counting)
+[Rel 6770334]   → [SKIPPED SUB-RELEASE] ID: 6835016 (Preventing double-counting)
+
+[Rel 6770334] --- Final MISCATEGORIZED Hours for Release 6770334 ---
+[Rel 6770334]   [🌍 India]
+[Rel 6770334]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6697244] =========================================
+[Rel 6697244] Checking Release ID: 6697244 [PM ID: ]...
+[Rel 6697244] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6680028] =========================================
+[Rel 6680028] Checking Release ID: 6680028 [PM ID: BM-00076075]...
+[Rel 6680028] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6618848] =========================================
+[Rel 6618848] Checking Release ID: 6618848 [PM ID: ]...
+[Rel 6618848] ✔️ Resolution is 'Solved'.
+[Rel 6618848] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6618848] 📅 Created: 29-01-2026 | Resolved: 29-01-2026
+[Rel 6618848] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6618848] --- Final MISCATEGORIZED Hours for Release 6618848 ---
+[Rel 6618848]   [🌍 India]
+[Rel 6618848]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6589589] =========================================
+[Rel 6589589] Checking Release ID: 6589589 [PM ID: ]...
+[Rel 6589589] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6794613] =========================================
+[Rel 6794613] Checking Release ID: 6794613 [PM ID: BM-00108505]...
+[Rel 6794613] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6794613] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6794613] 📅 Created: 19-03-2026 | Resolved: No Date
+[Rel 6794613] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6794613] --- Final MISCATEGORIZED Hours for Release 6794613 ---
+[Rel 6794613]   [🌍 India]
+[Rel 6794613]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680742] =========================================
+[Rel 5680742] Checking Release ID: 5680742 [PM ID: BM-00105824]...
+[Rel 5680742] ✔️ Resolution is 'Solved'.
+[Rel 5680742] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680742] 📅 Created: 29-04-2025 | Resolved: 22-10-2025
+[Rel 5680742] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680742] --- Final MISCATEGORIZED Hours for Release 5680742 ---
+[Rel 5680742]   [🌍 Others]
+[Rel 5680742]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6511902] =========================================
+[Rel 6511902] Checking Release ID: 6511902 [PM ID: BM-00087042]...
+[Rel 6511902] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6511902] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6511902] 📅 Created: 23-12-2025 | Resolved: No Date
+[Rel 6511902] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6511902] --- Final MISCATEGORIZED Hours for Release 6511902 ---
+[Rel 6511902]   [🌍 India]
+[Rel 6511902]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7129382] =========================================
+[Rel 7129382] Checking Release ID: 7129382 [PM ID: BM-00076075]...
+[Rel 7129382] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7129382] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 7129382] 📅 Created: 16-06-2026 | Resolved: No Date
+[Rel 7129382] Processing Hierarchy for Miscategorized WIs...
+[Rel 7129382]       → [GENERAL DEV ] Added 1.50 hrs | ID: 7277064 | Dept: 'cdd documentation' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM-CDD][ReqEng+Constr] [MRA2M167][ESP/IB2][DCOM-CDD][SD + dSD + Impl] Overall CDD Update for AMG for BL18 RC06
+[Rel 7129382]       → [GENERAL DEV ] Added 11.50 hrs | ID: 7141177 | Dept: 'rte - run time environment' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [C][MBG][MRA2M167][All Systems][RTE][Impl.] Integrate SSA v2.0.8
+
+[Rel 7129382] --- Final MISCATEGORIZED Hours for Release 7129382 ---
+[Rel 7129382]   [🌍 India]
+[Rel 7129382]     General_DEV: 13.00 hrs
+
+[Rel 6375789] =========================================
+[Rel 6375789] Checking Release ID: 6375789 [PM ID: ]...
+[Rel 6375789] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6375789] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6375789] 📅 Created: 14-11-2025 | Resolved: No Date
+[Rel 6375789] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6375789] --- Final MISCATEGORIZED Hours for Release 6375789 ---
+[Rel 6375789]   [🌍 India]
+[Rel 6375789]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6929886] =========================================
+[Rel 6929886] Checking Release ID: 6929886 [PM ID: BM-00105824]...
+[Rel 6929886] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6929886] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6929886] 📅 Created: 22-04-2026 | Resolved: No Date
+[Rel 6929886] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6929886] --- Final MISCATEGORIZED Hours for Release 6929886 ---
+[Rel 6929886]   [🌍 Others]
+[Rel 6929886]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680765] =========================================
+[Rel 5680765] Checking Release ID: 5680765 [PM ID: BM-00105824]...
+[Rel 5680765] ✔️ Resolution is 'Solved'.
+[Rel 5680765] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680765] 📅 Created: 29-04-2025 | Resolved: 09-12-2025
+[Rel 5680765] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680765] --- Final MISCATEGORIZED Hours for Release 5680765 ---
+[Rel 5680765]   [🌍 Others]
+[Rel 5680765]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680812] =========================================
+[Rel 5680812] Checking Release ID: 5680812 [PM ID: BM-00105824]...
+[Rel 5680812] ✔️ Resolution is 'Solved'.
+[Rel 5680812] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680812] 📅 Created: 29-04-2025 | Resolved: 23-02-2026
+[Rel 5680812] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680812] --- Final MISCATEGORIZED Hours for Release 5680812 ---
+[Rel 5680812]   [🌍 Others]
+[Rel 5680812]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6806289] =========================================
+[Rel 6806289] Checking Release ID: 6806289 [PM ID: BM-00105824]...
+[Rel 6806289] ✔️ Resolution is 'Solved'.
+[Rel 6806289] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 6806289] 📅 Created: 23-03-2026 | Resolved: 02-07-2026
+[Rel 6806289] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6806289] --- Final MISCATEGORIZED Hours for Release 6806289 ---
+[Rel 6806289]   [🌍 Others]
+[Rel 6806289]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 7164987] =========================================
+[Rel 7164987] Checking Release ID: 7164987 [PM ID: ]...
+[Rel 7164987] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7164987] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 7164987] 📅 Created: 26-06-2026 | Resolved: No Date
+[Rel 7164987] Processing Hierarchy for Miscategorized WIs...
+[Rel 7164987]         → [GENERAL DEV ] Added 4.50 hrs | ID: 6244645 | Dept: 'system functions' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [NET][ReqEng] [MRA2M167][ESP &amp; iB2][NET][RunTime] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 5.50 hrs | ID: 6229712 | Dept: 'system functions' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][SW CT] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 7.50 hrs | ID: 6229710 | Dept: 'system functions' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][Impl.] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 1.00 hrs | ID: 6255536 | Dept: 'system functions' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][SD &amp; dSD Dev] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 2.00 hrs | ID: 6229714 | Dept: 'system functions' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [Review][NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][SW UT] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 7.00 hrs | ID: 6229711 | Dept: 'system functions' | Owner: Kanaga Durga Deenadayalan (MS/EHE11-VM) | Title: [NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][SW UT] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 1.00 hrs | ID: 6255535 | Dept: 'system functions' | Owner: Taskeen Sikander Hayath (MS/EHE11-VM) | Title: [NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][SD &amp; dSD Rev] Preventing Enable condition function calls (checks), once enable conditions are set
+[Rel 7164987]         → [GENERAL DEV ] Added 2.00 hrs | ID: 6229713 | Dept: 'system functions' | Owner: Taskeen Sikander Hayath (MS/EHE11-VM) | Title: [Review][NET][Impl.] [MRA2M167][ESP &amp; iB2][NET][RunTime][Impl.] Preventing Enable condition function calls (checks), once enable conditions are set
+
+[Rel 7164987] --- Final MISCATEGORIZED Hours for Release 7164987 ---
+[Rel 7164987]   [🌍 India]
+[Rel 7164987]     General_DEV: 30.50 hrs
+
+[Rel 5833959] =========================================
+[Rel 5833959] Checking Release ID: 5833959 [PM ID: BM-00076075]...
+[Rel 5833959] ✔️ Resolution is 'Solved'.
+[Rel 5833959] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5833959] 📅 Created: 18-06-2025 | Resolved: 18-07-2025
+[Rel 5833959] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5833959] --- Final MISCATEGORIZED Hours for Release 5833959 ---
+[Rel 5833959]   [🌍 India]
+[Rel 5833959]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6436546] =========================================
+[Rel 6436546] Checking Release ID: 6436546 [PM ID: BM-00076075]...
+[Rel 6436546] ✔️ Resolution is 'Solved'.
+[Rel 6436546] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6436546] 📅 Created: 02-12-2025 | Resolved: 13-02-2026
+[Rel 6436546] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6436546] --- Final MISCATEGORIZED Hours for Release 6436546 ---
+[Rel 6436546]   [🌍 India]
+[Rel 6436546]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680821] =========================================
+[Rel 5680821] Checking Release ID: 5680821 [PM ID: BM-00105824]...
+[Rel 5680821] ✔️ Resolution is 'Solved'.
+[Rel 5680821] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680821] 📅 Created: 29-04-2025 | Resolved: 25-06-2026
+[Rel 5680821] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680821] --- Final MISCATEGORIZED Hours for Release 5680821 ---
+[Rel 5680821]   [🌍 Others]
+[Rel 5680821]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680760] =========================================
+[Rel 5680760] Checking Release ID: 5680760 [PM ID: BM-00105824]...
+[Rel 5680760] ✔️ Resolution is 'Solved'.
+[Rel 5680760] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680760] 📅 Created: 29-04-2025 | Resolved: 17-06-2026
+[Rel 5680760] Processing Hierarchy for Miscategorized WIs...
+[Rel 5680760]       → [GENERAL DEV ] Added 10.00 hrs | ID: 6155843 | Dept: 'test development bsw' | Owner: Sarath Kumar M Sasidharan (MS/EHE2-VM) | Title: [Test Verification][TestDev][MB.EA-L][ESP][DPB][DCOM] Implementation of Identification Data Identifiers for BROP 1
+
+[Rel 5680760] --- Final MISCATEGORIZED Hours for Release 5680760 ---
+[Rel 5680760]   [🌍 India]
+[Rel 5680760]     General_DEV: 10.00 hrs
+
+[Rel 5694676] =========================================
+[Rel 5694676] Checking Release ID: 5694676 [PM ID: BM-00105824]...
+[Rel 5694676] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5694676] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5694676] 📅 Created: 06-05-2025 | Resolved: No Date
+[Rel 5694676] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5694676] --- Final MISCATEGORIZED Hours for Release 5694676 ---
+[Rel 5694676]   [🌍 Others]
+[Rel 5694676]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6375784] =========================================
+[Rel 6375784] Checking Release ID: 6375784 [PM ID: ]...
+[Rel 6375784] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6375784] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6375784] 📅 Created: 14-11-2025 | Resolved: No Date
+[Rel 6375784] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6375784] --- Final MISCATEGORIZED Hours for Release 6375784 ---
+[Rel 6375784]   [🌍 India]
+[Rel 6375784]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5680836] =========================================
+[Rel 5680836] Checking Release ID: 5680836 [PM ID: BM-00105824]...
+[Rel 5680836] ✔️ Resolution is 'Solved'.
+[Rel 5680836] 👤 Release Owned By: Glitz Ute (VM/ECE1-CB) (Tasks may be owned by others)
+[Rel 5680836] 📅 Created: 29-04-2025 | Resolved: 25-06-2026
+[Rel 5680836] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5680836] --- Final MISCATEGORIZED Hours for Release 5680836 ---
+[Rel 5680836]   [🌍 Others]
+[Rel 5680836]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6960725] =========================================
+[Rel 6960725] Checking Release ID: 6960725 [PM ID: BM-00068408]...
+[Rel 6960725] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6960725] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6960725] 📅 Created: 29-04-2026 | Resolved: No Date
+[Rel 6960725] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6960725] --- Final MISCATEGORIZED Hours for Release 6960725 ---
+[Rel 6960725]   [🌍 India]
+[Rel 6960725]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5659435] =========================================
+[Rel 5659435] Checking Release ID: 5659435 [PM ID: BM-00087042]...
+[Rel 5659435] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5659435] 👤 Release Owned By: Abishek Boraian (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5659435] 📅 Created: 22-04-2025 | Resolved: No Date
+[Rel 5659435] Processing Hierarchy for Miscategorized WIs...
+[Rel 5659435]       → [GENERAL DEV ] Added 1.50 hrs | ID: 5963721 | Dept: 'hsw - hardware related sw' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM][Constr] [HSW][VSxx][SW UT]HSW Update to fix erratum
+[Rel 5659435]       → [GENERAL DEV ] Added 1.50 hrs | ID: 5963719 | Dept: 'hsw - hardware related sw' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM][Constr] [HSW][VSxx][SD + dSD + Impl]HSW Update to fix erratum
+[Rel 5659435]         → [GENERAL DEV ] Added 0.50 hrs | ID: 5758633 | Dept: 'pdm - persistent data storage' | Owner: Praveen V (MS/EHE11-VM) | Title: [Review][ASW-PDMDB][B][AAS][VS20][Impl.] CR Attention Assist interface update MDC(DRCAM)
+
+[Rel 5659435] --- Final MISCATEGORIZED Hours for Release 5659435 ---
+[Rel 5659435]   [🌍 India]
+[Rel 5659435]     General_DEV: 3.50 hrs
+
+[Rel 6124561] =========================================
+[Rel 6124561] Checking Release ID: 6124561 [PM ID: BM-00108064]...
+[Rel 6124561] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6124561] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6124561] 📅 Created: 10-09-2025 | Resolved: No Date
+[Rel 6124561] Processing Hierarchy for Miscategorized WIs...
+[Rel 6124561]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6827383 | Dept: 'cdd documentation' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM][ReqEng+Constr] [MRA2] [DCOM][SD + dSD + Impl]Overall CDD/DPRS EPIC -CDD Update
+[Rel 6124561]       → [GENERAL DEV ] Added 0.50 hrs | ID: 6772761 | Dept: 'csw - integration' | Owner: Gowri Shankar Raman (MS/EBV3-SWC) | Title: [DCOM][ReqEng+Constr] [MRA2] [DCOM]Diag ID update - ESP Review
+[Rel 6124561]       → [GENERAL DEV ] Added 0.50 hrs | ID: 6800588 | Dept: 'cdd documentation' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [DCOM][ReqEng+Constr] [MRA2] [DCOM]Overall - ACL Update - BL35 SP1&nbsp; - Review
+[Rel 6124561]       → [GENERAL DEV ] Added 1.50 hrs | ID: 7330993 | Dept: 'cdd documentation' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM-CDD][ReqEng+Constr] [MRA2] [DCOM][SD + dSD + Impl]Overall CDD/DPRS EPIC -BL35 Release Tracking - Fix in CDD based on Static analysis check
+[Rel 6124561]         → [GENERAL DEV ] Added 1.50 hrs | ID: 7129630 | Dept: 'csw - integration' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [CSW][[ReqEng+Constr] [MRA2] [DCOM]Diag ID update - IB2<br/> 
+[Rel 6124561]       → [GENERAL DEV ] Added 1.00 hrs | ID: 7009326 | Dept: 'csw - integration' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [MRA2] [UHD] Create Endurance Test SW - NET - Review
+[Rel 6124561]       → [GENERAL DEV ] Added 25.50 hrs | ID: 6977125 | Dept: 'csw - integration' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA2] [UHD] [Impl] Create Endurance Test SW - DSW
+[Rel 6124561]       → [GENERAL REWORK] Added 3.50 hrs | ID: 6840326 | Dept: 'cdd documentation' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM-CDD][ReqEng+Constr] [MRA2] [Daimler 18566973] [Diag][SD + dSD + Impl] EBB223 : Protocoll-conformancy, general DTC read clear with DiVa + DTC returned but not specified
+[Rel 6124561]   → [GENERAL REWORK] Added 0.50 hrs | ID: 7011177 | Dept: 'rbt - roller bench test' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA] [ESP9.3] [RBT] Getting negative response for RTB failure delete request.
+[Rel 6124561]         → [GENERAL DEV ] Added 0.50 hrs | ID: 7226096 | Dept: 'pdm - persistent data storage' | Owner: Nivedha Aruchamy (MS/EHE11-VM) | Title: [ASW-PDM][B] [MRA2][ESP9.3][VAR] Implement the CRB parameters as SCN coding Review
+[Rel 6124561]       → [GENERAL DEV ] Added 0.50 hrs | ID: 7132204 | Dept: 'csw - integration' | Owner: Nivedha Aruchamy (MS/EHE11-VM) | Title: [PDM][IB2] [MRA2][VAR][SCN][ESP[IB] DBR-Parameter shift from DCM to&nbsp; VAR SCN Coding
+[Rel 6124561]       → [GENERAL DEV ] Added 0.50 hrs | ID: 7132380 | Dept: 'any product' | Owner: Nivedha Aruchamy (MS/EHE11-VM) | Title: [PDM][ESP] [MRA2][VAR][SCN][ESP[IB] DBR-Parameter shift from DCM to&nbsp; VAR SCN Coding
+
+[Rel 6124561] --- Final MISCATEGORIZED Hours for Release 6124561 ---
+[Rel 6124561]   [🌍 India]
+[Rel 6124561]     General_DEV: 33.00 hrs
+[Rel 6124561]     General_Rework: 4.00 hrs
+
+[Rel 6375779] =========================================
+[Rel 6375779] Checking Release ID: 6375779 [PM ID: ]...
+[Rel 6375779] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6375779] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6375779] 📅 Created: 14-11-2025 | Resolved: No Date
+[Rel 6375779] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6375779] --- Final MISCATEGORIZED Hours for Release 6375779 ---
+[Rel 6375779]   [🌍 India]
+[Rel 6375779]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6375729] =========================================
+[Rel 6375729] Checking Release ID: 6375729 [PM ID: ]...
+[Rel 6375729] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6375729] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6375729] 📅 Created: 14-11-2025 | Resolved: No Date
+[Rel 6375729] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 6375729] --- Final MISCATEGORIZED Hours for Release 6375729 ---
+[Rel 6375729]   [🌍 India]
+[Rel 6375729]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 6516864] =========================================
+[Rel 6516864] Checking Release ID: 6516864 [PM ID: BM-00068408]...
+[Rel 6516864] ✔️ Resolution is 'Solved'.
+[Rel 6516864] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6516864] 📅 Created: 25-12-2025 | Resolved: 30-05-2026
+[Rel 6516864] Processing Hierarchy for Miscategorized WIs...
+[Rel 6516864]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6865074 | Dept: 'cdd documentation' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [Review][DCOM][ReqEng+Constr] [VANEA][ESP/IB2][DCOM][SD + dSD + Impl] Overall CDD/DPRS EPIC -BL18 INC02 CDD UPDATE
+
+[Rel 6516864] --- Final MISCATEGORIZED Hours for Release 6516864 ---
+[Rel 6516864]   [🌍 India]
+[Rel 6516864]     General_DEV: 1.00 hrs
+
+[Rel 5579753] =========================================
+[Rel 5579753] Checking Release ID: 5579753 [PM ID: BM-00076075]...
+[Rel 5579753] ✔️ Resolution is 'Solved'.
+[Rel 5579753] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5579753] 📅 Created: 31-03-2025 | Resolved: 22-05-2026
+[Rel 5579753] Processing Hierarchy for Miscategorized WIs...
+[Rel 5579753]       → [GENERAL DEV ] Added 0.50 hrs | ID: 6338209 | Dept: 'csw - integration' | Owner: Taskeen Sikander Hayath (MS/EHE11-VM) | Title: [Review] [MRA2M167] [EBB] [CSW] NCD Update 2025_42
+[Rel 5579753]       → [GENERAL DEV ] Added 0.50 hrs | ID: 6325979 | Dept: 'csw - integration' | Owner: Taskeen Sikander Hayath (MS/EHE11-VM) | Title: [MRA2M167][ESP][CSW][PDM] NCD Update 2025_42
+[Rel 5579753]       → [GENERAL DEV ] Added 6.00 hrs | ID: 6322790 | Dept: 'sec - security' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [MRA2M167][ESP][EBB] [SEC][Impl] NCD Update 2025_42
+[Rel 5579753]   → [SKIPPED SUB-RELEASE] ID: 6920251 (Preventing double-counting)
+[Rel 5579753]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6679606 | Dept: 'test' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: IAD Closure - NET (0027) For BL17 RC03
+[Rel 5579753]       → [GENERAL DEV ] Added 0.50 hrs | ID: 6317635 | Dept: 'csw - integration' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA2M167][ESP][CSW] Takeover changes from BL16RC02 to BL17INC01(CSW_INT)_DSMPR
+[Rel 5579753]       → [GENERAL REWORK] Added 0.50 hrs | ID: 6662173 | Dept: 'system functions' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [Review][DSM][ReqEng+Impl] Fix for Defect: [MRA2M167][OBD][DSM][Impl.] No DTCs are reported when DiagRA uses the internal service 19 42 33 0C 02 - BL17RC03 PSW Stream
+[Rel 5579753]       → [GENERAL REWORK] Added 2.00 hrs | ID: 6662167 | Dept: 'system functions' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [DSM][ReqEng+Impl] Fix for Defect: [MRA2M167][OBD][DSM][Impl.] No DTCs are reported when DiagRA uses the internal service 19 42 33 0C 02 - BL17RC03 PSW Stream
+[Rel 5579753]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6409716 | Dept: 'csw - integration' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA2M167][ESP][CSW] Takeover changes from BL16RC03 to BL17INC02(PSW_DEV)_DSMPR
+
+[Rel 5579753] --- Final MISCATEGORIZED Hours for Release 5579753 ---
+[Rel 5579753]   [🌍 India]
+[Rel 5579753]     General_DEV: 9.50 hrs
+[Rel 5579753]     General_Rework: 2.50 hrs
+
+[Rel 5500147] =========================================
+[Rel 5500147] Checking Release ID: 5500147 [PM ID: BM-00068408]...
+[Rel 5500147] ✔️ Resolution is 'Solved'.
+[Rel 5500147] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5500147] 📅 Created: 07-03-2025 | Resolved: 27-03-2026
+[Rel 5500147] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5500147] --- Final MISCATEGORIZED Hours for Release 5500147 ---
+[Rel 5500147]   [🌍 India]
+[Rel 5500147]     No Miscategorized Hours Found (0.00 hrs)
+
+[Rel 5417327] =========================================
+[Rel 5417327] Checking Release ID: 5417327 [PM ID: BM-00087996]...
+[Rel 5417327] ✔️ Resolution is 'Solved'.
+[Rel 5417327] 👤 Release Owned By: Febin Sheron P S (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5417327] 📅 Created: 13-02-2025 | Resolved: 31-03-2026
+[Rel 5417327] Processing Hierarchy for Miscategorized WIs...
+[Rel 5417327]       → [GENERAL DEV ] Added 1.00 hrs | ID: 5434838 | Dept: 'system functions' | Owner: Nivedha Aruchamy (MS/EHE11-VM) | Title: [BSW]MRA2][ESP/IB2][HMI] DDL Review BL28S7 vs BL29S2V01
+[Rel 5417327]       → [GENERAL REWORK] Added 8.00 hrs | ID: 5701637 | Dept: 'asw' | Owner: Abishek K S D (MS/EHE2-VM) | Title: [DSM][ReqEng+Impl] Fix for Defect: [MRA2][ESP][ADSE][DSM][Impl.] ADSE degradation is not correctly set for RAS/SAS config
+[Rel 5417327]       → [GENERAL REWORK] Added 3.50 hrs | ID: 5701641 | Dept: 'asw' | Owner: Abishek K S D (MS/EHE2-VM) | Title: [DSM][ReqEng+Impl] Fix for Defect: [MRA2][ESP][ADSE][DSM][SW CT Spec &amp; Exec] ADSE degradation is not correctly set for RAS/SAS config
+
+[Rel 5417327] --- Final MISCATEGORIZED Hours for Release 5417327 ---
+[Rel 5417327]   [🌍 India]
+[Rel 5417327]     General_DEV: 1.00 hrs
+[Rel 5417327]     General_Rework: 11.50 hrs
+
+[Rel 6822632] =========================================
+[Rel 6822632] Checking Release ID: 6822632 [PM ID: BM-00068408]...
+[Rel 6822632] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6822632] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6822632] 📅 Created: 24-03-2026 | Resolved: No Date
+[Rel 6822632] Processing Hierarchy for Miscategorized WIs...
+[Rel 6822632]       → [GENERAL DEV ] Added 5.00 hrs | ID: 6080132 | Dept: 'hsw - hardware related sw' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [DCOM][ReqEng+Constr] [VANEA][SD + dSD + Impl] Analysis of session timeout issue reported in plant
+[Rel 6822632]       → [GENERAL DEV ] Added 3.00 hrs | ID: 6080130 | Dept: 'hsw - hardware related sw' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [DCOM][ReqEng+Constr] [VANEA][SW CT] Analysis of session timeout issue reported in plant
+[Rel 6822632]       → [GENERAL DEV ] Added 2.00 hrs | ID: 7167092 | Dept: 'cdd documentation' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [Review][DCOM-cdd][ReqEng+Constr] [VANEA][ESP/IB2][DCOM][SD + dSD + Impl] Overall CDD/DPRS EPIC -BL19 INC02 - CDD Update
+
+[Rel 6822632] --- Final MISCATEGORIZED Hours for Release 6822632 ---
+[Rel 6822632]   [🌍 India]
+[Rel 6822632]     General_DEV: 10.00 hrs
+
+[Rel 5500149] =========================================
+[Rel 5500149] Checking Release ID: 5500149 [PM ID: BM-00068408]...
+[Rel 5500149] ✔️ Resolution is 'Solved'.
+[Rel 5500149] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5500149] 📅 Created: 07-03-2025 | Resolved: 06-04-2026
+[Rel 5500149] Processing Hierarchy for Miscategorized WIs...
+[Rel 5500149]         → [GENERAL REWORK] Added 1.00 hrs | ID: 6667633 | Dept: 'rte - run time environment' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [RTE][Constr] [Daimler 20267357][SW UT] #WE25/12 Rotmeldung &quot;Störung anhalten&quot; beim Zuschalten - Long term Fix
+
+[Rel 5500149] --- Final MISCATEGORIZED Hours for Release 5500149 ---
+[Rel 5500149]   [🌍 India]
+[Rel 5500149]     General_Rework: 1.00 hrs
+
+[Rel 5579746] =========================================
+[Rel 5579746] Checking Release ID: 5579746 [PM ID: BM-00076075]...
+[Rel 5579746] ✔️ Resolution is 'Solved'.
+[Rel 5579746] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5579746] 📅 Created: 31-03-2025 | Resolved: 16-12-2025
+[Rel 5579746] Processing Hierarchy for Miscategorized WIs...
+[Rel 5579746]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6142802 | Dept: 'csw - integration' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [MRA2M167][ESP [CSW] Takeover the changes from BL15RC05 to BL16INC02 (Dcom_cmp)
+[Rel 5579746]       → [GENERAL DEV ] Added 0.10 hrs | ID: 6142864 | Dept: 'csw - integration' | Owner: Praveen V (MS/EHE11-VM) | Title: [MRA2M167][ESP [CSW] Takeover the changes from BL15RC05 to BL16INC02 (VAR)
+[Rel 5579746]       → [GENERAL REWORK] Added 1.00 hrs | ID: 6235756 | Dept: 'hsw - hardware related sw' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [Review][DSM][Impl.] [MRA2M][IB] [BL15_RC03_V01][Impl.] while trying to create (RBWssRLLineGnd ) failure we are getting additionally RBWssTestRLFailure failure is logged
+[Rel 5579746]       → [GENERAL DEV ] Added 1.00 hrs | ID: 5963453 | Dept: 'csw - integration' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA2M167] [iB2] Component and load rule file creation for PSP - Review.
+[Rel 5579746]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6091428 | Dept: 'pdm - persistent data storage' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [Review] [MRA2M167] [EBB/iB2] [PDM][CSW] NCD update and Voltage handler CRL
+[Rel 5579746]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6091554 | Dept: 'pdm - persistent data storage' | Owner: Taskeen Sikander Hayath (MS/EHE11-VM) | Title: [Review] [MRA2M167] [ESP] [PDM][CSW] NCD update and Voltage handler CRL
+[Rel 5579746]         → [GENERAL DEV ] Added 1.00 hrs | ID: 6056678 | Dept: 'pdm - persistent data storage' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [MRA2M167][ESP][EBB][PDM][CSW] NCD update and Voltage handler CRL
+[Rel 5579746]       → [GENERAL DEV ] Added 2.00 hrs | ID: 6198782 | Dept: 'sec - security' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [Review][MRA2M167][ESP][EBB][SEC] NCD update and Voltage handler CRL
+[Rel 5579746]       → [GENERAL DEV ] Added 5.50 hrs | ID: 6055174 | Dept: 'sec - security' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: [MRA2M167][ESP][EBB][SEC] NCD update and Voltage handler CRL
+
+[Rel 5579746] --- Final MISCATEGORIZED Hours for Release 5579746 ---
+[Rel 5579746]   [🌍 India]
+[Rel 5579746]     General_DEV: 12.60 hrs
+[Rel 5579746]     General_Rework: 1.00 hrs
+
+[Rel 5500145] =========================================
+[Rel 5500145] Checking Release ID: 5500145 [PM ID: BM-00068408]...
+[Rel 5500145] ✔️ Resolution is 'Solved'.
+[Rel 5500145] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5500145] 📅 Created: 07-03-2025 | Resolved: 12-09-2025
+[Rel 5500145] Processing Hierarchy for Miscategorized WIs...
+[Rel 5500145]       → [GENERAL DEV ] Added 1.00 hrs | ID: 5889959 | Dept: 'ibooster gen2' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [DCOM][Impl.][VANEA][iB2][DCOM][Review] Removal of HAD related FW DEM_EVENT_TESTFAILED_MLIHighTemperatureLevel0
+[Rel 5500145]     → [GENERAL REWORK] Added 25.50 hrs | ID: 5945473 | Dept: 'sec - security' | Owner: Arunkumar Eswaran (MS/EHE11-VM) | Title: Fix for Defect: [Defect VANEA Project\ESP] - Det_Report Failure reported during Post run (ECU SLEEP)&nbsp; in BL15 INC02 V00 SW - Analysis and LC testing
+[Rel 5500145]       → [GENERAL DEV ] Added 1.25 hrs | ID: 5987420 | Dept: 'test' | Owner: Swetha Sagili (MS/EBV3-SWC) | Title: [Review][DCOM][Constr][VANEA][ESP10][DCOM][SW UT] RDBI $2007- Sensor Offset Actual &amp; RDBI $2008 - Sensor Offset Stored
+
+[Rel 5500145] --- Final MISCATEGORIZED Hours for Release 5500145 ---
+[Rel 5500145]   [🌍 India]
+[Rel 5500145]     General_DEV: 2.25 hrs
+[Rel 5500145]     General_Rework: 25.50 hrs
+
+[Rel 6447910] =========================================
+[Rel 6447910] Checking Release ID: 6447910 [PM ID: BM-00076075]...
+[Rel 6447910] ✔️ Resolution is 'Solved'.
+[Rel 6447910] 👤 Release Owned By: Sureshkumar Velusamy (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 6447910] 📅 Created: 05-12-2025 | Resolved: 06-08-2026
+[Rel 6447910] Processing Hierarchy for Miscategorized WIs...
+[Rel 6447910]       → [GENERAL DEV ] Added 1.00 hrs | ID: 7094159 | Dept: 'csw - integration' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][CSW][ReqEng+Constr] [MOPF] [DCOM ][SD + dSD + Impl]BL18 RC04 Diag ID update - EBB
+[Rel 6447910]       → [GENERAL DEV ] Added 1.50 hrs | ID: 6960009 | Dept: 'cdd documentation' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [Review][DCOM][ReqEng+Constr] [MOPF] [DCOM][SD + dSD + Impl]BL18 RC03 ACL update - AMG
+[Rel 6447910]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6958318 | Dept: 'csw - integration' | Owner: Priya Dharshini Arumugam (MS/EHE2-VM) | Title: [CSW][ReqEng+Constr] [MOPF] [DCOM ][Code Review]BL18 RC04 Diag ID update - ESP
+[Rel 6447910]       → [GENERAL DEV ] Added 1.00 hrs | ID: 7277076 | Dept: 'cdd documentation' | Owner: Gowri Shankar Raman (MS/EBV3-SWC) | Title: [Review][DCOM][ReqEng+Constr] [MOPF] [DCOM][SD + dSD + Impl] DPRS Update for BL18 RC 06
+[Rel 6447910]       → [GENERAL DEV ] Added 2.00 hrs | ID: 6866859 | Dept: 'csw - integration' | Owner: Taskeen Sikander Hayath (MS/EHE11-VM) | Title: [Review]Create Endurance Test SW - NET
+[Rel 6447910]       → [GENERAL DEV ] Added 25.50 hrs | ID: 6855336 | Dept: 'csw - integration' | Owner: Snehaa Asokan (MS/EHE11-VM) | Title: Create Endurance Test SW - NET
+[Rel 6447910]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6690124 | Dept: 'csw - integration' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA2M167][ESP][CSW] Takeover changes from BL17RC03 to BL18INC02 (PSW_DEV) rba.CUBAS.Diagnosis.rba.DemObdBasic
+[Rel 6447910]       → [GENERAL DEV ] Added 1.00 hrs | ID: 6690109 | Dept: 'csw - integration' | Owner: Jeyshree G M P (MS/EHE2-VM) | Title: [MRA2M167][ESP][CSW] Takeover changes from BL17RC03 to BL18INC02 (PSW_DEV) rba.CUBAS.Diagnosis.Dem
+[Rel 6447910]       → [GENERAL DEV ] Added 3.50 hrs | ID: 6297092 | Dept: 'ltm - lifetime manager' | Owner: Gowri Shankar Raman (MS/EBV3-SWC) | Title: [Review][DCOM][Constr] [MRA2M167][ESP][LTM][SD + dSD + Impl] CRL5944215 : Implementation of new counters
+[Rel 6447910]       → [GENERAL DEV ] Added 2.00 hrs | ID: 6297093 | Dept: 'ltm - lifetime manager' | Owner: Gowri Shankar Raman (MS/EBV3-SWC) | Title: [Review][DCOM][Constr] [MRA2M167][ESP][LTM][SW CT] CRL5944215 : Implementation of new counters
+[Rel 6447910]         → [GENERAL DEV ] Added 0.50 hrs | ID: 7226388 | Dept: 'pdm - persistent data storage' | Owner: Praveen V (MS/EHE11-VM) | Title: [ASW-PDM][B] [MRA2M167][AMG][ESP][VAR]&nbsp; - EVP coding Review
+
+[Rel 6447910] --- Final MISCATEGORIZED Hours for Release 6447910 ---
+[Rel 6447910]   [🌍 India]
+[Rel 6447910]     General_DEV: 40.00 hrs
+
+[Rel 5500143] =========================================
+[Rel 5500143] Checking Release ID: 5500143 [PM ID: BM-00068408]...
+[Rel 5500143] ✔️ Resolution is 'Solved'.
+[Rel 5500143] 👤 Release Owned By: Vinod Kumar Sengotuvelu (MS/EMB1-VM) (Tasks may be owned by others)
+[Rel 5500143] 📅 Created: 07-03-2025 | Resolved: 09-09-2025
+[Rel 5500143] Processing Hierarchy for Miscategorized WIs...
+
+[Rel 5500143] --- Final MISCATEGORIZED Hours for Release 5500143 ---
+[Rel 5500143]   [🌍 India]
+[Rel 5500143]     No Miscategorized Hours Found (0.00 hrs)
+
+
+✅ Success! All threads finished. Processed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\open_Daimler_Data_Miscategorized.xlsx'.

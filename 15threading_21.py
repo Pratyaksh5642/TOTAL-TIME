@@ -17,11 +17,11 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Open_release_ID_MB.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "open_Daimler_Data.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_threading_NEW.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "input(1).csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "ford_1.xlsx") 
+LOG_FILE = os.path.join(SCRIPT_DIR, "ford_all.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "open_added_time_log_threading.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "ford_added.txt")
 
 # --- SETUP LOGGING ---
 logger = logging.getLogger("alm_extractor")
