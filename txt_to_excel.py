@@ -12,12 +12,12 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 INPUT_FILE = os.path.join(
     SCRIPT_DIR,
-    "added_time_log_2023_2024.txt"
+    "added_time_log_Final.txt"
 )
 
 OUTPUT_FILE = os.path.join(
     SCRIPT_DIR,
-    "2023_2024_task_hours.xlsx"
+    "Final_task_hours.xlsx"
 )
 
 
