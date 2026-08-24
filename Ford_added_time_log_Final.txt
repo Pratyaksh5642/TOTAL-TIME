@@ -1,0 +1,10 @@
+
+---> [NEW RUN STARTING: FULL PERMUTATION ROSTER MATCHING] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\_Ford_extraction_log_Final.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\Ford_added_time_log_Final.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1075 unique name combinations from sheets ['EHE'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\team_roster.xlsx' for Rescue Operations.
+Reading and cleaning 18450 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 15 threads...
+

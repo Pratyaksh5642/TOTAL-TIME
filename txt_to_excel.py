@@ -12,12 +12,12 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 INPUT_FILE = os.path.join(
     SCRIPT_DIR,
-    "added_time_log_Final.txt"
+    "added_time_log_Final_Corrected.txt"
 )
 
 OUTPUT_FILE = os.path.join(
     SCRIPT_DIR,
-    "Final_task_hours.xlsx"
+    "Final_Corrected_hours.xlsx"
 )
 
 
@@ -25,72 +25,42 @@ OUTPUT_FILE = os.path.join(
 # REGEX PATTERNS
 # ====================================================
 
-# Removes:
-# [Rel 7276394]
 prefix_pattern = re.compile(
     r"^\[Rel\s+\d+\]\s*"
 )
 
-# Supports both:
-# [PM ID: BM-00105824]
-# [PM ID: ]
-#
-# The * allows the PM ID to be empty.
 release_pattern = re.compile(
     r"Checking Release ID:\s*(\d+)\s*"
     r"\[PM ID:\s*([^\]]*)\]"
 )
 
-# Supports:
-# Root Item Type: Task
-# Root Item Type: Epic
-# Root Item Type: Release
 root_item_type_pattern = re.compile(
     r"Root Item Type:\s*(.+?)\s*$",
     re.IGNORECASE
 )
 
-# Supports:
-# Status is 'Unresolved (New / In Progress)'
-# Resolution is 'Solved'
 status_pattern = re.compile(
     r"(?:Status|Resolution)\s+is\s+'([^']+)'",
     re.IGNORECASE
 )
 
-# Supports:
-# SKIPPING: Resolution is 'Invalid'
 skipped_status_pattern = re.compile(
     r"SKIPPING:\s*Resolution\s+is\s+'([^']+)'",
     re.IGNORECASE
 )
 
-# Supports:
-# Release Owned By: Name (...) (Tasks may be owned by others)
 release_owner_pattern = re.compile(
     r"Release Owned By:\s*(.+?)\s*"
     r"\(Tasks may be owned by others\)",
     re.IGNORECASE
 )
 
-# Supports:
-# Created: 24-07-2026 | Resolved: 24-07-2026
-# Created: 24-07-2026 | Resolved: No Date
 release_date_pattern = re.compile(
     r"Created:\s*(\d{2}-\d{2}-\d{4})\s*\|\s*"
     r"Resolved:\s*(No Date|\d{2}-\d{2}-\d{4})",
     re.IGNORECASE
 )
 
-# Supports task lines such as:
-# [NET DEV ] Added 12.50 hrs | ID: 7276394 |
-# Type: task |
-# Dept: 'var - variant coding and variant handling' |
-# Owner: Name (...) |
-# Country: India |
-# Title: Example |
-# Created: 24-07-2026 |
-# Resolved: No Date
 task_pattern = re.compile(
     r"\[(.*?)\]\s*"
     r"Added\s*([\d.]+)\s*hrs\s*\|\s*"
@@ -105,41 +75,13 @@ task_pattern = re.compile(
     re.IGNORECASE
 )
 
-# Supports:
-# [India]
-# [Germany]
-# [Others]
-final_country_pattern = re.compile(
-    r"^\[(?:🌍\s*)?(.*?)\]\s*$"
-)
-
-# Supports:
-# NET_DEV: 12.50 hrs
-# DCOM_DEV: 80.50 hrs
-# DSM_DEV: 48.75 hrs
-final_hours_pattern = re.compile(
-    r"([A-Za-z0-9_ ]+):\s*"
-    r"([\d.]+)\s*hrs",
-    re.IGNORECASE
-)
-
-# Supports:
-# No Valid Hours Logged (0.00 hrs)
-no_hours_pattern = re.compile(
-    r"No Valid Hours Logged\s*"
-    r"\(([\d.]+)\s*hrs\)",
-    re.IGNORECASE
-)
-
 
 # ====================================================
-# DATA STORAGE
+# STORAGE
 # ====================================================
 
 task_rows = []
-release_rows = []
 failed_task_lines = []
-log_summary_rows = []
 
 current_release = ""
 current_pm = ""
@@ -149,62 +91,36 @@ current_release_owner = ""
 current_release_created = ""
 current_release_resolved = ""
 
-current_summary_country = ""
-
-release_started = False
-
 
 # ====================================================
-# SAVE CURRENT RELEASE
+# EXCEL-SAFE TEXT FUNCTION
 # ====================================================
 
-def save_current_release():
+def make_excel_safe(value):
+    """
+    Prevent imported text from being interpreted as an
+    Excel formula and remove invalid control characters.
+    """
 
-    if not release_started:
-        return
+    if pd.isna(value):
+        return value
 
-    if not current_release:
-        return
+    if not isinstance(value, str):
+        return value
 
-    release_rows.append({
-        "Release ID": current_release,
-        "PM ID": current_pm,
-        "Root Item Type": current_root_item_type,
-        "Release Status": current_release_status,
-        "Release Owner": current_release_owner,
-        "Release Created": current_release_created,
-        "Release Resolved": current_release_resolved
-    })
-
-
-# ====================================================
-# DATE FORMAT FUNCTION
-# ====================================================
-
-def format_date_column(series):
-
-    original_values = series.astype("string").str.strip()
-
-    converted_dates = pd.to_datetime(
-        original_values.replace(
-            {
-                "No Date": pd.NA,
-                "": pd.NA,
-                "nan": pd.NA,
-                "None": pd.NA
-            }
-        ),
-        format="%d-%m-%Y",
-        errors="coerce"
+    # Remove control characters that Excel cannot store.
+    value = re.sub(
+        r"[\x00-\x08\x0B\x0C\x0E-\x1F]",
+        "",
+        value
     )
 
-    formatted_values = converted_dates.dt.strftime(
-        "%d-%m-%Y"
-    )
+    # Excel interprets values beginning with these
+    # characters as formulas.
+    if value.startswith(("=", "+", "-", "@")):
+        value = "'" + value
 
-    formatted_values = formatted_values.fillna("No Date")
-
-    return formatted_values
+    return value
 
 
 # ====================================================
@@ -226,6 +142,23 @@ if not os.path.exists(INPUT_FILE):
 
 
 # ====================================================
+# DELETE OLD OUTPUT FILE
+# ====================================================
+
+if os.path.exists(OUTPUT_FILE):
+
+    try:
+        os.remove(OUTPUT_FILE)
+
+    except PermissionError:
+
+        print()
+        print("Cannot replace the Excel file.")
+        print("Close checking_hours.xlsx in Excel and run again.")
+        raise SystemExit
+
+
+# ====================================================
 # READ AND PARSE TEXT FILE
 # ====================================================
 
@@ -237,7 +170,7 @@ with open(
 
     for raw_line in file:
 
-        # Convert HTML entities:
+        # Convert HTML values:
         # &nbsp; becomes a normal space
         # &amp; becomes &
         line = html.unescape(raw_line)
@@ -253,7 +186,7 @@ with open(
         if not line:
             continue
 
-        # Remove prefix:
+        # Remove prefix such as:
         # [Rel 7276394]
         line = prefix_pattern.sub("", line).strip()
 
@@ -268,9 +201,6 @@ with open(
 
         if match:
 
-            if release_started:
-                save_current_release()
-
             current_release = match.group(1).strip()
             current_pm = match.group(2).strip()
 
@@ -279,14 +209,7 @@ with open(
             current_release_owner = ""
             current_release_created = ""
             current_release_resolved = ""
-            current_summary_country = ""
 
-            release_started = True
-
-            continue
-
-        # Ignore information before first release
-        if not release_started:
             continue
 
         # --------------------------------------------
@@ -330,10 +253,9 @@ with open(
             continue
 
         # --------------------------------------------
-        # RELEASE CREATED / RESOLVED DATES
+        # RELEASE CREATED / RESOLVED
         # --------------------------------------------
 
-        # Do not treat a task date as a release date.
         if "Added" not in line:
 
             match = release_date_pattern.search(line)
@@ -344,7 +266,7 @@ with open(
                 continue
 
         # --------------------------------------------
-        # TASK OR REVIEW RECORD
+        # TASK / REVIEW RECORD
         # --------------------------------------------
 
         if (
@@ -384,82 +306,9 @@ with open(
                     "Unparsed Line": line
                 })
 
-            continue
-
-        # --------------------------------------------
-        # START OF FINAL HOURS SECTION
-        # --------------------------------------------
-
-        if "Final Hours for Release" in line:
-            current_summary_country = ""
-            continue
-
-        # --------------------------------------------
-        # FINAL HOURS COUNTRY
-        # --------------------------------------------
-
-        match = final_country_pattern.search(line)
-
-        if match:
-
-            possible_country = match.group(1).strip()
-
-            # Do not treat task category brackets as
-            # summary countries.
-            if possible_country in [
-                "India",
-                "Germany",
-                "Others"
-            ]:
-                current_summary_country = possible_country
-
-            continue
-
-        # --------------------------------------------
-        # NO VALID HOURS
-        # --------------------------------------------
-
-        match = no_hours_pattern.search(line)
-
-        if match:
-
-            log_summary_rows.append({
-                "Release ID": current_release,
-                "Country": current_summary_country,
-                "Category": "No Valid Hours",
-                "Hours": float(match.group(1))
-            })
-
-            continue
-
-        # --------------------------------------------
-        # FINAL HOURS CATEGORY
-        # --------------------------------------------
-
-        match = final_hours_pattern.search(line)
-
-        if match and current_summary_country:
-
-            category = match.group(1).strip()
-            hours = float(match.group(2))
-
-            log_summary_rows.append({
-                "Release ID": current_release,
-                "Country": current_summary_country,
-                "Category": category,
-                "Hours": hours
-            })
-
-            continue
-
-
-# Save final release in the text file
-if release_started:
-    save_current_release()
-
 
 # ====================================================
-# CREATE DATAFRAMES
+# CREATE DETAILED DATAFRAME
 # ====================================================
 
 detail_columns = [
@@ -482,256 +331,210 @@ detail_columns = [
     "Task Resolved"
 ]
 
-release_columns = [
-    "Release ID",
-    "PM ID",
-    "Root Item Type",
-    "Release Status",
-    "Release Owner",
-    "Release Created",
-    "Release Resolved"
-]
-
-failed_columns = [
-    "Release ID",
-    "Unparsed Line"
-]
-
-log_summary_columns = [
-    "Release ID",
-    "Country",
-    "Category",
-    "Hours"
-]
-
 detail_df = pd.DataFrame(
     task_rows,
     columns=detail_columns
 )
 
-release_df = pd.DataFrame(
-    release_rows,
-    columns=release_columns
+
+if detail_df.empty:
+
+    print()
+    print("No task records were found.")
+    print("Check the format of added_time_log.txt.")
+
+    if failed_task_lines:
+        print()
+        print("First unparsed task line:")
+        print(failed_task_lines[0]["Unparsed Line"])
+
+    raise SystemExit
+
+
+# ====================================================
+# FORMAT TASK CREATED
+# ====================================================
+
+task_created_date = pd.to_datetime(
+    detail_df["Task Created"],
+    format="%d-%m-%Y",
+    errors="coerce"
 )
 
-failed_df = pd.DataFrame(
-    failed_task_lines,
-    columns=failed_columns
+detail_df["Task Created"] = (
+    task_created_date.dt.strftime("%d-%m-%Y")
 )
 
-log_summary_df = pd.DataFrame(
-    log_summary_rows,
-    columns=log_summary_columns
+detail_df["Task Created"] = (
+    detail_df["Task Created"].fillna("No Date")
 )
 
 
 # ====================================================
-# FORMAT RELEASE INFO
+# MONTH AND YEAR FROM TASK RESOLVED
 # ====================================================
 
-if not release_df.empty:
+task_resolved_original = (
+    detail_df["Task Resolved"]
+    .astype("string")
+    .str.strip()
+)
 
-    release_df["Release Created"] = format_date_column(
-        release_df["Release Created"]
-    )
+no_task_resolution = (
+    task_resolved_original.isna()
+    | task_resolved_original.eq("")
+    | task_resolved_original.str.casefold().eq("no date")
+)
 
-    release_df["Release Resolved"] = format_date_column(
-        release_df["Release Resolved"]
-    )
+task_resolved_date = pd.to_datetime(
+    task_resolved_original.mask(no_task_resolution),
+    format="%d-%m-%Y",
+    errors="coerce"
+)
 
-    # Release ID remains text so Excel does not add .0
-    release_df["Release ID"] = release_df[
-        "Release ID"
-    ].astype("string")
+# Blank month when Task Resolved is No Date
+detail_df["Month"] = (
+    task_resolved_date.dt.month.astype("Int64")
+)
 
-    release_df["PM ID"] = release_df[
-        "PM ID"
-    ].fillna("").astype("string")
+# Year 2027 when Task Resolved is No Date
+detail_df["Year"] = (
+    task_resolved_date.dt.year
+    .where(~no_task_resolution, 2027)
+    .astype("Int64")
+)
 
+detail_df["Task Resolved"] = (
+    task_resolved_date.dt.strftime("%d-%m-%Y")
+)
 
-# ====================================================
-# FORMAT DETAILED TASK DATA
-# ====================================================
-
-if not detail_df.empty:
-
-    # Convert Task Created for day/month/year columns
-    task_created_date = pd.to_datetime(
-        detail_df["Task Created"],
-        format="%d-%m-%Y",
-        errors="coerce"
-    )
-
-    # These three columns come only from Task Created
-    detail_df["Created_Day"] = (
-        task_created_date.dt.day.astype("Int64")
-    )
-
-    detail_df["Created_Month"] = (
-        task_created_date.dt.month.astype("Int64")
-    )
-
-    detail_df["Created_Year"] = (
-        task_created_date.dt.year.astype("Int64")
-    )
-
-    # Task Created is displayed as DD-MM-YYYY
-    # without 00:00:00.
-    detail_df["Task Created"] = (
-        task_created_date.dt.strftime("%d-%m-%Y")
-    )
-
-    detail_df["Task Created"] = (
-        detail_df["Task Created"].fillna("No Date")
-    )
-
-    # Format Task Resolved and preserve No Date
-    detail_df["Task Resolved"] = format_date_column(
-        detail_df["Task Resolved"]
-    )
-
-    # Format release dates in task details
-    detail_df["Release Created"] = format_date_column(
-        detail_df["Release Created"]
-    )
-
-    detail_df["Release Resolved"] = format_date_column(
-        detail_df["Release Resolved"]
-    )
-
-    # Keep IDs as text
-    detail_df["Release ID"] = detail_df[
-        "Release ID"
-    ].astype("string")
-
-    detail_df["Task ID"] = detail_df[
-        "Task ID"
-    ].astype("string")
-
-    detail_df["PM ID"] = detail_df[
-        "PM ID"
-    ].fillna("").astype("string")
-
-    # Keep all task rows exactly as parsed.
-    # No automatic duplicate removal is performed.
+detail_df.loc[
+    no_task_resolution,
+    "Task Resolved"
+] = "No Date"
 
 
 # ====================================================
-# RELEASE SUMMARY FROM TASK ROWS
+# FORMAT RELEASE CREATED
 # ====================================================
 
-if not detail_df.empty:
+release_created_date = pd.to_datetime(
+    detail_df["Release Created"],
+    format="%d-%m-%Y",
+    errors="coerce"
+)
 
-    summary_df = (
-        detail_df
-        .pivot_table(
-            index="Release ID",
-            columns="Category",
-            values="Hours",
-            aggfunc="sum",
-            fill_value=0
-        )
-        .reset_index()
-    )
+detail_df["Release Created"] = (
+    release_created_date.dt.strftime("%d-%m-%Y")
+)
 
-    summary_df.columns.name = None
+detail_df["Release Created"] = (
+    detail_df["Release Created"].fillna("No Date")
+)
 
-    summary_hour_columns = [
-        column
-        for column in summary_df.columns
-        if column != "Release ID"
+
+# ====================================================
+# FORMAT RELEASE RESOLVED
+# ====================================================
+
+release_resolved_original = (
+    detail_df["Release Resolved"]
+    .astype("string")
+    .str.strip()
+)
+
+release_resolved_missing = (
+    release_resolved_original.isna()
+    | release_resolved_original.eq("")
+    | release_resolved_original.str.casefold().eq("no date")
+)
+
+release_resolved_date = pd.to_datetime(
+    release_resolved_original.mask(
+        release_resolved_missing
+    ),
+    format="%d-%m-%Y",
+    errors="coerce"
+)
+
+detail_df["Release Resolved"] = (
+    release_resolved_date.dt.strftime("%d-%m-%Y")
+)
+
+detail_df.loc[
+    release_resolved_missing,
+    "Release Resolved"
+] = "No Date"
+
+
+# ====================================================
+# KEEP IDs AS TEXT
+# ====================================================
+
+detail_df["Release ID"] = (
+    detail_df["Release ID"].astype("string")
+)
+
+detail_df["Task ID"] = (
+    detail_df["Task ID"].astype("string")
+)
+
+detail_df["PM ID"] = (
+    detail_df["PM ID"]
+    .fillna("")
+    .astype("string")
+)
+
+
+# ====================================================
+# FINAL COLUMN ORDER
+# ====================================================
+
+detail_df = detail_df[
+    [
+        "Release ID",
+        "PM ID",
+        "Root Item Type",
+        "Release Status",
+        "Release Owner",
+        "Release Created",
+        "Release Resolved",
+        "Category",
+        "Hours",
+        "Task ID",
+        "Type",
+        "Department",
+        "Task Owner",
+        "Country",
+        "Title",
+        "Task Created",
+        "Task Resolved",
+        "Month",
+        "Year"
     ]
-
-    summary_df["Total Hours"] = (
-        summary_df[summary_hour_columns].sum(axis=1)
-    )
-
-else:
-
-    summary_df = pd.DataFrame(
-        columns=[
-            "Release ID",
-            "Total Hours"
-        ]
-    )
+]
 
 
 # ====================================================
-# COUNTRY SUMMARY FROM TASK ROWS
+# MAKE ALL TEXT SAFE FOR EXCEL
 # ====================================================
 
-if not detail_df.empty:
-
-    country_summary_df = (
-        detail_df
-        .pivot_table(
-            index=[
-                "Release ID",
-                "Country"
-            ],
-            columns="Category",
-            values="Hours",
-            aggfunc="sum",
-            fill_value=0
-        )
-        .reset_index()
-    )
-
-    country_summary_df.columns.name = None
-
-    country_hour_columns = [
-        column
-        for column in country_summary_df.columns
-        if column not in [
-            "Release ID",
-            "Country"
-        ]
+text_columns = detail_df.select_dtypes(
+    include=[
+        "object",
+        "string"
     ]
+).columns
 
-    country_summary_df["Total Hours"] = (
-        country_summary_df[
-            country_hour_columns
-        ].sum(axis=1)
-    )
+for column in text_columns:
 
-else:
-
-    country_summary_df = pd.DataFrame(
-        columns=[
-            "Release ID",
-            "Country",
-            "Total Hours"
-        ]
+    detail_df[column] = detail_df[column].map(
+        make_excel_safe
     )
 
 
 # ====================================================
-# RELEASES WITH NO TASK HOURS
-# ====================================================
-
-if not release_df.empty:
-
-    releases_with_tasks = set(
-        detail_df["Release ID"].astype(str)
-    ) if not detail_df.empty else set()
-
-    no_task_hours_df = release_df[
-        ~release_df["Release ID"]
-        .astype(str)
-        .isin(releases_with_tasks)
-    ].copy()
-
-    no_task_hours_df["Total Hours"] = 0.0
-
-else:
-
-    no_task_hours_df = pd.DataFrame(
-        columns=release_columns + ["Total Hours"]
-    )
-
-
-# ====================================================
-# WRITE EXCEL
+# WRITE ONLY DETAILED_DATA
 # ====================================================
 
 with pd.ExcelWriter(
@@ -745,45 +548,25 @@ with pd.ExcelWriter(
         index=False
     )
 
-    release_df.to_excel(
-        writer,
-        sheet_name="Release_Info",
-        index=False
-    )
+    worksheet = writer.sheets["Detailed_Data"]
 
-    summary_df.to_excel(
-        writer,
-        sheet_name="Release_Summary",
-        index=False
-    )
+    # Force imported text cells to remain plain text.
+    for column_number, column_name in enumerate(
+        detail_df.columns,
+        start=1
+    ):
 
-    country_summary_df.to_excel(
-        writer,
-        sheet_name="Country_Summary",
-        index=False
-    )
+        if column_name in text_columns:
 
-    no_task_hours_df.to_excel(
-        writer,
-        sheet_name="No_Valid_Hours",
-        index=False
-    )
+            for row_number in range(
+                2,
+                len(detail_df) + 2
+            ):
 
-    if not log_summary_df.empty:
-
-        log_summary_df.to_excel(
-            writer,
-            sheet_name="Log_Final_Hours",
-            index=False
-        )
-
-    if not failed_df.empty:
-
-        failed_df.to_excel(
-            writer,
-            sheet_name="Failed_Lines",
-            index=False
-        )
+                worksheet.cell(
+                    row=row_number,
+                    column=column_number
+                ).number_format = "@"
 
 
 # ====================================================
@@ -793,10 +576,5 @@ with pd.ExcelWriter(
 print()
 print("Excel created successfully")
 print(f"Task rows exported: {len(detail_df)}")
-print(f"Releases found: {len(release_df)}")
-print(
-    "Releases with no task hours: "
-    f"{len(no_task_hours_df)}"
-)
-print(f"Unparsed task lines: {len(failed_df)}")
+print(f"Unparsed task lines: {len(failed_task_lines)}")
 print(f"Output file: {OUTPUT_FILE}")
