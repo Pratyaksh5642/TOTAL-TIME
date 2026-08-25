@@ -18,11 +18,11 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_Ford.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Ford_Final_data.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "_Ford_extraction_log_Final.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_CUS_GM.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Final_CHECK_GM_data.xlsx") 
+LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_Final_CHECK_GM.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Ford_added_time_log_Final.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log_FINAL_CHECK_GM.txt")
 TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "team_roster.xlsx")
 
 # --- SETUP LOGGING ---
