@@ -1,0 +1,87 @@
+
+---> [NEW RUN STARTING: FULL PERMUTATION ROSTER MATCHING] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_Final_GM_CORRECT.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log_FINAL_GM_CORRECT.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 3957 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 15 threads...
+
+[Rel 5038197] =========================================
+[Rel 5038197] Checking Release ID: 5038197 [PM ID: BM-00067488]...
+[Rel 5038197] 📌 Root Item Type: Release
+[Rel 5038197] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5539479] =========================================
+[Rel 5539479] Checking Release ID: 5539479 [PM ID: BM-00067488]...
+[Rel 5539479] 📌 Root Item Type: Release
+[Rel 5539479] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5539479] 👤 Release Owned By: Schmitt Michael (VM/EGM2) (Tasks may be owned by others)
+[Rel 5539479] 📅 Created: 19-03-2025 | Resolved: No Date
+[Rel 5539479] Processing Hierarchy...
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 11.50 hrs (Not in Roster) | ID: 5983750 | Type: task | Dept: 'gm_virtualization' | Title: CW31:[GM][xxx][Sim][FuSi]: Support to address clarification on UVD results
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 63.50 hrs (Not in Roster) | ID: 5688750 | Type: task | Dept: 'gm_virtualization' | Title: [GM][xxx][Sim][FuSi]: HMT-Simulation Testing 
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 42.50 hrs (Not in Roster) | ID: 5576447 | Type: task | Dept: 'gm_virtualization' | Title: [GM][xxx][Sim][FuSi]: Testing Maneuvers on 35943 Varient
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 76.50 hrs (Not in Roster) | ID: 5576449 | Type: task | Dept: 'gm_virtualization' | Title: [GM][xxx][Sim][FuSi]: Testing with variant 35943
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 40.00 hrs (Not in Roster) | ID: 5688735 | Type: task | Dept: 'gm_virtualization' | Title: [GM][xxx][Sim][FuSi]: HMT-Simulation- Modifying ULAT Test Cases
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 28.50 hrs (Not in Roster) | ID: 6027194 | Type: task | Dept: 'gm_virtualization' | Title: CW32: [GM][xxx][Sim][FuSi]:Simulation_Support_FUSI
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 7.50 hrs (Not in Roster) | ID: 5661113 | Type: task | Dept: 'gm_virtualization' | Title: HMT Simulation Support
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 8.50 hrs (Not in Roster) | ID: 6027195 | Type: task | Dept: 'gm_virtualization' | Title: CW34:[GM][xxx][Sim][FuSi]:Simulation_Support_FUSI
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 25.50 hrs (Not in Roster) | ID: 6050241 | Type: task | Dept: 'gm_virtualization' | Title: CW37: [GM][xxx][Sim]:Defect simulation test suite : Stage 1 - Defect analysis
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 33.00 hrs (Not in Roster) | ID: 6226442 | Type: task | Dept: 'gm_virtualization' | Title: [CW:41]:[GM][xxx][Sim] : Defect simulation test suite
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 44.50 hrs (Not in Roster) | ID: 6030733 | Type: task | Dept: 'gm_virtualization' | Title: CW33: [GM][xxx][Sim] :Defect simulation test suite : Stage 1 - Defect Analysis for CSSIL/FSIL
+[Rel 5539479]       → [IGNORED CATEGORY] Skipped 26.50 hrs (Not in Roster) | ID: 6015383 | Type: task | Dept: 'gm_virtualization' | Title: CW33: [GM][xxx][Sim] :Defect simulation test suite : Stage 1 - Defect analysis
+
+[Rel 5539479] --- Final Hours for Release 5539479 ---
+[Rel 5539479]   [🌍 Others]
+[Rel 5539479]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6055288] =========================================
+[Rel 6055288] Checking Release ID: 6055288 [PM ID: ]...
+[Rel 6055288] 📌 Root Item Type: Release
+[Rel 6055288] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6055288] 👤 Release Owned By: Schmitt Michael (VM/EGM2) (Tasks may be owned by others)
+[Rel 6055288] 📅 Created: 19-08-2025 | Resolved: No Date
+[Rel 6055288] Processing Hierarchy...
+[Rel 6055288]       → [IGNORED OLD DATE] Skipped 10.00 hrs | ID: 5033950 | Type: task | Created: 08-10-2024 | Resolved: 03-12-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED OLD DATE] Skipped 1.00 hrs | ID: 5059006 | Type: task | Created: 15-10-2024 | Resolved: 03-12-2024 (Failed 2025 filter)
+[Rel 6055288]       → [IGNORED CATEGORY] Skipped 0.10 hrs (Not in Roster) | ID: 4581394 | Type: task | Dept: 'gm_virtualization' | Title: [CX][Infra] : VM specification for FSIL
+[Rel 6055288]       → [IGNORED OLD DATE] Skipped 1.00 hrs | ID: 4581396 | Type: task | Created: 17-05-2024 | Resolved: 07-11-2024 (Failed 2025 filter)
+[Rel 6055288]       → [IGNORED OLD DATE] Skipped 12.00 hrs | ID: 4692832 | Type: task | Created: 21-06-2024 | Resolved: 20-11-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 10.75 hrs (Not in Roster) | ID: 5789243 | Type: task | Dept: 'gm_virtualization' | Title: [CX]: FSIL : Simwork adaptation for FSIL compilation
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 54.75 hrs (Not in Roster) | ID: 5779682 | Type: task | Dept: 'gm_virtualization' | Title: [CX]: Feasibility Checking on how to adopt the script
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 2.00 hrs (Not in Roster) | ID: 5818361 | Type: review | Dept: 'gm_virtualization' | Title: [CX]: FSIL : Simwork adaptation for FSIL compilation -Review
+[Rel 6055288]       → [IGNORED CATEGORY] Skipped 4.00 hrs (Not in Roster) | ID: 4692837 | Type: task | Dept: 'gm_virtualization' | Title: [CX][Infra] : Provide a solution that CarSim can be used with VMs and a DoE for ViRe
+[Rel 6055288]       → [IGNORED CATEGORY] Skipped 33.25 hrs (Not in Roster) | ID: 5033954 | Type: task | Dept: 'gm_virtualization' | Title: [CX][Infra] : Create DoE plan out of test IDE
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 51.50 hrs (Not in Roster) | ID: 5424403 | Type: task | Dept: 'gm_fsil' | Title: [CX]: FSIL FMU Continuous testing with Jenkins
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 23.00 hrs (Not in Roster) | ID: 5979434 | Type: task | Dept: 'gm_fsil' | Title: [CX] : FSIL FMU Continuous testing with Jenkins
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 21.00 hrs (Not in Roster) | ID: 6013004 | Type: task | Dept: 'gm_fsil' | Title: CW36: [CX]: FSIL FMU Continuous testing - Testing the newly adopted files
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 13.50 hrs (Not in Roster) | ID: 5979470 | Type: task | Dept: 'gm_fsil' | Title: CW31: [CX] : FSIL FMU Continuous testing with Jenkins: Adapting with File from Jenkins
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 5.00 hrs (Not in Roster) | ID: 5993122 | Type: task | Dept: 'gm_fsil' | Title: CW31: [CX]: Adaptation of files required in softECU for FSIL Testing
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 67.50 hrs (Not in Roster) | ID: 5478678 | Type: task | Dept: 'gm_fsil' | Title: [CX]: FSIL FMU Continuous testing with Jenkins_1
+[Rel 6055288]         → [IGNORED OLD DATE] Skipped 28.50 hrs | ID: 5098758 | Type: task | Created: 28-10-2024 | Resolved: 09-12-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED OLD DATE] Skipped 12.00 hrs | ID: 5098807 | Type: task | Created: 28-10-2024 | Resolved: 13-12-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED OLD DATE] Skipped 36.00 hrs | ID: 5098716 | Type: task | Created: 28-10-2024 | Resolved: 09-12-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED OLD DATE] Skipped 10.00 hrs | ID: 5059000 | Type: task | Created: 15-10-2024 | Resolved: 28-10-2024 (Failed 2025 filter)
+[Rel 6055288]       → [IGNORED OLD DATE] Skipped 1.00 hrs | ID: 5019568 | Type: task | Created: 02-10-2024 | Resolved: 05-11-2024 (Failed 2025 filter)
+[Rel 6055288]       → [IGNORED OLD DATE] Skipped 1.00 hrs | ID: 5132327 | Type: task | Created: 07-11-2024 | Resolved: 03-12-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 25.00 hrs (Not in Roster) | ID: 5033959 | Type: task | Dept: 'gm_virtualization' | Title: [CX] : FSIL open loop test automation
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 42.50 hrs (Not in Roster) | ID: 5432543 | Type: task | Dept: 'gm_virtualization' | Title: [CX]: Database accessing through batch commands
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 20.00 hrs (Not in Roster) | ID: 5386113 | Type: task | Dept: 'gm_virtualization' | Title: [CX] Removing solver's part, making changes in script
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 10.00 hrs (Not in Roster) | ID: 5222356 | Type: task | Dept: 'gm_virtualization' | Title: [CX][Infra] : Jenkins batch file creation and distribute to slaves
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 0.25 hrs (Not in Roster) | ID: 5033958 | Type: task | Dept: 'gm_virtualization' | Title: [CX] : FSIL build in CX
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 17.00 hrs (Not in Roster) | ID: 5306990 | Type: task | Dept: 'gm_virtualization' | Title: [CX] Uploading Files in Stream for FSIL Open Loop Testing
+[Rel 6055288]         → [IGNORED OLD DATE] Skipped 1.00 hrs | ID: 5058995 | Type: task | Created: 15-10-2024 | Resolved: 05-11-2024 (Failed 2025 filter)
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 18.75 hrs (Not in Roster) | ID: 5361139 | Type: task | Dept: 'gm_virtualization' | Title: [CX]: Making changes in the script to paste the dll file in CarSim folder and taking Vehicle model from model file.<br/> 
+[Rel 6055288]         → [IGNORED CATEGORY] Skipped 10.00 hrs (Not in Roster) | ID: 5155961 | Type: task | Dept: 'gm_virtualization' | Title: [CX] : Build dummy batch files out of a test list
+
+[Rel 6055288] --- Final Hours for Release 6055288 ---
+[Rel 6055288]   [🌍 Others]
+[Rel 6055288]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4168406] =========================================
+[Rel 4168406] Checking Release ID: 4168406 [PM ID: ]...
+[Rel 4168406] 📌 Root Item Type: Release
+[Rel 4168406] ❌ SKIPPING: Resolution is 'Invalid'
+

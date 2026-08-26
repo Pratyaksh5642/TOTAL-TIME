@@ -19,11 +19,11 @@ PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_CUS_GM.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Final_CHECK_GM_data.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_Final_CHECK_GM.txt")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "GM_Correct_data.xlsx") 
+LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_Final_GM_CORRECT_new.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log_FINAL_CHECK_GM.txt")
-TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "team_roster.xlsx")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log_FINAL_GM_CORRECT_new.txt")
+TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHN.xlsx")
 
 # --- SETUP LOGGING ---
 logger = logging.getLogger("alm_extractor")

@@ -1,0 +1,44 @@
+
+---> [NEW RUN STARTING: FULL PERMUTATION ROSTER MATCHING] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_Final_GM_CORRECT.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log_FINAL_GM_CORRECT.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 3957 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 15 threads...
+
+[Rel 5038197] =========================================
+[Rel 5038197] Checking Release ID: 5038197 [PM ID: BM-00067488]...
+[Rel 5038197] 📌 Root Item Type: Release
+[Rel 5038197] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5539479] =========================================
+[Rel 5539479] Checking Release ID: 5539479 [PM ID: BM-00067488]...
+[Rel 5539479] 📌 Root Item Type: Release
+[Rel 5539479] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5539479] 👤 Release Owned By: Schmitt Michael (VM/EGM2) (Tasks may be owned by others)
+[Rel 5539479] 📅 Created: 19-03-2025 | Resolved: No Date
+[Rel 5539479] Processing Hierarchy...
+
+[Rel 5539479] --- Final Hours for Release 5539479 ---
+[Rel 5539479]   [🌍 Others]
+[Rel 5539479]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6055288] =========================================
+[Rel 6055288] Checking Release ID: 6055288 [PM ID: ]...
+[Rel 6055288] 📌 Root Item Type: Release
+[Rel 6055288] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6055288] 👤 Release Owned By: Schmitt Michael (VM/EGM2) (Tasks may be owned by others)
+[Rel 6055288] 📅 Created: 19-08-2025 | Resolved: No Date
+[Rel 6055288] Processing Hierarchy...
+
+[Rel 6055288] --- Final Hours for Release 6055288 ---
+[Rel 6055288]   [🌍 Others]
+[Rel 6055288]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4168406] =========================================
+[Rel 4168406] Checking Release ID: 4168406 [PM ID: ]...
+[Rel 4168406] 📌 Root Item Type: Release
+[Rel 4168406] ❌ SKIPPING: Resolution is 'Invalid'
+

@@ -1,0 +1,10 @@
+
+---> [NEW RUN STARTING: FULL PERMUTATION ROSTER MATCHING (30 THREADS)] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\extraction_log_checking_threads_ford.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\added_time_log_checking_30_threads_ford.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 552 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHN.xlsx' for Rescue Operations.
+Reading and cleaning 18450 rows from input file...
+Sorting complete. Starting ThreadPoolExecutor with 30 threads...
+
