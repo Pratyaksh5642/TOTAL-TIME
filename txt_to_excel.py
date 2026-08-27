@@ -1,3 +1,4 @@
+
 import os
 import re
 import html
@@ -12,12 +13,12 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 INPUT_FILE = os.path.join(
     SCRIPT_DIR,
-    "added_time_log_checking_30_threads.txt"
+    "Added_Log_Toy_Final_with_countOfTask.txt"
 )
 
 OUTPUT_FILE = os.path.join(
     SCRIPT_DIR,
-    "GM_30Threads_hours.xlsx"
+    "Toy_Final_with_countOfTask_hours.xlsx"
 )
 
 
@@ -25,42 +26,101 @@ OUTPUT_FILE = os.path.join(
 # REGEX PATTERNS
 # ====================================================
 
+# Removes prefix such as:
+# [Rel 7319655]
 prefix_pattern = re.compile(
     r"^\[Rel\s+\d+\]\s*"
 )
 
+
+# Supports:
+# Checking Release ID: 7319655 [Initial PM ID: BM-00019140]
+# Checking Release ID: 7271101 [Initial PM ID: ]
+# Checking Release ID: 7276394 [PM ID: BM-00105824]
 release_pattern = re.compile(
     r"Checking Release ID:\s*(\d+)\s*"
-    r"\[PM ID:\s*([^\]]*)\]"
+    r"\[(?:Initial\s+)?PM ID:\s*([^\]]*)\]",
+    re.IGNORECASE
 )
 
+
+# Supports:
+# Successfully inherited PM ID 'BM-00076075'
+inherited_pm_pattern = re.compile(
+    r"Successfully inherited PM ID\s*"
+    r"['\"]([^'\"]*)['\"]",
+    re.IGNORECASE
+)
+
+auto_filled_pm_pattern = re.compile(
+    r"Auto-filled PM ID\s*"
+    r"['\"]([^'\"]*)['\"]",
+    re.IGNORECASE
+)
+
+updated_pm_pattern = re.compile(
+    r"(?:Updated|Resolved|Final)\s+PM ID\s*"
+    r"['\"]([^'\"]*)['\"]",
+    re.IGNORECASE
+)
+
+# Supports:
+# Root Item Type: Task
+# Root Item Type: Epic
+# Root Item Type: Release
 root_item_type_pattern = re.compile(
     r"Root Item Type:\s*(.+?)\s*$",
     re.IGNORECASE
 )
 
+
+# Supports:
+# Status is 'Unresolved (New / In Progress)'
+# Resolution is 'Solved'
 status_pattern = re.compile(
     r"(?:Status|Resolution)\s+is\s+'([^']+)'",
     re.IGNORECASE
 )
 
+
+# Supports:
+# SKIPPING: Resolution is 'Invalid'
 skipped_status_pattern = re.compile(
     r"SKIPPING:\s*Resolution\s+is\s+'([^']+)'",
     re.IGNORECASE
 )
 
+
+# Supports:
+# Release Owned By: Name (...) (Tasks may be owned by others)
 release_owner_pattern = re.compile(
     r"Release Owned By:\s*(.+?)\s*"
     r"\(Tasks may be owned by others\)",
     re.IGNORECASE
 )
 
+
+# Supports:
+# Created: 31-07-2026 | Resolved: No Date
+# Created: 31-07-2026 | Resolved: 05-08-2026
 release_date_pattern = re.compile(
     r"Created:\s*(\d{2}-\d{2}-\d{4})\s*\|\s*"
     r"Resolved:\s*(No Date|\d{2}-\d{2}-\d{4})",
     re.IGNORECASE
 )
 
+
+# Supports task/review lines:
+#
+# [NET DEV ] Added 297.50 hrs |
+# ID: 7200616 |
+# Type: task |
+# Dept: 'ft3_g10_eu_esp_net' |
+# Owner: Name |
+# Country: India |
+# Title: Example |
+# Created: 06-07-2026 |
+# Resolved: No Date
 task_pattern = re.compile(
     r"\[(.*?)\]\s*"
     r"Added\s*([\d.]+)\s*hrs\s*\|\s*"
@@ -97,10 +157,6 @@ current_release_resolved = ""
 # ====================================================
 
 def make_excel_safe(value):
-    """
-    Prevent imported text from being interpreted as an
-    Excel formula and remove invalid control characters.
-    """
 
     if pd.isna(value):
         return value
@@ -108,15 +164,14 @@ def make_excel_safe(value):
     if not isinstance(value, str):
         return value
 
-    # Remove control characters that Excel cannot store.
+    # Remove control characters Excel cannot store
     value = re.sub(
         r"[\x00-\x08\x0B\x0C\x0E-\x1F]",
         "",
         value
     )
 
-    # Excel interprets values beginning with these
-    # characters as formulas.
+    # Prevent imported text from becoming an Excel formula
     if value.startswith(("=", "+", "-", "@")):
         value = "'" + value
 
@@ -142,7 +197,7 @@ if not os.path.exists(INPUT_FILE):
 
 
 # ====================================================
-# DELETE OLD OUTPUT FILE
+# REMOVE OLD OUTPUT FILE
 # ====================================================
 
 if os.path.exists(OUTPUT_FILE):
@@ -153,8 +208,9 @@ if os.path.exists(OUTPUT_FILE):
     except PermissionError:
 
         print()
-        print("Cannot replace the Excel file.")
-        print("Close checking_hours.xlsx in Excel and run again.")
+        print("Cannot replace checking_hours.xlsx.")
+        print("Close checking_hours.xlsx and run the script again.")
+
         raise SystemExit
 
 
@@ -170,7 +226,7 @@ with open(
 
     for raw_line in file:
 
-        # Convert HTML values:
+        # Convert HTML entities:
         # &nbsp; becomes a normal space
         # &amp; becomes &
         line = html.unescape(raw_line)
@@ -186,8 +242,8 @@ with open(
         if not line:
             continue
 
-        # Remove prefix such as:
-        # [Rel 7276394]
+        # Remove prefix:
+        # [Rel 7319655]
         line = prefix_pattern.sub("", line).strip()
 
         if not line:
@@ -202,6 +258,10 @@ with open(
         if match:
 
             current_release = match.group(1).strip()
+
+            # Initial PM ID can be blank.
+            # It can later be replaced by an inherited
+            # or auto-filled PM ID.
             current_pm = match.group(2).strip()
 
             current_root_item_type = ""
@@ -211,6 +271,42 @@ with open(
             current_release_resolved = ""
 
             continue
+
+        # --------------------------------------------
+        # INHERITED PM ID
+        # --------------------------------------------
+
+        match = inherited_pm_pattern.search(line)
+
+        if match:
+            current_pm = match.group(1).strip()
+            continue
+
+        # --------------------------------------------
+        # AUTO-FILLED PM ID
+        # --------------------------------------------
+
+        match = auto_filled_pm_pattern.search(line)
+
+        if match:
+            current_pm = match.group(1).strip()
+            continue
+
+        # --------------------------------------------
+        # POSSIBLE OTHER PM ID UPDATE
+        # --------------------------------------------
+
+        match = updated_pm_pattern.search(line)
+
+        if match:
+            current_pm = match.group(1).strip()
+            continue
+
+        # Lines such as this require no update:
+        #
+        # PM ID missing and no parent work item link found
+        #
+        # current_pm remains blank.
 
         # --------------------------------------------
         # ROOT ITEM TYPE
@@ -253,9 +349,11 @@ with open(
             continue
 
         # --------------------------------------------
-        # RELEASE CREATED / RESOLVED
+        # RELEASE CREATED / RESOLVED DATE
         # --------------------------------------------
 
+        # Prevent task dates from being saved as
+        # release dates.
         if "Added" not in line:
 
             match = release_date_pattern.search(line)
@@ -341,9 +439,13 @@ if detail_df.empty:
 
     print()
     print("No task records were found.")
-    print("Check the format of added_time_log.txt.")
+    print(
+        "The file may contain only invalid releases or "
+        "releases with No Valid Hours Logged."
+    )
 
     if failed_task_lines:
+
         print()
         print("First unparsed task line:")
         print(failed_task_lines[0]["Unparsed Line"])
@@ -392,18 +494,21 @@ task_resolved_date = pd.to_datetime(
     errors="coerce"
 )
 
-# Blank month when Task Resolved is No Date
+# Month is taken from Task Resolved.
+# If Task Resolved is No Date, Month remains blank.
 detail_df["Month"] = (
     task_resolved_date.dt.month.astype("Int64")
 )
 
-# Year 2027 when Task Resolved is No Date
+# Year is taken from Task Resolved.
+# If Task Resolved is No Date, Year becomes 2027.
 detail_df["Year"] = (
     task_resolved_date.dt.year
     .where(~no_task_resolution, 2027)
     .astype("Int64")
 )
 
+# Format Task Resolved as DD-MM-YYYY.
 detail_df["Task Resolved"] = (
     task_resolved_date.dt.strftime("%d-%m-%Y")
 )
@@ -524,7 +629,7 @@ text_columns = detail_df.select_dtypes(
         "object",
         "string"
     ]
-).columns
+).columns.tolist()
 
 for column in text_columns:
 
@@ -534,7 +639,7 @@ for column in text_columns:
 
 
 # ====================================================
-# WRITE ONLY DETAILED_DATA
+# WRITE ONLY DETAILED_DATA SHEET
 # ====================================================
 
 with pd.ExcelWriter(
@@ -550,7 +655,7 @@ with pd.ExcelWriter(
 
     worksheet = writer.sheets["Detailed_Data"]
 
-    # Force imported text cells to remain plain text.
+    # Force imported text values to remain plain text.
     for column_number, column_name in enumerate(
         detail_df.columns,
         start=1

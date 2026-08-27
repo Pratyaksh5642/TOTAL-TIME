@@ -18,11 +18,11 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_Ford.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Checking_Ford_30_threads.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "extraction_log_checking_threads_ford.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "input.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "just_checking.xlsx") 
+LOG_FILE = os.path.join(SCRIPT_DIR, "just checking.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "added_time_log_checking_30_threads_ford.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "just checking.txt")
 TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHN.xlsx")
 
 # --- SETUP LOGGING ---
