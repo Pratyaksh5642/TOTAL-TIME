@@ -1,18 +1,14 @@
-#Feature 1: Tracking Valid Tasks with 0 Hours
-#Feature 2: Inheriting PM ID from a Parent Release
-#remove the sorting logic the delay rows thing
-#Auto-Fill of release id
-
 import csv
 import requests
 import urllib3
 import os
 import logging
 import re
-import pandas as pd 
+import pandas as pd
 import threading
 import itertools
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 
 # Disable SSL warnings for internal domains
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -23,16 +19,16 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_CUS_GM.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "GM_Final_with_countOfTask.xlsx") 
-LOG_FILE = os.path.join(SCRIPT_DIR, "Extraction_Log_GM_Final_with_countOfTask.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_Audi.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Audi_Final_with_countOfTask_hours.xlsx")
+LOG_FILE = os.path.join(SCRIPT_DIR, "Extraction_NEW_Log_Audi_Final_with_countOfTask.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Added_NEW_Log_Audi_Final_with_countOfTask.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Added_Log_GM_Final_with_countOfTask.txt")
-TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHN.xlsx")
+TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHE.xlsx")
 
 # --- SETUP LOGGING ---
 logger = logging.getLogger("alm_extractor")
-logger.setLevel(logging.DEBUG) 
+logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(message)s')
 
 master_file_handler = logging.FileHandler(LOG_FILE, mode='a', encoding='utf-8')
@@ -67,7 +63,6 @@ def get_session():
 print_lock = threading.Lock()
 
 class BufferedLogger:
-    """Holds log messages in memory until a thread finishes, then prints them together."""
     def __init__(self):
         self.logs = []
         
@@ -95,19 +90,17 @@ KNOWN_USERS = {}
 CATEGORY_MAPPING = {}
 TEAM_ROSTER = set()
 
-# NEW: Global Counter for Valid 0-Hour Tasks
+# Global Counter for Valid 0-Hour Tasks
 ZERO_HOURS_COUNT = 0
 zero_hours_lock = threading.Lock()
 
 def load_team_roster():
-    """Scans the Excel file and explicitly generates all permutations of names for bulletproof matching."""
     if os.path.exists(TEAM_ROSTER_FILE):
         try:
             xls = pd.ExcelFile(TEAM_ROSTER_FILE)
             sheets_used = []
             for sheet in xls.sheet_names:
                 df = pd.read_excel(xls, sheet_name=sheet)
-                
                 name_col = None
                 for col in df.columns:
                     if str(col).strip().lower() == "names":
@@ -138,7 +131,6 @@ def load_team_roster():
         logger.warning(f"⚠️ Roster file '{TEAM_ROSTER_FILE}' not found! The 'Miscategorized' rescue feature will be skipped.")
 
 def is_owner_in_roster(owner_string):
-    """Checks if the extracted owner name exists anywhere in the team roster."""
     if not TEAM_ROSTER or not owner_string or owner_string == "Unassigned":
         return False
         
@@ -314,19 +306,30 @@ def get_bucket_for_category(category_name):
         
     return None 
 
-def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is_rework_branch=False):
+def extract_month_year(date_str):
+    if not date_str or str(date_str).strip().lower() == "no date":
+        return "", 2027
+    try:
+        dt = datetime.strptime(date_str, "%d-%m-%Y")
+        return dt.month, dt.year
+    except Exception:
+        return "", 2027
+
+def process_hierarchy(work_item_url, release_id, pm_id, root_type_short, res_status, release_owner_string, 
+                      created_formatted, resolved_formatted, blog, visited=None, depth=0, is_rework_branch=False):
     if visited is None:
         visited = set()
 
     country_efforts = {}
+    task_details = []
 
     if work_item_url in visited:
-        return country_efforts
+        return country_efforts, task_details
     visited.add(work_item_url)
 
     data = get_workitem_json(work_item_url, blog)
     if not data:
-        return country_efforts
+        return country_efforts, task_details
 
     item_id = data.get("dcterms:identifier") or data.get("dc:identifier") or data.get("identifier")
     if not item_id:
@@ -352,7 +355,7 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
     if depth > 0 and "release" in type_name_short.lower():
         indent = "  " * depth
         blog.info(f"[Rel {release_id}] {indent}→ [SKIPPED SUB-RELEASE] ID: {item_id} (Preventing double-counting)")
-        return country_efforts 
+        return country_efforts, task_details
 
     time_spent_raw = data.get("rtc_cm:timeSpent")
     time_spent_ms = int(time_spent_raw) if time_spent_raw else 0
@@ -367,7 +370,6 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
         res_url = res_info.get("rdf:resource", "") if isinstance(res_info, dict) else (res_info if isinstance(res_info, str) else "")
         child_res_status = get_resolution_name(res_url, blog).lower() if res_url else "unresolved"
         
-        # Check if the status is strictly NOT one of these
         excluded_resolutions = ["cancelled", "invalid", "trouble not found", "duplicate"]
         is_excluded = any(ex in child_res_status for ex in excluded_resolutions)
         
@@ -405,7 +407,6 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
         skip_due_to_invalid = is_invalid_status and (type_name_short != "defect")
         
         is_valid_date = False
-        
         date_to_check = task_resolved_raw if (task_resolved_raw and isinstance(task_resolved_raw, str) and "T" in task_resolved_raw) else task_created_raw
         
         if date_to_check and isinstance(date_to_check, str) and len(date_to_check) >= 4:
@@ -455,12 +456,38 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
                     
                 if bucket == "GENERAL":
                     country_efforts[task_country]["Miscategorized"] += time_spent_ms
+                    category_val = "GENERAL Miscategorized"
                     blog.info(f"[Rel {release_id}] {indent}→ [GENERAL Miscategorized] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}' | Owner: {task_owner_string} | Country: {task_country} | Title: {task_title} | Created: {task_created_formatted} | Resolved: {task_resolved_formatted}")
                 else:
                     bucket_key = f"{bucket}_Rework" if current_is_rework else f"{bucket}_DEV"
                     country_efforts[task_country][bucket_key] += time_spent_ms
                     rework_str = "REWORK" if current_is_rework else "DEV "
+                    category_val = f"{bucket} {rework_str.strip()}"
                     blog.info(f"[Rel {release_id}] {indent}→ [{bucket} {rework_str}] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}' | Owner: {task_owner_string} | Country: {task_country} | Title: {task_title} | Created: {task_created_formatted} | Resolved: {task_resolved_formatted}")
+
+                # Capture task detail directly
+                task_month, task_year = extract_month_year(task_resolved_formatted)
+                task_details.append({
+                    "Release ID": str(release_id),
+                    "PM ID": str(pm_id) if pm_id else "",
+                    "Root Item Type": str(root_type_short),
+                    "Release Status": str(res_status),
+                    "Release Owner": str(release_owner_string),
+                    "Release Created": str(created_formatted),
+                    "Release Resolved": str(resolved_formatted),
+                    "Category": category_val,
+                    "Hours": round(hours_logged, 2),
+                    "Task ID": str(item_id),
+                    "Type": str(type_name_short),
+                    "Department": str(task_department_name),
+                    "Task Owner": str(task_owner_string),
+                    "Country": str(task_country),
+                    "Title": str(task_title),
+                    "Task Created": str(task_created_formatted),
+                    "Task Resolved": str(task_resolved_formatted),
+                    "Month": task_month,
+                    "Year": task_year
+                })
             else:
                 blog.debug(f"[Rel {release_id}] {indent}→ [IGNORED CATEGORY] Skipped {hours_logged:.2f} hrs (Not in Roster) | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}' | Title: {task_title}")
 
@@ -473,8 +500,13 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
     for child in children_data:
         if isinstance(child, dict) and "rdf:resource" in child:
             child_url = child["rdf:resource"]
-            child_efforts = process_hierarchy(child_url, release_id, blog, visited, depth + 1, current_is_rework)
+            child_efforts, child_tasks = process_hierarchy(
+                child_url, release_id, pm_id, root_type_short, res_status, release_owner_string, 
+                created_formatted, resolved_formatted, blog, visited, depth + 1, current_is_rework
+            )
             
+            task_details.extend(child_tasks)
+
             for c_name, c_data in child_efforts.items():
                 if c_name not in country_efforts:
                     country_efforts[c_name] = {
@@ -487,7 +519,7 @@ def process_hierarchy(work_item_url, release_id, blog, visited=None, depth=0, is
                 for k in ["NET_DEV", "DCOM_DEV", "DSM_DEV", "NET_Rework", "DCOM_Rework", "DSM_Rework", "Miscategorized"]:
                     country_efforts[c_name][k] += c_data[k]
 
-    return country_efforts
+    return country_efforts, task_details
 
 def process_single_release(row):
     """Worker function for threading. Buffers all logs until finished."""
@@ -496,6 +528,7 @@ def process_single_release(row):
     
     blog = BufferedLogger() 
     country_rows_to_return = []
+    task_details_to_return = []
     
     blog.info(f"[Rel {release_id}] =========================================")
     blog.info(f"[Rel {release_id}] Checking Release ID: {release_id} [Initial PM ID: {pm_id}]...")
@@ -526,7 +559,6 @@ def process_single_release(row):
             
         blog.info(f"[Rel {release_id}] 📌 Root Item Type: {root_type_short}")
         
-        # --- NEW: AUTO-FILL PM ID FROM CURRENT RELEASE ---
         if not pm_id and root_type_short.lower() == "release":
             current_pm_id = release_data.get("rtc_cm:com.bosch.rtc.configuration.workitemtype.customattribute.pminterfaceelementid", "")
             if current_pm_id:
@@ -536,10 +568,8 @@ def process_single_release(row):
                 row["PM Interface Element ID"] = pm_id
                 blog.info(f"[Rel {release_id}] 🔍 Auto-filled PM ID '{pm_id}' from current Release.")
         
-        # --- FEATURE 2: PARENT PM ID INHERITANCE ---
         if not pm_id and root_type_short.lower() == "release":
             parent_link_info = release_data.get("rtc_cm:com.ibm.team.workitem.linktype.parentworkitem.parent")
-            # ALM returns this link as a list when the item has a parent
             if isinstance(parent_link_info, list):
                 parent_link_info = parent_link_info[0] if parent_link_info else None
 
@@ -606,7 +636,7 @@ def process_single_release(row):
             blog.warning(f"[Rel {release_id}] ❌ SKIPPING: Resolution is '{res_status.title()}'")
             blog.info("") 
             blog.flush() 
-            return []
+            return [], []
         else:
             if res_url:
                 if is_invalid_status:
@@ -636,7 +666,11 @@ def process_single_release(row):
 
     blog.info(f"[Rel {release_id}] Processing Hierarchy...")
     
-    efforts_by_country = process_hierarchy(root_url, release_id, blog)
+    # Process tasks and capture detailed task data
+    efforts_by_country, task_details = process_hierarchy(
+        root_url, release_id, pm_id, root_type_short, res_status, release_owner_string, 
+        created_formatted, resolved_formatted, blog
+    )
     
     if not efforts_by_country:
         fallback_country, fallback_rate = get_country_and_rate(release_owner_string)
@@ -676,41 +710,41 @@ def process_single_release(row):
         if (net_dev + dcom_dev + dsm_dev + net_rew + dcom_rew + dsm_rew + miscategorized) == 0:
             blog.info(f"[Rel {release_id}]     No Valid Hours Logged (0.00 hrs)")
 
-        net_final = net_dev + net_rew
-        dcom_dsm_dev = dcom_dev + dsm_dev
-        dcom_dsm_rew = dcom_rew + dsm_rew
-        dcom_dsm_final = dcom_dsm_dev + dcom_dsm_rew
-
         country_row = row.copy() 
-        
         country_row["Item Type"] = root_type_short
         country_row["Owner Details"] = data["owner_string"]
         country_row["Country"] = country
         country_row["Rate Card (€)"] = data["rate"]
         country_row["Creation Date"] = created_formatted
         country_row["Resolution Date"] = resolved_formatted
-
         country_row["NET_DEV (Hours)"] = round(net_dev, 2)
         country_row["DCOM_DEV (Hours)"] = round(dcom_dev, 2)
         country_row["DSM_DEV (Hours)"] = round(dsm_dev, 2)
-        
-        country_row["NET_FINAL (Hours)"] = round(net_final, 2)
-        country_row["DCOM_DSM_DEV (Hours)"] = round(dcom_dsm_dev, 2)
-        
+        country_row["NET_FINAL (Hours)"] = round(net_dev + net_rew, 2)
+        country_row["DCOM_DSM_DEV (Hours)"] = round(dcom_dev + dsm_dev, 2)
         country_row["NET_Rework (Hours)"] = round(net_rew, 2)
         country_row["DCOM_Rework (Hours)"] = round(dcom_rew, 2)
         country_row["DSM_Rework (Hours)"] = round(dsm_rew, 2)
-        
-        country_row["DCOM_DSM_REWORK_TOTAL (Hours)"] = round(dcom_dsm_rew, 2)
-        country_row["DCOM_DSM_FINAL (Hours)"] = round(dcom_dsm_final, 2)
-        
+        country_row["DCOM_DSM_REWORK_TOTAL (Hours)"] = round(dcom_rew + dsm_rew, 2)
+        country_row["DCOM_DSM_FINAL (Hours)"] = round((dcom_dev + dsm_dev) + (dcom_rew + dsm_rew), 2)
         country_row["Miscategorized (Hours)"] = round(miscategorized, 2)
         
         country_rows_to_return.append(country_row)
         
     blog.info("") 
     blog.flush() 
-    return country_rows_to_return
+    
+    return country_rows_to_return, task_details
+
+def make_excel_safe(value):
+    if pd.isna(value):
+        return value
+    if not isinstance(value, str):
+        return value
+    value = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F]", "", value)
+    if value.startswith(("=", "+", "-", "@")):
+        value = "'" + value
+    return value
 
 if __name__ == "__main__":
     logger.info("\n---> [NEW RUN STARTING: AUTO-FILL PM ID FROM CURRENT + PARENT (30 THREADS)] <---")
@@ -721,6 +755,7 @@ if __name__ == "__main__":
     load_team_roster() 
     
     processed_rows = []
+    all_task_details = []
     
     try:
         with open(INPUT_CSV_FILE, mode="r", encoding="utf-16") as infile:
@@ -728,7 +763,6 @@ if __name__ == "__main__":
             all_rows = list(reader)
             
             ordered_rows = []
-            
             logger.info(f"Reading and cleaning {len(all_rows)} rows from input file...")
             for row in all_rows:
                 release_id = row.get("Id", "").strip()
@@ -736,7 +770,6 @@ if __name__ == "__main__":
                     continue
                     
                 pm_id = row.get("PM Interface Element ID", "").strip()
-                
                 if pm_id.startswith("BM"):
                     pm_id = pm_id.split('_')[0]
                     row["PM Interface Element ID"] = pm_id 
@@ -750,35 +783,40 @@ if __name__ == "__main__":
                 
                 for future in as_completed(future_to_row):
                     try:
-                        country_rows = future.result()
+                        country_rows, task_details = future.result()
                         if country_rows:
                             processed_rows.extend(country_rows)
+                        if task_details:
+                            all_task_details.extend(task_details)
                     except Exception as exc:
                         logger.error(f"Thread generated an exception: {exc}")
                 
         if processed_rows:
-            # --- FINAL STEP: APPEND THE ZERO-HOURS SUMMARY ROW ---
-            summary_row = {
-                "Id": "No Hours",
-                "PM Interface Element ID": ZERO_HOURS_COUNT,
-                "Item Type": "", "Owner Details": "", "Country": "", 
-                "Creation Date": "", "Resolution Date": ""
-            }
-            processed_rows.append(summary_row)
-
-            df = pd.DataFrame(processed_rows)
+            # Generate the detailed dataframe
+            detail_columns = [
+                "Release ID", "PM ID", "Root Item Type", "Release Status", "Release Owner", 
+                "Release Created", "Release Resolved", "Category", "Hours", "Task ID", "Type", 
+                "Department", "Task Owner", "Country", "Title", "Task Created", "Task Resolved", "Month", "Year"
+            ]
+            detail_df = pd.DataFrame(all_task_details, columns=detail_columns)
             
-            cols = list(df.columns)
-            if "Item Type" in cols and "Id" in cols:
-                cols.remove("Item Type")
-                id_index = cols.index("Id")
-                cols.insert(id_index + 1, "Item Type")
-                df = df[cols]
+            text_columns = detail_df.select_dtypes(include=["object", "string"]).columns.tolist()
+            for column in text_columns:
+                detail_df[column] = detail_df[column].map(make_excel_safe)
+            
+            # --- FINAL STEP: EXPORT TO EXCEL ---
+            with pd.ExcelWriter(OUTPUT_EXCEL_FILE, engine="openpyxl") as writer:
+                # Write Detailed Data
+                detail_df.to_excel(writer, sheet_name="Detailed_Data", index=False)
+                worksheet = writer.sheets["Detailed_Data"]
+                for col_num, col_name in enumerate(detail_df.columns, start=1):
+                    if col_name in text_columns:
+                        for row_num in range(2, len(detail_df) + 2):
+                            worksheet.cell(row=row_num, column=col_num).number_format = "@"
                 
-            df.to_excel(OUTPUT_EXCEL_FILE, index=False)
             logger.info(f"\n✅ Success! All threads finished.")
             logger.info(f"📊 Valid 0-Hour Tasks Found: {ZERO_HOURS_COUNT}")
-            logger.info(f"💾 Processed data saved to Excel file: '{OUTPUT_EXCEL_FILE}'.")
+            logger.info(f"💾 Processed detailed data saved to Excel file: '{OUTPUT_EXCEL_FILE}'.")
         else:
             logger.warning("\n⚠️ No rows were processed.")
 
