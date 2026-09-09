@@ -19,12 +19,12 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_Mazda.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Mazda_Final_with_countOfTask_hours.xlsx")
-LOG_FILE = os.path.join(SCRIPT_DIR, "Extraction_NEW_Log_Mazda_Final_with_countOfTask.txt")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Added_NEW_Log_Mazda_Final_with_countOfTask.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_Fiat.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "VAG_Final_with_countOfTask_hours.xlsx")
+LOG_FILE = os.path.join(SCRIPT_DIR, "Extraction_NEW_Log_VAG_Final_with_countOfTask.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Added_NEW_Log_VAG_Final_with_countOfTask.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
-TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHA.xlsx")
+TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHN.xlsx")
 
 # --- SETUP LOGGING ---
 logger = logging.getLogger("alm_extractor")
@@ -315,7 +315,7 @@ def extract_month_year(date_str):
     except Exception:
         return "", 2027
 
-def process_hierarchy(work_item_url, release_id, pm_id, root_type_short, res_status, release_owner_string, 
+def process_hierarchy(work_item_url, release_id, pm_id, project_area, root_type_short, res_status, release_owner_string, 
                       created_formatted, resolved_formatted, blog, visited=None, depth=0, is_rework_branch=False):
     if visited is None:
         visited = set()
@@ -465,11 +465,12 @@ def process_hierarchy(work_item_url, release_id, pm_id, root_type_short, res_sta
                     category_val = f"{bucket} {rework_str.strip()}"
                     blog.info(f"[Rel {release_id}] {indent}→ [{bucket} {rework_str}] Added {hours_logged:.2f} hrs | ID: {item_id} | Type: {type_name_short} | Dept: '{task_department_name}' | Owner: {task_owner_string} | Country: {task_country} | Title: {task_title} | Created: {task_created_formatted} | Resolved: {task_resolved_formatted}")
 
-                # Capture task detail directly
+                # Capture task detail directly - now includes Project Area
                 task_month, task_year = extract_month_year(task_resolved_formatted)
                 task_details.append({
                     "Release ID": str(release_id),
                     "PM ID": str(pm_id) if pm_id else "",
+                    "Project Area": str(project_area),
                     "Root Item Type": str(root_type_short),
                     "Release Status": str(res_status),
                     "Release Owner": str(release_owner_string),
@@ -501,7 +502,7 @@ def process_hierarchy(work_item_url, release_id, pm_id, root_type_short, res_sta
         if isinstance(child, dict) and "rdf:resource" in child:
             child_url = child["rdf:resource"]
             child_efforts, child_tasks = process_hierarchy(
-                child_url, release_id, pm_id, root_type_short, res_status, release_owner_string, 
+                child_url, release_id, pm_id, project_area, root_type_short, res_status, release_owner_string, 
                 created_formatted, resolved_formatted, blog, visited, depth + 1, current_is_rework
             )
             
@@ -525,6 +526,7 @@ def process_single_release(row):
     """Worker function for threading. Buffers all logs until finished."""
     release_id = row.get("Id", "").strip()
     pm_id = row.get("PM Interface Element ID", "").strip()
+    project_area = row.get("Project Area", "").strip() # <--- NEW: Read Project Area
     
     blog = BufferedLogger() 
     country_rows_to_return = []
@@ -668,7 +670,7 @@ def process_single_release(row):
     
     # Process tasks and capture detailed task data
     efforts_by_country, task_details = process_hierarchy(
-        root_url, release_id, pm_id, root_type_short, res_status, release_owner_string, 
+        root_url, release_id, pm_id, project_area, root_type_short, res_status, release_owner_string, 
         created_formatted, resolved_formatted, blog
     )
     
@@ -747,7 +749,7 @@ def make_excel_safe(value):
     return value
 
 if __name__ == "__main__":
-    logger.info("\n---> [NEW RUN STARTING: AUTO-FILL PM ID FROM CURRENT + PARENT (30 THREADS)] <---")
+    logger.info("\n---> [NEW RUN STARTING: ADDED PROJECT AREA TO OUTPUT (30 THREADS)] <---")
     logger.info(f"Master Log: {LOG_FILE}")
     logger.info(f"Clean Log (Added Only): {ADDED_LOG_FILE}\n")
     
@@ -794,7 +796,7 @@ if __name__ == "__main__":
         if processed_rows:
             # Generate the detailed dataframe
             detail_columns = [
-                "Release ID", "PM ID", "Root Item Type", "Release Status", "Release Owner", 
+                "Release ID", "PM ID", "Project Area", "Root Item Type", "Release Status", "Release Owner", 
                 "Release Created", "Release Resolved", "Category", "Hours", "Task ID", "Type", 
                 "Department", "Task Owner", "Country", "Title", "Task Created", "Task Resolved", "Month", "Year"
             ]

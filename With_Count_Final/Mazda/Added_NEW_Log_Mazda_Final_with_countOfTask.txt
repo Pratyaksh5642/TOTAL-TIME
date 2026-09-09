@@ -1,0 +1,2918 @@
+
+---> [NEW RUN STARTING: ADDED PROJECT AREA TO OUTPUT (30 THREADS)] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\Extraction_NEW_Log_Mazda_Final_with_countOfTask.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\Added_NEW_Log_Mazda_Final_with_countOfTask.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 275 rows from input file...
+Reading complete. Starting ThreadPoolExecutor with 30 threads...
+
+[Rel 7432643] =========================================
+[Rel 7432643] Checking Release ID: 7432643 [Initial PM ID: ]...
+[Rel 7432643] 📌 Root Item Type: Task
+[Rel 7432643] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7432457] =========================================
+[Rel 7432457] Checking Release ID: 7432457 [Initial PM ID: ]...
+[Rel 7432457] 📌 Root Item Type: Task
+[Rel 7432457] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7397657] =========================================
+[Rel 7397657] Checking Release ID: 7397657 [Initial PM ID: ]...
+[Rel 7397657] 📌 Root Item Type: Task
+[Rel 7397657] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7397660] =========================================
+[Rel 7397660] Checking Release ID: 7397660 [Initial PM ID: ]...
+[Rel 7397660] 📌 Root Item Type: Task
+[Rel 7397660] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7430887] =========================================
+[Rel 7430887] Checking Release ID: 7430887 [Initial PM ID: ]...
+[Rel 7430887] 📌 Root Item Type: Task
+[Rel 7430887] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7400045] =========================================
+[Rel 7400045] Checking Release ID: 7400045 [Initial PM ID: ]...
+[Rel 7400045] 📌 Root Item Type: Task
+[Rel 7400045] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7432526] =========================================
+[Rel 7432526] Checking Release ID: 7432526 [Initial PM ID: ]...
+[Rel 7432526] 📌 Root Item Type: Task
+[Rel 7432526] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7431324] =========================================
+[Rel 7431324] Checking Release ID: 7431324 [Initial PM ID: ]...
+[Rel 7431324] 📌 Root Item Type: Task
+[Rel 7431324] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7432873] =========================================
+[Rel 7432873] Checking Release ID: 7432873 [Initial PM ID: ]...
+[Rel 7432873] 📌 Root Item Type: Task
+[Rel 7432873] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7400166] =========================================
+[Rel 7400166] Checking Release ID: 7400166 [Initial PM ID: ]...
+[Rel 7400166] 📌 Root Item Type: Task
+[Rel 7400166] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7433788] =========================================
+[Rel 7433788] Checking Release ID: 7433788 [Initial PM ID: ]...
+[Rel 7433788] 📌 Root Item Type: Task
+[Rel 7433788] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7433788] 👤 Release Owned By: Nguyen Le Gia Bach (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 7433788] 📅 Created: 07-09-2026 | Resolved: No Date
+[Rel 7433788] Processing Hierarchy...
+
+[Rel 7433788] --- Final Hours for Release 7433788 ---
+[Rel 7433788]   [🌍 India]
+[Rel 7433788]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7392429] =========================================
+[Rel 7392429] Checking Release ID: 7392429 [Initial PM ID: ]...
+[Rel 7392429] 📌 Root Item Type: Task
+[Rel 7392429] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7393775] =========================================
+[Rel 7393775] Checking Release ID: 7393775 [Initial PM ID: ]...
+[Rel 7393775] 📌 Root Item Type: Task
+[Rel 7393775] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7391324] =========================================
+[Rel 7391324] Checking Release ID: 7391324 [Initial PM ID: ]...
+[Rel 7391324] 📌 Root Item Type: Task
+[Rel 7391324] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7435630] =========================================
+[Rel 7435630] Checking Release ID: 7435630 [Initial PM ID: ]...
+[Rel 7435630] 📌 Root Item Type: Task
+[Rel 7435630] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7435630] 👤 Release Owned By: Mounika Polam (MS/EAM31-VM) (Tasks may be owned by others)
+[Rel 7435630] 📅 Created: 07-09-2026 | Resolved: No Date
+[Rel 7435630] Processing Hierarchy...
+
+[Rel 7435630] --- Final Hours for Release 7435630 ---
+[Rel 7435630]   [🌍 India]
+[Rel 7435630]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5032876] =========================================
+[Rel 5032876] Checking Release ID: 5032876 [Initial PM ID: BM-00092864]...
+[Rel 5032876] 📌 Root Item Type: Release
+[Rel 5032876] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7432441] =========================================
+[Rel 7432441] Checking Release ID: 7432441 [Initial PM ID: ]...
+[Rel 7432441] 📌 Root Item Type: Task
+[Rel 7432441] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7432441] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7432441] 📅 Created: 07-09-2026 | Resolved: No Date
+[Rel 7432441] Processing Hierarchy...
+
+[Rel 7432441] --- Final Hours for Release 7432441 ---
+[Rel 7432441]   [🌍 Others]
+[Rel 7432441]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7391224] =========================================
+[Rel 7391224] Checking Release ID: 7391224 [Initial PM ID: ]...
+[Rel 7391224] 📌 Root Item Type: Task
+[Rel 7391224] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7391201] =========================================
+[Rel 7391201] Checking Release ID: 7391201 [Initial PM ID: ]...
+[Rel 7391201] 📌 Root Item Type: Task
+[Rel 7391201] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7381067] =========================================
+[Rel 7381067] Checking Release ID: 7381067 [Initial PM ID: ]...
+[Rel 7381067] 📌 Root Item Type: Task
+[Rel 7381067] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7203638] =========================================
+[Rel 7203638] Checking Release ID: 7203638 [Initial PM ID: ]...
+[Rel 7203638] 📌 Root Item Type: Task
+[Rel 7203638] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7364927] =========================================
+[Rel 7364927] Checking Release ID: 7364927 [Initial PM ID: ]...
+[Rel 7364927] 📌 Root Item Type: Defect
+[Rel 7364927] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7364927] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7364927] 📅 Created: 18-08-2026 | Resolved: 18-08-2026
+[Rel 7364927] Processing Hierarchy...
+
+[Rel 7364927] --- Final Hours for Release 7364927 ---
+[Rel 7364927]   [🌍 Others]
+[Rel 7364927]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7359077] =========================================
+[Rel 7359077] Checking Release ID: 7359077 [Initial PM ID: ]...
+[Rel 7359077] 📌 Root Item Type: Defect
+[Rel 7359077] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7359077] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7359077] 📅 Created: 17-08-2026 | Resolved: 18-08-2026
+[Rel 7359077] Processing Hierarchy...
+
+[Rel 7359077] --- Final Hours for Release 7359077 ---
+[Rel 7359077]   [🌍 Others]
+[Rel 7359077]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7364901] =========================================
+[Rel 7364901] Checking Release ID: 7364901 [Initial PM ID: ]...
+[Rel 7364901] 📌 Root Item Type: Defect
+[Rel 7364901] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7364901] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7364901] 📅 Created: 18-08-2026 | Resolved: 18-08-2026
+[Rel 7364901] Processing Hierarchy...
+
+[Rel 7364901] --- Final Hours for Release 7364901 ---
+[Rel 7364901]   [🌍 Others]
+[Rel 7364901]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7393708] =========================================
+[Rel 7393708] Checking Release ID: 7393708 [Initial PM ID: ]...
+[Rel 7393708] 📌 Root Item Type: Defect
+[Rel 7393708] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7393708] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7393708] 📅 Created: 26-08-2026 | Resolved: No Date
+[Rel 7393708] Processing Hierarchy...
+
+[Rel 7393708] --- Final Hours for Release 7393708 ---
+[Rel 7393708]   [🌍 Others]
+[Rel 7393708]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7364937] =========================================
+[Rel 7364937] Checking Release ID: 7364937 [Initial PM ID: ]...
+[Rel 7364937] 📌 Root Item Type: Defect
+[Rel 7364937] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7364937] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7364937] 📅 Created: 18-08-2026 | Resolved: 18-08-2026
+[Rel 7364937] Processing Hierarchy...
+
+[Rel 7364937] --- Final Hours for Release 7364937 ---
+[Rel 7364937]   [🌍 Others]
+[Rel 7364937]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 3529063] =========================================
+[Rel 3529063] Checking Release ID: 3529063 [Initial PM ID: ]...
+[Rel 3529063] 📌 Root Item Type: Release
+[Rel 3529063] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 3529063] ✔️ Resolution is 'Solved'.
+[Rel 3529063] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 3529063] 📅 Created: 26-04-2023 | Resolved: 12-07-2023
+[Rel 3529063] Processing Hierarchy...
+
+[Rel 3529063] --- Final Hours for Release 3529063 ---
+[Rel 3529063]   [🌍 India]
+[Rel 3529063]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 3528990] =========================================
+[Rel 3528990] Checking Release ID: 3528990 [Initial PM ID: ]...
+[Rel 3528990] 📌 Root Item Type: Release
+[Rel 3528990] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 3528990] ✔️ Resolution is 'Solved'.
+[Rel 3528990] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 3528990] 📅 Created: 26-04-2023 | Resolved: 17-05-2023
+[Rel 3528990] Processing Hierarchy...
+
+[Rel 3528990] --- Final Hours for Release 3528990 ---
+[Rel 3528990]   [🌍 India]
+[Rel 3528990]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6393044] =========================================
+[Rel 6393044] Checking Release ID: 6393044 [Initial PM ID: ]...
+[Rel 6393044] 📌 Root Item Type: Task
+[Rel 6393044] ✔️ Resolution is 'Solved'.
+[Rel 6393044] 👤 Release Owned By: Nguyen Le Minh Tri (MS/EJH7-VM) (Tasks may be owned by others)
+[Rel 6393044] 📅 Created: 19-11-2025 | Resolved: 14-08-2026
+[Rel 6393044] Processing Hierarchy...
+
+[Rel 6393044] --- Final Hours for Release 6393044 ---
+[Rel 6393044]   [🌍 India]
+[Rel 6393044]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6280835] =========================================
+[Rel 6280835] Checking Release ID: 6280835 [Initial PM ID: ]...
+[Rel 6280835] 📌 Root Item Type: Defect
+[Rel 6280835] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 6280835] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 6280835] 📅 Created: 27-10-2025 | Resolved: 13-11-2025
+[Rel 6280835] Processing Hierarchy...
+
+[Rel 6280835] --- Final Hours for Release 6280835 ---
+[Rel 6280835]   [🌍 India]
+[Rel 6280835]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6280675] =========================================
+[Rel 6280675] Checking Release ID: 6280675 [Initial PM ID: ]...
+[Rel 6280675] 📌 Root Item Type: Defect
+[Rel 6280675] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 6280675] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 6280675] 📅 Created: 27-10-2025 | Resolved: 13-11-2025
+[Rel 6280675] Processing Hierarchy...
+
+[Rel 6280675] --- Final Hours for Release 6280675 ---
+[Rel 6280675]   [🌍 India]
+[Rel 6280675]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6078522] =========================================
+[Rel 6078522] Checking Release ID: 6078522 [Initial PM ID: ]...
+[Rel 6078522] 📌 Root Item Type: Task
+[Rel 6078522] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6011107] =========================================
+[Rel 6011107] Checking Release ID: 6011107 [Initial PM ID: ]...
+[Rel 6011107] 📌 Root Item Type: Defect
+[Rel 6011107] ✔️ Resolution is 'Confirmed'.
+[Rel 6011107] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 6011107] 📅 Created: 05-08-2025 | Resolved: 05-08-2025
+[Rel 6011107] Processing Hierarchy...
+
+[Rel 6011107] --- Final Hours for Release 6011107 ---
+[Rel 6011107]   [🌍 Vietnam]
+[Rel 6011107]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6104340] =========================================
+[Rel 6104340] Checking Release ID: 6104340 [Initial PM ID: ]...
+[Rel 6104340] 📌 Root Item Type: Defect
+[Rel 6104340] ✔️ Resolution is 'Confirmed'.
+[Rel 6104340] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 6104340] 📅 Created: 04-09-2025 | Resolved: 04-09-2025
+[Rel 6104340] Processing Hierarchy...
+
+[Rel 6104340] --- Final Hours for Release 6104340 ---
+[Rel 6104340]   [🌍 Japan]
+[Rel 6104340]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6100513] =========================================
+[Rel 6100513] Checking Release ID: 6100513 [Initial PM ID: ]...
+[Rel 6100513] 📌 Root Item Type: Review
+[Rel 6100513] ✔️ Resolution is 'Passed'.
+[Rel 6100513] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 6100513] 📅 Created: 03-09-2025 | Resolved: 18-09-2025
+[Rel 6100513] Processing Hierarchy...
+
+[Rel 6100513] --- Final Hours for Release 6100513 ---
+[Rel 6100513]   [🌍 India]
+[Rel 6100513]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6129036] =========================================
+[Rel 6129036] Checking Release ID: 6129036 [Initial PM ID: ]...
+[Rel 6129036] 📌 Root Item Type: Epic
+[Rel 6129036] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6129036] 👤 Release Owned By: Nguyen Le Gia Bach (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 6129036] 📅 Created: 11-09-2025 | Resolved: No Date
+[Rel 6129036] Processing Hierarchy...
+
+[Rel 6129036] --- Final Hours for Release 6129036 ---
+[Rel 6129036]   [🌍 India]
+[Rel 6129036]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6129518] =========================================
+[Rel 6129518] Checking Release ID: 6129518 [Initial PM ID: ]...
+[Rel 6129518] 📌 Root Item Type: Story
+[Rel 6129518] ✔️ Resolution is 'Solved'.
+[Rel 6129518] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 6129518] 📅 Created: 11-09-2025 | Resolved: 20-11-2025
+[Rel 6129518] Processing Hierarchy...
+
+[Rel 6129518] --- Final Hours for Release 6129518 ---
+[Rel 6129518]   [🌍 India]
+[Rel 6129518]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6326338] =========================================
+[Rel 6326338] Checking Release ID: 6326338 [Initial PM ID: ]...
+[Rel 6326338] 📌 Root Item Type: Story
+[Rel 6326338] ✔️ Resolution is 'Solved'.
+[Rel 6326338] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 6326338] 📅 Created: 06-11-2025 | Resolved: 04-03-2026
+[Rel 6326338] Processing Hierarchy...
+
+[Rel 6326338] --- Final Hours for Release 6326338 ---
+[Rel 6326338]   [🌍 India]
+[Rel 6326338]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6124180] =========================================
+[Rel 6124180] Checking Release ID: 6124180 [Initial PM ID: ]...
+[Rel 6124180] 📌 Root Item Type: Review
+[Rel 6124180] ✔️ Resolution is 'Passed'.
+[Rel 6124180] 👤 Release Owned By: Nguyen Hoang Thanh Khoi (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 6124180] 📅 Created: 10-09-2025 | Resolved: 17-09-2025
+[Rel 6124180] Processing Hierarchy...
+
+[Rel 6124180] --- Final Hours for Release 6124180 ---
+[Rel 6124180]   [🌍 India]
+[Rel 6124180]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6002366] =========================================
+[Rel 6002366] Checking Release ID: 6002366 [Initial PM ID: ]...
+[Rel 6002366] 📌 Root Item Type: Review
+[Rel 6002366] ✔️ Resolution is 'Cancelled'.
+[Rel 6002366] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 6002366] 📅 Created: 02-08-2025 | Resolved: 04-08-2025
+[Rel 6002366] Processing Hierarchy...
+
+[Rel 6002366] --- Final Hours for Release 6002366 ---
+[Rel 6002366]   [🌍 Vietnam]
+[Rel 6002366]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5961462] =========================================
+[Rel 5961462] Checking Release ID: 5961462 [Initial PM ID: ]...
+[Rel 5961462] 📌 Root Item Type: Defect
+[Rel 5961462] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 5961462] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5961462] 📅 Created: 21-07-2025 | Resolved: 21-07-2025
+[Rel 5961462] Processing Hierarchy...
+
+[Rel 5961462] --- Final Hours for Release 5961462 ---
+[Rel 5961462]   [🌍 India]
+[Rel 5961462]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5860254] =========================================
+[Rel 5860254] Checking Release ID: 5860254 [Initial PM ID: ]...
+[Rel 5860254] 📌 Root Item Type: Task
+[Rel 5860254] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5860252] =========================================
+[Rel 5860252] Checking Release ID: 5860252 [Initial PM ID: ]...
+[Rel 5860252] 📌 Root Item Type: Task
+[Rel 5860252] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6135482] =========================================
+[Rel 6135482] Checking Release ID: 6135482 [Initial PM ID: ]...
+[Rel 6135482] 📌 Root Item Type: Task
+[Rel 6135482] ✔️ Resolution is 'Solved'.
+[Rel 6135482] 👤 Release Owned By: Nguyen Quang Tien (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 6135482] 📅 Created: 15-09-2025 | Resolved: 28-10-2025
+[Rel 6135482] Processing Hierarchy...
+
+[Rel 6135482] --- Final Hours for Release 6135482 ---
+[Rel 6135482]   [🌍 Vietnam]
+[Rel 6135482]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5966379] =========================================
+[Rel 5966379] Checking Release ID: 5966379 [Initial PM ID: ]...
+[Rel 5966379] 📌 Root Item Type: Defect
+[Rel 5966379] ✔️ Resolution is 'Confirmed'.
+[Rel 5966379] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 5966379] 📅 Created: 22-07-2025 | Resolved: 22-07-2025
+[Rel 5966379] Processing Hierarchy...
+
+[Rel 5966379] --- Final Hours for Release 5966379 ---
+[Rel 5966379]   [🌍 India]
+[Rel 5966379]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5860251] =========================================
+[Rel 5860251] Checking Release ID: 5860251 [Initial PM ID: ]...
+[Rel 5860251] 📌 Root Item Type: Story
+[Rel 5860251] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5860250] =========================================
+[Rel 5860250] Checking Release ID: 5860250 [Initial PM ID: ]...
+[Rel 5860250] 📌 Root Item Type: Story
+[Rel 5860250] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5860253] =========================================
+[Rel 5860253] Checking Release ID: 5860253 [Initial PM ID: ]...
+[Rel 5860253] 📌 Root Item Type: Review
+[Rel 5860253] ✔️ Resolution is 'Cancelled'.
+[Rel 5860253] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5860253] 📅 Created: 24-06-2025 | Resolved: 24-06-2025
+[Rel 5860253] Processing Hierarchy...
+
+[Rel 5860253] --- Final Hours for Release 5860253 ---
+[Rel 5860253]   [🌍 Vietnam]
+[Rel 5860253]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5860256] =========================================
+[Rel 5860256] Checking Release ID: 5860256 [Initial PM ID: ]...
+[Rel 5860256] 📌 Root Item Type: Review
+[Rel 5860256] ✔️ Resolution is 'Cancelled'.
+[Rel 5860256] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5860256] 📅 Created: 24-06-2025 | Resolved: 24-06-2025
+[Rel 5860256] Processing Hierarchy...
+
+[Rel 5860256] --- Final Hours for Release 5860256 ---
+[Rel 5860256]   [🌍 Vietnam]
+[Rel 5860256]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7397787] =========================================
+[Rel 7397787] Checking Release ID: 7397787 [Initial PM ID: ]...
+[Rel 7397787] 📌 Root Item Type: Task
+[Rel 7397787] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7397787] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7397787] 📅 Created: 27-08-2026 | Resolved: No Date
+[Rel 7397787] Processing Hierarchy...
+
+[Rel 7397787] --- Final Hours for Release 7397787 ---
+[Rel 7397787]   [🌍 Others]
+[Rel 7397787]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5693972] =========================================
+[Rel 5693972] Checking Release ID: 5693972 [Initial PM ID: ]...
+[Rel 5693972] 📌 Root Item Type: Task
+[Rel 5693972] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5693970] =========================================
+[Rel 5693970] Checking Release ID: 5693970 [Initial PM ID: ]...
+[Rel 5693970] 📌 Root Item Type: Task
+[Rel 5693970] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5693974] =========================================
+[Rel 5693974] Checking Release ID: 5693974 [Initial PM ID: ]...
+[Rel 5693974] 📌 Root Item Type: Review
+[Rel 5693974] ✔️ Resolution is 'Cancelled'.
+[Rel 5693974] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5693974] 📅 Created: 06-05-2025 | Resolved: 06-05-2025
+[Rel 5693974] Processing Hierarchy...
+
+[Rel 5693974] --- Final Hours for Release 5693974 ---
+[Rel 5693974]   [🌍 Vietnam]
+[Rel 5693974]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5693973] =========================================
+[Rel 5693973] Checking Release ID: 5693973 [Initial PM ID: ]...
+[Rel 5693973] 📌 Root Item Type: Review
+[Rel 5693973] ✔️ Resolution is 'Cancelled'.
+[Rel 5693973] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5693973] 📅 Created: 06-05-2025 | Resolved: 06-05-2025
+[Rel 5693973] Processing Hierarchy...
+
+[Rel 5693973] --- Final Hours for Release 5693973 ---
+[Rel 5693973]   [🌍 Vietnam]
+[Rel 5693973]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7354192] =========================================
+[Rel 7354192] Checking Release ID: 7354192 [Initial PM ID: ]...
+[Rel 7354192] 📌 Root Item Type: Defect
+[Rel 7354192] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7354192] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7354192] 📅 Created: 14-08-2026 | Resolved: 14-08-2026
+[Rel 7354192] Processing Hierarchy...
+
+[Rel 7354192] --- Final Hours for Release 7354192 ---
+[Rel 7354192]   [🌍 Others]
+[Rel 7354192]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7354152] =========================================
+[Rel 7354152] Checking Release ID: 7354152 [Initial PM ID: ]...
+[Rel 7354152] 📌 Root Item Type: Defect
+[Rel 7354152] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7354152] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7354152] 📅 Created: 14-08-2026 | Resolved: 14-08-2026
+[Rel 7354152] Processing Hierarchy...
+
+[Rel 7354152] --- Final Hours for Release 7354152 ---
+[Rel 7354152]   [🌍 Others]
+[Rel 7354152]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7364886] =========================================
+[Rel 7364886] Checking Release ID: 7364886 [Initial PM ID: ]...
+[Rel 7364886] 📌 Root Item Type: Defect
+[Rel 7364886] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 7364886] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 7364886] 📅 Created: 18-08-2026 | Resolved: 18-08-2026
+[Rel 7364886] Processing Hierarchy...
+
+[Rel 7364886] --- Final Hours for Release 7364886 ---
+[Rel 7364886]   [🌍 Others]
+[Rel 7364886]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 3809802] =========================================
+[Rel 3809802] Checking Release ID: 3809802 [Initial PM ID: ]...
+[Rel 3809802] 📌 Root Item Type: Release
+[Rel 3809802] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 3809802] ✔️ Resolution is 'Solved'.
+[Rel 3809802] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 3809802] 📅 Created: 16-08-2023 | Resolved: 11-09-2023
+[Rel 3809802] Processing Hierarchy...
+
+[Rel 3809802] --- Final Hours for Release 3809802 ---
+[Rel 3809802]   [🌍 India]
+[Rel 3809802]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5653684] =========================================
+[Rel 5653684] Checking Release ID: 5653684 [Initial PM ID: ]...
+[Rel 5653684] 📌 Root Item Type: Story
+[Rel 5653684] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5848501] =========================================
+[Rel 5848501] Checking Release ID: 5848501 [Initial PM ID: ]...
+[Rel 5848501] 📌 Root Item Type: Story
+[Rel 5848501] ✔️ Resolution is 'Solved'.
+[Rel 5848501] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5848501] 📅 Created: 23-06-2025 | Resolved: 22-10-2025
+[Rel 5848501] Processing Hierarchy...
+
+[Rel 5848501] --- Final Hours for Release 5848501 ---
+[Rel 5848501]   [🌍 India]
+[Rel 5848501]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5794457] =========================================
+[Rel 5794457] Checking Release ID: 5794457 [Initial PM ID: ]...
+[Rel 5794457] 📌 Root Item Type: Task
+[Rel 5794457] ✔️ Resolution is 'Solved'.
+[Rel 5794457] 👤 Release Owned By: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) (Tasks may be owned by others)
+[Rel 5794457] 📅 Created: 05-06-2025 | Resolved: 10-11-2025
+[Rel 5794457] Processing Hierarchy...
+
+[Rel 5794457] --- Final Hours for Release 5794457 ---
+[Rel 5794457]   [🌍 India]
+[Rel 5794457]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6104348] =========================================
+[Rel 6104348] Checking Release ID: 6104348 [Initial PM ID: ]...
+[Rel 6104348] 📌 Root Item Type: Defectfix
+[Rel 6104348] ✔️ Resolution is 'Solved'.
+[Rel 6104348] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 6104348] 📅 Created: 04-09-2025 | Resolved: 01-10-2025
+[Rel 6104348] Processing Hierarchy...
+
+[Rel 6104348] --- Final Hours for Release 6104348 ---
+[Rel 6104348]   [🌍 Japan]
+[Rel 6104348]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5807977] =========================================
+[Rel 5807977] Checking Release ID: 5807977 [Initial PM ID: ]...
+[Rel 5807977] 📌 Root Item Type: Story
+[Rel 5807977] ✔️ Resolution is 'Solved'.
+[Rel 5807977] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5807977] 📅 Created: 10-06-2025 | Resolved: 22-10-2025
+[Rel 5807977] Processing Hierarchy...
+
+[Rel 5807977] --- Final Hours for Release 5807977 ---
+[Rel 5807977]   [🌍 India]
+[Rel 5807977]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5654145] =========================================
+[Rel 5654145] Checking Release ID: 5654145 [Initial PM ID: ]...
+[Rel 5654145] 📌 Root Item Type: Defect
+[Rel 5654145] ✔️ Resolution is 'Confirmed'.
+[Rel 5654145] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5654145] 📅 Created: 21-04-2025 | Resolved: 30-06-2025
+[Rel 5654145] Processing Hierarchy...
+
+[Rel 5654145] --- Final Hours for Release 5654145 ---
+[Rel 5654145]   [🌍 India]
+[Rel 5654145]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5651538] =========================================
+[Rel 5651538] Checking Release ID: 5651538 [Initial PM ID: ]...
+[Rel 5651538] 📌 Root Item Type: Defect
+[Rel 5651538] ✔️ Resolution is 'Duplicate'.
+[Rel 5651538] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5651538] 📅 Created: 21-04-2025 | Resolved: 19-05-2025
+[Rel 5651538] Processing Hierarchy...
+
+[Rel 5651538] --- Final Hours for Release 5651538 ---
+[Rel 5651538]   [🌍 India]
+[Rel 5651538]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5631603] =========================================
+[Rel 5631603] Checking Release ID: 5631603 [Initial PM ID: ]...
+[Rel 5631603] 📌 Root Item Type: Task
+[Rel 5631603] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 3718933] =========================================
+[Rel 3718933] Checking Release ID: 3718933 [Initial PM ID: ]...
+[Rel 3718933] 📌 Root Item Type: Release
+[Rel 3718933] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 3718933] ✔️ Resolution is 'Solved'.
+[Rel 3718933] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 3718933] 📅 Created: 12-07-2023 | Resolved: 16-08-2023
+[Rel 3718933] Processing Hierarchy...
+
+[Rel 3718933] --- Final Hours for Release 3718933 ---
+[Rel 3718933]   [🌍 India]
+[Rel 3718933]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5653683] =========================================
+[Rel 5653683] Checking Release ID: 5653683 [Initial PM ID: ]...
+[Rel 5653683] 📌 Root Item Type: Story
+[Rel 5653683] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5631602] =========================================
+[Rel 5631602] Checking Release ID: 5631602 [Initial PM ID: ]...
+[Rel 5631602] 📌 Root Item Type: Task
+[Rel 5631602] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5848425] =========================================
+[Rel 5848425] Checking Release ID: 5848425 [Initial PM ID: ]...
+[Rel 5848425] 📌 Root Item Type: Story
+[Rel 5848425] ✔️ Resolution is 'Solved'.
+[Rel 5848425] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5848425] 📅 Created: 23-06-2025 | Resolved: 22-10-2025
+[Rel 5848425] Processing Hierarchy...
+
+[Rel 5848425] --- Final Hours for Release 5848425 ---
+[Rel 5848425]   [🌍 India]
+[Rel 5848425]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5848453] =========================================
+[Rel 5848453] Checking Release ID: 5848453 [Initial PM ID: ]...
+[Rel 5848453] 📌 Root Item Type: Story
+[Rel 5848453] ✔️ Resolution is 'Solved'.
+[Rel 5848453] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5848453] 📅 Created: 23-06-2025 | Resolved: 22-10-2025
+[Rel 5848453] Processing Hierarchy...
+
+[Rel 5848453] --- Final Hours for Release 5848453 ---
+[Rel 5848453]   [🌍 India]
+[Rel 5848453]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5630113] =========================================
+[Rel 5630113] Checking Release ID: 5630113 [Initial PM ID: ]...
+[Rel 5630113] 📌 Root Item Type: Defect
+[Rel 5630113] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 5630113] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5630113] 📅 Created: 12-04-2025 | Resolved: 26-05-2025
+[Rel 5630113] Processing Hierarchy...
+
+[Rel 5630113] --- Final Hours for Release 5630113 ---
+[Rel 5630113]   [🌍 Vietnam]
+[Rel 5630113]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5623445] =========================================
+[Rel 5623445] Checking Release ID: 5623445 [Initial PM ID: ]...
+[Rel 5623445] 📌 Root Item Type: Task
+[Rel 5623445] ✔️ Resolution is 'Solved'.
+[Rel 5623445] 👤 Release Owned By: Nguyen Hoang Thanh Khoi (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 5623445] 📅 Created: 10-04-2025 | Resolved: 02-07-2025
+[Rel 5623445] Processing Hierarchy...
+
+[Rel 5623445] --- Final Hours for Release 5623445 ---
+[Rel 5623445]   [🌍 India]
+[Rel 5623445]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5583306] =========================================
+[Rel 5583306] Checking Release ID: 5583306 [Initial PM ID: ]...
+[Rel 5583306] 📌 Root Item Type: Task
+[Rel 5583306] ✔️ Resolution is 'Solved'.
+[Rel 5583306] 👤 Release Owned By: Pham Duy Hung (MS/EHV12-VM) (Tasks may be owned by others)
+[Rel 5583306] 📅 Created: 01-04-2025 | Resolved: 14-08-2026
+[Rel 5583306] Processing Hierarchy...
+
+[Rel 5583306] --- Final Hours for Release 5583306 ---
+[Rel 5583306]   [🌍 Vietnam]
+[Rel 5583306]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5546844] =========================================
+[Rel 5546844] Checking Release ID: 5546844 [Initial PM ID: ]...
+[Rel 5546844] 📌 Root Item Type: Task
+[Rel 5546844] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5583318] =========================================
+[Rel 5583318] Checking Release ID: 5583318 [Initial PM ID: ]...
+[Rel 5583318] 📌 Root Item Type: Review
+[Rel 5583318] ✔️ Resolution is 'Passed'.
+[Rel 5583318] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5583318] 📅 Created: 01-04-2025 | Resolved: 02-04-2025
+[Rel 5583318] Processing Hierarchy...
+
+[Rel 5583318] --- Final Hours for Release 5583318 ---
+[Rel 5583318]   [🌍 Vietnam]
+[Rel 5583318]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5631605] =========================================
+[Rel 5631605] Checking Release ID: 5631605 [Initial PM ID: ]...
+[Rel 5631605] 📌 Root Item Type: Review
+[Rel 5631605] ✔️ Resolution is 'Cancelled'.
+[Rel 5631605] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5631605] 📅 Created: 14-04-2025 | Resolved: 14-04-2025
+[Rel 5631605] Processing Hierarchy...
+
+[Rel 5631605] --- Final Hours for Release 5631605 ---
+[Rel 5631605]   [🌍 Vietnam]
+[Rel 5631605]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5631604] =========================================
+[Rel 5631604] Checking Release ID: 5631604 [Initial PM ID: ]...
+[Rel 5631604] 📌 Root Item Type: Review
+[Rel 5631604] ✔️ Resolution is 'Cancelled'.
+[Rel 5631604] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5631604] 📅 Created: 14-04-2025 | Resolved: 14-04-2025
+[Rel 5631604] Processing Hierarchy...
+
+[Rel 5631604] --- Final Hours for Release 5631604 ---
+[Rel 5631604]   [🌍 Vietnam]
+[Rel 5631604]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5651408] =========================================
+[Rel 5651408] Checking Release ID: 5651408 [Initial PM ID: ]...
+[Rel 5651408] 📌 Root Item Type: Defect
+[Rel 5651408] ✔️ Resolution is 'Confirmed'.
+[Rel 5651408] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5651408] 📅 Created: 21-04-2025 | Resolved: 13-06-2025
+[Rel 5651408] Processing Hierarchy...
+
+[Rel 5651408] --- Final Hours for Release 5651408 ---
+[Rel 5651408]   [🌍 India]
+[Rel 5651408]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5576076] =========================================
+[Rel 5576076] Checking Release ID: 5576076 [Initial PM ID: ]...
+[Rel 5576076] 📌 Root Item Type: Review
+[Rel 5576076] ✔️ Resolution is 'Passed'.
+[Rel 5576076] 👤 Release Owned By: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5576076] 📅 Created: 29-03-2025 | Resolved: 02-04-2025
+[Rel 5576076] Processing Hierarchy...
+[Rel 5576076] → [NET DEV ] Added 1.00 hrs | ID: 5576076 | Type: review | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Review][NET][dSD][EA][Mazda][ESP10][J03MN][BL06-BL08] CAN Update | Created: 29-03-2025 | Resolved: 02-04-2025
+
+[Rel 5576076] --- Final Hours for Release 5576076 ---
+[Rel 5576076]   [🌍 Vietnam]
+[Rel 5576076]     NET_DEV: 1.00 hrs
+
+[Rel 5546846] =========================================
+[Rel 5546846] Checking Release ID: 5546846 [Initial PM ID: ]...
+[Rel 5546846] 📌 Root Item Type: Task
+[Rel 5546846] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5546801] =========================================
+[Rel 5546801] Checking Release ID: 5546801 [Initial PM ID: ]...
+[Rel 5546801] 📌 Root Item Type: Task
+[Rel 5546801] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5576075] =========================================
+[Rel 5576075] Checking Release ID: 5576075 [Initial PM ID: ]...
+[Rel 5576075] 📌 Root Item Type: Task
+[Rel 5576075] ✔️ Resolution is 'Solved'.
+[Rel 5576075] 👤 Release Owned By: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5576075] 📅 Created: 29-03-2025 | Resolved: 02-04-2025
+[Rel 5576075] Processing Hierarchy...
+[Rel 5576075] → [NET DEV ] Added 8.00 hrs | ID: 5576075 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Task][NET][dSD][Mazda][ESP10][J03MN][BL06-BL08] CAN Update | Created: 29-03-2025 | Resolved: 02-04-2025
+
+[Rel 5576075] --- Final Hours for Release 5576075 ---
+[Rel 5576075]   [🌍 Vietnam]
+[Rel 5576075]     NET_DEV: 8.00 hrs
+
+[Rel 5518597] =========================================
+[Rel 5518597] Checking Release ID: 5518597 [Initial PM ID: ]...
+[Rel 5518597] 📌 Root Item Type: Task
+[Rel 5518597] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6925354] =========================================
+[Rel 6925354] Checking Release ID: 6925354 [Initial PM ID: ]...
+[Rel 6925354] 📌 Root Item Type: Epic
+[Rel 6925354] ✔️ Resolution is 'Solved'.
+[Rel 6925354] 👤 Release Owned By: Tang Thanh Dat (MS/EHV12-VM) (Tasks may be owned by others)
+[Rel 6925354] 📅 Created: 22-04-2026 | Resolved: 14-08-2026
+[Rel 6925354] Processing Hierarchy...
+
+[Rel 6925354] --- Final Hours for Release 6925354 ---
+[Rel 6925354]   [🌍 Vietnam]
+[Rel 6925354]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5554417] =========================================
+[Rel 5554417] Checking Release ID: 5554417 [Initial PM ID: ]...
+[Rel 5554417] 📌 Root Item Type: Task
+[Rel 5554417] ✔️ Resolution is 'Solved'.
+[Rel 5554417] 👤 Release Owned By: Nguyen Quang Tien (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5554417] 📅 Created: 25-03-2025 | Resolved: 04-04-2025
+[Rel 5554417] Processing Hierarchy...
+
+[Rel 5554417] --- Final Hours for Release 5554417 ---
+[Rel 5554417]   [🌍 Vietnam]
+[Rel 5554417]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5473692] =========================================
+[Rel 5473692] Checking Release ID: 5473692 [Initial PM ID: ]...
+[Rel 5473692] 📌 Root Item Type: Story
+[Rel 5473692] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5473691] =========================================
+[Rel 5473691] Checking Release ID: 5473691 [Initial PM ID: ]...
+[Rel 5473691] 📌 Root Item Type: Story
+[Rel 5473691] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5546845] =========================================
+[Rel 5546845] Checking Release ID: 5546845 [Initial PM ID: ]...
+[Rel 5546845] 📌 Root Item Type: Review
+[Rel 5546845] ✔️ Resolution is 'Cancelled'.
+[Rel 5546845] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5546845] 📅 Created: 21-03-2025 | Resolved: 06-05-2025
+[Rel 5546845] Processing Hierarchy...
+
+[Rel 5546845] --- Final Hours for Release 5546845 ---
+[Rel 5546845]   [🌍 Vietnam]
+[Rel 5546845]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5550177] =========================================
+[Rel 5550177] Checking Release ID: 5550177 [Initial PM ID: ]...
+[Rel 5550177] 📌 Root Item Type: Defect
+[Rel 5550177] ✔️ Resolution is 'Confirmed'.
+[Rel 5550177] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5550177] 📅 Created: 24-03-2025 | Resolved: 26-03-2025
+[Rel 5550177] Processing Hierarchy...
+[Rel 5550177] → [NET REWORK] Added 7.00 hrs | ID: 5550177 | Type: defect | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [DEFECT][Mazda][ESP10][J03MN][BL08] ID415 is stopped and could not be re-started after IG ON | Created: 24-03-2025 | Resolved: 26-03-2025
+
+[Rel 5550177] --- Final Hours for Release 5550177 ---
+[Rel 5550177]   [🌍 Vietnam]
+[Rel 5550177]     NET_Rework: 7.00 hrs
+
+[Rel 5461947] =========================================
+[Rel 5461947] Checking Release ID: 5461947 [Initial PM ID: ]...
+[Rel 5461947] 📌 Root Item Type: Task
+[Rel 5461947] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5571838] =========================================
+[Rel 5571838] Checking Release ID: 5571838 [Initial PM ID: ]...
+[Rel 5571838] 📌 Root Item Type: Review
+[Rel 5571838] ✔️ Resolution is 'Passed'.
+[Rel 5571838] 👤 Release Owned By: Nguyen Nhat Khang (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5571838] 📅 Created: 28-03-2025 | Resolved: 04-04-2025
+[Rel 5571838] Processing Hierarchy...
+
+[Rel 5571838] --- Final Hours for Release 5571838 ---
+[Rel 5571838]   [🌍 Vietnam]
+[Rel 5571838]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5528931] =========================================
+[Rel 5528931] Checking Release ID: 5528931 [Initial PM ID: ]...
+[Rel 5528931] 📌 Root Item Type: Review
+[Rel 5528931] ✔️ Resolution is 'Passed'.
+[Rel 5528931] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 5528931] 📅 Created: 17-03-2025 | Resolved: 08-04-2025
+[Rel 5528931] Processing Hierarchy...
+
+[Rel 5528931] --- Final Hours for Release 5528931 ---
+[Rel 5528931]   [🌍 India]
+[Rel 5528931]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5471113] =========================================
+[Rel 5471113] Checking Release ID: 5471113 [Initial PM ID: ]...
+[Rel 5471113] 📌 Root Item Type: Review
+[Rel 5471113] ✔️ Resolution is 'Passed'.
+[Rel 5471113] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 5471113] 📅 Created: 28-02-2025 | Resolved: 28-02-2025
+[Rel 5471113] Processing Hierarchy...
+
+[Rel 5471113] --- Final Hours for Release 5471113 ---
+[Rel 5471113]   [🌍 India]
+[Rel 5471113]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6167857] =========================================
+[Rel 6167857] Checking Release ID: 6167857 [Initial PM ID: ]...
+[Rel 6167857] 📌 Root Item Type: Story
+[Rel 6167857] ✔️ Resolution is 'Duplicate'.
+[Rel 6167857] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 6167857] 📅 Created: 23-09-2025 | Resolved: 01-10-2025
+[Rel 6167857] Processing Hierarchy...
+
+[Rel 6167857] --- Final Hours for Release 6167857 ---
+[Rel 6167857]   [🌍 Vietnam]
+[Rel 6167857]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5461948] =========================================
+[Rel 5461948] Checking Release ID: 5461948 [Initial PM ID: ]...
+[Rel 5461948] 📌 Root Item Type: Review
+[Rel 5461948] ✔️ Resolution is 'Cancelled'.
+[Rel 5461948] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5461948] 📅 Created: 26-02-2025 | Resolved: 26-02-2025
+[Rel 5461948] Processing Hierarchy...
+
+[Rel 5461948] --- Final Hours for Release 5461948 ---
+[Rel 5461948]   [🌍 Vietnam]
+[Rel 5461948]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5478981] =========================================
+[Rel 5478981] Checking Release ID: 5478981 [Initial PM ID: ]...
+[Rel 5478981] 📌 Root Item Type: Task
+[Rel 5478981] ✔️ Resolution is 'Solved'.
+[Rel 5478981] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5478981] 📅 Created: 03-03-2025 | Resolved: 14-08-2026
+[Rel 5478981] Processing Hierarchy...
+[Rel 5478981] → [NET DEV ] Added 62.50 hrs | ID: 5478981 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Task][MZC][ESP10][J12S][NET] Non-Development Activity | Created: 03-03-2025 | Resolved: 14-08-2026
+
+[Rel 5478981] --- Final Hours for Release 5478981 ---
+[Rel 5478981]   [🌍 Vietnam]
+[Rel 5478981]     NET_DEV: 62.50 hrs
+
+[Rel 5430896] =========================================
+[Rel 5430896] Checking Release ID: 5430896 [Initial PM ID: ]...
+[Rel 5430896] 📌 Root Item Type: Story
+[Rel 5430896] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5454935] =========================================
+[Rel 5454935] Checking Release ID: 5454935 [Initial PM ID: ]...
+[Rel 5454935] 📌 Root Item Type: Review
+[Rel 5454935] ✔️ Resolution is 'Passed'.
+[Rel 5454935] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5454935] 📅 Created: 25-02-2025 | Resolved: 25-02-2025
+[Rel 5454935] Processing Hierarchy...
+
+[Rel 5454935] --- Final Hours for Release 5454935 ---
+[Rel 5454935]   [🌍 Vietnam]
+[Rel 5454935]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5415389] =========================================
+[Rel 5415389] Checking Release ID: 5415389 [Initial PM ID: ]...
+[Rel 5415389] 📌 Root Item Type: Task
+[Rel 5415389] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5415391] =========================================
+[Rel 5415391] Checking Release ID: 5415391 [Initial PM ID: ]...
+[Rel 5415391] 📌 Root Item Type: Task
+[Rel 5415391] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5415363] =========================================
+[Rel 5415363] Checking Release ID: 5415363 [Initial PM ID: ]...
+[Rel 5415363] 📌 Root Item Type: Story
+[Rel 5415363] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5410787] =========================================
+[Rel 5410787] Checking Release ID: 5410787 [Initial PM ID: ]...
+[Rel 5410787] 📌 Root Item Type: Task
+[Rel 5410787] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5551057] =========================================
+[Rel 5551057] Checking Release ID: 5551057 [Initial PM ID: ]...
+[Rel 5551057] 📌 Root Item Type: Task
+[Rel 5551057] ✔️ Resolution is 'Solved'.
+[Rel 5551057] 👤 Release Owned By: EXTERNAL Lai An Binh (HCLTech, MS/EJH53-VM,MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5551057] 📅 Created: 24-03-2025 | Resolved: 23-06-2025
+[Rel 5551057] Processing Hierarchy...
+
+[Rel 5551057] --- Final Hours for Release 5551057 ---
+[Rel 5551057]   [🌍 Vietnam]
+[Rel 5551057]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5415387] =========================================
+[Rel 5415387] Checking Release ID: 5415387 [Initial PM ID: ]...
+[Rel 5415387] 📌 Root Item Type: Task
+[Rel 5415387] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5445973] =========================================
+[Rel 5445973] Checking Release ID: 5445973 [Initial PM ID: ]...
+[Rel 5445973] 📌 Root Item Type: Review
+[Rel 5445973] ✔️ Resolution is 'Cancelled'.
+[Rel 5445973] 👤 Release Owned By: Thai Thanh Binh (MS/EHV23-VM) (Tasks may be owned by others)
+[Rel 5445973] 📅 Created: 21-02-2025 | Resolved: 17-04-2025
+[Rel 5445973] Processing Hierarchy...
+
+[Rel 5445973] --- Final Hours for Release 5445973 ---
+[Rel 5445973]   [🌍 Vietnam]
+[Rel 5445973]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5415392] =========================================
+[Rel 5415392] Checking Release ID: 5415392 [Initial PM ID: ]...
+[Rel 5415392] 📌 Root Item Type: Review
+[Rel 5415392] ✔️ Resolution is 'Cancelled'.
+[Rel 5415392] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5415392] 📅 Created: 13-02-2025 | Resolved: 25-02-2025
+[Rel 5415392] Processing Hierarchy...
+
+[Rel 5415392] --- Final Hours for Release 5415392 ---
+[Rel 5415392]   [🌍 Vietnam]
+[Rel 5415392]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5419511] =========================================
+[Rel 5419511] Checking Release ID: 5419511 [Initial PM ID: ]...
+[Rel 5419511] 📌 Root Item Type: Review
+[Rel 5419511] ✔️ Resolution is 'Passed'.
+[Rel 5419511] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5419511] 📅 Created: 14-02-2025 | Resolved: 20-02-2025
+[Rel 5419511] Processing Hierarchy...
+
+[Rel 5419511] --- Final Hours for Release 5419511 ---
+[Rel 5419511]   [🌍 Vietnam]
+[Rel 5419511]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6167761] =========================================
+[Rel 6167761] Checking Release ID: 6167761 [Initial PM ID: ]...
+[Rel 6167761] 📌 Root Item Type: Defectfix
+[Rel 6167761] ✔️ Resolution is 'Solved'.
+[Rel 6167761] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 6167761] 📅 Created: 23-09-2025 | Resolved: 07-10-2025
+[Rel 6167761] Processing Hierarchy...
+
+[Rel 6167761] --- Final Hours for Release 6167761 ---
+[Rel 6167761]   [🌍 Vietnam]
+[Rel 6167761]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5415390] =========================================
+[Rel 5415390] Checking Release ID: 5415390 [Initial PM ID: ]...
+[Rel 5415390] 📌 Root Item Type: Review
+[Rel 5415390] ✔️ Resolution is 'Cancelled'.
+[Rel 5415390] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5415390] 📅 Created: 13-02-2025 | Resolved: 25-02-2025
+[Rel 5415390] Processing Hierarchy...
+
+[Rel 5415390] --- Final Hours for Release 5415390 ---
+[Rel 5415390]   [🌍 Vietnam]
+[Rel 5415390]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5460438] =========================================
+[Rel 5460438] Checking Release ID: 5460438 [Initial PM ID: ]...
+[Rel 5460438] 📌 Root Item Type: Task
+[Rel 5460438] ✔️ Resolution is 'Solved'.
+[Rel 5460438] 👤 Release Owned By: Nguyen Son Tung (MS/EJH4-VM MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5460438] 📅 Created: 26-02-2025 | Resolved: 18-11-2025
+[Rel 5460438] Processing Hierarchy...
+
+[Rel 5460438] --- Final Hours for Release 5460438 ---
+[Rel 5460438]   [🌍 India]
+[Rel 5460438]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5341796] =========================================
+[Rel 5341796] Checking Release ID: 5341796 [Initial PM ID: ]...
+[Rel 5341796] 📌 Root Item Type: Task
+[Rel 5341796] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5415388] =========================================
+[Rel 5415388] Checking Release ID: 5415388 [Initial PM ID: ]...
+[Rel 5415388] 📌 Root Item Type: Review
+[Rel 5415388] ✔️ Resolution is 'Cancelled'.
+[Rel 5415388] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5415388] 📅 Created: 13-02-2025 | Resolved: 25-02-2025
+[Rel 5415388] Processing Hierarchy...
+
+[Rel 5415388] --- Final Hours for Release 5415388 ---
+[Rel 5415388]   [🌍 Vietnam]
+[Rel 5415388]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5400946] =========================================
+[Rel 5400946] Checking Release ID: 5400946 [Initial PM ID: ]...
+[Rel 5400946] 📌 Root Item Type: Defect
+[Rel 5400946] ✔️ Resolution is 'Confirmed'.
+[Rel 5400946] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5400946] 📅 Created: 10-02-2025 | Resolved: 01-03-2025
+[Rel 5400946] Processing Hierarchy...
+
+[Rel 5400946] --- Final Hours for Release 5400946 ---
+[Rel 5400946]   [🌍 Vietnam]
+[Rel 5400946]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5341797] =========================================
+[Rel 5341797] Checking Release ID: 5341797 [Initial PM ID: ]...
+[Rel 5341797] 📌 Root Item Type: Review
+[Rel 5341797] ✔️ Resolution is 'Cancelled'.
+[Rel 5341797] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5341797] 📅 Created: 20-01-2025 | Resolved: 26-02-2025
+[Rel 5341797] Processing Hierarchy...
+
+[Rel 5341797] --- Final Hours for Release 5341797 ---
+[Rel 5341797]   [🌍 Vietnam]
+[Rel 5341797]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5344084] =========================================
+[Rel 5344084] Checking Release ID: 5344084 [Initial PM ID: ]...
+[Rel 5344084] 📌 Root Item Type: Task
+[Rel 5344084] ✔️ Resolution is 'Solved'.
+[Rel 5344084] 👤 Release Owned By: Nguyen Quang Tien (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5344084] 📅 Created: 21-01-2025 | Resolved: 21-02-2025
+[Rel 5344084] Processing Hierarchy...
+
+[Rel 5344084] --- Final Hours for Release 5344084 ---
+[Rel 5344084]   [🌍 Vietnam]
+[Rel 5344084]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5338579] =========================================
+[Rel 5338579] Checking Release ID: 5338579 [Initial PM ID: ]...
+[Rel 5338579] 📌 Root Item Type: Defect
+[Rel 5338579] ✔️ Resolution is 'Confirmed'.
+[Rel 5338579] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5338579] 📅 Created: 17-01-2025 | Resolved: 24-03-2025
+[Rel 5338579] Processing Hierarchy...
+
+[Rel 5338579] --- Final Hours for Release 5338579 ---
+[Rel 5338579]   [🌍 Vietnam]
+[Rel 5338579]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5399584] =========================================
+[Rel 5399584] Checking Release ID: 5399584 [Initial PM ID: ]...
+[Rel 5399584] 📌 Root Item Type: Task
+[Rel 5399584] ✔️ Resolution is 'Solved'.
+[Rel 5399584] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5399584] 📅 Created: 10-02-2025 | Resolved: 14-08-2026
+[Rel 5399584] Processing Hierarchy...
+[Rel 5399584] → [NET DEV ] Added 16.00 hrs | ID: 5399584 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Task][MZC][ESP10][J12S][NET] Non-Development Activity | Created: 10-02-2025 | Resolved: 14-08-2026
+
+[Rel 5399584] --- Final Hours for Release 5399584 ---
+[Rel 5399584]   [🌍 Vietnam]
+[Rel 5399584]     NET_DEV: 16.00 hrs
+
+[Rel 5391667] =========================================
+[Rel 5391667] Checking Release ID: 5391667 [Initial PM ID: ]...
+[Rel 5391667] 📌 Root Item Type: Defect
+[Rel 5391667] ✔️ Resolution is 'Confirmed'.
+[Rel 5391667] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5391667] 📅 Created: 07-02-2025 | Resolved: 13-02-2025
+[Rel 5391667] Processing Hierarchy...
+
+[Rel 5391667] --- Final Hours for Release 5391667 ---
+[Rel 5391667]   [🌍 Vietnam]
+[Rel 5391667]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5403629] =========================================
+[Rel 5403629] Checking Release ID: 5403629 [Initial PM ID: ]...
+[Rel 5403629] 📌 Root Item Type: Review
+[Rel 5403629] ✔️ Resolution is 'Passed'.
+[Rel 5403629] 👤 Release Owned By: Bach Gia Khiem (MS/EJH61-VM) (Tasks may be owned by others)
+[Rel 5403629] 📅 Created: 11-02-2025 | Resolved: 31-03-2025
+[Rel 5403629] Processing Hierarchy...
+
+[Rel 5403629] --- Final Hours for Release 5403629 ---
+[Rel 5403629]   [🌍 India]
+[Rel 5403629]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5521789] =========================================
+[Rel 5521789] Checking Release ID: 5521789 [Initial PM ID: ]...
+[Rel 5521789] 📌 Root Item Type: Story
+[Rel 5521789] ✔️ Resolution is 'Solved'.
+[Rel 5521789] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5521789] 📅 Created: 14-03-2025 | Resolved: 10-06-2025
+[Rel 5521789] Processing Hierarchy...
+
+[Rel 5521789] --- Final Hours for Release 5521789 ---
+[Rel 5521789]   [🌍 India]
+[Rel 5521789]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5408280] =========================================
+[Rel 5408280] Checking Release ID: 5408280 [Initial PM ID: ]...
+[Rel 5408280] 📌 Root Item Type: Review
+[Rel 5408280] ✔️ Resolution is 'Passed'.
+[Rel 5408280] 👤 Release Owned By: EXTERNAL Nguyen Hung (FPT Software, MS/ECA3-VM) (Tasks may be owned by others)
+[Rel 5408280] 📅 Created: 12-02-2025 | Resolved: 20-02-2025
+[Rel 5408280] Processing Hierarchy...
+
+[Rel 5408280] --- Final Hours for Release 5408280 ---
+[Rel 5408280]   [🌍 Vietnam]
+[Rel 5408280]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4470580] =========================================
+[Rel 4470580] Checking Release ID: 4470580 [Initial PM ID: BM-00089662]...
+[Rel 4470580] 📌 Root Item Type: Release
+[Rel 4470580] ✔️ Resolution is 'Solved'.
+[Rel 4470580] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4470580] 📅 Created: 11-04-2024 | Resolved: 21-05-2024
+[Rel 4470580] Processing Hierarchy...
+
+[Rel 4470580] --- Final Hours for Release 4470580 ---
+[Rel 4470580]   [🌍 India]
+[Rel 4470580]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5380297] =========================================
+[Rel 5380297] Checking Release ID: 5380297 [Initial PM ID: ]...
+[Rel 5380297] 📌 Root Item Type: Defect
+[Rel 5380297] ✔️ Resolution is 'Confirmed'.
+[Rel 5380297] 👤 Release Owned By: Nguyen Khac The (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 5380297] 📅 Created: 04-02-2025 | Resolved: 14-02-2025
+[Rel 5380297] Processing Hierarchy...
+
+[Rel 5380297] --- Final Hours for Release 5380297 ---
+[Rel 5380297]   [🌍 India]
+[Rel 5380297]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5313290] =========================================
+[Rel 5313290] Checking Release ID: 5313290 [Initial PM ID: ]...
+[Rel 5313290] 📌 Root Item Type: Review
+[Rel 5313290] ✔️ Resolution is 'Passed'.
+[Rel 5313290] 👤 Release Owned By: EXTERNAL Lai An Binh (HCLTech, MS/EJH53-VM,MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5313290] 📅 Created: 09-01-2025 | Resolved: 16-09-2025
+[Rel 5313290] Processing Hierarchy...
+
+[Rel 5313290] --- Final Hours for Release 5313290 ---
+[Rel 5313290]   [🌍 Vietnam]
+[Rel 5313290]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5330295] =========================================
+[Rel 5330295] Checking Release ID: 5330295 [Initial PM ID: ]...
+[Rel 5330295] 📌 Root Item Type: Epic
+[Rel 5330295] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5324298] =========================================
+[Rel 5324298] Checking Release ID: 5324298 [Initial PM ID: ]...
+[Rel 5324298] 📌 Root Item Type: Review
+[Rel 5324298] ✔️ Resolution is 'Passed'.
+[Rel 5324298] 👤 Release Owned By: Nguyen Nhat Khang (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5324298] 📅 Created: 13-01-2025 | Resolved: 14-01-2025
+[Rel 5324298] Processing Hierarchy...
+
+[Rel 5324298] --- Final Hours for Release 5324298 ---
+[Rel 5324298]   [🌍 Vietnam]
+[Rel 5324298]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5278528] =========================================
+[Rel 5278528] Checking Release ID: 5278528 [Initial PM ID: ]...
+[Rel 5278528] 📌 Root Item Type: Review
+[Rel 5278528] ✔️ Resolution is 'Cancelled'.
+[Rel 5278528] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 5278528] 📅 Created: 23-12-2024 | Resolved: 07-01-2025
+[Rel 5278528] Processing Hierarchy...
+
+[Rel 5278528] --- Final Hours for Release 5278528 ---
+[Rel 5278528]   [🌍 Japan]
+[Rel 5278528]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5278527] =========================================
+[Rel 5278527] Checking Release ID: 5278527 [Initial PM ID: ]...
+[Rel 5278527] 📌 Root Item Type: Task
+[Rel 5278527] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5278525] =========================================
+[Rel 5278525] Checking Release ID: 5278525 [Initial PM ID: ]...
+[Rel 5278525] 📌 Root Item Type: Task
+[Rel 5278525] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5227845] =========================================
+[Rel 5227845] Checking Release ID: 5227845 [Initial PM ID: ]...
+[Rel 5227845] 📌 Root Item Type: Story
+[Rel 5227845] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5302919] =========================================
+[Rel 5302919] Checking Release ID: 5302919 [Initial PM ID: ]...
+[Rel 5302919] 📌 Root Item Type: Defect
+[Rel 5302919] ✔️ Resolution is 'Confirmed'.
+[Rel 5302919] 👤 Release Owned By: Sunil C Hanumantharaya (MS/EHA22-VM) (Tasks may be owned by others)
+[Rel 5302919] 📅 Created: 07-01-2025 | Resolved: 04-02-2025
+[Rel 5302919] Processing Hierarchy...
+
+[Rel 5302919] --- Final Hours for Release 5302919 ---
+[Rel 5302919]   [🌍 India]
+[Rel 5302919]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5263213] =========================================
+[Rel 5263213] Checking Release ID: 5263213 [Initial PM ID: ]...
+[Rel 5263213] 📌 Root Item Type: Defect
+[Rel 5263213] ✔️ Resolution is 'Confirmed'.
+[Rel 5263213] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 5263213] 📅 Created: 17-12-2024 | Resolved: 05-02-2025
+[Rel 5263213] Processing Hierarchy...
+
+[Rel 5263213] --- Final Hours for Release 5263213 ---
+[Rel 5263213]   [🌍 Vietnam]
+[Rel 5263213]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5258130] =========================================
+[Rel 5258130] Checking Release ID: 5258130 [Initial PM ID: ]...
+[Rel 5258130] 📌 Root Item Type: Review
+[Rel 5258130] ✔️ Resolution is 'Passed'.
+[Rel 5258130] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5258130] 📅 Created: 16-12-2024 | Resolved: 24-12-2024
+[Rel 5258130] Processing Hierarchy...
+
+[Rel 5258130] --- Final Hours for Release 5258130 ---
+[Rel 5258130]   [🌍 Vietnam]
+[Rel 5258130]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5275439] =========================================
+[Rel 5275439] Checking Release ID: 5275439 [Initial PM ID: ]...
+[Rel 5275439] 📌 Root Item Type: Review
+[Rel 5275439] ✔️ Resolution is 'Passed'.
+[Rel 5275439] 👤 Release Owned By: Sunil C Hanumantharaya (MS/EHA22-VM) (Tasks may be owned by others)
+[Rel 5275439] 📅 Created: 20-12-2024 | Resolved: 08-04-2025
+[Rel 5275439] Processing Hierarchy...
+
+[Rel 5275439] --- Final Hours for Release 5275439 ---
+[Rel 5275439]   [🌍 India]
+[Rel 5275439]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5275436] =========================================
+[Rel 5275436] Checking Release ID: 5275436 [Initial PM ID: ]...
+[Rel 5275436] 📌 Root Item Type: Story
+[Rel 5275436] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5227846] =========================================
+[Rel 5227846] Checking Release ID: 5227846 [Initial PM ID: ]...
+[Rel 5227846] 📌 Root Item Type: Story
+[Rel 5227846] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5257383] =========================================
+[Rel 5257383] Checking Release ID: 5257383 [Initial PM ID: ]...
+[Rel 5257383] 📌 Root Item Type: Review
+[Rel 5257383] ✔️ Resolution is 'Passed'.
+[Rel 5257383] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5257383] 📅 Created: 16-12-2024 | Resolved: 24-12-2024
+[Rel 5257383] Processing Hierarchy...
+
+[Rel 5257383] --- Final Hours for Release 5257383 ---
+[Rel 5257383]   [🌍 Vietnam]
+[Rel 5257383]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5227843] =========================================
+[Rel 5227843] Checking Release ID: 5227843 [Initial PM ID: ]...
+[Rel 5227843] 📌 Root Item Type: Story
+[Rel 5227843] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5229961] =========================================
+[Rel 5229961] Checking Release ID: 5229961 [Initial PM ID: ]...
+[Rel 5229961] 📌 Root Item Type: Review
+[Rel 5229961] ✔️ Resolution is 'Passed'.
+[Rel 5229961] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5229961] 📅 Created: 05-12-2024 | Resolved: 09-01-2025
+[Rel 5229961] Processing Hierarchy...
+
+[Rel 5229961] --- Final Hours for Release 5229961 ---
+[Rel 5229961]   [🌍 Vietnam]
+[Rel 5229961]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5255439] =========================================
+[Rel 5255439] Checking Release ID: 5255439 [Initial PM ID: ]...
+[Rel 5255439] 📌 Root Item Type: Review
+[Rel 5255439] ✔️ Resolution is 'Passed'.
+[Rel 5255439] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5255439] 📅 Created: 15-12-2024 | Resolved: 13-01-2025
+[Rel 5255439] Processing Hierarchy...
+
+[Rel 5255439] --- Final Hours for Release 5255439 ---
+[Rel 5255439]   [🌍 Vietnam]
+[Rel 5255439]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5251515] =========================================
+[Rel 5251515] Checking Release ID: 5251515 [Initial PM ID: ]...
+[Rel 5251515] 📌 Root Item Type: Review
+[Rel 5251515] ✔️ Resolution is 'Passed'.
+[Rel 5251515] 👤 Release Owned By: EXTERNAL Ha Duy Thien (FPT Software, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 5251515] 📅 Created: 13-12-2024 | Resolved: 13-01-2025
+[Rel 5251515] Processing Hierarchy...
+
+[Rel 5251515] --- Final Hours for Release 5251515 ---
+[Rel 5251515]   [🌍 India]
+[Rel 5251515]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5240750] =========================================
+[Rel 5240750] Checking Release ID: 5240750 [Initial PM ID: ]...
+[Rel 5240750] 📌 Root Item Type: Review
+[Rel 5240750] ✔️ Resolution is 'Passed'.
+[Rel 5240750] 👤 Release Owned By: EXTERNAL Mai Cong Toan (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5240750] 📅 Created: 10-12-2024 | Resolved: 13-01-2025
+[Rel 5240750] Processing Hierarchy...
+
+[Rel 5240750] --- Final Hours for Release 5240750 ---
+[Rel 5240750]   [🌍 Vietnam]
+[Rel 5240750]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5256142] =========================================
+[Rel 5256142] Checking Release ID: 5256142 [Initial PM ID: ]...
+[Rel 5256142] 📌 Root Item Type: Review
+[Rel 5256142] ✔️ Resolution is 'Passed'.
+[Rel 5256142] 👤 Release Owned By: EXTERNAL Huynh Man Dat (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5256142] 📅 Created: 16-12-2024 | Resolved: 13-01-2025
+[Rel 5256142] Processing Hierarchy...
+
+[Rel 5256142] --- Final Hours for Release 5256142 ---
+[Rel 5256142]   [🌍 Vietnam]
+[Rel 5256142]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5192437] =========================================
+[Rel 5192437] Checking Release ID: 5192437 [Initial PM ID: ]...
+[Rel 5192437] 📌 Root Item Type: Story
+[Rel 5192437] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5201606] =========================================
+[Rel 5201606] Checking Release ID: 5201606 [Initial PM ID: ]...
+[Rel 5201606] 📌 Root Item Type: Review
+[Rel 5201606] ✔️ Resolution is 'Passed'.
+[Rel 5201606] 👤 Release Owned By: EXTERNAL Huynh Man Dat (FPT Software, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5201606] 📅 Created: 27-11-2024 | Resolved: 09-01-2025
+[Rel 5201606] Processing Hierarchy...
+
+[Rel 5201606] --- Final Hours for Release 5201606 ---
+[Rel 5201606]   [🌍 Vietnam]
+[Rel 5201606]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5192447] =========================================
+[Rel 5192447] Checking Release ID: 5192447 [Initial PM ID: ]...
+[Rel 5192447] 📌 Root Item Type: Story
+[Rel 5192447] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5227860] =========================================
+[Rel 5227860] Checking Release ID: 5227860 [Initial PM ID: ]...
+[Rel 5227860] 📌 Root Item Type: Review
+[Rel 5227860] ✔️ Resolution is 'Passed'.
+[Rel 5227860] 👤 Release Owned By: EXTERNAL Ha Duy Thien (FPT Software, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 5227860] 📅 Created: 05-12-2024 | Resolved: 09-01-2025
+[Rel 5227860] Processing Hierarchy...
+
+[Rel 5227860] --- Final Hours for Release 5227860 ---
+[Rel 5227860]   [🌍 India]
+[Rel 5227860]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5664084] =========================================
+[Rel 5664084] Checking Release ID: 5664084 [Initial PM ID: ]...
+[Rel 5664084] 📌 Root Item Type: Task
+[Rel 5664084] ✔️ Resolution is 'Duplicate'.
+[Rel 5664084] 👤 Release Owned By: Nguyen Le Gia Bach (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 5664084] 📅 Created: 24-04-2025 | Resolved: 24-04-2025
+[Rel 5664084] Processing Hierarchy...
+
+[Rel 5664084] --- Final Hours for Release 5664084 ---
+[Rel 5664084]   [🌍 India]
+[Rel 5664084]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5226629] =========================================
+[Rel 5226629] Checking Release ID: 5226629 [Initial PM ID: ]...
+[Rel 5226629] 📌 Root Item Type: Review
+[Rel 5226629] ✔️ Resolution is 'Passed'.
+[Rel 5226629] 👤 Release Owned By: EXTERNAL Ha Duy Thien (FPT Software, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 5226629] 📅 Created: 05-12-2024 | Resolved: 13-01-2025
+[Rel 5226629] Processing Hierarchy...
+
+[Rel 5226629] --- Final Hours for Release 5226629 ---
+[Rel 5226629]   [🌍 India]
+[Rel 5226629]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5192436] =========================================
+[Rel 5192436] Checking Release ID: 5192436 [Initial PM ID: ]...
+[Rel 5192436] 📌 Root Item Type: Story
+[Rel 5192436] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5327604] =========================================
+[Rel 5327604] Checking Release ID: 5327604 [Initial PM ID: ]...
+[Rel 5327604] 📌 Root Item Type: Story
+[Rel 5327604] ✔️ Resolution is 'Solved'.
+[Rel 5327604] 👤 Release Owned By: Sunil C Hanumantharaya (MS/EHA22-VM) (Tasks may be owned by others)
+[Rel 5327604] 📅 Created: 14-01-2025 | Resolved: 14-04-2025
+[Rel 5327604] Processing Hierarchy...
+
+[Rel 5327604] --- Final Hours for Release 5327604 ---
+[Rel 5327604]   [🌍 India]
+[Rel 5327604]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5156312] =========================================
+[Rel 5156312] Checking Release ID: 5156312 [Initial PM ID: ]...
+[Rel 5156312] 📌 Root Item Type: Review
+[Rel 5156312] ✔️ Resolution is 'Passed'.
+[Rel 5156312] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 5156312] 📅 Created: 15-11-2024 | Resolved: 15-11-2024
+[Rel 5156312] Processing Hierarchy...
+
+[Rel 5156312] --- Final Hours for Release 5156312 ---
+[Rel 5156312]   [🌍 India]
+[Rel 5156312]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5220547] =========================================
+[Rel 5220547] Checking Release ID: 5220547 [Initial PM ID: ]...
+[Rel 5220547] 📌 Root Item Type: Task
+[Rel 5220547] ✔️ Resolution is 'Solved'.
+[Rel 5220547] 👤 Release Owned By: Nguyen Le Minh Tri (MS/EJH7-VM) (Tasks may be owned by others)
+[Rel 5220547] 📅 Created: 03-12-2024 | Resolved: 14-08-2026
+[Rel 5220547] Processing Hierarchy...
+
+[Rel 5220547] --- Final Hours for Release 5220547 ---
+[Rel 5220547]   [🌍 India]
+[Rel 5220547]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5202110] =========================================
+[Rel 5202110] Checking Release ID: 5202110 [Initial PM ID: ]...
+[Rel 5202110] 📌 Root Item Type: Review
+[Rel 5202110] ✔️ Resolution is 'Passed'.
+[Rel 5202110] 👤 Release Owned By: EXTERNAL Nguyen Quoc Dat (HCL Vietnam, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 5202110] 📅 Created: 27-11-2024 | Resolved: 10-12-2024
+[Rel 5202110] Processing Hierarchy...
+
+[Rel 5202110] --- Final Hours for Release 5202110 ---
+[Rel 5202110]   [🌍 India]
+[Rel 5202110]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5192448] =========================================
+[Rel 5192448] Checking Release ID: 5192448 [Initial PM ID: ]...
+[Rel 5192448] 📌 Root Item Type: Story
+[Rel 5192448] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5133345] =========================================
+[Rel 5133345] Checking Release ID: 5133345 [Initial PM ID: ]...
+[Rel 5133345] 📌 Root Item Type: Defect
+[Rel 5133345] ✔️ Resolution is 'Confirmed'.
+[Rel 5133345] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5133345] 📅 Created: 08-11-2024 | Resolved: 21-02-2025
+[Rel 5133345] Processing Hierarchy...
+
+[Rel 5133345] --- Final Hours for Release 5133345 ---
+[Rel 5133345]   [🌍 India]
+[Rel 5133345]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5156412] =========================================
+[Rel 5156412] Checking Release ID: 5156412 [Initial PM ID: ]...
+[Rel 5156412] 📌 Root Item Type: Review
+[Rel 5156412] ✔️ Resolution is 'Passed'.
+[Rel 5156412] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 5156412] 📅 Created: 15-11-2024 | Resolved: 15-11-2024
+[Rel 5156412] Processing Hierarchy...
+
+[Rel 5156412] --- Final Hours for Release 5156412 ---
+[Rel 5156412]   [🌍 India]
+[Rel 5156412]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5258416] =========================================
+[Rel 5258416] Checking Release ID: 5258416 [Initial PM ID: ]...
+[Rel 5258416] 📌 Root Item Type: Story
+[Rel 5258416] ✔️ Resolution is 'Solved'.
+[Rel 5258416] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5258416] 📅 Created: 16-12-2024 | Resolved: 22-10-2025
+[Rel 5258416] Processing Hierarchy...
+
+[Rel 5258416] --- Final Hours for Release 5258416 ---
+[Rel 5258416]   [🌍 India]
+[Rel 5258416]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5133296] =========================================
+[Rel 5133296] Checking Release ID: 5133296 [Initial PM ID: ]...
+[Rel 5133296] 📌 Root Item Type: Defect
+[Rel 5133296] ✔️ Resolution is 'Invalid' but Type is 'Defect' (Continuing).
+[Rel 5133296] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5133296] 📅 Created: 08-11-2024 | Resolved: 28-02-2025
+[Rel 5133296] Processing Hierarchy...
+
+[Rel 5133296] --- Final Hours for Release 5133296 ---
+[Rel 5133296]   [🌍 India]
+[Rel 5133296]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5133300] =========================================
+[Rel 5133300] Checking Release ID: 5133300 [Initial PM ID: ]...
+[Rel 5133300] 📌 Root Item Type: Defect
+[Rel 5133300] ✔️ Resolution is 'Confirmed'.
+[Rel 5133300] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 5133300] 📅 Created: 08-11-2024 | Resolved: 21-02-2025
+[Rel 5133300] Processing Hierarchy...
+
+[Rel 5133300] --- Final Hours for Release 5133300 ---
+[Rel 5133300]   [🌍 India]
+[Rel 5133300]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5156276] =========================================
+[Rel 5156276] Checking Release ID: 5156276 [Initial PM ID: ]...
+[Rel 5156276] 📌 Root Item Type: Review
+[Rel 5156276] ✔️ Resolution is 'Passed'.
+[Rel 5156276] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 5156276] 📅 Created: 15-11-2024 | Resolved: 15-11-2024
+[Rel 5156276] Processing Hierarchy...
+
+[Rel 5156276] --- Final Hours for Release 5156276 ---
+[Rel 5156276]   [🌍 India]
+[Rel 5156276]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5137608] =========================================
+[Rel 5137608] Checking Release ID: 5137608 [Initial PM ID: ]...
+[Rel 5137608] 📌 Root Item Type: Defect
+[Rel 5137608] ✔️ Resolution is 'Confirmed'.
+[Rel 5137608] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 5137608] 📅 Created: 11-11-2024 | Resolved: 18-11-2024
+[Rel 5137608] Processing Hierarchy...
+
+[Rel 5137608] --- Final Hours for Release 5137608 ---
+[Rel 5137608]   [🌍 Vietnam]
+[Rel 5137608]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5150254] =========================================
+[Rel 5150254] Checking Release ID: 5150254 [Initial PM ID: ]...
+[Rel 5150254] 📌 Root Item Type: Defect
+[Rel 5150254] ✔️ Resolution is 'Confirmed'.
+[Rel 5150254] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 5150254] 📅 Created: 13-11-2024 | Resolved: 18-11-2024
+[Rel 5150254] Processing Hierarchy...
+
+[Rel 5150254] --- Final Hours for Release 5150254 ---
+[Rel 5150254]   [🌍 Vietnam]
+[Rel 5150254]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5115704] =========================================
+[Rel 5115704] Checking Release ID: 5115704 [Initial PM ID: ]...
+[Rel 5115704] 📌 Root Item Type: Review
+[Rel 5115704] ✔️ Resolution is 'Passed'.
+[Rel 5115704] 👤 Release Owned By: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5115704] 📅 Created: 04-11-2024 | Resolved: 04-11-2024
+[Rel 5115704] Processing Hierarchy...
+
+[Rel 5115704] --- Final Hours for Release 5115704 ---
+[Rel 5115704]   [🌍 Vietnam]
+[Rel 5115704]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5125024] =========================================
+[Rel 5125024] Checking Release ID: 5125024 [Initial PM ID: ]...
+[Rel 5125024] 📌 Root Item Type: Review
+[Rel 5125024] ✔️ Resolution is 'Passed'.
+[Rel 5125024] 👤 Release Owned By: Bach Gia Khiem (MS/EJH61-VM) (Tasks may be owned by others)
+[Rel 5125024] 📅 Created: 06-11-2024 | Resolved: 19-11-2024
+[Rel 5125024] Processing Hierarchy...
+
+[Rel 5125024] --- Final Hours for Release 5125024 ---
+[Rel 5125024]   [🌍 India]
+[Rel 5125024]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5115597] =========================================
+[Rel 5115597] Checking Release ID: 5115597 [Initial PM ID: ]...
+[Rel 5115597] 📌 Root Item Type: Defect
+[Rel 5115597] ✔️ Resolution is 'Confirmed'.
+[Rel 5115597] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 5115597] 📅 Created: 04-11-2024 | Resolved: 18-11-2024
+[Rel 5115597] Processing Hierarchy...
+
+[Rel 5115597] --- Final Hours for Release 5115597 ---
+[Rel 5115597]   [🌍 Vietnam]
+[Rel 5115597]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5116779] =========================================
+[Rel 5116779] Checking Release ID: 5116779 [Initial PM ID: ]...
+[Rel 5116779] 📌 Root Item Type: Defect
+[Rel 5116779] ✔️ Resolution is 'Confirmed'.
+[Rel 5116779] 👤 Release Owned By: Sunil C Hanumantharaya (MS/EHA22-VM) (Tasks may be owned by others)
+[Rel 5116779] 📅 Created: 04-11-2024 | Resolved: 19-11-2024
+[Rel 5116779] Processing Hierarchy...
+
+[Rel 5116779] --- Final Hours for Release 5116779 ---
+[Rel 5116779]   [🌍 India]
+[Rel 5116779]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5099400] =========================================
+[Rel 5099400] Checking Release ID: 5099400 [Initial PM ID: ]...
+[Rel 5099400] 📌 Root Item Type: Review
+[Rel 5099400] ✔️ Resolution is 'Passed'.
+[Rel 5099400] 👤 Release Owned By: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5099400] 📅 Created: 28-10-2024 | Resolved: 11-11-2024
+[Rel 5099400] Processing Hierarchy...
+
+[Rel 5099400] --- Final Hours for Release 5099400 ---
+[Rel 5099400]   [🌍 Vietnam]
+[Rel 5099400]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5105225] =========================================
+[Rel 5105225] Checking Release ID: 5105225 [Initial PM ID: ]...
+[Rel 5105225] 📌 Root Item Type: Defect
+[Rel 5105225] ✔️ Resolution is 'Confirmed'.
+[Rel 5105225] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5105225] 📅 Created: 30-10-2024 | Resolved: 06-11-2024
+[Rel 5105225] Processing Hierarchy...
+
+[Rel 5105225] --- Final Hours for Release 5105225 ---
+[Rel 5105225]   [🌍 Vietnam]
+[Rel 5105225]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5289242] =========================================
+[Rel 5289242] Checking Release ID: 5289242 [Initial PM ID: ]...
+[Rel 5289242] 📌 Root Item Type: Story
+[Rel 5289242] ✔️ Resolution is 'Solved'.
+[Rel 5289242] 👤 Release Owned By: Bach Gia Khiem (MS/EJH61-VM) (Tasks may be owned by others)
+[Rel 5289242] 📅 Created: 31-12-2024 | Resolved: 08-04-2025
+[Rel 5289242] Processing Hierarchy...
+
+[Rel 5289242] --- Final Hours for Release 5289242 ---
+[Rel 5289242]   [🌍 India]
+[Rel 5289242]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5093681] =========================================
+[Rel 5093681] Checking Release ID: 5093681 [Initial PM ID: ]...
+[Rel 5093681] 📌 Root Item Type: Task
+[Rel 5093681] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5093679] =========================================
+[Rel 5093679] Checking Release ID: 5093679 [Initial PM ID: ]...
+[Rel 5093679] 📌 Root Item Type: Task
+[Rel 5093679] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5093680] =========================================
+[Rel 5093680] Checking Release ID: 5093680 [Initial PM ID: ]...
+[Rel 5093680] 📌 Root Item Type: Task
+[Rel 5093680] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5116651] =========================================
+[Rel 5116651] Checking Release ID: 5116651 [Initial PM ID: ]...
+[Rel 5116651] 📌 Root Item Type: Defect
+[Rel 5116651] ✔️ Resolution is 'Confirmed'.
+[Rel 5116651] 👤 Release Owned By: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) (Tasks may be owned by others)
+[Rel 5116651] 📅 Created: 04-11-2024 | Resolved: 14-11-2024
+[Rel 5116651] Processing Hierarchy...
+
+[Rel 5116651] --- Final Hours for Release 5116651 ---
+[Rel 5116651]   [🌍 India]
+[Rel 5116651]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5096358] =========================================
+[Rel 5096358] Checking Release ID: 5096358 [Initial PM ID: ]...
+[Rel 5096358] 📌 Root Item Type: Task
+[Rel 5096358] ✔️ Resolution is 'Solved'.
+[Rel 5096358] 👤 Release Owned By: EXTERNAL Nguyen Quoc Dat (HCL Vietnam, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 5096358] 📅 Created: 28-10-2024 | Resolved: 01-04-2025
+[Rel 5096358] Processing Hierarchy...
+
+[Rel 5096358] --- Final Hours for Release 5096358 ---
+[Rel 5096358]   [🌍 India]
+[Rel 5096358]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5093683] =========================================
+[Rel 5093683] Checking Release ID: 5093683 [Initial PM ID: ]...
+[Rel 5093683] 📌 Root Item Type: Review
+[Rel 5093683] ✔️ Resolution is 'Cancelled'.
+[Rel 5093683] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5093683] 📅 Created: 25-10-2024 | Resolved: 25-10-2024
+[Rel 5093683] Processing Hierarchy...
+
+[Rel 5093683] --- Final Hours for Release 5093683 ---
+[Rel 5093683]   [🌍 Others]
+[Rel 5093683]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5093682] =========================================
+[Rel 5093682] Checking Release ID: 5093682 [Initial PM ID: ]...
+[Rel 5093682] 📌 Root Item Type: Review
+[Rel 5093682] ✔️ Resolution is 'Cancelled'.
+[Rel 5093682] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5093682] 📅 Created: 25-10-2024 | Resolved: 25-10-2024
+[Rel 5093682] Processing Hierarchy...
+
+[Rel 5093682] --- Final Hours for Release 5093682 ---
+[Rel 5093682]   [🌍 Others]
+[Rel 5093682]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5188024] =========================================
+[Rel 5188024] Checking Release ID: 5188024 [Initial PM ID: ]...
+[Rel 5188024] 📌 Root Item Type: Task
+[Rel 5188024] ✔️ Resolution is 'Solved'.
+[Rel 5188024] 👤 Release Owned By: Bach Gia Khiem (MS/EJH61-VM) (Tasks may be owned by others)
+[Rel 5188024] 📅 Created: 22-11-2024 | Resolved: 06-10-2025
+[Rel 5188024] Processing Hierarchy...
+
+[Rel 5188024] --- Final Hours for Release 5188024 ---
+[Rel 5188024]   [🌍 India]
+[Rel 5188024]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5093684] =========================================
+[Rel 5093684] Checking Release ID: 5093684 [Initial PM ID: ]...
+[Rel 5093684] 📌 Root Item Type: Review
+[Rel 5093684] ✔️ Resolution is 'Cancelled'.
+[Rel 5093684] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5093684] 📅 Created: 25-10-2024 | Resolved: 25-10-2024
+[Rel 5093684] Processing Hierarchy...
+
+[Rel 5093684] --- Final Hours for Release 5093684 ---
+[Rel 5093684]   [🌍 Others]
+[Rel 5093684]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5096370] =========================================
+[Rel 5096370] Checking Release ID: 5096370 [Initial PM ID: ]...
+[Rel 5096370] 📌 Root Item Type: Review
+[Rel 5096370] ✔️ Resolution is 'Passed'.
+[Rel 5096370] 👤 Release Owned By: Nguyen Hoang Thanh Khoi (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 5096370] 📅 Created: 28-10-2024 | Resolved: 18-08-2025
+[Rel 5096370] Processing Hierarchy...
+
+[Rel 5096370] --- Final Hours for Release 5096370 ---
+[Rel 5096370]   [🌍 India]
+[Rel 5096370]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5095983] =========================================
+[Rel 5095983] Checking Release ID: 5095983 [Initial PM ID: ]...
+[Rel 5095983] 📌 Root Item Type: Task
+[Rel 5095983] ✔️ Resolution is 'Solved'.
+[Rel 5095983] 👤 Release Owned By: Le Thi My Duyen (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 5095983] 📅 Created: 28-10-2024 | Resolved: 14-08-2026
+[Rel 5095983] Processing Hierarchy...
+[Rel 5095983] → [NET DEV ] Added 127.00 hrs | ID: 5095983 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Task][MZC][ESP10][J03M][NET] Non-Development Activity | Created: 28-10-2024 | Resolved: 14-08-2026
+
+[Rel 5095983] --- Final Hours for Release 5095983 ---
+[Rel 5095983]   [🌍 Vietnam]
+[Rel 5095983]     NET_DEV: 127.00 hrs
+
+[Rel 5022569] =========================================
+[Rel 5022569] Checking Release ID: 5022569 [Initial PM ID: ]...
+[Rel 5022569] 📌 Root Item Type: Task
+[Rel 5022569] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5091201] =========================================
+[Rel 5091201] Checking Release ID: 5091201 [Initial PM ID: ]...
+[Rel 5091201] 📌 Root Item Type: Review
+[Rel 5091201] ✔️ Resolution is 'Passed'.
+[Rel 5091201] 👤 Release Owned By: Bach Gia Khiem (MS/EJH61-VM) (Tasks may be owned by others)
+[Rel 5091201] 📅 Created: 24-10-2024 | Resolved: 25-10-2024
+[Rel 5091201] Processing Hierarchy...
+
+[Rel 5091201] --- Final Hours for Release 5091201 ---
+[Rel 5091201]   [🌍 India]
+[Rel 5091201]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4984608] =========================================
+[Rel 4984608] Checking Release ID: 4984608 [Initial PM ID: ]...
+[Rel 4984608] 📌 Root Item Type: Review
+[Rel 4984608] ✔️ Resolution is 'Passed'.
+[Rel 4984608] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 4984608] 📅 Created: 20-09-2024 | Resolved: 15-11-2024
+[Rel 4984608] Processing Hierarchy...
+
+[Rel 4984608] --- Final Hours for Release 4984608 ---
+[Rel 4984608]   [🌍 India]
+[Rel 4984608]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4958858] =========================================
+[Rel 4958858] Checking Release ID: 4958858 [Initial PM ID: ]...
+[Rel 4958858] 📌 Root Item Type: Story
+[Rel 4958858] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5089379] =========================================
+[Rel 5089379] Checking Release ID: 5089379 [Initial PM ID: ]...
+[Rel 5089379] 📌 Root Item Type: Review
+[Rel 5089379] ✔️ Resolution is 'Passed'.
+[Rel 5089379] 👤 Release Owned By: EXTERNAL Bach Dinh Quoc Cuong (FPT Software, MS/EAS51-VM) (Tasks may be owned by others)
+[Rel 5089379] 📅 Created: 24-10-2024 | Resolved: 25-10-2024
+[Rel 5089379] Processing Hierarchy...
+
+[Rel 5089379] --- Final Hours for Release 5089379 ---
+[Rel 5089379]   [🌍 India]
+[Rel 5089379]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5089486] =========================================
+[Rel 5089486] Checking Release ID: 5089486 [Initial PM ID: ]...
+[Rel 5089486] 📌 Root Item Type: Review
+[Rel 5089486] ✔️ Resolution is 'Passed'.
+[Rel 5089486] 👤 Release Owned By: EXTERNAL Bach Dinh Quoc Cuong (FPT Software, MS/EAS51-VM) (Tasks may be owned by others)
+[Rel 5089486] 📅 Created: 24-10-2024 | Resolved: 24-10-2024
+[Rel 5089486] Processing Hierarchy...
+
+[Rel 5089486] --- Final Hours for Release 5089486 ---
+[Rel 5089486]   [🌍 India]
+[Rel 5089486]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5089369] =========================================
+[Rel 5089369] Checking Release ID: 5089369 [Initial PM ID: ]...
+[Rel 5089369] 📌 Root Item Type: Review
+[Rel 5089369] ✔️ Resolution is 'Passed'.
+[Rel 5089369] 👤 Release Owned By: EXTERNAL Bach Dinh Quoc Cuong (FPT Software, MS/EAS51-VM) (Tasks may be owned by others)
+[Rel 5089369] 📅 Created: 24-10-2024 | Resolved: 25-10-2024
+[Rel 5089369] Processing Hierarchy...
+
+[Rel 5089369] --- Final Hours for Release 5089369 ---
+[Rel 5089369]   [🌍 India]
+[Rel 5089369]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5029647] =========================================
+[Rel 5029647] Checking Release ID: 5029647 [Initial PM ID: ]...
+[Rel 5029647] 📌 Root Item Type: Review
+[Rel 5029647] ✔️ Resolution is 'Passed'.
+[Rel 5029647] 👤 Release Owned By: EXTERNAL Bach Dinh Quoc Cuong (FPT Software, MS/EAS51-VM) (Tasks may be owned by others)
+[Rel 5029647] 📅 Created: 08-10-2024 | Resolved: 01-11-2024
+[Rel 5029647] Processing Hierarchy...
+
+[Rel 5029647] --- Final Hours for Release 5029647 ---
+[Rel 5029647]   [🌍 India]
+[Rel 5029647]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4980132] =========================================
+[Rel 4980132] Checking Release ID: 4980132 [Initial PM ID: ]...
+[Rel 4980132] 📌 Root Item Type: Review
+[Rel 4980132] ✔️ Resolution is 'Cancelled'.
+[Rel 4980132] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4980132] 📅 Created: 19-09-2024 | Resolved: 28-10-2024
+[Rel 4980132] Processing Hierarchy...
+
+[Rel 4980132] --- Final Hours for Release 4980132 ---
+[Rel 4980132]   [🌍 Japan]
+[Rel 4980132]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4958856] =========================================
+[Rel 4958856] Checking Release ID: 4958856 [Initial PM ID: ]...
+[Rel 4958856] 📌 Root Item Type: Story
+[Rel 4958856] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4963998] =========================================
+[Rel 4963998] Checking Release ID: 4963998 [Initial PM ID: ]...
+[Rel 4963998] 📌 Root Item Type: Review
+[Rel 4963998] ✔️ Resolution is 'Passed'.
+[Rel 4963998] 👤 Release Owned By: Nguyen Hoang Thanh Khoi (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 4963998] 📅 Created: 13-09-2024 | Resolved: 06-11-2024
+[Rel 4963998] Processing Hierarchy...
+
+[Rel 4963998] --- Final Hours for Release 4963998 ---
+[Rel 4963998]   [🌍 India]
+[Rel 4963998]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4964003] =========================================
+[Rel 4964003] Checking Release ID: 4964003 [Initial PM ID: ]...
+[Rel 4964003] 📌 Root Item Type: Task
+[Rel 4964003] ✔️ Resolution is 'Solved'.
+[Rel 4964003] 👤 Release Owned By: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) (Tasks may be owned by others)
+[Rel 4964003] 📅 Created: 13-09-2024 | Resolved: 20-11-2025
+[Rel 4964003] Processing Hierarchy...
+
+[Rel 4964003] --- Final Hours for Release 4964003 ---
+[Rel 4964003]   [🌍 India]
+[Rel 4964003]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4976026] =========================================
+[Rel 4976026] Checking Release ID: 4976026 [Initial PM ID: ]...
+[Rel 4976026] 📌 Root Item Type: Review
+[Rel 4976026] ✔️ Resolution is 'Cancelled'.
+[Rel 4976026] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4976026] 📅 Created: 18-09-2024 | Resolved: 28-10-2024
+[Rel 4976026] Processing Hierarchy...
+
+[Rel 4976026] --- Final Hours for Release 4976026 ---
+[Rel 4976026]   [🌍 Japan]
+[Rel 4976026]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 3843189] =========================================
+[Rel 3843189] Checking Release ID: 3843189 [Initial PM ID: BM-00089662]...
+[Rel 3843189] 📌 Root Item Type: Release
+[Rel 3843189] ✔️ Resolution is 'Solved'.
+[Rel 3843189] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 3843189] 📅 Created: 30-08-2023 | Resolved: 24-05-2024
+[Rel 3843189] Processing Hierarchy...
+
+[Rel 3843189] --- Final Hours for Release 3843189 ---
+[Rel 3843189]   [🌍 India]
+[Rel 3843189]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4972282] =========================================
+[Rel 4972282] Checking Release ID: 4972282 [Initial PM ID: ]...
+[Rel 4972282] 📌 Root Item Type: Review
+[Rel 4972282] ✔️ Resolution is 'Passed'.
+[Rel 4972282] 👤 Release Owned By: Sawada Hayato (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 4972282] 📅 Created: 17-09-2024 | Resolved: 19-11-2024
+[Rel 4972282] Processing Hierarchy...
+
+[Rel 4972282] --- Final Hours for Release 4972282 ---
+[Rel 4972282]   [🌍 Japan]
+[Rel 4972282]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4949190] =========================================
+[Rel 4949190] Checking Release ID: 4949190 [Initial PM ID: ]...
+[Rel 4949190] 📌 Root Item Type: Review
+[Rel 4949190] ✔️ Resolution is 'Cancelled'.
+[Rel 4949190] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 4949190] 📅 Created: 10-09-2024 | Resolved: 10-09-2024
+[Rel 4949190] Processing Hierarchy...
+
+[Rel 4949190] --- Final Hours for Release 4949190 ---
+[Rel 4949190]   [🌍 Japan]
+[Rel 4949190]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4947521] =========================================
+[Rel 4947521] Checking Release ID: 4947521 [Initial PM ID: ]...
+[Rel 4947521] 📌 Root Item Type: Story
+[Rel 4947521] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4207015] =========================================
+[Rel 4207015] Checking Release ID: 4207015 [Initial PM ID: BM-00092864]...
+[Rel 4207015] 📌 Root Item Type: Release
+[Rel 4207015] ✔️ Resolution is 'Solved'.
+[Rel 4207015] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4207015] 📅 Created: 15-01-2024 | Resolved: 11-04-2024
+[Rel 4207015] Processing Hierarchy...
+
+[Rel 4207015] --- Final Hours for Release 4207015 ---
+[Rel 4207015]   [🌍 India]
+[Rel 4207015]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5029643] =========================================
+[Rel 5029643] Checking Release ID: 5029643 [Initial PM ID: ]...
+[Rel 5029643] 📌 Root Item Type: Review
+[Rel 5029643] ✔️ Resolution is 'Passed'.
+[Rel 5029643] 👤 Release Owned By: EXTERNAL Bach Dinh Quoc Cuong (FPT Software, MS/EAS51-VM) (Tasks may be owned by others)
+[Rel 5029643] 📅 Created: 08-10-2024 | Resolved: 31-10-2024
+[Rel 5029643] Processing Hierarchy...
+
+[Rel 5029643] --- Final Hours for Release 5029643 ---
+[Rel 5029643]   [🌍 India]
+[Rel 5029643]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5088460] =========================================
+[Rel 5088460] Checking Release ID: 5088460 [Initial PM ID: ]...
+[Rel 5088460] 📌 Root Item Type: Review
+[Rel 5088460] ✔️ Resolution is 'Passed'.
+[Rel 5088460] 👤 Release Owned By: EXTERNAL Bach Dinh Quoc Cuong (FPT Software, MS/EAS51-VM) (Tasks may be owned by others)
+[Rel 5088460] 📅 Created: 24-10-2024 | Resolved: 25-10-2024
+[Rel 5088460] Processing Hierarchy...
+
+[Rel 5088460] --- Final Hours for Release 5088460 ---
+[Rel 5088460]   [🌍 India]
+[Rel 5088460]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5021576] =========================================
+[Rel 5021576] Checking Release ID: 5021576 [Initial PM ID: ]...
+[Rel 5021576] 📌 Root Item Type: Task
+[Rel 5021576] ✔️ Resolution is 'Solved'.
+[Rel 5021576] 👤 Release Owned By: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) (Tasks may be owned by others)
+[Rel 5021576] 📅 Created: 03-10-2024 | Resolved: 11-11-2024
+[Rel 5021576] Processing Hierarchy...
+
+[Rel 5021576] --- Final Hours for Release 5021576 ---
+[Rel 5021576]   [🌍 Vietnam]
+[Rel 5021576]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5134261] =========================================
+[Rel 5134261] Checking Release ID: 5134261 [Initial PM ID: ]...
+[Rel 5134261] 📌 Root Item Type: Story
+[Rel 5134261] ✔️ Resolution is 'Solved'.
+[Rel 5134261] 👤 Release Owned By: Do Minh Thong (MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5134261] 📅 Created: 08-11-2024 | Resolved: 22-10-2025
+[Rel 5134261] Processing Hierarchy...
+
+[Rel 5134261] --- Final Hours for Release 5134261 ---
+[Rel 5134261]   [🌍 India]
+[Rel 5134261]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4947480] =========================================
+[Rel 4947480] Checking Release ID: 4947480 [Initial PM ID: ]...
+[Rel 4947480] 📌 Root Item Type: Review
+[Rel 4947480] ✔️ Resolution is 'Cancelled'.
+[Rel 4947480] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4947480] 📅 Created: 10-09-2024 | Resolved: 28-10-2024
+[Rel 4947480] Processing Hierarchy...
+
+[Rel 4947480] --- Final Hours for Release 4947480 ---
+[Rel 4947480]   [🌍 Japan]
+[Rel 4947480]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4903579] =========================================
+[Rel 4903579] Checking Release ID: 4903579 [Initial PM ID: ]...
+[Rel 4903579] 📌 Root Item Type: Task
+[Rel 4903579] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4947523] =========================================
+[Rel 4947523] Checking Release ID: 4947523 [Initial PM ID: ]...
+[Rel 4947523] 📌 Root Item Type: Story
+[Rel 4947523] ✔️ Resolution is 'Duplicate'.
+[Rel 4947523] 👤 Release Owned By: Sunil C Hanumantharaya (MS/EHA22-VM) (Tasks may be owned by others)
+[Rel 4947523] 📅 Created: 10-09-2024 | Resolved: 19-11-2024
+[Rel 4947523] Processing Hierarchy...
+
+[Rel 4947523] --- Final Hours for Release 4947523 ---
+[Rel 4947523]   [🌍 India]
+[Rel 4947523]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4955068] =========================================
+[Rel 4955068] Checking Release ID: 4955068 [Initial PM ID: ]...
+[Rel 4955068] 📌 Root Item Type: Defect
+[Rel 4955068] ✔️ Resolution is 'Confirmed'.
+[Rel 4955068] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 4955068] 📅 Created: 11-09-2024 | Resolved: 20-11-2024
+[Rel 4955068] Processing Hierarchy...
+
+[Rel 4955068] --- Final Hours for Release 4955068 ---
+[Rel 4955068]   [🌍 Japan]
+[Rel 4955068]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4948420] =========================================
+[Rel 4948420] Checking Release ID: 4948420 [Initial PM ID: ]...
+[Rel 4948420] 📌 Root Item Type: Review
+[Rel 4948420] ✔️ Resolution is 'Passed'.
+[Rel 4948420] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 4948420] 📅 Created: 10-09-2024 | Resolved: 19-11-2024
+[Rel 4948420] Processing Hierarchy...
+
+[Rel 4948420] --- Final Hours for Release 4948420 ---
+[Rel 4948420]   [🌍 Vietnam]
+[Rel 4948420]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4743642] =========================================
+[Rel 4743642] Checking Release ID: 4743642 [Initial PM ID: ]...
+[Rel 4743642] 📌 Root Item Type: Task
+[Rel 4743642] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4798298] =========================================
+[Rel 4798298] Checking Release ID: 4798298 [Initial PM ID: ]...
+[Rel 4798298] 📌 Root Item Type: Review
+[Rel 4798298] ✔️ Resolution is 'Passed'.
+[Rel 4798298] 👤 Release Owned By: Nguyen Hoang Thanh Khoi (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 4798298] 📅 Created: 24-07-2024 | Resolved: 06-11-2024
+[Rel 4798298] Processing Hierarchy...
+
+[Rel 4798298] --- Final Hours for Release 4798298 ---
+[Rel 4798298]   [🌍 India]
+[Rel 4798298]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4802421] =========================================
+[Rel 4802421] Checking Release ID: 4802421 [Initial PM ID: ]...
+[Rel 4802421] 📌 Root Item Type: Review
+[Rel 4802421] ✔️ Resolution is 'Passed'.
+[Rel 4802421] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 4802421] 📅 Created: 25-07-2024 | Resolved: 15-11-2024
+[Rel 4802421] Processing Hierarchy...
+
+[Rel 4802421] --- Final Hours for Release 4802421 ---
+[Rel 4802421]   [🌍 India]
+[Rel 4802421]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4936285] =========================================
+[Rel 4936285] Checking Release ID: 4936285 [Initial PM ID: ]...
+[Rel 4936285] 📌 Root Item Type: Task
+[Rel 4936285] ✔️ Resolution is 'Solved'.
+[Rel 4936285] 👤 Release Owned By: Nguyen Le Gia Bach (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4936285] 📅 Created: 05-09-2024 | Resolved: 16-09-2024
+[Rel 4936285] Processing Hierarchy...
+
+[Rel 4936285] --- Final Hours for Release 4936285 ---
+[Rel 4936285]   [🌍 India]
+[Rel 4936285]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5043667] =========================================
+[Rel 5043667] Checking Release ID: 5043667 [Initial PM ID: ]...
+[Rel 5043667] 📌 Root Item Type: Story
+[Rel 5043667] ✔️ Resolution is 'Solved'.
+[Rel 5043667] 👤 Release Owned By: Nguyen Son Tung (MS/EJH4-VM MS/EJH44-VM) (Tasks may be owned by others)
+[Rel 5043667] 📅 Created: 11-10-2024 | Resolved: 26-02-2025
+[Rel 5043667] Processing Hierarchy...
+
+[Rel 5043667] --- Final Hours for Release 5043667 ---
+[Rel 5043667]   [🌍 India]
+[Rel 5043667]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4718001] =========================================
+[Rel 4718001] Checking Release ID: 4718001 [Initial PM ID: ]...
+[Rel 4718001] 📌 Root Item Type: Review
+[Rel 4718001] ✔️ Resolution is 'Cancelled'.
+[Rel 4718001] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4718001] 📅 Created: 01-07-2024 | Resolved: 28-10-2024
+[Rel 4718001] Processing Hierarchy...
+
+[Rel 4718001] --- Final Hours for Release 4718001 ---
+[Rel 4718001]   [🌍 Japan]
+[Rel 4718001]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4756489] =========================================
+[Rel 4756489] Checking Release ID: 4756489 [Initial PM ID: ]...
+[Rel 4756489] 📌 Root Item Type: Review
+[Rel 4756489] ✔️ Resolution is 'Passed'.
+[Rel 4756489] 👤 Release Owned By: Bach Gia Khiem (MS/EJH61-VM) (Tasks may be owned by others)
+[Rel 4756489] 📅 Created: 11-07-2024 | Resolved: 25-10-2024
+[Rel 4756489] Processing Hierarchy...
+
+[Rel 4756489] --- Final Hours for Release 4756489 ---
+[Rel 4756489]   [🌍 India]
+[Rel 4756489]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4884738] =========================================
+[Rel 4884738] Checking Release ID: 4884738 [Initial PM ID: ]...
+[Rel 4884738] 📌 Root Item Type: Review
+[Rel 4884738] ✔️ Resolution is 'Cancelled'.
+[Rel 4884738] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4884738] 📅 Created: 20-08-2024 | Resolved: 28-10-2024
+[Rel 4884738] Processing Hierarchy...
+
+[Rel 4884738] --- Final Hours for Release 4884738 ---
+[Rel 4884738]   [🌍 Japan]
+[Rel 4884738]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4680488] =========================================
+[Rel 4680488] Checking Release ID: 4680488 [Initial PM ID: ]...
+[Rel 4680488] 📌 Root Item Type: Defect
+[Rel 4680488] ✔️ Resolution is 'Confirmed'.
+[Rel 4680488] 👤 Release Owned By: Sunil C Hanumantharaya (MS/EHA22-VM) (Tasks may be owned by others)
+[Rel 4680488] 📅 Created: 18-06-2024 | Resolved: 04-09-2024
+[Rel 4680488] Processing Hierarchy...
+
+[Rel 4680488] --- Final Hours for Release 4680488 ---
+[Rel 4680488]   [🌍 India]
+[Rel 4680488]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4724141] =========================================
+[Rel 4724141] Checking Release ID: 4724141 [Initial PM ID: ]...
+[Rel 4724141] 📌 Root Item Type: Review
+[Rel 4724141] ✔️ Resolution is 'Passed'.
+[Rel 4724141] 👤 Release Owned By: EXTERNAL Nguyen Quoc Dat (HCL Vietnam, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 4724141] 📅 Created: 02-07-2024 | Resolved: 19-11-2024
+[Rel 4724141] Processing Hierarchy...
+
+[Rel 4724141] --- Final Hours for Release 4724141 ---
+[Rel 4724141]   [🌍 India]
+[Rel 4724141]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4744822] =========================================
+[Rel 4744822] Checking Release ID: 4744822 [Initial PM ID: ]...
+[Rel 4744822] 📌 Root Item Type: Review
+[Rel 4744822] ✔️ Resolution is 'Cancelled'.
+[Rel 4744822] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 4744822] 📅 Created: 08-07-2024 | Resolved: 21-10-2024
+[Rel 4744822] Processing Hierarchy...
+
+[Rel 4744822] --- Final Hours for Release 4744822 ---
+[Rel 4744822]   [🌍 Vietnam]
+[Rel 4744822]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4903646] =========================================
+[Rel 4903646] Checking Release ID: 4903646 [Initial PM ID: ]...
+[Rel 4903646] 📌 Root Item Type: Defect
+[Rel 4903646] ✔️ Resolution is 'Confirmed'.
+[Rel 4903646] 👤 Release Owned By: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) (Tasks may be owned by others)
+[Rel 4903646] 📅 Created: 27-08-2024 | Resolved: 05-11-2024
+[Rel 4903646] Processing Hierarchy...
+
+[Rel 4903646] --- Final Hours for Release 4903646 ---
+[Rel 4903646]   [🌍 India]
+[Rel 4903646]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4832353] =========================================
+[Rel 4832353] Checking Release ID: 4832353 [Initial PM ID: ]...
+[Rel 4832353] 📌 Root Item Type: Defect
+[Rel 4832353] ✔️ Resolution is 'Confirmed'.
+[Rel 4832353] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 4832353] 📅 Created: 02-08-2024 | Resolved: 26-09-2024
+[Rel 4832353] Processing Hierarchy...
+
+[Rel 4832353] --- Final Hours for Release 4832353 ---
+[Rel 4832353]   [🌍 Japan]
+[Rel 4832353]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4649237] =========================================
+[Rel 4649237] Checking Release ID: 4649237 [Initial PM ID: ]...
+[Rel 4649237] 📌 Root Item Type: Task
+[Rel 4649237] ✔️ Resolution is 'Duplicate'.
+[Rel 4649237] 👤 Release Owned By: Le Thai (MS/EJH4-VM) (Tasks may be owned by others)
+[Rel 4649237] 📅 Created: 07-06-2024 | Resolved: 28-06-2024
+[Rel 4649237] Processing Hierarchy...
+
+[Rel 4649237] --- Final Hours for Release 4649237 ---
+[Rel 4649237]   [🌍 India]
+[Rel 4649237]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4772081] =========================================
+[Rel 4772081] Checking Release ID: 4772081 [Initial PM ID: ]...
+[Rel 4772081] 📌 Root Item Type: Review
+[Rel 4772081] ✔️ Resolution is 'Passed'.
+[Rel 4772081] 👤 Release Owned By: Nakajima Jun (VM/ESC3-JP) (Tasks may be owned by others)
+[Rel 4772081] 📅 Created: 16-07-2024 | Resolved: 18-11-2024
+[Rel 4772081] Processing Hierarchy...
+
+[Rel 4772081] --- Final Hours for Release 4772081 ---
+[Rel 4772081]   [🌍 Japan]
+[Rel 4772081]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4777564] =========================================
+[Rel 4777564] Checking Release ID: 4777564 [Initial PM ID: ]...
+[Rel 4777564] 📌 Root Item Type: Review
+[Rel 4777564] ✔️ Resolution is 'Passed'.
+[Rel 4777564] 👤 Release Owned By: Nguyen Le Xuan Hung (MS/EJH42-VM) (Tasks may be owned by others)
+[Rel 4777564] 📅 Created: 17-07-2024 | Resolved: 26-09-2024
+[Rel 4777564] Processing Hierarchy...
+
+[Rel 4777564] --- Final Hours for Release 4777564 ---
+[Rel 4777564]   [🌍 India]
+[Rel 4777564]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4510789] =========================================
+[Rel 4510789] Checking Release ID: 4510789 [Initial PM ID: ]...
+[Rel 4510789] 📌 Root Item Type: Task
+[Rel 4510789] ✔️ Resolution is 'Solved'.
+[Rel 4510789] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 4510789] 📅 Created: 25-04-2024 | Resolved: 15-05-2024
+[Rel 4510789] Processing Hierarchy...
+
+[Rel 4510789] --- Final Hours for Release 4510789 ---
+[Rel 4510789]   [🌍 Vietnam]
+[Rel 4510789]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4510707] =========================================
+[Rel 4510707] Checking Release ID: 4510707 [Initial PM ID: ]...
+[Rel 4510707] 📌 Root Item Type: Review
+[Rel 4510707] ✔️ Resolution is 'Passed'.
+[Rel 4510707] 👤 Release Owned By: Trinh Gia Bao (MS/EHV32-VM) (Tasks may be owned by others)
+[Rel 4510707] 📅 Created: 25-04-2024 | Resolved: 15-05-2024
+[Rel 4510707] Processing Hierarchy...
+
+[Rel 4510707] --- Final Hours for Release 4510707 ---
+[Rel 4510707]   [🌍 Vietnam]
+[Rel 4510707]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4498780] =========================================
+[Rel 4498780] Checking Release ID: 4498780 [Initial PM ID: ]...
+[Rel 4498780] 📌 Root Item Type: Review
+[Rel 4498780] ✔️ Resolution is 'Passed'.
+[Rel 4498780] 👤 Release Owned By: EXTERNAL Nguyen Quoc Dat (HCL Vietnam, MS/EAS71-VM) (Tasks may be owned by others)
+[Rel 4498780] 📅 Created: 22-04-2024 | Resolved: 23-04-2024
+[Rel 4498780] Processing Hierarchy...
+
+[Rel 4498780] --- Final Hours for Release 4498780 ---
+[Rel 4498780]   [🌍 India]
+[Rel 4498780]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4461346] =========================================
+[Rel 4461346] Checking Release ID: 4461346 [Initial PM ID: ]...
+[Rel 4461346] 📌 Root Item Type: Review
+[Rel 4461346] ✔️ Resolution is 'Passed'.
+[Rel 4461346] 👤 Release Owned By: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) (Tasks may be owned by others)
+[Rel 4461346] 📅 Created: 09-04-2024 | Resolved: 08-05-2024
+[Rel 4461346] Processing Hierarchy...
+
+[Rel 4461346] --- Final Hours for Release 4461346 ---
+[Rel 4461346]   [🌍 India]
+[Rel 4461346]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4371137] =========================================
+[Rel 4371137] Checking Release ID: 4371137 [Initial PM ID: ]...
+[Rel 4371137] 📌 Root Item Type: Task
+[Rel 4371137] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4371135] =========================================
+[Rel 4371135] Checking Release ID: 4371135 [Initial PM ID: ]...
+[Rel 4371135] 📌 Root Item Type: Task
+[Rel 4371135] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5108113] =========================================
+[Rel 5108113] Checking Release ID: 5108113 [Initial PM ID: ]...
+[Rel 5108113] 📌 Root Item Type: Task
+[Rel 5108113] ✔️ Resolution is 'Solved'.
+[Rel 5108113] 👤 Release Owned By: Nguyen Quang Tien (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 5108113] 📅 Created: 30-10-2024 | Resolved: 20-01-2025
+[Rel 5108113] Processing Hierarchy...
+
+[Rel 5108113] --- Final Hours for Release 5108113 ---
+[Rel 5108113]   [🌍 Vietnam]
+[Rel 5108113]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4367385] =========================================
+[Rel 4367385] Checking Release ID: 4367385 [Initial PM ID: ]...
+[Rel 4367385] 📌 Root Item Type: Review
+[Rel 4367385] ✔️ Resolution is 'Cancelled'.
+[Rel 4367385] 👤 Release Owned By: Le Van Viet (MS/EJH42-VM) (Tasks may be owned by others)
+[Rel 4367385] 📅 Created: 11-03-2024 | Resolved: 27-03-2024
+[Rel 4367385] Processing Hierarchy...
+
+[Rel 4367385] --- Final Hours for Release 4367385 ---
+[Rel 4367385]   [🌍 India]
+[Rel 4367385]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4293155] =========================================
+[Rel 4293155] Checking Release ID: 4293155 [Initial PM ID: ]...
+[Rel 4293155] 📌 Root Item Type: Story
+[Rel 4293155] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4293204] =========================================
+[Rel 4293204] Checking Release ID: 4293204 [Initial PM ID: ]...
+[Rel 4293204] 📌 Root Item Type: Task
+[Rel 4293204] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4438679] =========================================
+[Rel 4438679] Checking Release ID: 4438679 [Initial PM ID: ]...
+[Rel 4438679] 📌 Root Item Type: Review
+[Rel 4438679] ✔️ Resolution is 'Passed'.
+[Rel 4438679] 👤 Release Owned By: Le Minh Hoang (MS/EJH42-VM) (Tasks may be owned by others)
+[Rel 4438679] 📅 Created: 02-04-2024 | Resolved: 03-04-2024
+[Rel 4438679] Processing Hierarchy...
+
+[Rel 4438679] --- Final Hours for Release 4438679 ---
+[Rel 4438679]   [🌍 India]
+[Rel 4438679]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4297112] =========================================
+[Rel 4297112] Checking Release ID: 4297112 [Initial PM ID: ]...
+[Rel 4297112] 📌 Root Item Type: Story
+[Rel 4297112] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4371138] =========================================
+[Rel 4371138] Checking Release ID: 4371138 [Initial PM ID: ]...
+[Rel 4371138] 📌 Root Item Type: Review
+[Rel 4371138] ✔️ Resolution is 'Cancelled'.
+[Rel 4371138] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 4371138] 📅 Created: 12-03-2024 | Resolved: 12-03-2024
+[Rel 4371138] Processing Hierarchy...
+
+[Rel 4371138] --- Final Hours for Release 4371138 ---
+[Rel 4371138]   [🌍 Vietnam]
+[Rel 4371138]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4293156] =========================================
+[Rel 4293156] Checking Release ID: 4293156 [Initial PM ID: ]...
+[Rel 4293156] 📌 Root Item Type: Story
+[Rel 4293156] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4381633] =========================================
+[Rel 4381633] Checking Release ID: 4381633 [Initial PM ID: ]...
+[Rel 4381633] 📌 Root Item Type: Review
+[Rel 4381633] ✔️ Resolution is 'Passed'.
+[Rel 4381633] 👤 Release Owned By: Le Thai (MS/EJH4-VM) (Tasks may be owned by others)
+[Rel 4381633] 📅 Created: 14-03-2024 | Resolved: 25-03-2024
+[Rel 4381633] Processing Hierarchy...
+
+[Rel 4381633] --- Final Hours for Release 4381633 ---
+[Rel 4381633]   [🌍 India]
+[Rel 4381633]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4371136] =========================================
+[Rel 4371136] Checking Release ID: 4371136 [Initial PM ID: ]...
+[Rel 4371136] 📌 Root Item Type: Review
+[Rel 4371136] ✔️ Resolution is 'Duplicate'.
+[Rel 4371136] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 4371136] 📅 Created: 12-03-2024 | Resolved: 29-03-2024
+[Rel 4371136] Processing Hierarchy...
+
+[Rel 4371136] --- Final Hours for Release 4371136 ---
+[Rel 4371136]   [🌍 Vietnam]
+[Rel 4371136]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4297117] =========================================
+[Rel 4297117] Checking Release ID: 4297117 [Initial PM ID: ]...
+[Rel 4297117] 📌 Root Item Type: Review
+[Rel 4297117] ✔️ Resolution is 'Cancelled'.
+[Rel 4297117] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4297117] 📅 Created: 20-02-2024 | Resolved: 28-10-2024
+[Rel 4297117] Processing Hierarchy...
+
+[Rel 4297117] --- Final Hours for Release 4297117 ---
+[Rel 4297117]   [🌍 Japan]
+[Rel 4297117]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4297163] =========================================
+[Rel 4297163] Checking Release ID: 4297163 [Initial PM ID: ]...
+[Rel 4297163] 📌 Root Item Type: Review
+[Rel 4297163] ✔️ Resolution is 'Cancelled'.
+[Rel 4297163] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4297163] 📅 Created: 20-02-2024 | Resolved: 28-10-2024
+[Rel 4297163] Processing Hierarchy...
+
+[Rel 4297163] --- Final Hours for Release 4297163 ---
+[Rel 4297163]   [🌍 Japan]
+[Rel 4297163]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4350538] =========================================
+[Rel 4350538] Checking Release ID: 4350538 [Initial PM ID: ]...
+[Rel 4350538] 📌 Root Item Type: Review
+[Rel 4350538] ✔️ Resolution is 'Duplicate'.
+[Rel 4350538] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 4350538] 📅 Created: 06-03-2024 | Resolved: 28-03-2024
+[Rel 4350538] Processing Hierarchy...
+
+[Rel 4350538] --- Final Hours for Release 4350538 ---
+[Rel 4350538]   [🌍 Vietnam]
+[Rel 4350538]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4415653] =========================================
+[Rel 4415653] Checking Release ID: 4415653 [Initial PM ID: ]...
+[Rel 4415653] 📌 Root Item Type: Task
+[Rel 4415653] ✔️ Resolution is 'Solved'.
+[Rel 4415653] 👤 Release Owned By: Le Minh Hoang (MS/EJH42-VM) (Tasks may be owned by others)
+[Rel 4415653] 📅 Created: 26-03-2024 | Resolved: 03-04-2024
+[Rel 4415653] Processing Hierarchy...
+
+[Rel 4415653] --- Final Hours for Release 4415653 ---
+[Rel 4415653]   [🌍 India]
+[Rel 4415653]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4293205] =========================================
+[Rel 4293205] Checking Release ID: 4293205 [Initial PM ID: ]...
+[Rel 4293205] 📌 Root Item Type: Review
+[Rel 4293205] ✔️ Resolution is 'Cancelled'.
+[Rel 4293205] 👤 Release Owned By: Le Van Viet (MS/EJH42-VM) (Tasks may be owned by others)
+[Rel 4293205] 📅 Created: 19-02-2024 | Resolved: 27-03-2024
+[Rel 4293205] Processing Hierarchy...
+
+[Rel 4293205] --- Final Hours for Release 4293205 ---
+[Rel 4293205]   [🌍 India]
+[Rel 4293205]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4297146] =========================================
+[Rel 4297146] Checking Release ID: 4297146 [Initial PM ID: ]...
+[Rel 4297146] 📌 Root Item Type: Review
+[Rel 4297146] ✔️ Resolution is 'Cancelled'.
+[Rel 4297146] 👤 Release Owned By: Matsumura Hiroki (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 4297146] 📅 Created: 20-02-2024 | Resolved: 28-10-2024
+[Rel 4297146] Processing Hierarchy...
+
+[Rel 4297146] --- Final Hours for Release 4297146 ---
+[Rel 4297146]   [🌍 Japan]
+[Rel 4297146]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4263961] =========================================
+[Rel 4263961] Checking Release ID: 4263961 [Initial PM ID: ]...
+[Rel 4263961] 📌 Root Item Type: Review
+[Rel 4263961] ✔️ Resolution is 'Passed'.
+[Rel 4263961] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 4263961] 📅 Created: 05-02-2024 | Resolved: 28-08-2024
+[Rel 4263961] Processing Hierarchy...
+
+[Rel 4263961] --- Final Hours for Release 4263961 ---
+[Rel 4263961]   [🌍 India]
+[Rel 4263961]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4252019] =========================================
+[Rel 4252019] Checking Release ID: 4252019 [Initial PM ID: ]...
+[Rel 4252019] 📌 Root Item Type: Review
+[Rel 4252019] ✔️ Resolution is 'Cancelled'.
+[Rel 4252019] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 4252019] 📅 Created: 31-01-2024 | Resolved: 31-01-2024
+[Rel 4252019] Processing Hierarchy...
+
+[Rel 4252019] --- Final Hours for Release 4252019 ---
+[Rel 4252019]   [🌍 Vietnam]
+[Rel 4252019]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4333969] =========================================
+[Rel 4333969] Checking Release ID: 4333969 [Initial PM ID: ]...
+[Rel 4333969] 📌 Root Item Type: Review
+[Rel 4333969] ✔️ Resolution is 'Passed'.
+[Rel 4333969] 👤 Release Owned By: Nguyen Thi Luu Luyen (MS/EJH6-VM) (Tasks may be owned by others)
+[Rel 4333969] 📅 Created: 01-03-2024 | Resolved: 30-10-2024
+[Rel 4333969] Processing Hierarchy...
+
+[Rel 4333969] --- Final Hours for Release 4333969 ---
+[Rel 4333969]   [🌍 India]
+[Rel 4333969]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4252016] =========================================
+[Rel 4252016] Checking Release ID: 4252016 [Initial PM ID: ]...
+[Rel 4252016] 📌 Root Item Type: Task
+[Rel 4252016] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4252015] =========================================
+[Rel 4252015] Checking Release ID: 4252015 [Initial PM ID: ]...
+[Rel 4252015] 📌 Root Item Type: Task
+[Rel 4252015] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4251992] =========================================
+[Rel 4251992] Checking Release ID: 4251992 [Initial PM ID: ]...
+[Rel 4251992] 📌 Root Item Type: Story
+[Rel 4251992] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4350435] =========================================
+[Rel 4350435] Checking Release ID: 4350435 [Initial PM ID: ]...
+[Rel 4350435] 📌 Root Item Type: Task
+[Rel 4350435] ✔️ Resolution is 'Duplicate'.
+[Rel 4350435] 👤 Release Owned By: Nguyen Quang Kiet (MS/EAS83-VM) (Tasks may be owned by others)
+[Rel 4350435] 📅 Created: 06-03-2024 | Resolved: 20-03-2024
+[Rel 4350435] Processing Hierarchy...
+
+[Rel 4350435] --- Final Hours for Release 4350435 ---
+[Rel 4350435]   [🌍 India]
+[Rel 4350435]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4239352] =========================================
+[Rel 4239352] Checking Release ID: 4239352 [Initial PM ID: ]...
+[Rel 4239352] 📌 Root Item Type: Task
+[Rel 4239352] ✔️ Resolution is 'Duplicate'.
+[Rel 4239352] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4239352] 📅 Created: 26-01-2024 | Resolved: 26-01-2024
+[Rel 4239352] Processing Hierarchy...
+
+[Rel 4239352] --- Final Hours for Release 4239352 ---
+[Rel 4239352]   [🌍 India]
+[Rel 4239352]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4239330] =========================================
+[Rel 4239330] Checking Release ID: 4239330 [Initial PM ID: ]...
+[Rel 4239330] 📌 Root Item Type: Task
+[Rel 4239330] ✔️ Resolution is 'Duplicate'.
+[Rel 4239330] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4239330] 📅 Created: 26-01-2024 | Resolved: 26-01-2024
+[Rel 4239330] Processing Hierarchy...
+
+[Rel 4239330] --- Final Hours for Release 4239330 ---
+[Rel 4239330]   [🌍 India]
+[Rel 4239330]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4553287] =========================================
+[Rel 4553287] Checking Release ID: 4553287 [Initial PM ID: ]...
+[Rel 4553287] 📌 Root Item Type: Story
+[Rel 4553287] ✔️ Resolution is 'Solved'.
+[Rel 4553287] 👤 Release Owned By: Le Van Viet (MS/EJH42-VM) (Tasks may be owned by others)
+[Rel 4553287] 📅 Created: 09-05-2024 | Resolved: 12-11-2024
+[Rel 4553287] Processing Hierarchy...
+
+[Rel 4553287] --- Final Hours for Release 4553287 ---
+[Rel 4553287]   [🌍 India]
+[Rel 4553287]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4952584] =========================================
+[Rel 4952584] Checking Release ID: 4952584 [Initial PM ID: ]...
+[Rel 4952584] 📌 Root Item Type: Story
+[Rel 4952584] ✔️ Resolution is 'Solved'.
+[Rel 4952584] 👤 Release Owned By: Ngo Minh Tri (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 4952584] 📅 Created: 11-09-2024 | Resolved: 05-01-2026
+[Rel 4952584] Processing Hierarchy...
+
+[Rel 4952584] --- Final Hours for Release 4952584 ---
+[Rel 4952584]   [🌍 India]
+[Rel 4952584]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4952594] =========================================
+[Rel 4952594] Checking Release ID: 4952594 [Initial PM ID: ]...
+[Rel 4952594] 📌 Root Item Type: Story
+[Rel 4952594] ✔️ Resolution is 'Solved'.
+[Rel 4952594] 👤 Release Owned By: Ngo Minh Tri (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 4952594] 📅 Created: 11-09-2024 | Resolved: 24-12-2025
+[Rel 4952594] Processing Hierarchy...
+
+[Rel 4952594] --- Final Hours for Release 4952594 ---
+[Rel 4952594]   [🌍 India]
+[Rel 4952594]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4239351] =========================================
+[Rel 4239351] Checking Release ID: 4239351 [Initial PM ID: ]...
+[Rel 4239351] 📌 Root Item Type: Task
+[Rel 4239351] ✔️ Resolution is 'Duplicate'.
+[Rel 4239351] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4239351] 📅 Created: 26-01-2024 | Resolved: 26-01-2024
+[Rel 4239351] Processing Hierarchy...
+
+[Rel 4239351] --- Final Hours for Release 4239351 ---
+[Rel 4239351]   [🌍 India]
+[Rel 4239351]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4180435] =========================================
+[Rel 4180435] Checking Release ID: 4180435 [Initial PM ID: ]...
+[Rel 4180435] 📌 Root Item Type: Review
+[Rel 4180435] ✔️ Resolution is 'Passed'.
+[Rel 4180435] 👤 Release Owned By: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) (Tasks may be owned by others)
+[Rel 4180435] 📅 Created: 07-01-2024 | Resolved: 20-02-2024
+[Rel 4180435] Processing Hierarchy...
+
+[Rel 4180435] --- Final Hours for Release 4180435 ---
+[Rel 4180435]   [🌍 India]
+[Rel 4180435]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4252018] =========================================
+[Rel 4252018] Checking Release ID: 4252018 [Initial PM ID: ]...
+[Rel 4252018] 📌 Root Item Type: Review
+[Rel 4252018] ✔️ Resolution is 'Cancelled'.
+[Rel 4252018] 👤 Release Owned By: Nguyen Le Quy (MS/EHV22-VM) (Tasks may be owned by others)
+[Rel 4252018] 📅 Created: 31-01-2024 | Resolved: 31-01-2024
+[Rel 4252018] Processing Hierarchy...
+
+[Rel 4252018] --- Final Hours for Release 4252018 ---
+[Rel 4252018]   [🌍 Vietnam]
+[Rel 4252018]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4239331] =========================================
+[Rel 4239331] Checking Release ID: 4239331 [Initial PM ID: ]...
+[Rel 4239331] 📌 Root Item Type: Task
+[Rel 4239331] ✔️ Resolution is 'Duplicate'.
+[Rel 4239331] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4239331] 📅 Created: 26-01-2024 | Resolved: 26-01-2024
+[Rel 4239331] Processing Hierarchy...
+
+[Rel 4239331] --- Final Hours for Release 4239331 ---
+[Rel 4239331]   [🌍 India]
+[Rel 4239331]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4243400] =========================================
+[Rel 4243400] Checking Release ID: 4243400 [Initial PM ID: ]...
+[Rel 4243400] 📌 Root Item Type: Task
+[Rel 4243400] ✔️ Resolution is 'Solved'.
+[Rel 4243400] 👤 Release Owned By: Ajay Krishna R V (MS/EBB7-ETAS) (Tasks may be owned by others)
+[Rel 4243400] 📅 Created: 29-01-2024 | Resolved: 28-08-2024
+[Rel 4243400] Processing Hierarchy...
+
+[Rel 4243400] --- Final Hours for Release 4243400 ---
+[Rel 4243400]   [🌍 India]
+[Rel 4243400]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4211587] =========================================
+[Rel 4211587] Checking Release ID: 4211587 [Initial PM ID: ]...
+[Rel 4211587] 📌 Root Item Type: Review
+[Rel 4211587] ✔️ Resolution is 'Passed'.
+[Rel 4211587] 👤 Release Owned By: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) (Tasks may be owned by others)
+[Rel 4211587] 📅 Created: 17-01-2024 | Resolved: 25-01-2024
+[Rel 4211587] Processing Hierarchy...
+
+[Rel 4211587] --- Final Hours for Release 4211587 ---
+[Rel 4211587]   [🌍 India]
+[Rel 4211587]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4199646] =========================================
+[Rel 4199646] Checking Release ID: 4199646 [Initial PM ID: ]...
+[Rel 4199646] 📌 Root Item Type: Review
+[Rel 4199646] ✔️ Resolution is 'Passed'.
+[Rel 4199646] 👤 Release Owned By: Nguyen Nhat Khang (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 4199646] 📅 Created: 11-01-2024 | Resolved: 12-01-2024
+[Rel 4199646] Processing Hierarchy...
+
+[Rel 4199646] --- Final Hours for Release 4199646 ---
+[Rel 4199646]   [🌍 Vietnam]
+[Rel 4199646]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4182881] =========================================
+[Rel 4182881] Checking Release ID: 4182881 [Initial PM ID: ]...
+[Rel 4182881] 📌 Root Item Type: Task
+[Rel 4182881] ✔️ Resolution is 'Solved'.
+[Rel 4182881] 👤 Release Owned By: Nguyen Nhat Khang (MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 4182881] 📅 Created: 08-01-2024 | Resolved: 12-01-2024
+[Rel 4182881] Processing Hierarchy...
+
+[Rel 4182881] --- Final Hours for Release 4182881 ---
+[Rel 4182881]   [🌍 Vietnam]
+[Rel 4182881]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 3987727] =========================================
+[Rel 3987727] Checking Release ID: 3987727 [Initial PM ID: BM-00068456]...
+[Rel 3987727] 📌 Root Item Type: Release
+[Rel 3987727] ✔️ Resolution is 'Solved'.
+[Rel 3987727] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 3987727] 📅 Created: 23-10-2023 | Resolved: 29-11-2023
+[Rel 3987727] Processing Hierarchy...
+
+[Rel 3987727] --- Final Hours for Release 3987727 ---
+[Rel 3987727]   [🌍 India]
+[Rel 3987727]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5050080] =========================================
+[Rel 5050080] Checking Release ID: 5050080 [Initial PM ID: BM-00092864]...
+[Rel 5050080] 📌 Root Item Type: Release
+[Rel 5050080] ✔️ Resolution is 'Solved'.
+[Rel 5050080] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 5050080] 📅 Created: 14-10-2024 | Resolved: 02-10-2025
+[Rel 5050080] Processing Hierarchy...
+
+[Rel 5050080] --- Final Hours for Release 5050080 ---
+[Rel 5050080]   [🌍 India]
+[Rel 5050080]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7175289] =========================================
+[Rel 7175289] Checking Release ID: 7175289 [Initial PM ID: BM-00107984]...
+[Rel 7175289] 📌 Root Item Type: Release
+[Rel 7175289] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7175289] 👤 Release Owned By: Nguyen Le Gia Bach (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 7175289] 📅 Created: 30-06-2026 | Resolved: No Date
+[Rel 7175289] Processing Hierarchy...
+
+[Rel 7175289] --- Final Hours for Release 7175289 ---
+[Rel 7175289]   [🌍 India]
+[Rel 7175289]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6139597] =========================================
+[Rel 6139597] Checking Release ID: 6139597 [Initial PM ID: BM-00099111]...
+[Rel 6139597] 📌 Root Item Type: Release
+[Rel 6139597] ✔️ Resolution is 'Solved'.
+[Rel 6139597] 👤 Release Owned By: Nguyen Le Gia Bach (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 6139597] 📅 Created: 15-09-2025 | Resolved: 30-06-2026
+[Rel 6139597] Processing Hierarchy...
+[Rel 6139597]       → [DCOM DEV ] Added 8.00 hrs | ID: 6217989 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][DCOM][Constr][MAZDA][ESP10CB][IPM9_RC][BL12.6.1][SD + dSD + Impl] Update read out data for DID$DD19 | Created: 10-10-2025 | Resolved: 22-10-2025
+[Rel 6139597]       → [DCOM DEV ] Added 2.00 hrs | ID: 6217990 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr] [MAZDA][ESP10CB][IPM9_RC][BL12.6.1][SD + dSD + Impl] Update read out data for DID$DD19 | Created: 10-10-2025 | Resolved: 22-10-2025
+[Rel 6139597]       → [DCOM DEV ] Added 2.00 hrs | ID: 6217992 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr] [MAZDA][ESP10CB][IPM9_RC][BL12.6.1][SW CT] Update read out data for DID$DD19 | Created: 10-10-2025 | Resolved: 22-10-2025
+[Rel 6139597]       → [DCOM DEV ] Added 2.00 hrs | ID: 6217991 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][DCOM][Constr][MAZDA][ESP10CB][IPM9_RC][BL12.6.1][SW CT] Update read out data for DID$DD19 | Created: 10-10-2025 | Resolved: 22-10-2025
+[Rel 6139597]       → [DCOM DEV ] Added 1.00 hrs | ID: 6262857 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][ReqEng][MAZDA][ESP10CB][IPM9_RC][BL12.6.1] Update read out data for DID$DD19 | Created: 21-10-2025 | Resolved: 22-10-2025
+[Rel 6139597]       → [DCOM DEV ] Added 1.00 hrs | ID: 6217995 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][DCOM][ReqEng][MAZDA][ESP10CB][IPM9_RC][BL12.6.1] Update read out data for DID$DD19 | Created: 10-10-2025 | Resolved: 22-10-2025
+[Rel 6139597]     → [NET DEV ] Added 40.00 hrs | ID: 6358205 | Type: task | Dept: 'var' | Owner: Nguyen Trong Nhat (MS/EJH21-VM) | Country: India | Title: [MAZDA][ESP10CB][J12S_IPM9][GeneralBaseline][Task][VAR] Variant Coding CFS Verification<br/>  | Created: 11-11-2025 | Resolved: 13-01-2026
+[Rel 6139597]       → [NET DEV ] Added 0.50 hrs | ID: 6358300 | Type: review | Dept: 'var' | Owner: Nguyen Trong Nhat (MS/EJH21-VM) | Country: India | Title: [MAZDA][ESP10CB][J12S_IPM9][GeneralBaseline][Review][VAR] Variant Coding CFS Verification | Created: 11-11-2025 | Resolved: 13-01-2026
+
+[Rel 6139597] --- Final Hours for Release 6139597 ---
+[Rel 6139597]   [🌍 Vietnam]
+[Rel 6139597]     DCOM_DEV: 16.00 hrs
+[Rel 6139597]   [🌍 India]
+[Rel 6139597]     NET_DEV: 40.50 hrs
+
+[Rel 5433110] =========================================
+[Rel 5433110] Checking Release ID: 5433110 [Initial PM ID: | 232 | MAZDA_ESP10_J12S_IPM7RC6_IPM7.5RC7_Plan.mpp | {852de7de-b7d7-ee11-b89d-20c19bd6dc8c} | 2.1.9.1]...
+[Rel 5433110] 📌 Root Item Type: Release
+[Rel 5433110] ✔️ Resolution is 'Solved'.
+[Rel 5433110] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 5433110] 📅 Created: 18-02-2025 | Resolved: 02-10-2025
+[Rel 5433110] Processing Hierarchy...
+
+[Rel 5433110] --- Final Hours for Release 5433110 ---
+[Rel 5433110]   [🌍 India]
+[Rel 5433110]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6075789] =========================================
+[Rel 6075789] Checking Release ID: 6075789 [Initial PM ID: BM-00092843]...
+[Rel 6075789] 📌 Root Item Type: Release
+[Rel 6075789] ✔️ Resolution is 'Solved'.
+[Rel 6075789] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 6075789] 📅 Created: 26-08-2025 | Resolved: 25-06-2026
+[Rel 6075789] Processing Hierarchy...
+[Rel 6075789]     → [DCOM DEV ] Added 107.90 hrs | ID: 6277209 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][DCOM][MAZDA][ESP10CB][J03M][GeneralBaseline][SW-PCM] CFS Verification &amp; Deliverables | Created: 24-10-2025 | Resolved: 23-12-2025
+
+[Rel 6075789] --- Final Hours for Release 6075789 ---
+[Rel 6075789]   [🌍 Vietnam]
+[Rel 6075789]     DCOM_DEV: 107.90 hrs
+
+[Rel 5032875] =========================================
+[Rel 5032875] Checking Release ID: 5032875 [Initial PM ID: BM-00092864]...
+[Rel 5032875] 📌 Root Item Type: Release
+[Rel 5032875] ✔️ Resolution is 'Solved'.
+[Rel 5032875] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 5032875] 📅 Created: 08-10-2024 | Resolved: 02-10-2025
+[Rel 5032875] Processing Hierarchy...
+[Rel 5032875]       → [DCOM DEV ] Added 1.00 hrs | ID: 5279476 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][ReqEng][EPIC][MAZDA][ESP10][J12S][BL12_5_2][DCOM] Update scope for IPM9 | Created: 24-12-2024 | Resolved: 20-08-2025
+[Rel 5032875]       → [DCOM DEV ] Added 1.00 hrs | ID: 6006155 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][ReqEng][EPIC][MAZDA][ESP10][J12S][BL12_5_2][DCOM] Update scope for IPM9 | Created: 04-08-2025 | Resolved: 20-08-2025
+[Rel 5032875]       → [DCOM DEV ] Added 1.50 hrs | ID: 5279471 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][EPIC][MAZDA][ESP10][J12S][BL12_5_2][DCOM][SD + dSD + Impl] Update scope for IPM9 | Created: 24-12-2024 | Resolved: 20-08-2025
+[Rel 5032875]       → [DCOM DEV ] Added 40.00 hrs | ID: 5279470 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][EPIC][MAZDA][ESP10][J12S][BL12_5_2][DCOM][SD + dSD + Impl] Update scope for IPM9 | Created: 24-12-2024 | Resolved: 20-08-2025
+[Rel 5032875]       → [DCOM DEV ] Added 1.50 hrs | ID: 5279473 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][EPIC][MAZDA][ESP10][J12S][BL12_5_2][DCOM][SW CT] Update scope for IPM9 | Created: 24-12-2024 | Resolved: 20-08-2025
+[Rel 5032875]       → [DCOM DEV ] Added 16.00 hrs | ID: 5279472 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][EPIC][MAZDA][ESP10][J12S][BL12_5_2][DCOM][SW CT] Update scope for IPM9 | Created: 24-12-2024 | Resolved: 20-08-2025
+[Rel 5032875]       → [NET DEV ] Added 8.00 hrs | ID: 6045984 | Type: task | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [TASK][MAZDA][ESP10][J12S][BL12_5_3][VAR] CFS preparation | Created: 15-08-2025 | Resolved: 19-08-2025
+[Rel 5032875]         → [NET DEV ] Added 8.00 hrs | ID: 6046078 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [REVIEW][MAZDA][ESP10][J12S][BL12_5_3][VAR] CFS preparation | Created: 15-08-2025 | Resolved: 19-08-2025
+[Rel 5032875]       → [NET DEV ] Added 52.00 hrs | ID: 5657949 | Type: task | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [TASK][MAZDA][ESP10][J12S][BL12_5_3][VAR] GCC learning logic addition | Created: 22-04-2025 | Resolved: 03-09-2025
+[Rel 5032875]         → [NET DEV ] Added 8.00 hrs | ID: 6045596 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [REVIEW][MAZDA][ESP10][J12S][BL12_5_3][VAR] GCC learning logic addition | Created: 15-08-2025 | Resolved: 03-09-2025
+[Rel 5032875]     → [DCOM DEV ] Added 1.00 hrs | ID: 5973966 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][MZC][J12S][DCOM][CFS] CAN Diagnosis Functional Description | Created: 24-07-2025 | Resolved: 30-07-2025
+[Rel 5032875]     → [DCOM DEV ] Added 1.00 hrs | ID: 5973959 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][MZC][J12S][DCOM][CFS] CAN Diagnosis Functional Description | Created: 24-07-2025 | Resolved: 30-07-2025
+
+[Rel 5032875] --- Final Hours for Release 5032875 ---
+[Rel 5032875]   [🌍 Vietnam]
+[Rel 5032875]     DCOM_DEV: 63.00 hrs
+[Rel 5032875]   [🌍 India]
+[Rel 5032875]     NET_DEV: 76.00 hrs
+
+[Rel 4217956] =========================================
+[Rel 4217956] Checking Release ID: 4217956 [Initial PM ID: BM-00092843]...
+[Rel 4217956] 📌 Root Item Type: Release
+[Rel 4217956] ✔️ Resolution is 'Solved'.
+[Rel 4217956] 👤 Release Owned By: Nguyen Chau Long (MS/EJH2-VM) (Tasks may be owned by others)
+[Rel 4217956] 📅 Created: 18-01-2024 | Resolved: 31-10-2025
+[Rel 4217956] Processing Hierarchy...
+[Rel 4217956]       → [NET DEV ] Added 40.00 hrs | ID: 5052379 | Type: task | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL09][Task][VAR] CFS preparation | Created: 14-10-2024 | Resolved: 04-08-2025
+[Rel 4217956]         → [NET DEV ] Added 8.00 hrs | ID: 5815246 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL09][Review][VAR] CFS preparation | Created: 12-06-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET DEV ] Added 40.00 hrs | ID: 5742386 | Type: task | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL09][Task][VAR] Remove additional variant for Vehicle Test | Created: 20-05-2025 | Resolved: 04-08-2025
+[Rel 4217956]         → [NET DEV ] Added 8.00 hrs | ID: 5908189 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL09][Review][VAR] Remove additional variant for Vehicle Test | Created: 07-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET DEV ] Added 0.50 hrs | ID: 5653704 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][MAZDA][ESP10][J03M][BL09][NET][SW CT] EDR Development and PrkBrkActv_D_Actl | Created: 21-04-2025 | Resolved: 30-05-2025
+[Rel 4217956]       → [NET DEV ] Added 16.50 hrs | ID: 5653703 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL09][NET][SW CT] EDR Development and PrkBrkActv_D_Actl | Created: 21-04-2025 | Resolved: 30-05-2025
+[Rel 4217956]       → [NET DEV ] Added 10.00 hrs | ID: 5653698 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL09][NET][SW UT] EDR Development and PrkBrkActv_D_Actl | Created: 21-04-2025 | Resolved: 30-05-2025
+[Rel 4217956]       → [NET DEV ] Added 51.50 hrs | ID: 5653693 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL09][NET][Impl.] EDR Development and PrkBrkActv_D_Actl | Created: 21-04-2025 | Resolved: 30-05-2025
+[Rel 4217956]       → [NET DEV ] Added 2.50 hrs | ID: 5653696 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][MAZDA][ESP10][J03M][BL09][NET][Impl.] EDR Development and PrkBrkActv_D_Actl | Created: 21-04-2025 | Resolved: 30-05-2025
+[Rel 4217956]       → [NET DEV ] Added 0.50 hrs | ID: 5653701 | Type: review | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Review][MAZDA][ESP10][J03M][BL09][NET][SW UT] EDR Development and PrkBrkActv_D_Actl | Created: 21-04-2025 | Resolved: 30-05-2025
+[Rel 4217956]       → [DCOM DEV ] Added 28.00 hrs | ID: 5473713 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][MAZDA][ESP10][J03M][BL09][Task][SW CT] EDR Development | Created: 28-02-2025 | Resolved: 10-07-2025
+[Rel 4217956]       → [DCOM DEV ] Added 20.50 hrs | ID: 5473714 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][MAZDA][ESP10][J03M][BL09][SW CT] EDR Development | Created: 28-02-2025 | Resolved: 10-07-2025
+[Rel 4217956]       → [DCOM DEV ] Added 36.00 hrs | ID: 5473712 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][MAZDA][ESP10][J03M][BL09][SD + dSD + Impl] EDR Development | Created: 28-02-2025 | Resolved: 10-07-2025
+[Rel 4217956]       → [DCOM DEV ] Added 180.00 hrs | ID: 5473711 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][MAZDA][ESP10][J03M][BL09][Task][SD + dSD + Impl] EDR Development | Created: 28-02-2025 | Resolved: 10-07-2025
+[Rel 4217956]       → [DCOM DEV ] Added 16.00 hrs | ID: 5674127 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][ReqEng][MAZDA][ESP10][J03M][BL09][Epic][DCOM] EDR Development | Created: 28-04-2025 | Resolved: 10-07-2025
+[Rel 4217956]       → [DCOM DEV ] Added 116.00 hrs | ID: 5473717 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][ReqEng][MAZDA][ESP10][J03M][BL09][Epic][DCOM] EDR Development | Created: 28-02-2025 | Resolved: 10-07-2025
+[Rel 4217956]       → [NET DEV ] Added 0.50 hrs | ID: 5318072 | Type: task | Dept: 'var' | Owner: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) | Country: India | Title: [TASK][MAZDA][ESP10][J03M][BL07][VAR]Update SCBS2, VarUnsupportedFactoryOption FW | Created: 10-01-2025 | Resolved: 17-04-2025
+[Rel 4217956]         → [NET DEV ] Added 0.50 hrs | ID: 5647607 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [REVIEW][MAZDA][ESP10][J03M][BL07][VAR]Update SCBS2, VarUnsupportedFactoryOption FW | Created: 17-04-2025 | Resolved: 17-04-2025
+[Rel 4217956]       → [NET DEV ] Added 101.50 hrs | ID: 5278516 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][NET][MAZDA][ESP10][J03M][BL07[Impl.] Update ADAS Monitoring &amp; AVH performance update from JT | Created: 23-12-2024 | Resolved: 05-04-2025
+[Rel 4217956]       → [NET DEV ] Added 0.50 hrs | ID: 5278519 | Type: review | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Review][NET][Impl.][MAZDA][ESP10][J03M][BL07[Epic][LDM][SW UT] Update ADAS Monitoring &amp; AVH performance update from JT | Created: 23-12-2024 | Resolved: 28-02-2025
+[Rel 4217956]       → [NET DEV ] Added 4.00 hrs | ID: 5278517 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][NET][MAZDA][ESP10][J03M][BL07][Impl.] Update ADAS Monitoring &amp; AVH performance update from JT | Created: 23-12-2024 | Resolved: 05-04-2025
+[Rel 4217956]       → [NET DEV ] Added 5.00 hrs | ID: 5278518 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL07][SW UT] Update ADAS Monitoring &amp; AVH performance update from JT | Created: 23-12-2024 | Resolved: 05-04-2025
+[Rel 4217956]       → [NET DEV ] Added 6.00 hrs | ID: 5278521 | Type: review | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Review][NET][MAZDA][ESP10][J03M][BL07][SW CT] Update ADAS Monitoring &amp; AVH performance update from JT | Created: 23-12-2024 | Resolved: 05-04-2025
+[Rel 4217956]       → [NET DEV ] Added 25.00 hrs | ID: 5278520 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL07][SW CT] Update ADAS Monitoring &amp; AVH performance update from JT | Created: 23-12-2024 | Resolved: 05-04-2025
+[Rel 4217956]       → [NET DEV ] Added 1.50 hrs | ID: 5464048 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [REVIEW][[MAZDA][ESP10][J03M][BL08][LDM request] NET:MRCC development NET failure signal updated | Created: 26-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET DEV ] Added 7.50 hrs | ID: 5464034 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][[MAZDA][ESP10][J03M][BL08][LDM request] NET:MRCC development NET failure signal updated | Created: 26-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 20.00 hrs | ID: 5288212 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][EPIC][Mazda][ESP10][J03M][BL07][SW CT] Logic Improvement and Finalize Document | Created: 31-12-2024 | Resolved: 14-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 60.00 hrs | ID: 5288211 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][EPIC][Mazda][ESP10][J03M][BL07][SW CT] Logic Improvement and Finalize Document | Created: 31-12-2024 | Resolved: 14-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 120.00 hrs | ID: 5288209 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][EPIC][Mazda][ESP10][J03M][BL07][SD + dSD + Impl] Logic Improvement and Finalize Document | Created: 31-12-2024 | Resolved: 14-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 22.50 hrs | ID: 5288210 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][EPIC][Mazda][ESP10][J03M][BL07][SD + dSD + Impl] Logic Improvement and Finalize Document | Created: 31-12-2024 | Resolved: 14-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 2.00 hrs | ID: 5623005 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][ReqEng][EPIC][Mazda][ESP10][J03M][BL07] Logic Improvement and Finalize Document | Created: 10-04-2025 | Resolved: 14-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 16.00 hrs | ID: 5288215 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][ReqEng][EPIC][Mazda][ESP10][J03M][BL07] Logic Improvement and Finalize Document | Created: 31-12-2024 | Resolved: 14-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 128.00 hrs | ID: 5192451 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][EPIC][MAZDA][ESP10][J03M][BL05][DCOM][SD + dSD + Impl] Update SID0x14 and Defect Fix | Created: 25-11-2024 | Resolved: 09-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 32.00 hrs | ID: 5192453 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr][EPIC][MAZDA][ESP10][J03M][BL05][DCOM][SW CT] Update SID0x14 and Defect Fix | Created: 25-11-2024 | Resolved: 09-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 20.50 hrs | ID: 5192452 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][EPIC][MAZDA][ESP10][J03M][BL05][DCOM][SD + dSD + Impl] Update SID0x14 and Defect Fix | Created: 25-11-2024 | Resolved: 09-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 20.50 hrs | ID: 5192454 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr][EPIC][MAZDA][ESP10][J03M][BL05][DCOM][SW CT] Update SID0x14 and Defect Fix | Created: 25-11-2024 | Resolved: 09-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 32.00 hrs | ID: 5192457 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][ReqEng][EPIC][MAZDA][ESP10][J03M][BL05][DCOM] Update SID0x14 and Defect Fix | Created: 25-11-2024 | Resolved: 09-04-2025
+[Rel 4217956]       → [DCOM DEV ] Added 8.00 hrs | ID: 5614509 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][ReqEng][EPIC][MAZDA][ESP10][J03M][BL05][DCOM] Update SID0x14 and Defect Fix | Created: 08-04-2025 | Resolved: 09-04-2025
+[Rel 4217956]       → [NET DEV ] Added 139.00 hrs | ID: 4541439 | Type: task | Dept: 'var' | Owner: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) | Country: India | Title: [Mazda][ESP10][J03MN][BL04] VAR Migration and Adaptation | Created: 07-05-2024 | Resolved: 02-05-2025
+[Rel 4217956]         → [NET DEV ] Added 20.00 hrs | ID: 5648974 | Type: review | Dept: 'var' | Owner: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) | Country: India | Title: [Mazda][ESP10][J03MN][BL04][Review] VAR Migration and Adaptation | Created: 17-04-2025 | Resolved: 02-05-2025
+[Rel 4217956]       → [NET DEV ] Added 0.10 hrs | ID: 4650217 | Type: task | Dept: 'var' | Owner: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) | Country: India | Title: [Mazda][ESP10][J03MN][ADAS] Variant Implementation Contributes To Functional Requirements | Created: 07-06-2024 | Resolved: 02-05-2025
+[Rel 4217956]       → [DCOM REWORK] Added 0.50 hrs | ID: 6011147 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][DCOM][Constr] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][SD + dSD + Impl] Redundant NVM of &quot;EEPlantSafeKeyNumber&quot; | Created: 05-08-2025 | Resolved: 06-08-2025
+[Rel 4217956]       → [DCOM REWORK] Added 4.00 hrs | ID: 6011146 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [DCOM][Constr] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][SD + dSD + Impl] Redundant NVM of &quot;EEPlantSafeKeyNumber&quot; | Created: 05-08-2025 | Resolved: 06-08-2025
+[Rel 4217956]   → [DCOM DEV ] Added 116.00 hrs | ID: 5884792 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Mazda][DCOM] Non-development activities | Created: 01-07-2025 | Resolved: 31-10-2025
+[Rel 4217956]       → [NET DEV ] Added 20.00 hrs | ID: 5577779 | Type: task | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL08][Task][VAR] CDP update | Created: 31-03-2025 | Resolved: 02-05-2025
+[Rel 4217956]         → [NET DEV ] Added 0.50 hrs | ID: 5647874 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL08][Review][VAR] CDP update | Created: 17-04-2025 | Resolved: 17-04-2025
+[Rel 4217956]       → [NET REWORK] Added 1.00 hrs | ID: 5987931 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [TASK][NET][Impl.] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][SW UT] CAN signal of BpedMove_D_Actl doesnt relfect actual state | Created: 29-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET REWORK] Added 2.00 hrs | ID: 5987933 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][NET][Impl.] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][SW CT] CAN signal of BpedMove_D_Actl doesnt relfect actual state | Created: 29-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET REWORK] Added 1.00 hrs | ID: 5987930 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][NET][Impl.] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][Impl.] CAN signal of BpedMove_D_Actl doesnt relfect actual state | Created: 29-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET REWORK] Added 0.10 hrs | ID: 5987932 | Type: review | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Review][NET][Impl.] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][SW UT] CAN signal of BpedMove_D_Actl doesnt relfect actual state | Created: 29-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET REWORK] Added 0.50 hrs | ID: 5987934 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][NET][Impl.] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][SW CT] CAN signal of BpedMove_D_Actl doesnt relfect actual state | Created: 29-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]       → [NET REWORK] Added 28.00 hrs | ID: 5987929 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][NET][Impl.] Fix for Defect: [DEFECT][Mazda][ESP10][J03M][BL09.2][Impl.] CAN signal of BpedMove_D_Actl doesnt relfect actual state | Created: 29-07-2025 | Resolved: 04-08-2025
+[Rel 4217956]     → [DCOM DEV ] Added 1.00 hrs | ID: 5808709 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][MZC][J03M][DCOM][SSDS] Subsystem Specific Diagnostic Specification | Created: 10-06-2025 | Resolved: 31-10-2025
+[Rel 4217956]     → [DCOM DEV ] Added 1.00 hrs | ID: 5808634 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][MZC][J03M][DCOM][CFS] CAN Diagnosis Functional Description | Created: 10-06-2025 | Resolved: 02-10-2025
+[Rel 4217956]     → [DCOM DEV ] Added 2.00 hrs | ID: 5808718 | Type: review | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Review][MZC][J03M][DCOM][SSDS] Subsystem Specific Diagnostic Specification | Created: 10-06-2025 | Resolved: 02-10-2025
+[Rel 4217956]     → [DCOM DEV ] Added 1.00 hrs | ID: 5808625 | Type: task | Dept: 'dcom' | Owner: Trinh Gia Bao (MS/EHV32-VM) | Country: Vietnam | Title: [Task][MZC][J03M][DCOM][CFS] CAN Diagnosis Functional Description | Created: 10-06-2025 | Resolved: 02-10-2025
+[Rel 4217956]       → [NET DEV ] Added 4.00 hrs | ID: 5426830 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL08][NET][SW CT] NET fix for missing update | Created: 17-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET DEV ] Added 8.00 hrs | ID: 5426828 | Type: task | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [TASK][NET][Impl.][MAZDA][ESP10][J03M][BL08][Epic][NET][SW UT] NET fix for missing update | Created: 17-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET DEV ] Added 55.00 hrs | ID: 5426826 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL08][NET][Impl.] NET fix for missing update | Created: 17-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET DEV ] Added 1.00 hrs | ID: 5426829 | Type: review | Dept: 'net' | Owner: EXTERNAL Bui Tuan Dung (HCLTech, MS/EHV33-VM) | Country: Vietnam | Title: [Review][NET][Impl.][MAZDA][ESP10][J03M][BL08][Epic][NET][SW UT] NET fix for missing update | Created: 17-02-2025 | Resolved: 31-03-2025
+[Rel 4217956]       → [NET DEV ] Added 6.00 hrs | ID: 5426827 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][MAZDA][ESP10][J03M][BL08][NET][Impl.] NET fix for missing update | Created: 17-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET DEV ] Added 5.50 hrs | ID: 5426831 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [Review][MAZDA][ESP10][J03M][BL08][NET][SW CT] NET fix for missing update | Created: 17-02-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET DEV ] Added 40.00 hrs | ID: 5237070 | Type: task | Dept: 'var' | Owner: Huynh Khanh Khoi Nguyen (MS/EAA1-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL06][Task][VAR] Add additional variant for Vehicle Test | Created: 09-12-2024 | Resolved: 30-07-2025
+[Rel 4217956]         → [NET DEV ] Added 2.00 hrs | ID: 5909418 | Type: review | Dept: 'var' | Owner: EXTERNAL Nguyen Hoang Nhat Long (FPT Software, MS/EAS5-VM) | Country: India | Title: [MAZDA][ESP10][J03M][BL06][Review][VAR] Add additional variant for Vehicle Test | Created: 07-07-2025 | Resolved: 30-07-2025
+[Rel 4217956]       → [NET DEV ] Added 21.00 hrs | ID: 5239738 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][MAZDA][ESP10][J03M][BL06][NET] Add additional variant for Vehicle Test | Created: 10-12-2024 | Resolved: 02-04-2025
+[Rel 4217956]       → [NET DEV ] Added 2.50 hrs | ID: 5566640 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [REVIEW][MAZDA][ESP10][J03M][BL06][NET] Add additional variant for Vehicle Test | Created: 27-03-2025 | Resolved: 02-04-2025
+[Rel 4217956]       → [NET REWORK] Added 1.00 hrs | ID: 5475558 | Type: review | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [REVIEW][Mazda][ESP10][J03MN][BL08] HlaCtl_D_Actl, SlaCtl_D_Actl signals in CAN are set as &quot;Not Confiugred&quot; | Created: 01-03-2025 | Resolved: 03-04-2025
+[Rel 4217956]       → [NET REWORK] Added 6.00 hrs | ID: 5475557 | Type: task | Dept: 'net' | Owner: Le Thi My Duyen (MS/EHV22-VM) | Country: Vietnam | Title: [TASK][Mazda][ESP10][J03MN][BL08] HlaCtl_D_Actl, SlaCtl_D_Actl signals in CAN are set as &quot;Not Confiugred&quot; | Created: 01-03-2025 | Resolved: 03-04-2025
+
+[Rel 4217956] --- Final Hours for Release 4217956 ---
+[Rel 4217956]   [🌍 India]
+[Rel 4217956]     NET_DEV: 318.60 hrs
+[Rel 4217956]   [🌍 Vietnam]
+[Rel 4217956]     NET_DEV: 335.50 hrs
+[Rel 4217956]     DCOM_DEV: 999.00 hrs
+[Rel 4217956]     NET_Rework: 39.60 hrs
+[Rel 4217956]     DCOM_Rework: 4.50 hrs
+
+
+✅ Success! All threads finished.
+📊 Valid 0-Hour Tasks Found: 39
+💾 Processed detailed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Mazda_Final_with_countOfTask_hours.xlsx'.

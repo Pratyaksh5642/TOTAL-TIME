@@ -1,0 +1,1169 @@
+
+---> [NEW RUN STARTING: AUTO-FILL PM ID FROM CURRENT + PARENT (30 THREADS)] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\Extraction_NEW_Log_JOEM_Final_with_countOfTask.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\Added_NEW_Log_JOEM_Final_with_countOfTask.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 109 rows from input file...
+Reading complete. Starting ThreadPoolExecutor with 30 threads...
+
+[Rel 7170128] =========================================
+[Rel 7170128] Checking Release ID: 7170128 [Initial PM ID: ]...
+[Rel 7170128] 📌 Root Item Type: Story
+[Rel 7170128] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7097993] =========================================
+[Rel 7097993] Checking Release ID: 7097993 [Initial PM ID: ]...
+[Rel 7097993] 📌 Root Item Type: Story
+[Rel 7097993] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7125494] =========================================
+[Rel 7125494] Checking Release ID: 7125494 [Initial PM ID: ]...
+[Rel 7125494] 📌 Root Item Type: Epic
+[Rel 7125494] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7250456] =========================================
+[Rel 7250456] Checking Release ID: 7250456 [Initial PM ID: ]...
+[Rel 7250456] 📌 Root Item Type: Task
+[Rel 7250456] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7250456] 👤 Release Owned By: Sugisaki Takato (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 7250456] 📅 Created: 17-07-2026 | Resolved: No Date
+[Rel 7250456] Processing Hierarchy...
+
+[Rel 7250456] --- Final Hours for Release 7250456 ---
+[Rel 7250456]   [🌍 Japan]
+[Rel 7250456]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7269075] =========================================
+[Rel 7269075] Checking Release ID: 7269075 [Initial PM ID: ]...
+[Rel 7269075] 📌 Root Item Type: Task
+[Rel 7269075] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7269075] 👤 Release Owned By: Tran Hoai Phu (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7269075] 📅 Created: 23-07-2026 | Resolved: No Date
+[Rel 7269075] Processing Hierarchy...
+
+[Rel 7269075] --- Final Hours for Release 7269075 ---
+[Rel 7269075]   [🌍 India]
+[Rel 7269075]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7210801] =========================================
+[Rel 7210801] Checking Release ID: 7210801 [Initial PM ID: ]...
+[Rel 7210801] 📌 Root Item Type: Review
+[Rel 7210801] ✔️ Resolution is 'Passed'.
+[Rel 7210801] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7210801] 📅 Created: 08-07-2026 | Resolved: 22-07-2026
+[Rel 7210801] Processing Hierarchy...
+
+[Rel 7210801] --- Final Hours for Release 7210801 ---
+[Rel 7210801]   [🌍 India]
+[Rel 7210801]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7164633] =========================================
+[Rel 7164633] Checking Release ID: 7164633 [Initial PM ID: ]...
+[Rel 7164633] 📌 Root Item Type: Task
+[Rel 7164633] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7164633] 👤 Release Owned By: Hoang Rop (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7164633] 📅 Created: 26-06-2026 | Resolved: No Date
+[Rel 7164633] Processing Hierarchy...
+
+[Rel 7164633] --- Final Hours for Release 7164633 ---
+[Rel 7164633]   [🌍 India]
+[Rel 7164633]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7183798] =========================================
+[Rel 7183798] Checking Release ID: 7183798 [Initial PM ID: ]...
+[Rel 7183798] 📌 Root Item Type: Review
+[Rel 7183798] ✔️ Resolution is 'Passed'.
+[Rel 7183798] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7183798] 📅 Created: 01-07-2026 | Resolved: 22-07-2026
+[Rel 7183798] Processing Hierarchy...
+
+[Rel 7183798] --- Final Hours for Release 7183798 ---
+[Rel 7183798]   [🌍 India]
+[Rel 7183798]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7368418] =========================================
+[Rel 7368418] Checking Release ID: 7368418 [Initial PM ID: ]...
+[Rel 7368418] 📌 Root Item Type: Task
+[Rel 7368418] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7368418] 👤 Release Owned By: Tran Hoai Phu (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7368418] 📅 Created: 19-08-2026 | Resolved: No Date
+[Rel 7368418] Processing Hierarchy...
+
+[Rel 7368418] --- Final Hours for Release 7368418 ---
+[Rel 7368418]   [🌍 India]
+[Rel 7368418]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7270812] =========================================
+[Rel 7270812] Checking Release ID: 7270812 [Initial PM ID: ]...
+[Rel 7270812] 📌 Root Item Type: Review
+[Rel 7270812] ✔️ Resolution is 'Passed'.
+[Rel 7270812] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7270812] 📅 Created: 23-07-2026 | Resolved: 12-08-2026
+[Rel 7270812] Processing Hierarchy...
+
+[Rel 7270812] --- Final Hours for Release 7270812 ---
+[Rel 7270812]   [🌍 India]
+[Rel 7270812]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7238416] =========================================
+[Rel 7238416] Checking Release ID: 7238416 [Initial PM ID: ]...
+[Rel 7238416] 📌 Root Item Type: Task
+[Rel 7238416] ✔️ Resolution is 'Solved'.
+[Rel 7238416] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7238416] 📅 Created: 15-07-2026 | Resolved: 19-08-2026
+[Rel 7238416] Processing Hierarchy...
+
+[Rel 7238416] --- Final Hours for Release 7238416 ---
+[Rel 7238416]   [🌍 Vietnam]
+[Rel 7238416]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6992910] =========================================
+[Rel 6992910] Checking Release ID: 6992910 [Initial PM ID: ]...
+[Rel 6992910] 📌 Root Item Type: Review
+[Rel 6992910] ✔️ Resolution is 'Passed'.
+[Rel 6992910] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 6992910] 📅 Created: 11-05-2026 | Resolved: 22-06-2026
+[Rel 6992910] Processing Hierarchy...
+
+[Rel 6992910] --- Final Hours for Release 6992910 ---
+[Rel 6992910]   [🌍 Vietnam]
+[Rel 6992910]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6942398] =========================================
+[Rel 6942398] Checking Release ID: 6942398 [Initial PM ID: ]...
+[Rel 6942398] 📌 Root Item Type: Review
+[Rel 6942398] ✔️ Resolution is 'Passed'.
+[Rel 6942398] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 6942398] 📅 Created: 24-04-2026 | Resolved: 20-05-2026
+[Rel 6942398] Processing Hierarchy...
+
+[Rel 6942398] --- Final Hours for Release 6942398 ---
+[Rel 6942398]   [🌍 Vietnam]
+[Rel 6942398]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6934285] =========================================
+[Rel 6934285] Checking Release ID: 6934285 [Initial PM ID: ]...
+[Rel 6934285] 📌 Root Item Type: Task
+[Rel 6934285] ✔️ Resolution is 'Solved'.
+[Rel 6934285] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 6934285] 📅 Created: 23-04-2026 | Resolved: 22-06-2026
+[Rel 6934285] Processing Hierarchy...
+
+[Rel 6934285] --- Final Hours for Release 6934285 ---
+[Rel 6934285]   [🌍 Vietnam]
+[Rel 6934285]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6679516] =========================================
+[Rel 6679516] Checking Release ID: 6679516 [Initial PM ID: ]...
+[Rel 6679516] 📌 Root Item Type: Epic
+[Rel 6679516] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7225491] =========================================
+[Rel 7225491] Checking Release ID: 7225491 [Initial PM ID: ]...
+[Rel 7225491] 📌 Root Item Type: Story
+[Rel 7225491] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7225491] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7225491] 📅 Created: 13-07-2026 | Resolved: No Date
+[Rel 7225491] Processing Hierarchy...
+
+[Rel 7225491] --- Final Hours for Release 7225491 ---
+[Rel 7225491]   [🌍 India]
+[Rel 7225491]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7125617] =========================================
+[Rel 7125617] Checking Release ID: 7125617 [Initial PM ID: ]...
+[Rel 7125617] 📌 Root Item Type: Task
+[Rel 7125617] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7125617] 👤 Release Owned By: Sugisaki Takato (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 7125617] 📅 Created: 16-06-2026 | Resolved: No Date
+[Rel 7125617] Processing Hierarchy...
+
+[Rel 7125617] --- Final Hours for Release 7125617 ---
+[Rel 7125617]   [🌍 Japan]
+[Rel 7125617]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6884337] =========================================
+[Rel 6884337] Checking Release ID: 6884337 [Initial PM ID: ]...
+[Rel 6884337] 📌 Root Item Type: Epic
+[Rel 6884337] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6938693] =========================================
+[Rel 6938693] Checking Release ID: 6938693 [Initial PM ID: ]...
+[Rel 6938693] 📌 Root Item Type: Review
+[Rel 6938693] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6938693] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 6938693] 📅 Created: 24-04-2026 | Resolved: No Date
+[Rel 6938693] Processing Hierarchy...
+
+[Rel 6938693] --- Final Hours for Release 6938693 ---
+[Rel 6938693]   [🌍 Others]
+[Rel 6938693]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7174846] =========================================
+[Rel 7174846] Checking Release ID: 7174846 [Initial PM ID: ]...
+[Rel 7174846] 📌 Root Item Type: Story
+[Rel 7174846] ✔️ Resolution is 'Solved'.
+[Rel 7174846] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7174846] 📅 Created: 30-06-2026 | Resolved: 10-08-2026
+[Rel 7174846] Processing Hierarchy...
+
+[Rel 7174846] --- Final Hours for Release 7174846 ---
+[Rel 7174846]   [🌍 India]
+[Rel 7174846]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6164095] =========================================
+[Rel 6164095] Checking Release ID: 6164095 [Initial PM ID: ]...
+[Rel 6164095] 📌 Root Item Type: Epic
+[Rel 6164095] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7321912] =========================================
+[Rel 7321912] Checking Release ID: 7321912 [Initial PM ID: ]...
+[Rel 7321912] 📌 Root Item Type: Story
+[Rel 7321912] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7321912] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7321912] 📅 Created: 06-08-2026 | Resolved: No Date
+[Rel 7321912] Processing Hierarchy...
+
+[Rel 7321912] --- Final Hours for Release 7321912 ---
+[Rel 7321912]   [🌍 India]
+[Rel 7321912]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7210357] =========================================
+[Rel 7210357] Checking Release ID: 7210357 [Initial PM ID: ]...
+[Rel 7210357] 📌 Root Item Type: Story
+[Rel 7210357] ✔️ Resolution is 'Solved'.
+[Rel 7210357] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7210357] 📅 Created: 08-07-2026 | Resolved: 19-08-2026
+[Rel 7210357] Processing Hierarchy...
+
+[Rel 7210357] --- Final Hours for Release 7210357 ---
+[Rel 7210357]   [🌍 Vietnam]
+[Rel 7210357]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7321939] =========================================
+[Rel 7321939] Checking Release ID: 7321939 [Initial PM ID: ]...
+[Rel 7321939] 📌 Root Item Type: Story
+[Rel 7321939] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7321939] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7321939] 📅 Created: 06-08-2026 | Resolved: No Date
+[Rel 7321939] Processing Hierarchy...
+
+[Rel 7321939] --- Final Hours for Release 7321939 ---
+[Rel 7321939]   [🌍 India]
+[Rel 7321939]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6639498] =========================================
+[Rel 6639498] Checking Release ID: 6639498 [Initial PM ID: ]...
+[Rel 6639498] 📌 Root Item Type: Task
+[Rel 6639498] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6639498] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 6639498] 📅 Created: 03-02-2026 | Resolved: No Date
+[Rel 6639498] Processing Hierarchy...
+
+[Rel 6639498] --- Final Hours for Release 6639498 ---
+[Rel 6639498]   [🌍 Others]
+[Rel 6639498]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6582034] =========================================
+[Rel 6582034] Checking Release ID: 6582034 [Initial PM ID: ]...
+[Rel 6582034] 📌 Root Item Type: Task
+[Rel 6582034] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6582034] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 6582034] 📅 Created: 20-01-2026 | Resolved: No Date
+[Rel 6582034] Processing Hierarchy...
+
+[Rel 6582034] --- Final Hours for Release 6582034 ---
+[Rel 6582034]   [🌍 Others]
+[Rel 6582034]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6884366] =========================================
+[Rel 6884366] Checking Release ID: 6884366 [Initial PM ID: ]...
+[Rel 6884366] 📌 Root Item Type: Review
+[Rel 6884366] ✔️ Resolution is 'Cancelled'.
+[Rel 6884366] 👤 Release Owned By: Mochiduki Junnosuke (VM/EYV3-JP) (Tasks may be owned by others)
+[Rel 6884366] 📅 Created: 10-04-2026 | Resolved: 04-06-2026
+[Rel 6884366] Processing Hierarchy...
+
+[Rel 6884366] --- Final Hours for Release 6884366 ---
+[Rel 6884366]   [🌍 Japan]
+[Rel 6884366]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7397405] =========================================
+[Rel 7397405] Checking Release ID: 7397405 [Initial PM ID: ]...
+[Rel 7397405] 📌 Root Item Type: Story
+[Rel 7397405] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7397405] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7397405] 📅 Created: 27-08-2026 | Resolved: No Date
+[Rel 7397405] Processing Hierarchy...
+
+[Rel 7397405] --- Final Hours for Release 7397405 ---
+[Rel 7397405]   [🌍 Vietnam]
+[Rel 7397405]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6968824] =========================================
+[Rel 6968824] Checking Release ID: 6968824 [Initial PM ID: ]...
+[Rel 6968824] 📌 Root Item Type: Story
+[Rel 6968824] ✔️ Resolution is 'Solved'.
+[Rel 6968824] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 6968824] 📅 Created: 05-05-2026 | Resolved: 01-06-2026
+[Rel 6968824] Processing Hierarchy...
+
+[Rel 6968824] --- Final Hours for Release 6968824 ---
+[Rel 6968824]   [🌍 India]
+[Rel 6968824]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7170152] =========================================
+[Rel 7170152] Checking Release ID: 7170152 [Initial PM ID: ]...
+[Rel 7170152] 📌 Root Item Type: Story
+[Rel 7170152] ✔️ Resolution is 'Solved'.
+[Rel 7170152] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7170152] 📅 Created: 29-06-2026 | Resolved: 22-07-2026
+[Rel 7170152] Processing Hierarchy...
+
+[Rel 7170152] --- Final Hours for Release 7170152 ---
+[Rel 7170152]   [🌍 India]
+[Rel 7170152]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7208954] =========================================
+[Rel 7208954] Checking Release ID: 7208954 [Initial PM ID: ]...
+[Rel 7208954] 📌 Root Item Type: Story
+[Rel 7208954] ✔️ Resolution is 'Solved'.
+[Rel 7208954] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7208954] 📅 Created: 08-07-2026 | Resolved: 03-08-2026
+[Rel 7208954] Processing Hierarchy...
+
+[Rel 7208954] --- Final Hours for Release 7208954 ---
+[Rel 7208954]   [🌍 India]
+[Rel 7208954]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7010720] =========================================
+[Rel 7010720] Checking Release ID: 7010720 [Initial PM ID: ]...
+[Rel 7010720] 📌 Root Item Type: Story
+[Rel 7010720] ✔️ Resolution is 'Solved'.
+[Rel 7010720] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7010720] 📅 Created: 15-05-2026 | Resolved: 30-06-2026
+[Rel 7010720] Processing Hierarchy...
+
+[Rel 7010720] --- Final Hours for Release 7010720 ---
+[Rel 7010720]   [🌍 India]
+[Rel 7010720]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6487435] =========================================
+[Rel 6487435] Checking Release ID: 6487435 [Initial PM ID: ]...
+[Rel 6487435] 📌 Root Item Type: Task
+[Rel 6487435] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6487435] 👤 Release Owned By: Maatouk Abdalrahman (VM/EYV1-JP) (Tasks may be owned by others)
+[Rel 6487435] 📅 Created: 16-12-2025 | Resolved: No Date
+[Rel 6487435] Processing Hierarchy...
+
+[Rel 6487435] --- Final Hours for Release 6487435 ---
+[Rel 6487435]   [🌍 Japan]
+[Rel 6487435]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6941766] =========================================
+[Rel 6941766] Checking Release ID: 6941766 [Initial PM ID: ]...
+[Rel 6941766] 📌 Root Item Type: Story
+[Rel 6941766] ✔️ Resolution is 'Solved'.
+[Rel 6941766] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 6941766] 📅 Created: 24-04-2026 | Resolved: 01-06-2026
+[Rel 6941766] Processing Hierarchy...
+
+[Rel 6941766] --- Final Hours for Release 6941766 ---
+[Rel 6941766]   [🌍 India]
+[Rel 6941766]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6141318] =========================================
+[Rel 6141318] Checking Release ID: 6141318 [Initial PM ID: ]...
+[Rel 6141318] 📌 Root Item Type: Task
+[Rel 6141318] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6141318] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6141318] 📅 Created: 16-09-2025 | Resolved: No Date
+[Rel 6141318] Processing Hierarchy...
+
+[Rel 6141318] --- Final Hours for Release 6141318 ---
+[Rel 6141318]   [🌍 Japan]
+[Rel 6141318]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6141322] =========================================
+[Rel 6141322] Checking Release ID: 6141322 [Initial PM ID: ]...
+[Rel 6141322] 📌 Root Item Type: Task
+[Rel 6141322] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6141322] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6141322] 📅 Created: 16-09-2025 | Resolved: No Date
+[Rel 6141322] Processing Hierarchy...
+
+[Rel 6141322] --- Final Hours for Release 6141322 ---
+[Rel 6141322]   [🌍 Japan]
+[Rel 6141322]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6086793] =========================================
+[Rel 6086793] Checking Release ID: 6086793 [Initial PM ID: ]...
+[Rel 6086793] 📌 Root Item Type: Task
+[Rel 6086793] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6086793] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6086793] 📅 Created: 29-08-2025 | Resolved: No Date
+[Rel 6086793] Processing Hierarchy...
+
+[Rel 6086793] --- Final Hours for Release 6086793 ---
+[Rel 6086793]   [🌍 Japan]
+[Rel 6086793]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5649034] =========================================
+[Rel 5649034] Checking Release ID: 5649034 [Initial PM ID: ]...
+[Rel 5649034] 📌 Root Item Type: Task
+[Rel 5649034] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5888897] =========================================
+[Rel 5888897] Checking Release ID: 5888897 [Initial PM ID: ]...
+[Rel 5888897] 📌 Root Item Type: Task
+[Rel 5888897] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5888897] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5888897] 📅 Created: 02-07-2025 | Resolved: No Date
+[Rel 5888897] Processing Hierarchy...
+
+[Rel 5888897] --- Final Hours for Release 5888897 ---
+[Rel 5888897]   [🌍 Others]
+[Rel 5888897]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5771470] =========================================
+[Rel 5771470] Checking Release ID: 5771470 [Initial PM ID: ]...
+[Rel 5771470] 📌 Root Item Type: Defectfix
+[Rel 5771470] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6021507] =========================================
+[Rel 6021507] Checking Release ID: 6021507 [Initial PM ID: ]...
+[Rel 6021507] 📌 Root Item Type: Task
+[Rel 6021507] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6021507] 👤 Release Owned By: Sugimoto Hiromi (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6021507] 📅 Created: 07-08-2025 | Resolved: No Date
+[Rel 6021507] Processing Hierarchy...
+
+[Rel 6021507] --- Final Hours for Release 6021507 ---
+[Rel 6021507]   [🌍 Japan]
+[Rel 6021507]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5589005] =========================================
+[Rel 5589005] Checking Release ID: 5589005 [Initial PM ID: ]...
+[Rel 5589005] 📌 Root Item Type: Task
+[Rel 5589005] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5566608] =========================================
+[Rel 5566608] Checking Release ID: 5566608 [Initial PM ID: ]...
+[Rel 5566608] 📌 Root Item Type: Task
+[Rel 5566608] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5566618] =========================================
+[Rel 5566618] Checking Release ID: 5566618 [Initial PM ID: ]...
+[Rel 5566618] 📌 Root Item Type: Task
+[Rel 5566618] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6876627] =========================================
+[Rel 6876627] Checking Release ID: 6876627 [Initial PM ID: ]...
+[Rel 6876627] 📌 Root Item Type: Story
+[Rel 6876627] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6876627] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 6876627] 📅 Created: 08-04-2026 | Resolved: No Date
+[Rel 6876627] Processing Hierarchy...
+
+[Rel 6876627] --- Final Hours for Release 6876627 ---
+[Rel 6876627]   [🌍 India]
+[Rel 6876627]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6657790] =========================================
+[Rel 6657790] Checking Release ID: 6657790 [Initial PM ID: ]...
+[Rel 6657790] 📌 Root Item Type: Epic
+[Rel 6657790] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6657790] 👤 Release Owned By: Mori Yurika (VM/ENM1) (Tasks may be owned by others)
+[Rel 6657790] 📅 Created: 09-02-2026 | Resolved: No Date
+[Rel 6657790] Processing Hierarchy...
+
+[Rel 6657790] --- Final Hours for Release 6657790 ---
+[Rel 6657790]   [🌍 Others]
+[Rel 6657790]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5564489] =========================================
+[Rel 5564489] Checking Release ID: 5564489 [Initial PM ID: ]...
+[Rel 5564489] 📌 Root Item Type: Task
+[Rel 5564489] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5887753] =========================================
+[Rel 5887753] Checking Release ID: 5887753 [Initial PM ID: ]...
+[Rel 5887753] 📌 Root Item Type: Task
+[Rel 5887753] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5887753] 👤 Release Owned By: Nihei Kazunori (VM/ESJ3-JP) (Tasks may be owned by others)
+[Rel 5887753] 📅 Created: 01-07-2025 | Resolved: No Date
+[Rel 5887753] Processing Hierarchy...
+
+[Rel 5887753] --- Final Hours for Release 5887753 ---
+[Rel 5887753]   [🌍 Japan]
+[Rel 5887753]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6092886] =========================================
+[Rel 6092886] Checking Release ID: 6092886 [Initial PM ID: ]...
+[Rel 6092886] 📌 Root Item Type: Epic
+[Rel 6092886] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6092886] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 6092886] 📅 Created: 01-09-2025 | Resolved: No Date
+[Rel 6092886] Processing Hierarchy...
+
+[Rel 6092886] --- Final Hours for Release 6092886 ---
+[Rel 6092886]   [🌍 Others]
+[Rel 6092886]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5564512] =========================================
+[Rel 5564512] Checking Release ID: 5564512 [Initial PM ID: ]...
+[Rel 5564512] 📌 Root Item Type: Task
+[Rel 5564512] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5544584] =========================================
+[Rel 5544584] Checking Release ID: 5544584 [Initial PM ID: ]...
+[Rel 5544584] 📌 Root Item Type: Task
+[Rel 5544584] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6657786] =========================================
+[Rel 6657786] Checking Release ID: 6657786 [Initial PM ID: ]...
+[Rel 6657786] 📌 Root Item Type: Epic
+[Rel 6657786] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6657786] 👤 Release Owned By: Imaizumi Taisei (VM/ESJ1-JP) (Tasks may be owned by others)
+[Rel 6657786] 📅 Created: 09-02-2026 | Resolved: No Date
+[Rel 6657786] Processing Hierarchy...
+
+[Rel 6657786] --- Final Hours for Release 6657786 ---
+[Rel 6657786]   [🌍 Japan]
+[Rel 6657786]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5544583] =========================================
+[Rel 5544583] Checking Release ID: 5544583 [Initial PM ID: ]...
+[Rel 5544583] 📌 Root Item Type: Task
+[Rel 5544583] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 6893401] =========================================
+[Rel 6893401] Checking Release ID: 6893401 [Initial PM ID: ]...
+[Rel 6893401] 📌 Root Item Type: Story
+[Rel 6893401] ✔️ Resolution is 'Solved'.
+[Rel 6893401] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 6893401] 📅 Created: 13-04-2026 | Resolved: 01-06-2026
+[Rel 6893401] Processing Hierarchy...
+
+[Rel 6893401] --- Final Hours for Release 6893401 ---
+[Rel 6893401]   [🌍 India]
+[Rel 6893401]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7253024] =========================================
+[Rel 7253024] Checking Release ID: 7253024 [Initial PM ID: ]...
+[Rel 7253024] 📌 Root Item Type: Story
+[Rel 7253024] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7253024] 👤 Release Owned By: Vuong Tuan Quan (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7253024] 📅 Created: 20-07-2026 | Resolved: No Date
+[Rel 7253024] Processing Hierarchy...
+
+[Rel 7253024] --- Final Hours for Release 7253024 ---
+[Rel 7253024]   [🌍 India]
+[Rel 7253024]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5774692] =========================================
+[Rel 5774692] Checking Release ID: 5774692 [Initial PM ID: ]...
+[Rel 5774692] 📌 Root Item Type: Epic
+[Rel 5774692] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5774692] 👤 Release Owned By: Jimba Chiho (VM/ESJ1-JP) (Tasks may be owned by others)
+[Rel 5774692] 📅 Created: 30-05-2025 | Resolved: No Date
+[Rel 5774692] Processing Hierarchy...
+
+[Rel 5774692] --- Final Hours for Release 5774692 ---
+[Rel 5774692]   [🌍 Japan]
+[Rel 5774692]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5467005] =========================================
+[Rel 5467005] Checking Release ID: 5467005 [Initial PM ID: ]...
+[Rel 5467005] 📌 Root Item Type: Story
+[Rel 5467005] ✔️ Resolution is 'Solved'.
+[Rel 5467005] 👤 Release Owned By: Sugimoto Hiromi (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5467005] 📅 Created: 27-02-2025 | Resolved: 05-03-2025
+[Rel 5467005] Processing Hierarchy...
+
+[Rel 5467005] --- Final Hours for Release 5467005 ---
+[Rel 5467005]   [🌍 Japan]
+[Rel 5467005]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6086786] =========================================
+[Rel 6086786] Checking Release ID: 6086786 [Initial PM ID: ]...
+[Rel 6086786] 📌 Root Item Type: Task
+[Rel 6086786] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6086786] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6086786] 📅 Created: 29-08-2025 | Resolved: No Date
+[Rel 6086786] Processing Hierarchy...
+
+[Rel 6086786] --- Final Hours for Release 6086786 ---
+[Rel 6086786]   [🌍 Japan]
+[Rel 6086786]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6021512] =========================================
+[Rel 6021512] Checking Release ID: 6021512 [Initial PM ID: ]...
+[Rel 6021512] 📌 Root Item Type: Task
+[Rel 6021512] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6021512] 👤 Release Owned By: Sugimoto Hiromi (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6021512] 📅 Created: 07-08-2025 | Resolved: No Date
+[Rel 6021512] Processing Hierarchy...
+
+[Rel 6021512] --- Final Hours for Release 6021512 ---
+[Rel 6021512]   [🌍 Japan]
+[Rel 6021512]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7170132] =========================================
+[Rel 7170132] Checking Release ID: 7170132 [Initial PM ID: ]...
+[Rel 7170132] 📌 Root Item Type: Story
+[Rel 7170132] ✔️ Resolution is 'Solved'.
+[Rel 7170132] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7170132] 📅 Created: 29-06-2026 | Resolved: 19-08-2026
+[Rel 7170132] Processing Hierarchy...
+
+[Rel 7170132] --- Final Hours for Release 7170132 ---
+[Rel 7170132]   [🌍 Vietnam]
+[Rel 7170132]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7210362] =========================================
+[Rel 7210362] Checking Release ID: 7210362 [Initial PM ID: ]...
+[Rel 7210362] 📌 Root Item Type: Story
+[Rel 7210362] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7210362] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7210362] 📅 Created: 08-07-2026 | Resolved: No Date
+[Rel 7210362] Processing Hierarchy...
+
+[Rel 7210362] --- Final Hours for Release 7210362 ---
+[Rel 7210362]   [🌍 Vietnam]
+[Rel 7210362]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5322057] =========================================
+[Rel 5322057] Checking Release ID: 5322057 [Initial PM ID: ]...
+[Rel 5322057] 📌 Root Item Type: Task
+[Rel 5322057] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5322057] 👤 Release Owned By: Sugimoto Hiromi (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5322057] 📅 Created: 13-01-2025 | Resolved: No Date
+[Rel 5322057] Processing Hierarchy...
+
+[Rel 5322057] --- Final Hours for Release 5322057 ---
+[Rel 5322057]   [🌍 Japan]
+[Rel 5322057]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5322284] =========================================
+[Rel 5322284] Checking Release ID: 5322284 [Initial PM ID: ]...
+[Rel 5322284] 📌 Root Item Type: Task
+[Rel 5322284] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5322284] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5322284] 📅 Created: 13-01-2025 | Resolved: No Date
+[Rel 5322284] Processing Hierarchy...
+
+[Rel 5322284] --- Final Hours for Release 5322284 ---
+[Rel 5322284]   [🌍 Japan]
+[Rel 5322284]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5299057] =========================================
+[Rel 5299057] Checking Release ID: 5299057 [Initial PM ID: ]...
+[Rel 5299057] 📌 Root Item Type: Task
+[Rel 5299057] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5299057] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5299057] 📅 Created: 06-01-2025 | Resolved: No Date
+[Rel 5299057] Processing Hierarchy...
+
+[Rel 5299057] --- Final Hours for Release 5299057 ---
+[Rel 5299057]   [🌍 Japan]
+[Rel 5299057]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5363132] =========================================
+[Rel 5363132] Checking Release ID: 5363132 [Initial PM ID: ]...
+[Rel 5363132] 📌 Root Item Type: Task
+[Rel 5363132] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5363132] 👤 Release Owned By: Ritz Tobias (VM/ESC5) (Tasks may be owned by others)
+[Rel 5363132] 📅 Created: 27-01-2025 | Resolved: No Date
+[Rel 5363132] Processing Hierarchy...
+
+[Rel 5363132] --- Final Hours for Release 5363132 ---
+[Rel 5363132]   [🌍 Others]
+[Rel 5363132]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5152061] =========================================
+[Rel 5152061] Checking Release ID: 5152061 [Initial PM ID: ]...
+[Rel 5152061] 📌 Root Item Type: Task
+[Rel 5152061] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5152061] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 5152061] 📅 Created: 14-11-2024 | Resolved: No Date
+[Rel 5152061] Processing Hierarchy...
+
+[Rel 5152061] --- Final Hours for Release 5152061 ---
+[Rel 5152061]   [🌍 Others]
+[Rel 5152061]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7210354] =========================================
+[Rel 7210354] Checking Release ID: 7210354 [Initial PM ID: ]...
+[Rel 7210354] 📌 Root Item Type: Story
+[Rel 7210354] ✔️ Resolution is 'Solved'.
+[Rel 7210354] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7210354] 📅 Created: 08-07-2026 | Resolved: 28-08-2026
+[Rel 7210354] Processing Hierarchy...
+
+[Rel 7210354] --- Final Hours for Release 7210354 ---
+[Rel 7210354]   [🌍 Vietnam]
+[Rel 7210354]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5279651] =========================================
+[Rel 5279651] Checking Release ID: 5279651 [Initial PM ID: ]...
+[Rel 5279651] 📌 Root Item Type: Task
+[Rel 5279651] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5279651] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5279651] 📅 Created: 24-12-2024 | Resolved: No Date
+[Rel 5279651] Processing Hierarchy...
+
+[Rel 5279651] --- Final Hours for Release 5279651 ---
+[Rel 5279651]   [🌍 Japan]
+[Rel 5279651]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5319002] =========================================
+[Rel 5319002] Checking Release ID: 5319002 [Initial PM ID: ]...
+[Rel 5319002] 📌 Root Item Type: Task
+[Rel 5319002] ✔️ Resolution is 'Duplicate'.
+[Rel 5319002] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5319002] 📅 Created: 10-01-2025 | Resolved: 10-01-2025
+[Rel 5319002] Processing Hierarchy...
+
+[Rel 5319002] --- Final Hours for Release 5319002 ---
+[Rel 5319002]   [🌍 Japan]
+[Rel 5319002]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5038231] =========================================
+[Rel 5038231] Checking Release ID: 5038231 [Initial PM ID: ]...
+[Rel 5038231] 📌 Root Item Type: Epic
+[Rel 5038231] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7253061] =========================================
+[Rel 7253061] Checking Release ID: 7253061 [Initial PM ID: ]...
+[Rel 7253061] 📌 Root Item Type: Story
+[Rel 7253061] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7253061] 👤 Release Owned By: Bui Thi Diem (MS/EJH41-VM) (Tasks may be owned by others)
+[Rel 7253061] 📅 Created: 20-07-2026 | Resolved: No Date
+[Rel 7253061] Processing Hierarchy...
+
+[Rel 7253061] --- Final Hours for Release 7253061 ---
+[Rel 7253061]   [🌍 India]
+[Rel 7253061]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5260853] =========================================
+[Rel 5260853] Checking Release ID: 5260853 [Initial PM ID: ]...
+[Rel 5260853] 📌 Root Item Type: Task
+[Rel 5260853] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5260853] 👤 Release Owned By: Ito Daijiro (VM/ESC1-JP) (Tasks may be owned by others)
+[Rel 5260853] 📅 Created: 17-12-2024 | Resolved: No Date
+[Rel 5260853] Processing Hierarchy...
+
+[Rel 5260853] --- Final Hours for Release 5260853 ---
+[Rel 5260853]   [🌍 Japan]
+[Rel 5260853]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5299012] =========================================
+[Rel 5299012] Checking Release ID: 5299012 [Initial PM ID: ]...
+[Rel 5299012] 📌 Root Item Type: Task
+[Rel 5299012] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5299012] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5299012] 📅 Created: 06-01-2025 | Resolved: No Date
+[Rel 5299012] Processing Hierarchy...
+
+[Rel 5299012] --- Final Hours for Release 5299012 ---
+[Rel 5299012]   [🌍 Japan]
+[Rel 5299012]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5130672] =========================================
+[Rel 5130672] Checking Release ID: 5130672 [Initial PM ID: ]...
+[Rel 5130672] 📌 Root Item Type: Story
+[Rel 5130672] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5130672] 👤 Release Owned By: Wada Yuhei (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5130672] 📅 Created: 07-11-2024 | Resolved: No Date
+[Rel 5130672] Processing Hierarchy...
+
+[Rel 5130672] --- Final Hours for Release 5130672 ---
+[Rel 5130672]   [🌍 Japan]
+[Rel 5130672]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6532214] =========================================
+[Rel 6532214] Checking Release ID: 6532214 [Initial PM ID: ]...
+[Rel 6532214] 📌 Root Item Type: Epic
+[Rel 6532214] ✔️ Resolution is 'Solved'.
+[Rel 6532214] 👤 Release Owned By: Seki Yumeta (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 6532214] 📅 Created: 05-01-2026 | Resolved: 18-03-2026
+[Rel 6532214] Processing Hierarchy...
+
+[Rel 6532214] --- Final Hours for Release 6532214 ---
+[Rel 6532214]   [🌍 Japan]
+[Rel 6532214]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4469735] =========================================
+[Rel 4469735] Checking Release ID: 4469735 [Initial PM ID: ]...
+[Rel 4469735] 📌 Root Item Type: Story
+[Rel 4469735] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4469734] =========================================
+[Rel 4469734] Checking Release ID: 4469734 [Initial PM ID: ]...
+[Rel 4469734] 📌 Root Item Type: Story
+[Rel 4469734] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4482017] =========================================
+[Rel 4482017] Checking Release ID: 4482017 [Initial PM ID: ]...
+[Rel 4482017] 📌 Root Item Type: Review
+[Rel 4482017] ✔️ Resolution is 'Cancelled'.
+[Rel 4482017] 👤 Release Owned By: Asahi Ryosuke (VM/EYV2-JP) (Tasks may be owned by others)
+[Rel 4482017] 📅 Created: 16-04-2024 | Resolved: 28-05-2024
+[Rel 4482017] Processing Hierarchy...
+
+[Rel 4482017] --- Final Hours for Release 4482017 ---
+[Rel 4482017]   [🌍 Japan]
+[Rel 4482017]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4469562] =========================================
+[Rel 4469562] Checking Release ID: 4469562 [Initial PM ID: ]...
+[Rel 4469562] 📌 Root Item Type: Epic
+[Rel 4469562] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 5003014] =========================================
+[Rel 5003014] Checking Release ID: 5003014 [Initial PM ID: ]...
+[Rel 5003014] 📌 Root Item Type: Task
+[Rel 5003014] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5003014] 👤 Release Owned By: Ranjith Kumar C Shiva (MS/EHS52-VM) (Tasks may be owned by others)
+[Rel 5003014] 📅 Created: 26-09-2024 | Resolved: No Date
+[Rel 5003014] Processing Hierarchy...
+
+[Rel 5003014] --- Final Hours for Release 5003014 ---
+[Rel 5003014]   [🌍 India]
+[Rel 5003014]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4553216] =========================================
+[Rel 4553216] Checking Release ID: 4553216 [Initial PM ID: ]...
+[Rel 4553216] 📌 Root Item Type: Task
+[Rel 4553216] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4553216] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 4553216] 📅 Created: 09-05-2024 | Resolved: No Date
+[Rel 4553216] Processing Hierarchy...
+
+[Rel 4553216] --- Final Hours for Release 4553216 ---
+[Rel 4553216]   [🌍 Others]
+[Rel 4553216]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4640860] =========================================
+[Rel 4640860] Checking Release ID: 4640860 [Initial PM ID: ]...
+[Rel 4640860] 📌 Root Item Type: Task
+[Rel 4640860] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4640860] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 4640860] 📅 Created: 05-06-2024 | Resolved: No Date
+[Rel 4640860] Processing Hierarchy...
+
+[Rel 4640860] --- Final Hours for Release 4640860 ---
+[Rel 4640860]   [🌍 Others]
+[Rel 4640860]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5774695] =========================================
+[Rel 5774695] Checking Release ID: 5774695 [Initial PM ID: ]...
+[Rel 5774695] 📌 Root Item Type: Epic
+[Rel 5774695] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5774695] 👤 Release Owned By: Asai Saki (VM/ESJ1-JP) (Tasks may be owned by others)
+[Rel 5774695] 📅 Created: 30-05-2025 | Resolved: No Date
+[Rel 5774695] Processing Hierarchy...
+
+[Rel 5774695] --- Final Hours for Release 5774695 ---
+[Rel 5774695]   [🌍 Japan]
+[Rel 5774695]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5149144] =========================================
+[Rel 5149144] Checking Release ID: 5149144 [Initial PM ID: ]...
+[Rel 5149144] 📌 Root Item Type: Task
+[Rel 5149144] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5149144] 👤 Release Owned By: Nashimoto Akira (VM/EYV3-JP) (Tasks may be owned by others)
+[Rel 5149144] 📅 Created: 13-11-2024 | Resolved: No Date
+[Rel 5149144] Processing Hierarchy...
+
+[Rel 5149144] --- Final Hours for Release 5149144 ---
+[Rel 5149144]   [🌍 Japan]
+[Rel 5149144]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4482007] =========================================
+[Rel 4482007] Checking Release ID: 4482007 [Initial PM ID: ]...
+[Rel 4482007] 📌 Root Item Type: Review
+[Rel 4482007] ✔️ Resolution is 'Cancelled'.
+[Rel 4482007] 👤 Release Owned By: Asahi Ryosuke (VM/EYV2-JP) (Tasks may be owned by others)
+[Rel 4482007] 📅 Created: 16-04-2024 | Resolved: 28-05-2024
+[Rel 4482007] Processing Hierarchy...
+
+[Rel 4482007] --- Final Hours for Release 4482007 ---
+[Rel 4482007]   [🌍 Japan]
+[Rel 4482007]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4878950] =========================================
+[Rel 4878950] Checking Release ID: 4878950 [Initial PM ID: ]...
+[Rel 4878950] 📌 Root Item Type: Task
+[Rel 4878950] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4878950] 👤 Release Owned By: Debes Philipp (VM/ESC5) (Tasks may be owned by others)
+[Rel 4878950] 📅 Created: 16-08-2024 | Resolved: No Date
+[Rel 4878950] Processing Hierarchy...
+
+[Rel 4878950] --- Final Hours for Release 4878950 ---
+[Rel 4878950]   [🌍 Others]
+[Rel 4878950]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4296497] =========================================
+[Rel 4296497] Checking Release ID: 4296497 [Initial PM ID: ]...
+[Rel 4296497] 📌 Root Item Type: Epic
+[Rel 4296497] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4202201] =========================================
+[Rel 4202201] Checking Release ID: 4202201 [Initial PM ID: ]...
+[Rel 4202201] 📌 Root Item Type: Story
+[Rel 4202201] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 7253015] =========================================
+[Rel 7253015] Checking Release ID: 7253015 [Initial PM ID: ]...
+[Rel 7253015] 📌 Root Item Type: Story
+[Rel 7253015] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7253015] 👤 Release Owned By: EXTERNAL Tran Thi Ngoc Thuy (HCLTech, MS/EJH53-VM) (Tasks may be owned by others)
+[Rel 7253015] 📅 Created: 20-07-2026 | Resolved: No Date
+[Rel 7253015] Processing Hierarchy...
+
+[Rel 7253015] --- Final Hours for Release 7253015 ---
+[Rel 7253015]   [🌍 Vietnam]
+[Rel 7253015]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4317987] =========================================
+[Rel 4317987] Checking Release ID: 4317987 [Initial PM ID: ]...
+[Rel 4317987] 📌 Root Item Type: Task
+[Rel 4317987] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4317987] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 4317987] 📅 Created: 26-02-2024 | Resolved: No Date
+[Rel 4317987] Processing Hierarchy...
+
+[Rel 4317987] --- Final Hours for Release 4317987 ---
+[Rel 4317987]   [🌍 Others]
+[Rel 4317987]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4460233] =========================================
+[Rel 4460233] Checking Release ID: 4460233 [Initial PM ID: ]...
+[Rel 4460233] 📌 Root Item Type: Task
+[Rel 4460233] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4460233] 👤 Release Owned By: Ikeda Ayaka (VM/ESJ4-JP) (Tasks may be owned by others)
+[Rel 4460233] 📅 Created: 09-04-2024 | Resolved: No Date
+[Rel 4460233] Processing Hierarchy...
+
+[Rel 4460233] --- Final Hours for Release 4460233 ---
+[Rel 4460233]   [🌍 Japan]
+[Rel 4460233]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4925361] =========================================
+[Rel 4925361] Checking Release ID: 4925361 [Initial PM ID: ]...
+[Rel 4925361] 📌 Root Item Type: Epic
+[Rel 4925361] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4925361] 👤 Release Owned By: Ranjith Kumar C Shiva (MS/EHS52-VM) (Tasks may be owned by others)
+[Rel 4925361] 📅 Created: 03-09-2024 | Resolved: No Date
+[Rel 4925361] Processing Hierarchy...
+
+[Rel 4925361] --- Final Hours for Release 4925361 ---
+[Rel 4925361]   [🌍 India]
+[Rel 4925361]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5322854] =========================================
+[Rel 5322854] Checking Release ID: 5322854 [Initial PM ID: ]...
+[Rel 5322854] 📌 Root Item Type: Story
+[Rel 5322854] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5322854] 👤 Release Owned By: Shimose Takehiro (VM/EYV3-JP) (Tasks may be owned by others)
+[Rel 5322854] 📅 Created: 13-01-2025 | Resolved: No Date
+[Rel 5322854] Processing Hierarchy...
+
+[Rel 5322854] --- Final Hours for Release 5322854 ---
+[Rel 5322854]   [🌍 Japan]
+[Rel 5322854]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6422511] =========================================
+[Rel 6422511] Checking Release ID: 6422511 [Initial PM ID: ]...
+[Rel 6422511] 📌 Root Item Type: Story
+[Rel 6422511] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6422511] 👤 Release Owned By: Ota Seitaro (VM/EYV3-JP) (Tasks may be owned by others)
+[Rel 6422511] 📅 Created: 28-11-2025 | Resolved: No Date
+[Rel 6422511] Processing Hierarchy...
+
+[Rel 6422511] --- Final Hours for Release 6422511 ---
+[Rel 6422511]   [🌍 Japan]
+[Rel 6422511]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4305255] =========================================
+[Rel 4305255] Checking Release ID: 4305255 [Initial PM ID: ]...
+[Rel 4305255] 📌 Root Item Type: Task
+[Rel 4305255] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4305255] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 4305255] 📅 Created: 21-02-2024 | Resolved: No Date
+[Rel 4305255] Processing Hierarchy...
+
+[Rel 4305255] --- Final Hours for Release 4305255 ---
+[Rel 4305255]   [🌍 Others]
+[Rel 4305255]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4406293] =========================================
+[Rel 4406293] Checking Release ID: 4406293 [Initial PM ID: ]...
+[Rel 4406293] 📌 Root Item Type: Task
+[Rel 4406293] ❌ SKIPPING: Resolution is 'Invalid'
+
+[Rel 4249063] =========================================
+[Rel 4249063] Checking Release ID: 4249063 [Initial PM ID: ]...
+[Rel 4249063] 📌 Root Item Type: Task
+[Rel 4249063] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4249063] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 4249063] 📅 Created: 30-01-2024 | Resolved: No Date
+[Rel 4249063] Processing Hierarchy...
+
+[Rel 4249063] --- Final Hours for Release 4249063 ---
+[Rel 4249063]   [🌍 Others]
+[Rel 4249063]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4309375] =========================================
+[Rel 4309375] Checking Release ID: 4309375 [Initial PM ID: ]...
+[Rel 4309375] 📌 Root Item Type: Task
+[Rel 4309375] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4309375] 👤 Release Owned By: Miura Takuma (VM/ETO3) (Tasks may be owned by others)
+[Rel 4309375] 📅 Created: 22-02-2024 | Resolved: No Date
+[Rel 4309375] Processing Hierarchy...
+
+[Rel 4309375] --- Final Hours for Release 4309375 ---
+[Rel 4309375]   [🌍 Others]
+[Rel 4309375]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5152064] =========================================
+[Rel 5152064] Checking Release ID: 5152064 [Initial PM ID: ]...
+[Rel 5152064] 📌 Root Item Type: Story
+[Rel 5152064] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5152064] 👤 Release Owned By: Sugimoto Hiromi (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5152064] 📅 Created: 14-11-2024 | Resolved: No Date
+[Rel 5152064] Processing Hierarchy...
+
+[Rel 5152064] --- Final Hours for Release 5152064 ---
+[Rel 5152064]   [🌍 Japan]
+[Rel 5152064]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4848588] =========================================
+[Rel 4848588] Checking Release ID: 4848588 [Initial PM ID: ]...
+[Rel 4848588] 📌 Root Item Type: Epic
+[Rel 4848588] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4848588] 👤 Release Owned By: Ranjith Kumar C Shiva (MS/EHS52-VM) (Tasks may be owned by others)
+[Rel 4848588] 📅 Created: 07-08-2024 | Resolved: No Date
+[Rel 4848588] Processing Hierarchy...
+
+[Rel 4848588] --- Final Hours for Release 4848588 ---
+[Rel 4848588]   [🌍 India]
+[Rel 4848588]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5146765] =========================================
+[Rel 5146765] Checking Release ID: 5146765 [Initial PM ID: ]...
+[Rel 5146765] 📌 Root Item Type: Story
+[Rel 5146765] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5146765] 👤 Release Owned By: Sugimoto Hiromi (VM/ESC2-JP) (Tasks may be owned by others)
+[Rel 5146765] 📅 Created: 13-11-2024 | Resolved: No Date
+[Rel 5146765] Processing Hierarchy...
+
+[Rel 5146765] --- Final Hours for Release 5146765 ---
+[Rel 5146765]   [🌍 Japan]
+[Rel 5146765]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4925406] =========================================
+[Rel 4925406] Checking Release ID: 4925406 [Initial PM ID: ]...
+[Rel 4925406] 📌 Root Item Type: Epic
+[Rel 4925406] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4925406] 👤 Release Owned By: Ranjith Kumar C Shiva (MS/EHS52-VM) (Tasks may be owned by others)
+[Rel 4925406] 📅 Created: 03-09-2024 | Resolved: No Date
+[Rel 4925406] Processing Hierarchy...
+
+[Rel 4925406] --- Final Hours for Release 4925406 ---
+[Rel 4925406]   [🌍 India]
+[Rel 4925406]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5322873] =========================================
+[Rel 5322873] Checking Release ID: 5322873 [Initial PM ID: ]...
+[Rel 5322873] 📌 Root Item Type: Story
+[Rel 5322873] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5322873] 👤 Release Owned By: Shimose Takehiro (VM/EYV3-JP) (Tasks may be owned by others)
+[Rel 5322873] 📅 Created: 13-01-2025 | Resolved: No Date
+[Rel 5322873] Processing Hierarchy...
+
+[Rel 5322873] --- Final Hours for Release 5322873 ---
+[Rel 5322873]   [🌍 Japan]
+[Rel 5322873]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4925398] =========================================
+[Rel 4925398] Checking Release ID: 4925398 [Initial PM ID: ]...
+[Rel 4925398] 📌 Root Item Type: Epic
+[Rel 4925398] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 4925398] 👤 Release Owned By: Ranjith Kumar C Shiva (MS/EHS52-VM) (Tasks may be owned by others)
+[Rel 4925398] 📅 Created: 03-09-2024 | Resolved: No Date
+[Rel 4925398] Processing Hierarchy...
+
+[Rel 4925398] --- Final Hours for Release 4925398 ---
+[Rel 4925398]   [🌍 India]
+[Rel 4925398]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5751448] =========================================
+[Rel 5751448] Checking Release ID: 5751448 [Initial PM ID: ]...
+[Rel 5751448] 📌 Root Item Type: Epic
+[Rel 5751448] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5751448] 👤 Release Owned By: Nihei Kazunori (VM/ESJ3-JP) (Tasks may be owned by others)
+[Rel 5751448] 📅 Created: 22-05-2025 | Resolved: No Date
+[Rel 5751448] Processing Hierarchy...
+
+[Rel 5751448] --- Final Hours for Release 5751448 ---
+[Rel 5751448]   [🌍 Japan]
+[Rel 5751448]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 6442044] =========================================
+[Rel 6442044] Checking Release ID: 6442044 [Initial PM ID: ]...
+[Rel 6442044] 📌 Root Item Type: Epic
+[Rel 6442044] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 6442044] 👤 Release Owned By: Unassigned (Tasks may be owned by others)
+[Rel 6442044] 📅 Created: 03-12-2025 | Resolved: No Date
+[Rel 6442044] Processing Hierarchy...
+
+[Rel 6442044] --- Final Hours for Release 6442044 ---
+[Rel 6442044]   [🌍 Others]
+[Rel 6442044]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5544572] =========================================
+[Rel 5544572] Checking Release ID: 5544572 [Initial PM ID: ]...
+[Rel 5544572] 📌 Root Item Type: Epic
+[Rel 5544572] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5544572] 👤 Release Owned By: Hegde Bharath (MS/EHS52-VM) (Tasks may be owned by others)
+[Rel 5544572] 📅 Created: 21-03-2025 | Resolved: No Date
+[Rel 5544572] Processing Hierarchy...
+
+[Rel 5544572] --- Final Hours for Release 5544572 ---
+[Rel 5544572]   [🌍 India]
+[Rel 5544572]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 5751445] =========================================
+[Rel 5751445] Checking Release ID: 5751445 [Initial PM ID: ]...
+[Rel 5751445] 📌 Root Item Type: Epic
+[Rel 5751445] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 5751445] 👤 Release Owned By: Nihei Kazunori (VM/ESJ3-JP) (Tasks may be owned by others)
+[Rel 5751445] 📅 Created: 22-05-2025 | Resolved: No Date
+[Rel 5751445] Processing Hierarchy...
+
+[Rel 5751445] --- Final Hours for Release 5751445 ---
+[Rel 5751445]   [🌍 Japan]
+[Rel 5751445]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 4021875] =========================================
+[Rel 4021875] Checking Release ID: 4021875 [Initial PM ID: ]...
+[Rel 4021875] 📌 Root Item Type: Release
+[Rel 4021875] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 4021875] ✔️ Resolution is 'Solved'.
+[Rel 4021875] 👤 Release Owned By: Asahi Ryosuke (VM/EYV2-JP) (Tasks may be owned by others)
+[Rel 4021875] 📅 Created: 03-11-2023 | Resolved: 28-05-2024
+[Rel 4021875] Processing Hierarchy...
+
+[Rel 4021875] --- Final Hours for Release 4021875 ---
+[Rel 4021875]   [🌍 Japan]
+[Rel 4021875]     No Valid Hours Logged (0.00 hrs)
+
+
+✅ Success! All threads finished.
+📊 Valid 0-Hour Tasks Found: 123
+💾 Processed detailed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\JOEM_Final_with_countOfTask_hours.xlsx'.
