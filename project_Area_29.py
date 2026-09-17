@@ -19,10 +19,10 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_Fiat.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "VAG_Final_with_countOfTask_hours.xlsx")
-LOG_FILE = os.path.join(SCRIPT_DIR, "Extraction_NEW_Log_VAG_Final_with_countOfTask.txt")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Added_NEW_Log_VAG_Final_with_countOfTask.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Release_ID_FR.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "FR_Final_with_countOfTask_hours.xlsx")
+LOG_FILE = os.path.join(SCRIPT_DIR, "Extraction_NEW_Log_FR_Final_with_countOfTask.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Added_NEW_Log_FR_Final_with_countOfTask.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
 TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster_EHN.xlsx")
 
