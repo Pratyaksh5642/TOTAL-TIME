@@ -6,7 +6,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # 2. Join it with just the file name
 # Make sure this matches your actual file name!
-INPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Fiat_Final_with_countOfTask_hours.xlsx")
+INPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "FR_Final_with_countOfTask_hours.xlsx")
 
 # 3. Read the Detailed_Data sheet using the dynamic path
 df = pd.read_excel(INPUT_EXCEL_FILE, sheet_name='Detailed_Data')
