@@ -1,0 +1,159 @@
+
+---> [NEW RUN STARTING: OEM MAPPING + DYNAMIC COLUMNS + SUMMARY ROWS] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\Extraction_NEW_Log_Honda_Final_with_countOfTask.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\test.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 2 rows from input file...
+Reading complete. Found 2 Unique IDs and 2 Unique Planned For entries.
+Starting ThreadPoolExecutor with 30 threads...
+
+[Rel 7419659] =========================================
+[Rel 7419659] Checking Release ID: 7419659 [Initial PM ID: ]...
+[Rel 7419659] 📌 Root Item Type: Release
+[Rel 7419659] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 7419659] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7419659] 👤 Release Owned By: Gouwens Vicki (VM/EFO1) (Tasks may be owned by others)
+[Rel 7419659] 📅 Created: 02-09-2026 | Resolved: No Date
+[Rel 7419659] Processing Hierarchy...
+[Rel 7419659]   → [TRACKED] Valid 0-hour item found: ID 7419660 | Type: task | Res: 'unresolved'
+
+[Rel 7419659] --- Final Hours for Release 7419659 ---
+[Rel 7419659]   [🌍 North America]
+[Rel 7419659]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7419656] =========================================
+[Rel 7419656] Checking Release ID: 7419656 [Initial PM ID: ]...
+[Rel 7419656] 📌 Root Item Type: Release
+[Rel 7419656] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 7419656] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7419656] 👤 Release Owned By: Gouwens Vicki (VM/EFO1) (Tasks may be owned by others)
+[Rel 7419656] 📅 Created: 02-09-2026 | Resolved: No Date
+[Rel 7419656] Processing Hierarchy...
+[Rel 7419656]       → [IGNORED CATEGORY] Skipped 8.00 hrs (Not in Roster) | ID: 7399138 | Type: task | Dept: 'int & rel' | Title: [CSWPR] [FIH Stream &amp; Component Setup] [Ford FNV3.x] FIH Dev Phase 01 - Stream and Jenkins Job Creation
+[Rel 7419656]       → [IGNORED CATEGORY] Skipped 4.00 hrs (Not in Roster) | ID: 7472353 | Type: task | Dept: 'int & rel' | Title: [CSWPR] [FIH Stream &amp; Component Setup] [Ford FNV3.x] FIH Component creation and Load rule update
+[Rel 7419656]       → [TRACKED] Valid 0-hour item found: ID 7446644 | Type: task | Res: 'unresolved'
+[Rel 7419656]       → [TRACKED] Valid 0-hour item found: ID 7446650 | Type: review | Res: 'unresolved'
+[Rel 7419656]   → [TRACKED] Valid 0-hour item found: ID 7419657 | Type: task | Res: 'unresolved'
+
+[Rel 7419656] --- Final Hours for Release 7419656 ---
+[Rel 7419656]   [🌍 North America]
+[Rel 7419656]     No Valid Hours Logged (0.00 hrs)
+
+
+⚠️ No rows were processed.
+
+---> [NEW RUN STARTING: OEM MAPPING + DYNAMIC COLUMNS + SUMMARY ROWS] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\Extraction_NEW_Log_Honda_Final_with_countOfTask.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\test.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Error: Could not find 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Ford.csv'.
+
+---> [NEW RUN STARTING: OEM MAPPING + DYNAMIC COLUMNS + SUMMARY ROWS] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\Extraction_NEW_Log_Honda_Final_with_countOfTask.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\test.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 2 rows from input file...
+Reading complete. Found 2 Unique IDs and 2 Unique Planned For entries.
+Starting ThreadPoolExecutor with 30 threads...
+
+[Rel 7419659] =========================================
+[Rel 7419659] Checking Release ID: 7419659 [Initial PM ID: ]...
+[Rel 7419659] 📌 Root Item Type: Release
+[Rel 7419659] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 7419659] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7419659] 👤 Release Owned By: Gouwens Vicki (VM/EFO1) (Tasks may be owned by others)
+[Rel 7419659] 📅 Created: 02-09-2026 | Resolved: No Date
+[Rel 7419659] Processing Hierarchy...
+[Rel 7419659]   → [TRACKED] Valid 0-hour item found: ID 7419660 | Type: task | Res: 'unresolved'
+
+[Rel 7419659] --- Final Hours for Release 7419659 ---
+[Rel 7419659]   [🌍 North America]
+[Rel 7419659]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7419656] =========================================
+[Rel 7419656] Checking Release ID: 7419656 [Initial PM ID: ]...
+[Rel 7419656] 📌 Root Item Type: Release
+[Rel 7419656] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 7419656] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7419656] 👤 Release Owned By: Gouwens Vicki (VM/EFO1) (Tasks may be owned by others)
+[Rel 7419656] 📅 Created: 02-09-2026 | Resolved: No Date
+[Rel 7419656] Processing Hierarchy...
+[Rel 7419656]       → [IGNORED CATEGORY] Skipped 8.00 hrs (Not in Roster) | ID: 7399138 | Type: task | Dept: 'int & rel' | Title: [CSWPR] [FIH Stream &amp; Component Setup] [Ford FNV3.x] FIH Dev Phase 01 - Stream and Jenkins Job Creation
+[Rel 7419656]       → [IGNORED CATEGORY] Skipped 4.00 hrs (Not in Roster) | ID: 7472353 | Type: task | Dept: 'int & rel' | Title: [CSWPR] [FIH Stream &amp; Component Setup] [Ford FNV3.x] FIH Component creation and Load rule update
+[Rel 7419656]       → [TRACKED] Valid 0-hour item found: ID 7446644 | Type: task | Res: 'unresolved'
+[Rel 7419656]       → [TRACKED] Valid 0-hour item found: ID 7446650 | Type: review | Res: 'unresolved'
+[Rel 7419656]   → [TRACKED] Valid 0-hour item found: ID 7419657 | Type: task | Res: 'unresolved'
+
+[Rel 7419656] --- Final Hours for Release 7419656 ---
+[Rel 7419656]   [🌍 North America]
+[Rel 7419656]     No Valid Hours Logged (0.00 hrs)
+
+
+⚠️ No rows were processed.
+
+---> [NEW RUN STARTING: OEM MAPPING + DYNAMIC COLUMNS + SUMMARY ROWS] <---
+Master Log: c:\Users\LOP2COB\Desktop\TOTAL TIME\Extraction_NEW_Log_Honda_Final_with_countOfTask.txt
+Clean Log (Added Only): c:\Users\LOP2COB\Desktop\TOTAL TIME\test.txt
+
+✔️ Loaded 341 category mappings from 'c:\Users\LOP2COB\Desktop\TOTAL TIME\mapping.csv'.
+✔️ Loaded 1963 unique name combinations from sheets ['Sheet1'] in 'c:\Users\LOP2COB\Desktop\TOTAL TIME\Team_roster_EHA.xlsx' for Rescue Operations.
+Reading and cleaning 3 rows from input file...
+Reading complete. Found 3 Unique IDs and 3 Unique Planned For entries.
+Starting ThreadPoolExecutor with 30 threads...
+
+[Rel 7419659] =========================================
+[Rel 7419659] Checking Release ID: 7419659 [Initial PM ID: ]...
+[Rel 7419659] 📌 Root Item Type: Release
+[Rel 7419659] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 7419659] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7419659] 👤 Release Owned By: Gouwens Vicki (VM/EFO1) (Tasks may be owned by others)
+[Rel 7419659] 📅 Created: 02-09-2026 | Resolved: No Date
+[Rel 7419659] Processing Hierarchy...
+[Rel 7419659]   → [TRACKED] Valid 0-hour item found: ID 7419660 | Type: task | Res: 'unresolved'
+
+[Rel 7419659] --- Final Hours for Release 7419659 ---
+[Rel 7419659]   [🌍 North America]
+[Rel 7419659]     No Valid Hours Logged (0.00 hrs)
+
+[Rel 7234190] =========================================
+[Rel 7234190] Checking Release ID: 7234190 [Initial PM ID: BM-00110995]...
+[Rel 7234190] 📌 Root Item Type: Release
+[Rel 7234190] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7234190] 👤 Release Owned By: Abe Masatoshi (VM/ESJ3-JP) (Tasks may be owned by others)
+[Rel 7234190] 📅 Created: 14-07-2026 | Resolved: No Date
+[Rel 7234190] Processing Hierarchy...
+[Rel 7234190]       → [NET DEV ] Added 450.50 hrs | ID: 7200616 | Type: task | Dept: 'ft3_g10_eu_esp_net' | Owner: Sundaresan Thirugnanam (MS/EBV5-SWC) | Country: India | Title: [NET][Impl.] [PI2026_2_Goal][Impl.] Wheel nut loss detection (Step1 &amp; 2: Proto-type) | Created: 06-07-2026 | Resolved: No Date
+[Rel 7234190]   → [TRACKED] Valid 0-hour item found: ID 7234191 | Type: task | Res: 'unresolved'
+
+[Rel 7234190] --- Final Hours for Release 7234190 ---
+[Rel 7234190]   [🌍 India]
+[Rel 7234190]     NET_DEV: 450.50 hrs
+
+[Rel 7419656] =========================================
+[Rel 7419656] Checking Release ID: 7419656 [Initial PM ID: ]...
+[Rel 7419656] 📌 Root Item Type: Release
+[Rel 7419656] ⚠️ PM ID missing and no parent work item link found (raw: '').
+[Rel 7419656] ✔️ Status is 'Unresolved (New / In Progress)' (No resolution yet).
+[Rel 7419656] 👤 Release Owned By: Gouwens Vicki (VM/EFO1) (Tasks may be owned by others)
+[Rel 7419656] 📅 Created: 02-09-2026 | Resolved: No Date
+[Rel 7419656] Processing Hierarchy...
+[Rel 7419656]       → [IGNORED CATEGORY] Skipped 8.00 hrs (Not in Roster) | ID: 7399138 | Type: task | Dept: 'int & rel' | Title: [CSWPR] [FIH Stream &amp; Component Setup] [Ford FNV3.x] FIH Dev Phase 01 - Stream and Jenkins Job Creation
+[Rel 7419656]       → [IGNORED CATEGORY] Skipped 4.00 hrs (Not in Roster) | ID: 7472353 | Type: task | Dept: 'int & rel' | Title: [CSWPR] [FIH Stream &amp; Component Setup] [Ford FNV3.x] FIH Component creation and Load rule update
+[Rel 7419656]       → [TRACKED] Valid 0-hour item found: ID 7446644 | Type: task | Res: 'unresolved'
+[Rel 7419656]       → [TRACKED] Valid 0-hour item found: ID 7446650 | Type: review | Res: 'unresolved'
+[Rel 7419656]   → [TRACKED] Valid 0-hour item found: ID 7419657 | Type: task | Res: 'unresolved'
+
+[Rel 7419656] --- Final Hours for Release 7419656 ---
+[Rel 7419656]   [🌍 North America]
+[Rel 7419656]     No Valid Hours Logged (0.00 hrs)
+
+
+✅ Success! All threads finished.
+📊 Valid 0-Hour Tasks Found: 5
+💾 Processed detailed data saved to Excel file: 'c:\Users\LOP2COB\Desktop\TOTAL TIME\testing.xlsx'.
