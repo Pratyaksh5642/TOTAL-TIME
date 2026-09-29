@@ -19,10 +19,10 @@ USERNAME = "lop2cob"
 PASSWORD = "shreyansh4991Ab#"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "Ford.csv")
-OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Ford_Final.xlsx")
-LOG_FILE = os.path.join(SCRIPT_DIR, "Ford_Final_All_Hours.txt")
-ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Ford_Final_Added_Hours.txt")
+INPUT_CSV_FILE = os.path.join(SCRIPT_DIR, "ReleaseID_Audi.csv")
+OUTPUT_EXCEL_FILE = os.path.join(SCRIPT_DIR, "Audi_Final.xlsx")
+LOG_FILE = os.path.join(SCRIPT_DIR, "Audi_Final_All_Hours.txt")
+ADDED_LOG_FILE = os.path.join(SCRIPT_DIR, "Audi_Final_Added_Hours.txt")
 MAPPING_CSV_FILE = os.path.join(SCRIPT_DIR, "mapping.csv")
 TEAM_ROSTER_FILE = os.path.join(SCRIPT_DIR, "Team_roster.xlsx")
 
@@ -36,7 +36,11 @@ OEM_MAPPING = {
     "cus ford gen9.3 - production": "Ford LV",
     "cus honda - production": "Honda LV",
     "cus jlr - production": "JLR",
-    "cus mazda - production": "Mazda LV"
+    "cus mazda - production": "Mazda LV",
+    "cus nissan gen9.3 - production": "NM LV",
+    "cus vag - production": "VW LV",
+    "Cus Volvo - Production": "VCG",
+    "Cus FR OEM - Production": "RN LV"
 }
 
 # --- ROSTER TARGET MAPPING (NEW) ---
